@@ -16,6 +16,10 @@ Make a pull request to add your neovim plugin.
 - nvim-lua/completion-nvim
 - tjdevries/lsp_extensions.nvim
 
+## Snippets
+
+- norcalli/snippets.nvim
+
 ## Fuzzy
 
 - nvim-lua/telescope.nvim
