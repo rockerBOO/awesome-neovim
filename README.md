@@ -3,7 +3,7 @@ Collections of awesome neovim plugins. Mostly targeting neovim specific features
 
 ## Submissions
 
-Make a pull request to add your neovim plugin. 
+Make a pull request to add your neovim plugin.
 
 ## Syntax
 
@@ -14,6 +14,7 @@ Make a pull request to add your neovim plugin.
 - nvim-lua/lspconfig
 - nvim-lua/diagnostic-nvim
 - nvim-lua/completion-nvim
+- [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - tjdevries/lsp_extensions.nvim
 
 ## Snippets
@@ -40,3 +41,5 @@ Make a pull request to add your neovim plugin.
 
 - tjdevries/express_line.nvim
 
+## Plugin Managers
+- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
