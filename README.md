@@ -39,9 +39,10 @@ Make a pull request to add your neovim plugin.
 
 - [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
 
-## Neovim Development
+## Lua Development
 
-- [tjdevries/nlua.nvim](https://github.com/tjdevries/nlua.nvim)
+- [tjdevries/nlua.nvim](https://github.com/tjdevries/nlua.nvim) - Lua Development for Neovim
+- [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) - Commands to help write your .vimrc in lua or any lua based language
 
 ## Statusline
 
