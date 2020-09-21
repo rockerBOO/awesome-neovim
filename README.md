@@ -7,7 +7,7 @@ Make a pull request to add your neovim plugin.
 
 ## Wishlist
 
-Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://github.com/nvim-lua/wishlist). Lua developers are seething at the mouth to make your dreams come true.
+Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://github.com/nvim-lua/wishlist). 
 
 ## Plugins 
 
