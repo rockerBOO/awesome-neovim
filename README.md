@@ -26,6 +26,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [tjdevries/lsp_extensions.nvim](https://github.com/tjdevries/lsp_extensions.nvim)
+- [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)
 
 ### Terminal integration
 
