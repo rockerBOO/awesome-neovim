@@ -27,6 +27,10 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [tjdevries/lsp_extensions.nvim](https://github.com/tjdevries/lsp_extensions.nvim)
 
+### Terminal integration
+
+- [nikvdp/neomux](https://github.com/nikvdp/neomux)
+
 ### Snippets
 
 - [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim)
