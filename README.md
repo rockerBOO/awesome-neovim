@@ -54,6 +54,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 - [tjdevries/nlua.nvim](https://github.com/tjdevries/nlua.nvim) - Lua Development for Neovim
 - [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) - Commands to help write your .vimrc in lua or any lua based language
+- [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) -  Interactive real time neovim scratchpad for embedded lua engine - type and watch! 
 
 ### Statusline
 
