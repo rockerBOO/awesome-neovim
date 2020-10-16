@@ -11,6 +11,20 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 ## Plugins 
 
+### Plugin Managers
+- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+### LSP
+
+#### (requires Neovim Nightly)
+
+- [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
+- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
+- [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
+- [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim)
+- [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)
+
 ### General
 
 - [npxbr/glow.nvim](https://github.com/npxbr/glow.nvim)
@@ -19,15 +33,6 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
-### LSP (Neovim Nightly)
-
-- [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
-- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
-- [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
-- [tjdevries/lsp_extensions.nvim](https://github.com/tjdevries/lsp_extensions.nvim)
-- [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)
-
 ### Terminal integration
 
 - [nikvdp/neomux](https://github.com/nikvdp/neomux)
@@ -35,8 +40,9 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### Snippets
 
 - [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim)
+- [hrsh7th/vim-vsnip](https://github.com/hrsh7th/vim-vsnip) - Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format. 
 
-### Fuzzy
+### Fuzzy Finder
 
 - [nvim-lua/telescope.nvim](https://github.com/nvim-lua/telescope.nvim)
 
@@ -46,19 +52,25 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [tjdevries/colorbuddy.nvim](https://github.com/tjdevries/colorbuddy.nvim)
 - [norcalli/nvim-base16.lua](https://github.com/norcalli/nvim-base16.lua)
 
-### Games
+### Colorscheme
 
-- [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
+#### Treesitter Support
 
-### Lua Development
+- [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) - nightfly is a dark GUI color scheme heavily inspired by Sarah Drasner's Night Owl theme. 
+- [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) 
+
+### Neovim Lua Development
 
 - [tjdevries/nlua.nvim](https://github.com/tjdevries/nlua.nvim) - Lua Development for Neovim
 - [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) - Commands to help write your .vimrc in lua or any lua based language
+
+### Lua 
 - [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) -  Interactive real time neovim scratchpad for embedded lua engine - type and watch! 
 
 ### Statusline
 
 - [tjdevries/express_line.nvim](https://github.com/tjdevries/express_line.nvim)
 
-### Plugin Managers
-- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
+### Games
+
+- [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
