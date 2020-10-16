@@ -1,11 +1,11 @@
 # awesome-neovim
-Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting neovim specific features.
+Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Neovim specific features.
 
 ![Neovim Logo](https://neovim.io/images/logo@2x.png)
 
 ## Submissions
 
-Make a pull request to add your neovim plugin.
+Make a pull request to add your Neovim plugin.
 
 ## Wishlist
 
