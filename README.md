@@ -1,5 +1,5 @@
 # awesome-neovim
-Collections of awesome neovim plugins. Mostly targeting neovim specific features.
+Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting neovim specific features.
 
 ![Neovim Logo](https://neovim.io/images/logo@2x.png)
 
