@@ -70,6 +70,10 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### Lua 
 - [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) -  Interactive real time neovim scratchpad for embedded lua engine - type and watch! 
 
+### Tabline
+
+- [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
+
 ### Statusline
 
 - [tjdevries/express_line.nvim](https://github.com/tjdevries/express_line.nvim)
