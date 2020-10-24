@@ -77,3 +77,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### Games
 
 - [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
+
+### File explorer
+
+- [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A simple and fast file explorer tree for neovim !
