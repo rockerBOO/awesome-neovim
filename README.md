@@ -59,7 +59,8 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 #### Treesitter Support
 
 - [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) - nightfly is a dark GUI color scheme heavily inspired by Sarah Drasner's Night Owl theme. 
-- [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) 
+- [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - moonfly is a dark color scheme with Treesitter support
+- [ChristianChiarulli/nvcode-color-schemes.vim](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim) - nvcode, onedark, nord colorschemes with Treesitter support
 
 ### Neovim Lua Development
 
