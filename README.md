@@ -86,3 +86,11 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### File explorer
 
 - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A simple and fast file explorer tree for neovim !
+
+## Others
+
+[Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
+
+### Vim Plugins
+
+Most vim plugins also work for neovim!  How cool is that!
