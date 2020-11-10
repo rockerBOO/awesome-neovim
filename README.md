@@ -38,6 +38,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### Terminal integration
 
 - [nikvdp/neomux](https://github.com/nikvdp/neomux)
+- [akinsho/nvim-toggleterm.lua](https://github.com/akinsho/nvim-toggleterm.lua)
 
 ### Snippets
 
@@ -77,6 +78,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### Tabline
 
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
+- [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua)
 
 ### Statusline
 
@@ -89,6 +91,10 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### File explorer
 
 - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A simple and fast file explorer tree for neovim !
+
+### Dependency management
+
+- [akinsho/dependency-assist.nvim](https://github.com/akinsho/dependency-assist.nvim) - Search for and add new dependencies (dart, for now but rust coming soon)
 
 ## Others
 
