@@ -21,7 +21,6 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 #### (requires Neovim Nightly)
 
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
 - [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim)
