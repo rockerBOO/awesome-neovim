@@ -21,7 +21,6 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 #### (requires Neovim Nightly)
 
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
 - [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim)
@@ -67,6 +66,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next) - Oceanic Next theme for neovim 
 - [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) - A colorscheme template that is "lite" on logic for the developer. 
 - [glepnir/zephyr-nvim](https://github.com/glepnir/zephyr-nvim) - A dark colorscheme with treesitter support
+- [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) - A colorscheme for Neovim with handcrafted support for LSP, Treesitter.
 
 ### Debugging
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
