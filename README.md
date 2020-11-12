@@ -65,6 +65,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [kyazdani42/blue-moon](https://github.com/kyazdani42/blue-moon) - A dark color scheme for Neovim derived from palenight and carbonight 
 - [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next) - Oceanic Next theme for neovim 
 - [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) - A colorscheme template that is "lite" on logic for the developer. 
+- [glepnir/zephyr-nvim](https://github.com/glepnir/zephyr-nvim) - A dark colorscheme with treesitter support
 - [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) - A colorscheme for Neovim with handcrafted support for LSP, Treesitter.
 
 ### Debugging
@@ -86,7 +87,12 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 ### Statusline
 
+- [glepnir/galaxyline.nvim](https://github.com/glepnir/galaxyline.nvim)
 - [tjdevries/express_line.nvim](https://github.com/tjdevries/express_line.nvim)
+
+### Indent
+
+- [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) Experimental indentation plugin, currently not stable
 
 ### Games
 
