@@ -56,6 +56,8 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 ### Colorscheme
 
+- [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors
+
 #### Treesitter Support
 
 - [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) - nightfly is a dark GUI color scheme heavily inspired by Sarah Drasner's Night Owl theme. 
