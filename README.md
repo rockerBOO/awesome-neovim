@@ -46,7 +46,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 ### Fuzzy Finder
 
-- [nvim-lua/telescope.nvim](https://github.com/nvim-lua/telescope.nvim)
+- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 ### Colors
 
