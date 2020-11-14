@@ -94,8 +94,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 ### Indent
 
-- [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) Experimental indentation plugin, currently not stable
-
+- [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) indent plugin.
 ### Games
 
 - [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
