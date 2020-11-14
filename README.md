@@ -107,6 +107,10 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 - [akinsho/dependency-assist.nvim](https://github.com/akinsho/dependency-assist.nvim) - Search for and add new dependencies (dart, for now but rust coming soon)
 
+### Git
+
+- [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) - Show git blame info
+
 ## Others
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
