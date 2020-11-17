@@ -28,7 +28,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 ### General
 
-- [npxbr/glow.nvim](https://github.com/npxbr/glow.nvim)
+- [npxbr/glow.nvim](https://github.com/npxbr/glow.nvim) - Markdown preview using glow
 
 ### Syntax
 
@@ -57,6 +57,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 ### Colorscheme
 
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors
+- [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port 
 
 #### Treesitter Support
 
