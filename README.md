@@ -11,6 +11,12 @@ Make a pull request to add your Neovim plugin.
 
 Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://github.com/nvim-lua/wishlist).
 
+## UI
+
+Neovim supports a wide variety of UI's.
+
+- [yatli/fvim](https://github.com/yatli/fvim) - Cross platform Neovim front-end UI, built with F# + Avalonia 
+
 ## Plugins
 
 ### Plugin Managers
