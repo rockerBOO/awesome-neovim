@@ -16,6 +16,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 Neovim supports a wide variety of UI's.
 
 - [yatli/fvim](https://github.com/yatli/fvim) - Cross platform Neovim front-end UI, built with F# + Avalonia 
+- [smolck/uivonim](https://github.com/smolck/uivonim) - Goal: Feature-rich cross-platform GUI that leverages the latest Neovim features 
 
 ## Plugins
 
