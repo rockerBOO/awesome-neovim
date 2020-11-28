@@ -28,10 +28,14 @@ Neovim supports a wide variety of UI's.
 #### (requires Neovim Nightly)
 
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim)
 - [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)
+
+### Completion
+
+- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
+- [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe)
 
 ### General
 
