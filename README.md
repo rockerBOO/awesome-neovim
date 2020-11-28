@@ -32,7 +32,7 @@ Neovim supports a wide variety of UI's.
 - [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim)
 - [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)
 
-### Autocompletion
+### Completion
 
 - [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
 - [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe)
