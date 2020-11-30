@@ -100,6 +100,10 @@ Neovim supports a wide variety of UI's.
 ### Lua
 - [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) -  Interactive real time neovim scratchpad for embedded lua engine - type and watch!
 
+### Fennel
+
+- [Olical/aniseed](https://github.com/Olical/aniseed) - Configure and extend Neovim with Fennel (Lisp to Lua)
+
 ### Tabline
 
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
