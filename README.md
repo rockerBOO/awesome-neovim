@@ -137,6 +137,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Git
 
 - [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) - Show git blame info
+- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration: signs, hunk actions, blame, etc
 
 ## Others
 
