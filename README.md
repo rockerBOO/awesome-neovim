@@ -19,6 +19,8 @@ Neovim supports a wide variety of UI's.
 - [smolck/uivonim](https://github.com/smolck/uivonim) - Goal: Feature-rich cross-platform GUI that leverages the latest Neovim features 
 - [qvacua/vimr](https://github.com/qvacua/vimr) - Neovim GUI for macOS in Swift 
 - [Kethku/neovide](https://github.com/Kethku/neovide) - No Nonsense Neovim Client in Rust
+- [beeender/glrnvim](https://github.com/beeender/glrnvim) - A terminal wrapper that launches neovim inside of alacritty.
+- [DinVim](http://dinvim.com/) - DinVim for macOS is a safe and secure working macOS sandbox environment that provide true macOS experience for Vim users.
 
 ## Plugins
 
