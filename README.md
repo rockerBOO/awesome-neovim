@@ -106,9 +106,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [tjdevries/nlua.nvim](https://github.com/tjdevries/nlua.nvim) - Lua Development for Neovim
 - [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) - Commands to help write your .vimrc in lua or any lua based language
 - [nanotee/nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide) - A guide to using Lua in Neovim
-
-### Lua
-- [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) -  Interactive real time neovim scratchpad for embedded lua engine - type and watch!
+- [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) - Interactive real time neovim scratchpad for embedded lua engine - type and watch!
 
 ### Fennel
 
