@@ -121,6 +121,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [glepnir/galaxyline.nvim](https://github.com/glepnir/galaxyline.nvim)
 - [tjdevries/express_line.nvim](https://github.com/tjdevries/express_line.nvim)
+- [hoob3rt/lualine.nvim](https://github.com/hoob3rt/lualine.nvim)
 
 ### Indent
 
