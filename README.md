@@ -77,6 +77,10 @@ Neovim supports a wide variety of UI's.
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port 
 
+### Note Taking
+
+- [oberblastmeister/neuron.nvim](https://github.com/oberblastmeister/neuron.nvim) - note taking plugin for neuron that integrates with telescope.nvim
+
 #### Treesitter Support
 
 Treesitter is a new system coming in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for treesitter highlight groups. Vim colorschemes will work with the new groups out of the box. 
