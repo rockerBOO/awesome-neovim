@@ -29,6 +29,7 @@ Neovim supports a wide variety of UI's.
 
 ### Plugin Managers
 - [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
+- [savq/paq-nvim](https://github.com/savq/paq-nvim)
 
 ### LSP
 
