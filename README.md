@@ -38,6 +38,7 @@ Neovim supports a wide variety of UI's.
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim)
 - [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)
+- [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 
 ### Completion
 
