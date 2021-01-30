@@ -150,9 +150,11 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Indent
 
 - [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) indent plugin.
+
 ### Games
 
-- [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
+- [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) - vim-be-good is a nvim plugin designed to make you better at Vim Movements.
+- [ThePrimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) - Vim APM, Actions per minute, is the greatest plugin since vim-slicedbread.
 
 ### File explorer
 
