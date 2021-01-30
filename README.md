@@ -193,6 +193,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [pwntester/octo.nvim](https://github.com/pwntester/octo.nvim) - Plugin to work with GitHub issues and PRs from Neovim. Just edit the issue description
 - [pwntester/codeql.nvim](https://github.com/pwntester/codeql.nvim) - Neovim plugin to help writing and testing CodeQL queries.
 
+### Search
+
+- [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - nvim-hlslens helps you better glance searched information, seamlessly jump matched instances.
+
 ## Others
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
