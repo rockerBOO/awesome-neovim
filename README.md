@@ -197,6 +197,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - nvim-hlslens helps you better glance searched information, seamlessly jump matched instances.
 
+### Scrollbar 
+
+- [Xuyuanp/scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim) - scrollbar for neovim
+
 ## Others
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
