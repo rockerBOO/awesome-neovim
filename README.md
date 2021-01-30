@@ -43,8 +43,8 @@ Neovim supports a wide variety of UI's.
 
 ##### LSP Installers
 
-- [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall)
-- [alexaandru/nvim-lspupdate](https://github.com/alexaandru/nvim-lspupdate)
+- [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) - Easy to install language servers.
+- [alexaandru/nvim-lspupdate](https://github.com/alexaandru/nvim-lspupdate) - Updates installed (or auto installs if missing) LSP servers.
 
 ### Completion
 
