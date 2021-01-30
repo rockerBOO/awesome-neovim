@@ -205,6 +205,12 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [notomo/gesture.nvim](https://github.com/notomo/gesture.nvim) - Mouse gesture plugin for neovim
 
+### Editing supports
+
+- [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - A minimalist autopairs for Neovim written by Lua.
+- [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) - A surround text object plugin for neovim written in lua.
+- [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
+
 ## Others
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
