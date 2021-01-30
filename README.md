@@ -148,6 +148,8 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### File explorer
 
 - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A simple and fast file explorer tree for neovim !
+- [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) - simple file explorer
+- [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) - A file manager for neovim written in lua
 
 ### Dependency management
 
