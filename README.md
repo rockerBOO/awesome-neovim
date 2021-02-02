@@ -158,6 +158,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Comment
 
+- [b3nj5m1n/kommentary](https://github.com/b3nj5m1n/kommentary) - Commenting plugin written in lua.
 - [glepnir/prodoc.nvim](https://github.com/glepnir/prodoc.nvim) - comment and
   support generate annotation
 
