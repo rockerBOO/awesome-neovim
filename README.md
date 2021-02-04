@@ -223,6 +223,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [notomo/cmdbuf.nvim](https://github.com/notomo/cmdbuf.nvim) - Alternative command-line-window plugin
 
+### Sessions
+
+- [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - A small automated session manager for Neovim
+
 ## Others
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
