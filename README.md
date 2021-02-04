@@ -148,6 +148,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) - A light statusline/tabline plugin for Neovim using Lua.
 - [ojroques/nvim-hardline](https://github.com/ojroques/nvim-hardline) - A statusline / bufferline. It is inspired by [vim-airline](https://github.com/vim-airline/vim-airline) but aims to be as light and simple as possible.
 - [datwaft/bubbly.nvim](https://github.com/datwaft/bubbly.nvim) - Bubbly status line for neovim.
+- [beauwilliams/statusline.lua](https://github.com/beauwilliams/statusline.lua) - A tidy statusline for neovim written in lua featuring awesome integrations and blazing speed!
 
 ### Indent
 
