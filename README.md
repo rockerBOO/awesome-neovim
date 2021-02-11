@@ -72,6 +72,10 @@ Neovim supports a wide variety of UI's.
 - [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim)
 - [hrsh7th/vim-vsnip](https://github.com/hrsh7th/vim-vsnip) - Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.
 
+### Registers
+
+- [gennaro-tedesco/nvim-peekup](https://github.com/gennaro-tedesco/nvim-peekup) - Dynamically interact with vim registers
+
 ### Fuzzy Finder
 
 - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - `telescope.nvim` is a highly extendable fuzzy finder over lists. Built on the latest awesome features from `neovim` core. Telescope is centered around modularity, allowing for easy customization.
