@@ -67,6 +67,7 @@ Neovim supports a wide variety of UI's.
 
 - [nikvdp/neomux](https://github.com/nikvdp/neomux)
 - [akinsho/nvim-toggleterm.lua](https://github.com/akinsho/nvim-toggleterm.lua)
+- [norcalli/nvim-terminal.lua](https://github.com/norcalli/nvim-terminal.lua) - A high performance filetype mode for Neovim which leverages conceal and highlights your buffer with the correct color codes. 
 
 ### Snippets
 
