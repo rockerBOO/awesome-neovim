@@ -120,6 +120,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [Th3Whit3Wolf/one-nvim](https://github.com/Th3Whit3Wolf/one-nvim) - An Atom One inspired dark and light colorscheme for neovim.
 - [PHSix/nvim-hybrid](https://github.com/PHSix/nvim-hybrid) - A neovim colorscheme write in lua.
 - [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - A spacemacs inspired dark and light colorscheme for neovim.
+- [yonlu/omni.vim](https://github.com/yonlu/omni.vim) - Omni color scheme for Vim
 
 ### Debugging
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
