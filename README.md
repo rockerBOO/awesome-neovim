@@ -1,4 +1,5 @@
 # awesome-neovim
+
 Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Neovim specific features.
 
 ![Neovim Logo](https://neovim.io/images/logo@2x.png)
@@ -25,6 +26,7 @@ Neovim supports a wide variety of UI's.
 - [DinVim](http://dinvim.com/) - DinVim for macOS is a safe and secure working macOS sandbox environment that provide true macOS experience for Vim users.
 - [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy) - A Neovim client in C++
 - [asvetliakov/vscode-neovim](https://github.com/asvetliakov/vscode-neovim) - Neovim integration for Visual Studio Code
+- [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt) - Neovim client library and GUI, in Qt5.
 
 ## Plugins
 
@@ -44,6 +46,8 @@ Neovim supports a wide variety of UI's.
 - [kosayoda/nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb) - The plugin shows a lightbulb in the sign column whenever a `textDocument/codeAction` is available at the current cursor position.
 - [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim) - The plugin adds vscode-like icons to neovim lsp completions.
 - [ojroques/nvim-lspfuzzy](https://github.com/ojroques/nvim-lspfuzzy) - A small plugin to make the LSP client use FZF
+- [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) - lsp signature hint when you type
+- [nanotee/sqls.nvim](https://github.com/nanotee/sqls.nvim) - sqls (sql database connection plugin + LSP client) plugin for nvim
 
 ##### LSP Installers
 
@@ -62,12 +66,13 @@ Neovim supports a wide variety of UI's.
 ### Syntax
 
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-treesitter/nvim-treesitter-textobject](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Create your own textobjects using tree-sitter queries
 
 ### Terminal integration
 
 - [nikvdp/neomux](https://github.com/nikvdp/neomux) - Control neovim from shells running inside neovim.
-- [akinsho/nvim-toggleterm.lua](https://github.com/akinsho/nvim-toggleterm.lua) - A neovim lua plugin to help easily manage multiple terminal windows 
-- [norcalli/nvim-terminal.lua](https://github.com/norcalli/nvim-terminal.lua) - A high performance filetype mode for Neovim which leverages conceal and highlights your buffer with the correct color codes. 
+- [akinsho/nvim-toggleterm.lua](https://github.com/akinsho/nvim-toggleterm.lua) - A neovim lua plugin to help easily manage multiple terminal windows
+- [norcalli/nvim-terminal.lua](https://github.com/norcalli/nvim-terminal.lua) - A high performance filetype mode for Neovim which leverages conceal and highlights your buffer with the correct color codes.
 
 ### Snippets
 
@@ -125,6 +130,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [PHSix/nvim-hybrid](https://github.com/PHSix/nvim-hybrid) - A neovim colorscheme write in lua.
 - [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - A spacemacs inspired dark and light colorscheme for neovim.
 - [yonlu/omni.vim](https://github.com/yonlu/omni.vim) - Omni color scheme for Vim
+- [ray-x/aurora](https://github.com/ray-x/aurora) - A 24-bit dark theme with Treesitter and LSP support
 
 ### Debugging
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
@@ -184,6 +190,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) - Show git blame info
 - [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration: signs, hunk actions, blame, etc
 - [TimUntersberger/neogit](https://github.com/TimUntersberger/neogit) - A Magit clone for Neovim that may change some things to fit the Vim philosophy.
+- [tveskag/nvim-blame-line](https://github.com/tveskag/nvim-blame-line) - A small plugin that uses neovims virtual text to print git blame info at the end of the current line.
 
 ### Comment
 
@@ -230,7 +237,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - A minimalist autopairs for Neovim written by Lua.
 - [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) - A surround text object plugin for neovim written in lua.
 - [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
-- [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) -  :rainbow: Rainbow parentheses for neovim using tree-sitter :rainbow:
+- [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) - :rainbow: Rainbow parentheses for neovim using tree-sitter :rainbow:
 
 ### Command Line
 
@@ -246,4 +253,4 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Vim Plugins
 
-Most vim plugins also work for neovim!  How cool is that!
+Most vim plugins also work for neovim! How cool is that!
