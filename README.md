@@ -31,8 +31,8 @@ Neovim supports a wide variety of UI's.
 ## Plugins
 
 ### Plugin Managers
-- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
-- [savq/paq-nvim](https://github.com/savq/paq-nvim)
+- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) - A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config 
+- [savq/paq-nvim](https://github.com/savq/paq-nvim) - Neovim package manager written in Lua.
 
 ### LSP
 
@@ -56,8 +56,8 @@ Neovim supports a wide variety of UI's.
 
 ### Completion
 
-- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim)
-- [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe)
+- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim) - A async completion framework aims to provide completion to neovim's built in LSP written in Lua 
+- [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe) - Auto completion plugin for nvim that written in Lua. 
 
 ### General
 
@@ -66,7 +66,7 @@ Neovim supports a wide variety of UI's.
 
 ### Syntax
 
-- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Nvim Treesitter configurations and abstraction layer 
 - [nvim-treesitter/nvim-treesitter-textobject](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Create your own textobjects using tree-sitter queries
 
 ### Terminal integration
@@ -77,7 +77,7 @@ Neovim supports a wide variety of UI's.
 
 ### Snippets
 
-- [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim)
+- [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim) - Snippets in lua
 - [hrsh7th/vim-vsnip](https://github.com/hrsh7th/vim-vsnip) - Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.
 
 ### Registers
@@ -155,8 +155,8 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Tabline
 
-- [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
-- [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua)
+- [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin. 
+- [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim.
 
 ### Statusline
 
@@ -197,8 +197,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Comment
 
 - [b3nj5m1n/kommentary](https://github.com/b3nj5m1n/kommentary) - Commenting plugin written in lua.
-- [glepnir/prodoc.nvim](https://github.com/glepnir/prodoc.nvim) - comment and
-  support generate annotation
+- [glepnir/prodoc.nvim](https://github.com/glepnir/prodoc.nvim) - comment and support generate annotation
 - [gennaro-tedesco/nvim-commaround](https://github.com/gennaro-tedesco/nvim-commaround) - Fast and light commenting plugin written in Lua.
 
 ### Collaborative Editing
