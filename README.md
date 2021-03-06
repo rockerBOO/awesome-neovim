@@ -27,14 +27,15 @@ Neovim supports a wide variety of UI's.
 - [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy) - A Neovim client in C++
 - [asvetliakov/vscode-neovim](https://github.com/asvetliakov/vscode-neovim) - Neovim integration for Visual Studio Code
 - [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt) - Neovim client library and GUI, in Qt5.
-- [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim) - Sublime Text 3 input mode using Neovim. 
+- [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim) - Sublime Text 3 input mode using Neovim.
 - [vv-vim/vv](https://github.com/vv-vim/vv) - Neovim client for macOS. A pure, fast, minimalistic Vim experience with good macOS integration. Optimized for speed and nice font rendering.
-- [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) - A JavaFX text pane, backed by Neovim, created with Clojure 
+- [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) - A JavaFX text pane, backed by Neovim, created with Clojure
 
 ## Plugins
 
 ### Plugin Managers
-- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) - A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config 
+
+- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) - A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config
 - [savq/paq-nvim](https://github.com/savq/paq-nvim) - Neovim package manager written in Lua.
 
 ### LSP
@@ -59,8 +60,8 @@ Neovim supports a wide variety of UI's.
 
 ### Completion
 
-- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim) - A async completion framework aims to provide completion to neovim's built in LSP written in Lua 
-- [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe) - Auto completion plugin for nvim that written in Lua. 
+- [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim) - A async completion framework aims to provide completion to neovim's built in LSP written in Lua
+- [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe) - Auto completion plugin for nvim that written in Lua.
 
 ### General
 
@@ -69,7 +70,7 @@ Neovim supports a wide variety of UI's.
 
 ### Syntax
 
-- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Nvim Treesitter configurations and abstraction layer 
+- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Nvim Treesitter configurations and abstraction layer
 - [nvim-treesitter/nvim-treesitter-textobject](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Create your own textobjects using tree-sitter queries
 
 ### Terminal integration
@@ -137,8 +138,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [ray-x/aurora](https://github.com/ray-x/aurora) - A 24-bit dark theme with Treesitter and LSP support
 
 ### Debugging
+
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
-- [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB 
+- [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB
 
 ### Neovim Lua Development
 
@@ -158,7 +160,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Tabline
 
-- [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin. 
+- [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin.
 - [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim.
 
 ### Statusline
@@ -242,7 +244,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) - A surround text object plugin for neovim written in lua.
 - [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
 - [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) - :rainbow: Rainbow parentheses for neovim using tree-sitter :rainbow:
-- [phaazon/hop.nvim](https://github.com/phaazon/hop.nvim) - Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible. 
+- [phaazon/hop.nvim](https://github.com/phaazon/hop.nvim) - Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
 
 ### Command Line
 
@@ -254,7 +256,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Tests
 
-- [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim. 
+- [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
 
 ## Others
 
