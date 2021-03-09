@@ -136,6 +136,8 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - A spacemacs inspired dark and light colorscheme for neovim.
 - [yonlu/omni.vim](https://github.com/yonlu/omni.vim) - Omni color scheme for Vim
 - [ray-x/aurora](https://github.com/ray-x/aurora) - A 24-bit dark theme with Treesitter and LSP support
+- [novakne/kosmikoa.nvim](https://github.com/novakne/kosmikoa.nvim) - Colorscheme for Neovim
+- [tanvirtin/nvim-monokai](https://github.com/tanvirtin/nvim-monokai) - Flatland Monokai theme for nvim writtein in lua
 
 ### Debugging
 
