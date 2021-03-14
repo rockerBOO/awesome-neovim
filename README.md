@@ -139,6 +139,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [novakne/kosmikoa.nvim](https://github.com/novakne/kosmikoa.nvim) - Colorscheme for Neovim
 - [tanvirtin/nvim-monokai](https://github.com/tanvirtin/nvim-monokai) - Flatland Monokai theme for nvim writtein in lua
 - [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) - Neovim colorscheme based on your xresources color
+- [savq/melange](https://github.com/savq/melange) - 🗡️ Dark color scheme for Neovim and Vim
 
 ### Debugging
 
