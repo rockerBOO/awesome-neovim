@@ -244,6 +244,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Editing supports
 
+- [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use treesitter to autoclose and autorename xml,html,jsx tag
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - A minimalist autopairs for Neovim written by Lua.
 - [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) - A surround text object plugin for neovim written in lua.
 - [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
