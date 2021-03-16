@@ -141,6 +141,11 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) - Neovim colorscheme based on your xresources color
 - [savq/melange](https://github.com/savq/melange) - 🗡️ Dark color scheme for Neovim and Vim
 
+### Icons
+
+- [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) - A Lua fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons)
+- [yamatsum/nvim-nonicons](https://github.com/yamatsum/nvim-nonicons) - Collection of configurations for nvim-web-devicons
+
 ### Debugging
 
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
