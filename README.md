@@ -88,6 +88,7 @@ Neovim supports a wide variety of UI's.
 ### Registers
 
 - [gennaro-tedesco/nvim-peekup](https://github.com/gennaro-tedesco/nvim-peekup) - Dynamically interact with vim registers
+- [tversteeg/registers.nvim](https://github.com/tversteeg/registers.nvim) - Non-obtrusive minimal preview of vim registers
 
 ### Fuzzy Finder
 
