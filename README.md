@@ -52,6 +52,7 @@ Neovim supports a wide variety of UI's.
 - [ojroques/nvim-lspfuzzy](https://github.com/ojroques/nvim-lspfuzzy) - A small plugin to make the LSP client use FZF
 - [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) - lsp signature hint when you type
 - [nanotee/sqls.nvim](https://github.com/nanotee/sqls.nvim) - sqls (sql database connection plugin + LSP client) plugin for nvim
+- [jubnzv/virtual-types.nvim](https://github.com/jubnzv/virtual-types.nvim) - Neovim plugin that shows type annotations as virtual text
 
 ##### LSP Installers
 
