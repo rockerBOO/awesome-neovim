@@ -143,6 +143,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) - Neovim colorscheme based on your xresources color
 - [savq/melange](https://github.com/savq/melange) - 🗡️ Dark color scheme for Neovim and Vim
 
+### Icon
+- [yamatsum/nvim-nonicons](https://github.com/yamatsum/nvim-nonicons) - Icon set using nonicons for neovim plugins and settings
+
 ### Debugging
 
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
@@ -178,6 +181,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [ojroques/nvim-hardline](https://github.com/ojroques/nvim-hardline) - A statusline / bufferline. It is inspired by [vim-airline](https://github.com/vim-airline/vim-airline) but aims to be as light and simple as possible.
 - [datwaft/bubbly.nvim](https://github.com/datwaft/bubbly.nvim) - Bubbly status line for neovim.
 - [beauwilliams/statusline.lua](https://github.com/beauwilliams/statusline.lua) - A tidy statusline for neovim written in lua featuring awesome integrations and blazing speed!
+
+### Cursorline
+- [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) - A plugin for neovim that highlights cursor words and lines
 
 ### Indent
 
