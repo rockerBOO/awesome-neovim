@@ -117,7 +117,7 @@ Neovim supports a wide variety of UI's.
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port
 
-#### Treesitter Supported Colourschemes
+#### Treesitter Supported Colorschemes
 
 Treesitter is a new system coming in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for treesitter highlight groups. Vim colorschemes will work with the new groups out of the box.
 
@@ -146,7 +146,6 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [tanvirtin/nvim-monokai](https://github.com/tanvirtin/nvim-monokai) - Flatland Monokai theme for nvim writtein in lua
 - [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) - Neovim colorscheme based on your xresources color
 - [savq/melange](https://github.com/savq/melange) - 🗡️ Dark color scheme for Neovim and Vim
-
 
 ### Icons
 
