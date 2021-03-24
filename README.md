@@ -117,7 +117,7 @@ Neovim supports a wide variety of UI's.
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port
 
-#### Treesitter Support
+#### Treesitter Supported Colourschemes
 
 Treesitter is a new system coming in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for treesitter highlight groups. Vim colorschemes will work with the new groups out of the box.
 
@@ -147,6 +147,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) - Neovim colorscheme based on your xresources color
 - [savq/melange](https://github.com/savq/melange) - 🗡️ Dark color scheme for Neovim and Vim
 
+
 ### Icons
 
 - [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) - A Lua fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons)
@@ -156,6 +157,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
 - [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB
+
+### Spellcheck
+- [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - spell checker for Neovim powered by tree-sitter
+and hunspell.
 
 ### Neovim Lua Development
 
