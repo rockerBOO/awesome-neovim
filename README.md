@@ -63,9 +63,9 @@ Neovim supports a wide variety of UI's.
 ### Completion
 
 - [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim) - A async completion framework aims to provide completion to neovim's built in LSP written in Lua
-- [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe) - Auto completion plugin for nvim that written in Lua.
+- [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe) - Auto completion plugin for nvim written in Lua.
 
-### General
+### Markdown
 
 - [npxbr/glow.nvim](https://github.com/npxbr/glow.nvim) - Markdown preview using glow
 - [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API
@@ -80,6 +80,8 @@ Neovim supports a wide variety of UI's.
 - [nikvdp/neomux](https://github.com/nikvdp/neomux) - Control neovim from shells running inside neovim.
 - [akinsho/nvim-toggleterm.lua](https://github.com/akinsho/nvim-toggleterm.lua) - A neovim lua plugin to help easily manage multiple terminal windows
 - [norcalli/nvim-terminal.lua](https://github.com/norcalli/nvim-terminal.lua) - A high performance filetype mode for Neovim which leverages conceal and highlights your buffer with the correct color codes.
+- [numToStr/FTerm.nvim](https://github.com/numToStr/FTerm.nvim) - No nonsense floating terminal written in Lua.
+- [oberblastmeister/termwrapper.nvim](https://github.com/oberblastmeister/termwrapper.nvim) - Wrapper for neovim's terminal features to make them more user friendly
 
 ### Snippets
 
@@ -108,13 +110,14 @@ Neovim supports a wide variety of UI's.
 ### Note Taking
 
 - [oberblastmeister/neuron.nvim](https://github.com/oberblastmeister/neuron.nvim) - note taking plugin for neuron that integrates with telescope.nvim
+- [jbyuki/nabla.nvim](https://github.com/jbyuki/nabla.nvim) - take your scientific notes in Neovim
 
 ### Colorscheme
 
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port
 
-#### Treesitter Support
+#### Treesitter Supported Colorschemes
 
 Treesitter is a new system coming in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for treesitter highlight groups. Vim colorschemes will work with the new groups out of the box.
 
@@ -153,6 +156,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation for Neovim
 - [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB
+
+### Spellcheck
+- [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - spell checker for Neovim powered by tree-sitter and hunspell.
 
 ### Neovim Lua Development
 
@@ -257,6 +263,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) - Load neovim config depend on project directory.
 
+### Browser integration
+- [glacambre/firenvim](https://github.com/glacambre/firenvim) - embed Neovim right into your browser, no questions asked
+
 ### Editing supports
 
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use treesitter to autoclose and autorename xml,html,jsx tag
@@ -265,6 +274,11 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
 - [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) - :rainbow: Rainbow parentheses for neovim using tree-sitter :rainbow:
 - [phaazon/hop.nvim](https://github.com/phaazon/hop.nvim) - Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
+- [AckslD/nvim-revJ.lua](https://github.com/AckslD/nvim-revJ.lua) - Neovim Lua plugin for doing the opposite of join-line (J) for arguments.
+- [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) - A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped.
+
+### Discord Rich Presence
+- [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim) - Fast and lite Discord Rich Presence plugin for Neovim written in Lua.
 
 ### Command Line
 
@@ -277,6 +291,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Tests
 
 - [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
+
+### Preconfigured Configurations
+- [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
 
 ## Others
 
