@@ -58,7 +58,7 @@ Neovim supports a wide variety of UI's.
 
 - [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) - Easy to install language servers.
 - [alexaandru/nvim-lspupdate](https://github.com/alexaandru/nvim-lspupdate) - Updates installed (or auto installs if missing) LSP servers.
-- [kabouzeid/nvim-lspinstall](https://github.com/kabouzeid/nvim-lspinstall) - Provides the missing :LspInstall for nvim-lspconfig 
+- [kabouzeid/nvim-lspinstall](https://github.com/kabouzeid/nvim-lspinstall) - Provides the missing :LspInstall for nvim-lspconfig
 
 ### Completion
 
@@ -87,6 +87,7 @@ Neovim supports a wide variety of UI's.
 
 - [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim) - Snippets in lua
 - [hrsh7th/vim-vsnip](https://github.com/hrsh7th/vim-vsnip) - Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.
+- [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippets collection for all kind of programming languages that integrates really well with [vim-vsnip](https://github.com/hrsh7th/vim-vsnip)
 
 ### Registers
 
@@ -158,6 +159,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB
 
 ### Spellcheck
+
 - [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - spell checker for Neovim powered by tree-sitter and hunspell.
 
 ### Neovim Lua Development
@@ -192,6 +194,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [beauwilliams/statusline.lua](https://github.com/beauwilliams/statusline.lua) - A tidy statusline for neovim written in lua featuring awesome integrations and blazing speed!
 
 ### Cursorline
+
 - [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) - A plugin for neovim that highlights cursor words and lines
 
 ### Indent
@@ -202,7 +205,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) - vim-be-good is a nvim plugin designed to make you better at Vim Movements.
 - [ThePrimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) - Vim APM, Actions per minute, is the greatest plugin since vim-slicedbread.
-- [alec-gibson/nvim-tetris](https://github.com/alec-gibson/nvim-tetris) - Bringing emacs' greatest feature to neovim - Tetris! 
+- [alec-gibson/nvim-tetris](https://github.com/alec-gibson/nvim-tetris) - Bringing emacs' greatest feature to neovim - Tetris!
 
 ### File explorer
 
@@ -222,6 +225,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [tveskag/nvim-blame-line](https://github.com/tveskag/nvim-blame-line) - A small plugin that uses neovims virtual text to print git blame info at the end of the current line.
 
 ### Json
+
 - [gennaro-tedesco/nvim-jqx](https://github.com/gennaro-tedesco/nvim-jqx) - Interactive interface for json files
 
 ### Comment
@@ -264,6 +268,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) - Load neovim config depend on project directory.
 
 ### Browser integration
+
 - [glacambre/firenvim](https://github.com/glacambre/firenvim) - embed Neovim right into your browser, no questions asked
 
 ### Editing supports
@@ -278,6 +283,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) - A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped.
 
 ### Discord Rich Presence
+
 - [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim) - Fast and lite Discord Rich Presence plugin for Neovim written in Lua.
 
 ### Command Line
@@ -293,6 +299,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
 
 ### Preconfigured Configurations
+
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
 
 ## Others
