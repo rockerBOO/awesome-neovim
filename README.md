@@ -146,6 +146,11 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [tanvirtin/nvim-monokai](https://github.com/tanvirtin/nvim-monokai) - Flatland Monokai theme for nvim writtein in lua
 - [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) - Neovim colorscheme based on your xresources color
 - [savq/melange](https://github.com/savq/melange) - 🗡️ Dark color scheme for Neovim and Vim
+- [RRethy/nvim-base16](https://github.com/RRethy/nvim-base16) - Neovim plugin for building base16 colorschemes. Includes support for Treesitter and LSP highlight groups.
+- [fenetikm/falcon](https://github.com/fenetikm/falcon) - A colour scheme for terminals, Vim and friends.
+- [maaslalani/nordbuddy](https://github.com/maaslalani/nordbuddy) - A nord-esque colorscheme using colorbuddy.nvim
+- [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - Material colorscheme for NeoVim written in lua
+- [MordechaiHadad/nvim-papadark](https://github.com/MordechaiHadad/nvim-papadark) - My own neovim colorscheme
 
 ### Icons
 
