@@ -151,6 +151,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [maaslalani/nordbuddy](https://github.com/maaslalani/nordbuddy) - A nord-esque colorscheme using colorbuddy.nvim
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - Material colorscheme for NeoVim written in lua
 - [MordechaiHadad/nvim-papadark](https://github.com/MordechaiHadad/nvim-papadark) - My own neovim colorscheme
+- [ishan9299/nvim-solarized-lua](https://github.com/ishan9299/nvim-solarized-lua) - solarized colorscheme in lua for nvim 0.5
 
 ### Icons
 
