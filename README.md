@@ -262,6 +262,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Project
 
 - [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) - Load neovim config depend on project directory.
+- [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre) - Search and replace panel for neovim.
 
 ### Browser integration
 - [glacambre/firenvim](https://github.com/glacambre/firenvim) - embed Neovim right into your browser, no questions asked
