@@ -242,6 +242,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [tjdevries/train.nvim](https://github.com/tjdevries/train.nvim) - Train yourself with vim motions and make your own train tracks :)
 
+### Code Runner
+
+- [michaelb/sniprun](https://github.com/michaelb/sniprun) - Run parts of code of any language directly from Neovim.
+
 ### GitHub
 
 - [pwntester/octo.nvim](https://github.com/pwntester/octo.nvim) - Plugin to work with GitHub issues and PRs from Neovim. Just edit the issue description
