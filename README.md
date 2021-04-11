@@ -53,6 +53,7 @@ Neovim supports a wide variety of UI's.
 - [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) - lsp signature hint when you type
 - [nanotee/sqls.nvim](https://github.com/nanotee/sqls.nvim) - sqls (sql database connection plugin + LSP client) plugin for nvim
 - [jubnzv/virtual-types.nvim](https://github.com/jubnzv/virtual-types.nvim) - Neovim plugin that shows type annotations as virtual text
+- [jose-elias-alvarez/nvim-lsp-ts-utils](https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils) - Utilities to improve the TypeScript development experience for Neovim's built-in LSP client.
 
 ##### LSP Installers
 
@@ -197,6 +198,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Indent
 
 - [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) indent plugin.
+- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim/tree/lua) indentLine replacement in lua with more features and treesitter support.
 
 ### Games
 
@@ -276,6 +278,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [phaazon/hop.nvim](https://github.com/phaazon/hop.nvim) - Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
 - [AckslD/nvim-revJ.lua](https://github.com/AckslD/nvim-revJ.lua) - Neovim Lua plugin for doing the opposite of join-line (J) for arguments.
 - [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) - A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped.
+- [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - A Neovim plugin for setting the `commentstring` option based on the cursor location in the file. The location is checked via treesitter queries.
 
 ### Discord Rich Presence
 - [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim) - Fast and lite Discord Rich Presence plugin for Neovim written in Lua.
@@ -294,6 +297,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Preconfigured Configurations
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
+
+### Tmux
+
+- [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes
 
 ## Others
 
