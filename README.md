@@ -294,6 +294,8 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Preconfigured Configurations
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
+- [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, javascript) 
+- [ChristianChiarulli/nvcode](https://github.com/ChristianChiarulli/nvcode) - This project aims to help one transition away from VSCode, and into a superior text editing experience.
 
 ## Others
 
