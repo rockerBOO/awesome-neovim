@@ -302,6 +302,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Preconfigured Configurations
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
 
+### Keybindings
+- [AckslD/nvim-whichkey-setup.lua](https://github.com/AckslD/nvim-whichkey-setup.lua) - Nvim-plugin what wraps vim-which-key to simplify setup in lua
+
 ## Others
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
