@@ -307,6 +307,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ## Others
 
+### Version Managers
+- [NTBBloodbath/nvenv](https://github.com/NTBBloodbath/nvenv) - A lightweight and blazing fast Neovim version manager.
+
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
 
 ### Vim Plugins
