@@ -117,6 +117,7 @@ Neovim supports a wide variety of UI's.
 
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port
+- [Shadorain/shadotheme](https://github.com/Shadorain/shadotheme) - Shadotheme, an amazing colorscheme featuring purple, pink, and shades of red
 
 #### Treesitter Supported Colorschemes
 
