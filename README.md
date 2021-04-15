@@ -250,6 +250,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Motions
 
 - [tjdevries/train.nvim](https://github.com/tjdevries/train.nvim) - Train yourself with vim motions and make your own train tracks :)
+- [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) - Smooth scrolling neovim plugin written in lua
 
 ### Code Runner
 
