@@ -2,7 +2,7 @@
 
 Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Neovim specific features.
 
-![Neovim Logo](https://neovim.io/images/logo@2x.png)
+![Neovim Logo](https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo-300x87.png)
 
 ## Submissions
 
