@@ -155,6 +155,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [MordechaiHadad/nvim-papadark](https://github.com/MordechaiHadad/nvim-papadark) - My own neovim colorscheme
 - [ishan9299/nvim-solarized-lua](https://github.com/ishan9299/nvim-solarized-lua) - solarized colorscheme in lua for nvim 0.5
 
+### Utility
+- [famiu/nvim-reload](https://github.com/famiu/nvim-reload) - Easily reload your Neovim config
+
 ### Icons
 
 - [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) - A Lua fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons)
