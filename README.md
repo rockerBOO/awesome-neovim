@@ -339,4 +339,3 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Vim Plugins
 
 Most vim plugins also work for neovim! How cool is that!
-Most vim plugins also work for neovim! How cool is that!
