@@ -54,12 +54,13 @@ Neovim supports a wide variety of UI's.
 - [nanotee/sqls.nvim](https://github.com/nanotee/sqls.nvim) - sqls (sql database connection plugin + LSP client) plugin for nvim
 - [jubnzv/virtual-types.nvim](https://github.com/jubnzv/virtual-types.nvim) - Neovim plugin that shows type annotations as virtual text
 - [jose-elias-alvarez/nvim-lsp-ts-utils](https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils) - Utilities to improve the TypeScript development experience for Neovim's built-in LSP client.
+- [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) - Learn existing code quickly and navigate code like a breeze. A swiss army knife makes exploring LSP and 🌲Treesitter symbols a piece of 🍰.
 
 ##### LSP Installers
 
 - [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) - Easy to install language servers.
 - [alexaandru/nvim-lspupdate](https://github.com/alexaandru/nvim-lspupdate) - Updates installed (or auto installs if missing) LSP servers.
-- [kabouzeid/nvim-lspinstall](https://github.com/kabouzeid/nvim-lspinstall) - Provides the missing :LspInstall for nvim-lspconfig 
+- [kabouzeid/nvim-lspinstall](https://github.com/kabouzeid/nvim-lspinstall) - Provides the missing :LspInstall for nvim-lspconfig
 
 ### Completion
 
@@ -166,6 +167,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB
 
 ### Spellcheck
+
 - [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - spell checker for Neovim powered by tree-sitter and hunspell.
 
 ### Neovim Lua Development
@@ -178,6 +180,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [nvim-lua/popup.nvim](https://github.com/nvim-lua/popup.nvim) - An implementation of the Popup API from vim in Neovim.
 - [tjdevries/vlog.nvim](https://github.com/tjdevries/vlog.nvim) - Single file, no dependency, easy copy & paste log file to add to your neovim lua plugins.
 - [bfredl/nvim-luadev](https://github.com/bfredl/nvim-luadev) - REPL/debug console for nvim lua plugins. The `:Luadev` command will open an scratch window which will show output from executing lua code.
+- [one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind) - An adapter for the Neovim lua language. It allows you to debug any lua code running in a Neovim instance (A lua plugin that can debug nvim lua plugins).
 - [tami5/sql.nvim](https://github.com/tami5/sql.nvim) - SQLite/LuaJIT binding for lua and neovim
 
 ### Fennel
@@ -200,6 +203,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [beauwilliams/statusline.lua](https://github.com/beauwilliams/statusline.lua) - A tidy statusline for neovim written in lua featuring awesome integrations and blazing speed!
 
 ### Cursorline
+
 - [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) - A plugin for neovim that highlights cursor words and lines
 
 ### Indent
@@ -211,7 +215,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) - vim-be-good is a nvim plugin designed to make you better at Vim Movements.
 - [ThePrimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) - Vim APM, Actions per minute, is the greatest plugin since vim-slicedbread.
-- [alec-gibson/nvim-tetris](https://github.com/alec-gibson/nvim-tetris) - Bringing emacs' greatest feature to neovim - Tetris! 
+- [alec-gibson/nvim-tetris](https://github.com/alec-gibson/nvim-tetris) - Bringing emacs' greatest feature to neovim - Tetris!
 
 ### File explorer
 
@@ -231,7 +235,12 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [tveskag/nvim-blame-line](https://github.com/tveskag/nvim-blame-line) - A small plugin that uses neovims virtual text to print git blame info at the end of the current line.
 
 ### Json
+
 - [gennaro-tedesco/nvim-jqx](https://github.com/gennaro-tedesco/nvim-jqx) - Interactive interface for json files
+
+### Programming languages support
+
+- [go.nvim](https://github.com/ray-x/go.nvim) - Golang plugin based on lsp and Treesitter
 
 ### Comment
 
@@ -278,6 +287,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre) - Search and replace panel for neovim.
 
 ### Browser integration
+
 - [glacambre/firenvim](https://github.com/glacambre/firenvim) - embed Neovim right into your browser, no questions asked
 
 ### Editing supports
@@ -293,6 +303,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - A Neovim plugin for setting the `commentstring` option based on the cursor location in the file. The location is checked via treesitter queries.
 
 ### Discord Rich Presence
+
 - [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim) - Fast and lite Discord Rich Presence plugin for Neovim written in Lua.
 
 ### Command Line
@@ -308,11 +319,13 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
 
 ### Preconfigured Configurations
+
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
-- [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, javascript) 
+- [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, javascript)
 - [ChristianChiarulli/nvcode](https://github.com/ChristianChiarulli/nvcode) - This project aims to help one transition away from VSCode, and into a superior text editing experience.
 
 ### Keybindings
+
 - [AckslD/nvim-whichkey-setup.lua](https://github.com/AckslD/nvim-whichkey-setup.lua) - Nvim-plugin what wraps vim-which-key to simplify setup in lua
 
 ### Tmux
@@ -325,4 +338,5 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Vim Plugins
 
+Most vim plugins also work for neovim! How cool is that!
 Most vim plugins also work for neovim! How cool is that!
