@@ -316,6 +316,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Keybindings
 - [AckslD/nvim-whichkey-setup.lua](https://github.com/AckslD/nvim-whichkey-setup.lua) - Nvim-plugin what wraps vim-which-key to simplify setup in lua
+- [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Neovim plugin that shows a popup with possible keybindings of the command you started typing.
 
 ### Tmux
 
