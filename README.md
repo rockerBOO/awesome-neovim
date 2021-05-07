@@ -315,6 +315,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [AckslD/nvim-revJ.lua](https://github.com/AckslD/nvim-revJ.lua) - Neovim Lua plugin for doing the opposite of join-line (J) for arguments.
 - [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) - A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped.
 - [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - A Neovim plugin for setting the `commentstring` option based on the cursor location in the file. The location is checked via treesitter queries.
+- [kdav5758/TrueZen.nvim](https://github.com/kdav5758/TrueZen.nvim) - Clean and elegant distraction-free writing for NeoVim..
 
 ## Media
 - [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) - Neovim Lua plugin to paste image from clipboard.
