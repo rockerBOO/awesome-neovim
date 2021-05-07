@@ -171,7 +171,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB
 
 ### Spellcheck
-- [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - spell checker for Neovim powered by tree-sitter and hunspell.
+- [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - Enable Neovim's spell checker with tree-sitter.
 
 ### Neovim Lua Development
 
