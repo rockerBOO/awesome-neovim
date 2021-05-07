@@ -92,6 +92,7 @@ Neovim supports a wide variety of UI's.
 
 - [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim) - Snippets in lua
 - [hrsh7th/vim-vsnip](https://github.com/hrsh7th/vim-vsnip) - Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.
+- [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippets collection for all kind of programming languages that integrates really well with vim-vsnip
 
 ### Registers
 
