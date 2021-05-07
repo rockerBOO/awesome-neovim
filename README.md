@@ -31,12 +31,6 @@ Neovim supports a wide variety of UI's.
 - [vv-vim/vv](https://github.com/vv-vim/vv) - Neovim client for macOS. A pure, fast, minimalistic Vim experience with good macOS integration. Optimized for speed and nice font rendering.
 - [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) - A JavaFX text pane, backed by Neovim, created with Clojure
 
-## Boilerplate
-
-Frameworks to generate plugins structures and boilerplate code
-
-- [gennaro-tedesco/boilit](https://github.com/gennaro-tedesco/boilit) - Create boilerplate structure for neovim plugins
-
 ## Plugins
 
 ### Plugin Managers
@@ -362,11 +356,20 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes
 
-## Others
+## External
+
+These tools are used externally to neovim to enhance the experience. 
 
 ### Version Managers
+
 - [NTBBloodbath/nvenv](https://github.com/NTBBloodbath/nvenv) - A lightweight and blazing fast Neovim version manager.
 - [shohi/neva](https://github.com/shohi/neva) - A Neovim version manager written in Lua
+
+### Boilerplate
+
+- [gennaro-tedesco/boilit](https://github.com/gennaro-tedesco/boilit) - Create boilerplate structure for neovim plugins
+
+## Vim
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
 
