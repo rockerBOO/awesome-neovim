@@ -129,7 +129,7 @@ Neovim supports a wide variety of UI's.
 
 Treesitter is a new system coming in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for treesitter highlight groups. Vim colorschemes will work with the new groups out of the box.
 
-- [tomasiser/vim-code-dark] (https://github.com/tomasiser/vim-code-dark) - A dark color scheme heavily inspired by the look of the Dark+ scheme of Visual Studio Code
+- [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) - A dark color scheme heavily inspired by the look of the Dark+ scheme of Visual Studio Code
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - material.nvim is a highly configurable colorscheme written in lua and based on the material palette
 - [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) - nightfly is a dark GUI color scheme heavily inspired by Sarah Drasner's Night Owl theme.
 - [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - moonfly is a dark color scheme with Treesitter support
@@ -162,8 +162,11 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [maaslalani/nordbuddy](https://github.com/maaslalani/nordbuddy) - A nord-esque colorscheme using colorbuddy.nvim
 - [MordechaiHadad/nvim-papadark](https://github.com/MordechaiHadad/nvim-papadark) - My own neovim colorscheme
 - [ishan9299/nvim-solarized-lua](https://github.com/ishan9299/nvim-solarized-lua) - solarized colorscheme in lua for nvim 0.5
+- [shaunsingh/moonlight.nvim](https://github.com/shaunsingh/moonlight.nvim) - Port of VSCode's Moonlight colorscheme for NeoVim, written in Lua with built-in support for native LSP, TreeSitter and many more plugins
+- [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) - A One Dark Theme for Neovim 0.5 written in lua based on Atom's One Dark Theme
 
 ### Utility
+
 - [famiu/nvim-reload](https://github.com/famiu/nvim-reload) - Easily reload your Neovim config
 
 ### Icons
@@ -346,6 +349,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
 - [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, javascript) 
 - [ChristianChiarulli/LunarVim](https://github.com/ChristianChiarulli/LunarVim) - This project aims to help one transition away from VSCode, and into a superior text editing experience.
+- [hackorum/VapourNvim](https://github.com/hackorum/VapourNvim) - A NeoVim config for THE ULTIMATE vim IDE-like experience.
 
 ### Keybindings
 
@@ -356,11 +360,20 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes
 
-## Others
+## External
+
+These tools are used externally to neovim to enhance the experience. 
 
 ### Version Managers
+
 - [NTBBloodbath/nvenv](https://github.com/NTBBloodbath/nvenv) - A lightweight and blazing fast Neovim version manager.
 - [shohi/neva](https://github.com/shohi/neva) - A Neovim version manager written in Lua
+
+### Boilerplate
+
+- [gennaro-tedesco/boilit](https://github.com/gennaro-tedesco/boilit) - Create boilerplate structure for neovim plugins
+
+## Vim
 
 [Vimawesome](https://vimawesome.com/) showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
 
