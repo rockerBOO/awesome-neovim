@@ -329,6 +329,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - A Neovim plugin for setting the `commentstring` option based on the cursor location in the file. The location is checked via treesitter queries.
 - [kdav5758/TrueZen.nvim](https://github.com/kdav5758/TrueZen.nvim) - Clean and elegant distraction-free writing for NeoVim..
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free coding for Neovim.
+- [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) - Shows virtual text of the current context
 
 ## Media
 
