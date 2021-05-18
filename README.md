@@ -130,6 +130,7 @@ Neovim supports a wide variety of UI's.
 
 Treesitter is a new system coming in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for treesitter highlight groups. Vim colorschemes will work with the new groups out of the box.
 
+- [rafamadriz/neon](https://github.com/rafamadriz/neon) - Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with TreeSitter.
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) - A dark color scheme heavily inspired by the look of the Dark+ scheme of Visual Studio Code
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - material.nvim is a highly configurable colorscheme written in lua and based on the material palette
 - [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) - nightfly is a dark GUI color scheme heavily inspired by Sarah Drasner's Night Owl theme.
@@ -330,6 +331,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free coding for Neovim.
 
 ## Media
+
 - [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) - Neovim Lua plugin to paste image from clipboard.
 
 ### Discord Rich Presence
@@ -351,7 +353,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Preconfigured Configurations
 
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
-- [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, javascript) 
+- [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, javascript)
 - [ChristianChiarulli/LunarVim](https://github.com/ChristianChiarulli/LunarVim) - This project aims to help one transition away from VSCode, and into a superior text editing experience.
 - [hackorum/VapourNvim](https://github.com/hackorum/VapourNvim) - A NeoVim config for THE ULTIMATE vim IDE-like experience.
 
@@ -366,7 +368,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ## External
 
-These tools are used externally to neovim to enhance the experience. 
+These tools are used externally to neovim to enhance the experience.
 
 ### Version Managers
 
