@@ -4,7 +4,9 @@
 
 # Awesome Neovim
 
+<!-- Uncomment the awesome badge when the repository is added to awesome main list.
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+-->
 
 Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Neovim specific features.
 
