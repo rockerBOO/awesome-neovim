@@ -61,7 +61,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Browser integration](#browser-integration)
   - [Editing supports](#editing-supports)
   - [Web development](#web-development)
-- [Media](#media)
+  - [Media](#media)
   - [Discord Rich Presence](#discord-rich-presence)
   - [Command Line](#command-line)
   - [Sessions](#sessions)
@@ -406,7 +406,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [NTBBloodbath/rest.nvim](https://github.com/NTBBloodbath/rest.nvim) - A fast Neovim http client written in Lua.
 
-## Media
+### Media
 
 - [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) - Neovim Lua plugin to paste image from clipboard.
 
