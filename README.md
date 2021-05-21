@@ -237,6 +237,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [ishan9299/nvim-solarized-lua](https://github.com/ishan9299/nvim-solarized-lua) - Solarized colorscheme in lua for nvim 0.5.
 - [shaunsingh/moonlight.nvim](https://github.com/shaunsingh/moonlight.nvim) - Port of VSCode's Moonlight colorscheme for NeoVim, written in Lua with built-in support for native LSP, TreeSitter and many more plugins.
 - [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) - A One Dark Theme for Neovim 0.5 written in lua based on Atom's One Dark Theme.
+- [lourenci/github-colors](https://github.com/lourenci/github-colors) - GitHub colors leveraging Treesitter to get 100% accuracy.
 
 ### Utility
 
