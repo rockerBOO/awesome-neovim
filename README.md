@@ -73,6 +73,7 @@ Neovim supports a wide variety of UI's.
 
 ### Markdown
 
+- [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Preview markdown on your modern browser with synchronised scrolling and flexible configuration
 - [npxbr/glow.nvim](https://github.com/npxbr/glow.nvim) - Markdown preview using glow
 - [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API
 
