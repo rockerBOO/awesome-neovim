@@ -3,7 +3,7 @@ name: Lint
 on:
   push:
     branches: [master]
-  pull_requests:
+  pull_request:
     types: [opened, synchronize]
 
 jobs:
