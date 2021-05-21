@@ -58,6 +58,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Project](#project)
   - [Browser integration](#browser-integration)
   - [Editing supports](#editing-supports)
+  - [Web development](#web-development)
 - [Media](#media)
   - [Discord Rich Presence](#discord-rich-presence)
   - [Command Line](#command-line)
@@ -123,6 +124,7 @@ Neovim supports a wide variety of UI's.
 - [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) - Learn existing code quickly and navigate code like a breeze. A swiss army knife makes exploring LSP and 🌲Treesitter symbols a piece of 🍰.
 - [liuchengxu/vista.vim](https://github.com/liuchengxu/vista.vim) - List all functions and variables in a window of your current file.
 - [simrat39/symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim) - A tree like view for symbols in Neovim using the Language Server Protocol. Supports all your favourite languages.
+- [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) - A plugin for setting Neovim LSP with JSON files.
 
 ##### LSP Installers
 
