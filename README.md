@@ -127,6 +127,7 @@ Neovim supports a wide variety of UI's.
 - [liuchengxu/vista.vim](https://github.com/liuchengxu/vista.vim) - List all functions and variables in a window of your current file.
 - [simrat39/symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim) - A tree like view for symbols in Neovim using the Language Server Protocol. Supports all your favourite languages.
 - [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) - A plugin for setting Neovim LSP with JSON files.
+- [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) - Tools for better development in rust using Neovim's builtin LSP.
 
 ##### LSP Installers
 
