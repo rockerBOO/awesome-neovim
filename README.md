@@ -241,6 +241,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Utility
 
 - [famiu/nvim-reload](https://github.com/famiu/nvim-reload) - Easily reload your Neovim config.
+- [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) - Delete Neovim buffers without losing your window layout.
 
 ### Icons
 
