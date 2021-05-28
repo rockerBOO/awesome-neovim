@@ -372,6 +372,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Scrollbar
 
 - [Xuyuanp/scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim) - Scrollbar for neovim.
+- [dstein64/nvim-scrollview](https://github.com/dstein64/nvim-scrollview) - A Neovim plugin that displays interactive scrollbars.
 
 ### Scrolling
 
