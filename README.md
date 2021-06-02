@@ -409,6 +409,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [Pocco81/HighStr.nvim](https://github.com/Pocco81/HighStr.nvim) - A NeoVim plugin for highlighting visual selections like in a normal document editor!
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free coding for Neovim.
 - [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) - Shows virtual text of the current context.
+- [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim) - Interactively select and swap function arguments, list elements, and more. Powered by tree-sitter.
 
 ### Web development
 
