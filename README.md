@@ -60,6 +60,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Project](#project)
   - [Browser integration](#browser-integration)
   - [Editing supports](#editing-supports)
+  - [Formatting](#formatting)
   - [Web development](#web-development)
   - [Media](#media)
   - [Discord Rich Presence](#discord-rich-presence)
@@ -424,6 +425,11 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) - Shows virtual text of the current context.
 - [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim) - Interactively select and swap function arguments, list elements, and more. Powered by tree-sitter.
 - [nacro90/numb.nvim](https://github.com/nacro90/numb.nvim) - Peek lines in a non-obtrusive way.
+
+### Formatting
+
+- [mhartington/formatter.nvim](https://github.com/mhartington/formatter.nvim) - A format runner for Neovim written in Lua.
+- [lukas-reineke/format.nvim](https://github.com/lukas-reineke/format.nvim) - Fast asynchronous formatting for Neovim. Supports formatting embedded code blocks.
 
 ### Web development
 
