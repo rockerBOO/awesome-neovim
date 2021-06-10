@@ -168,6 +168,7 @@ Neovim supports a wide variety of UI's.
 - [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim) - Snippets in lua.
 - [hrsh7th/vim-vsnip](https://github.com/hrsh7th/vim-vsnip) - Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.
 - [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippets collection for all kind of programming languages that integrates really well with vim-vsnip.
+- [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) - A snippet engine for Neovim written in Lua.
 
 ### Registers
 
@@ -354,6 +355,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [glepnir/prodoc.nvim](https://github.com/glepnir/prodoc.nvim) - Comment and support generate annotation.
 - [gennaro-tedesco/nvim-commaround](https://github.com/gennaro-tedesco/nvim-commaround) - Fast and light commenting plugin written in Lua.
 - [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - Highlight, list and search todo comments in your projects.
+- [terrortylor/nvim-comment](https://github.com/terrortylor/nvim-comment) - Toggle comments in Neovim using the built-in commentstring option.
 
 ### Collaborative Editing
 
@@ -398,6 +400,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) - Load neovim config depend on project directory.
 - [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre) - Search and replace panel for neovim.
+- [ahmedkhalf/lsp-rooter.nvim](https://github.com/ahmedkhalf/lsp-rooter.nvim) - Automatically change the current working directory to the project's working directory using the native LSP.
 
 ### Browser integration
 
@@ -420,6 +423,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free coding for Neovim.
 - [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) - Shows virtual text of the current context.
 - [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim) - Interactively select and swap function arguments, list elements, and more. Powered by tree-sitter.
+- [nacro90/numb.nvim](https://github.com/nacro90/numb.nvim) - Peek lines in a non-obtrusive way.
 
 ### Web development
 
