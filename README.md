@@ -251,6 +251,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material) - Gruvbox modification with softer contrast and Tree-sitter support.
 - [sainnhe/everforest](https://github.com/sainnhe/everforest) - A green based colorscheme designed to be warm, soft and easy on the eyes.
 - [NTBBloodbath/doom-one.nvim](https://github.com/NTBBloodbath/doom-one.nvim) - Lua port of doom-emacs' doom-one for Neovim.
+- [dracula/vim](https://github.com/dracula/vim) - Famous beautiful dark powered theme.
 
 ### Utility
 
