@@ -201,6 +201,8 @@ Neovim supports a wide variety of UI's.
 - [jbyuki/nabla.nvim](https://github.com/jbyuki/nabla.nvim) - Take your scientific notes in Neovim.
 - [vhyrro/neorg](https://github.com/vhyrro/neorg) - Modernity meets insane extensibility. The future of organizing your life in Neovim.
 - [NFrid/due.nvim](https://github.com/NFrid/due.nvim) - Displays due for a date string as a virtual text.
+- [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) - Draw ASCII diagrams in Neovim
+
 
 ### Colorscheme
 
@@ -285,7 +287,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [nvim-lua/popup.nvim](https://github.com/nvim-lua/popup.nvim) - An implementation of the Popup API from vim in Neovim.
 - [tjdevries/vlog.nvim](https://github.com/tjdevries/vlog.nvim) - Single file, no dependency, easy copy & paste log file to add to your neovim lua plugins.
 - [bfredl/nvim-luadev](https://github.com/bfredl/nvim-luadev) - REPL/debug console for nvim lua plugins. The `:Luadev` command will open an scratch window which will show output from executing lua code.
-- [one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind) - An adapter for the Neovim lua language. It allows you to debug any lua code running in a Neovim instance (A lua plugin that can debug nvim lua plugins).
+- [jbyuki/one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind) - An adapter for the Neovim lua language. It allows you to debug any lua code running in a Neovim instance (A lua plugin that can debug nvim lua plugins).
 - [tami5/sql.nvim](https://github.com/tami5/sql.nvim) - SQLite/LuaJIT binding for lua and neovim.
 - [folke/lua-dev.nvim](https://github.com/folke/lua-dev.nvim) - Dev setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API.
 
