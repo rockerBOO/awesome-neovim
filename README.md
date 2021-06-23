@@ -487,7 +487,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Remote Container Development
 
-- [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode 
+- [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode. 
 
 ## External
 
