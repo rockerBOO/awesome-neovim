@@ -70,7 +70,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Preconfigured Configurations](#preconfigured-configurations)
   - [Keybindings](#keybindings)
   - [Tmux](#tmux)
-  - [Remote Container Development](#containers)
+  - [Remote Container Development](#remote-container-development)
 - [External](#external)
   - [Version Managers](#version-managers)
   - [Boilerplate](#boilerplate)
