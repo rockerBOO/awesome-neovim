@@ -110,7 +110,7 @@ Neovim supports a wide variety of UI's.
 
 ### LSP
 
-#### (requires Neovim Nightly)
+#### (requires Neovim 0.5)
 
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Quickstart configurations for the Nvim LSP client.
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) - This is a Neovim plugin/library for generating statusline components from the built-in LSP client.
