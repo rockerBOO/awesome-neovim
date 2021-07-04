@@ -153,12 +153,11 @@ Neovim supports a wide variety of UI's.
 - [jghauser/follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim) - Press enter to follow internal markdown links.
 - [jubnzv/mdeval.nvim](https://github.com/jubnzv/mdeval.nvim) - A Neovim plugin that evaluates code blocks inside markdown documents.
 
-
 ### Syntax
 
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Nvim Treesitter configurations and abstraction layer.
 - [nvim-treesitter/nvim-treesitter-textobject](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Create your own textobjects using tree-sitter queries.
-- [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) - Location and syntax aware text objects which *do what you mean*.
+- [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) - Location and syntax aware text objects which _do what you mean_.
 
 ### Terminal integration
 
@@ -205,7 +204,6 @@ Neovim supports a wide variety of UI's.
 - [vhyrro/neorg](https://github.com/vhyrro/neorg) - Modernity meets insane extensibility. The future of organizing your life in Neovim.
 - [NFrid/due.nvim](https://github.com/NFrid/due.nvim) - Displays due for a date string as a virtual text.
 - [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) - Draw ASCII diagrams in Neovim.
-
 
 ### Colorscheme
 
@@ -482,6 +480,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [ChristianChiarulli/LunarVim](https://github.com/ChristianChiarulli/LunarVim) - This project aims to help one transition away from VSCode, and into a superior text editing experience.
 - [hackorum/VapourNvim](https://github.com/hackorum/VapourNvim) - A NeoVim config for THE ULTIMATE vim IDE-like experience.
 - [vi-tality/neovitality](https://github.com/vi-tality/neovitality) - A full-featured NeoVim distribution, packaged with Nix Flake for easy installation and reproducibility.
+- [siduck76/NvChad](https://github.com/siduck76/NvChad) - NeoVim configuration with beautiful Onedark/Gruvbox colors, providing VSCode-like experience.
 
 ### Keybindings
 
@@ -494,7 +493,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Remote Container Development
 
-- [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode. 
+- [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode.
 
 ## External
 
