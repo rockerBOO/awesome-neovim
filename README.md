@@ -318,6 +318,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Cursorline
 
 - [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) - A plugin for neovim that highlights cursor words and lines.
+- [xiyaowong/nvim-cursorword](https://github.com/xiyaowong/nvim-cursorword) - Part of nvim-cursorline. Highlight the word under the cursor.
 
 ### Start screen
 
