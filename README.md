@@ -210,6 +210,11 @@ Neovim supports a wide variety of UI's.
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors.
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port.
 - [Shadorain/shadotheme](https://github.com/Shadorain/shadotheme) - Shadotheme, an amazing colorscheme featuring purple, pink, and shades of red.
+- [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - A port or Material colorscheme for NeoVim written in Lua.
+- [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) - Neovim theme based off of the Nord Color Palette.
+- [shaunsingh/moonlight.nvim]() - Modified version of Marko Cerovac's Material.nvim, based off of the Moonlight Theme for VSCode.
+- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - A dark and light Neovim theme written in Lua ported from the Visual Studio Code TokyoNight theme.
+- [siduck76/nvim-base16.lua](https://github.com/siduck76/nvim-base16.lua) - Programmatic lua library for setting base16 themes in Neovim.
 
 #### Treesitter Supported Colorschemes
 
