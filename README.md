@@ -196,6 +196,7 @@ Neovim supports a wide variety of UI's.
 - [rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim) - Define Neovim themes as a DSL in lua, with real-time feedback.
 - [sunjon/Shade.nvim](https://github.com/sunjon/Shade.nvim) - Shade is a Neovim plugin that dims your inactive windows, making it easier to see the active window at a glance.
 - [winston0410/range-highlight.nvim](https://github.com/winston0410/range-highlight.nvim) - An extremely lightweight plugin (~ 120loc) that highlights ranges you have entered in commandline.
+- [xiyaowong/nvim-transparent](https://github.com/xiyaowong/nvim-transparent) - Make your neovim transparent.
 
 ### Note Taking
 
