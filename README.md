@@ -389,6 +389,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Quickfix
 
 - [kevinhwang91/nvim-bqf](https://github.com/kevinhwang91/nvim-bqf) - The goal of nvim-bqf is to make Neovim's quickfix window better.
+- [stevearc/qf_helper.nvim](https://github.com/stevearc/qf_helper.nvim) - A collection of improvements for Neovim quickfix.
 
 ### Motions
 
