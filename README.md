@@ -266,6 +266,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) - Delete Neovim buffers without losing your window layout.
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) - Automatically create missing directories when saving files.
 - [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) - Pretty and minimal buffer switcher window.
+- [fhill2/floating.nvim](https://github.com/fhill2/floating.nvim) - nvim floating window manager.
 
 ### Icons
 
