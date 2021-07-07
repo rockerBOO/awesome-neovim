@@ -259,6 +259,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [NTBBloodbath/doom-one.nvim](https://github.com/NTBBloodbath/doom-one.nvim) - Lua port of doom-emacs' doom-one for Neovim.
 - [dracula/vim](https://github.com/dracula/vim) - Famous beautiful dark powered theme.
 - [yashguptaz/calvera-dark.nvim](https://github.com/yashguptaz/calvera-dark.nvim) - A port of [VSCode Calvara Dark](https://github.com/saurabhdaware/vscode-calvera-dark) Theme to Neovim with TreeSitter and many other plugins support.  
+- [nxvu699134/vn-night.nvim](https://github.com/nxvu699134/vn-night.nvim) - A dark neovim colorscheme written in lua. Support built-in LSP and Treesitter.
 
 ### Utility
 
