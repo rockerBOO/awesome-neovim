@@ -123,6 +123,7 @@ Neovim supports a wide variety of UI's.
 - [kosayoda/nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb) - The plugin shows a lightbulb in the sign column whenever a `textDocument/codeAction` is available at the current cursor position.
 - [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim) - The plugin adds vscode-like icons to neovim lsp completions.
 - [ojroques/nvim-lspfuzzy](https://github.com/ojroques/nvim-lspfuzzy) - A small plugin to make the LSP client use FZF.
+- [gfanto/fzf-lsp.nvim](https://github.com/gfanto/fzf-lsp.nvim) - Enable the power of fzf fuzzy search for the neovim built in lsp.
 - [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) - Lsp signature hint when you type.
 - [nanotee/sqls.nvim](https://github.com/nanotee/sqls.nvim) - Sqls (sql database connection plugin + LSP client) plugin for nvim.
 - [jubnzv/virtual-types.nvim](https://github.com/jubnzv/virtual-types.nvim) - Neovim plugin that shows type annotations as virtual text.
@@ -203,6 +204,7 @@ Neovim supports a wide variety of UI's.
 - [oberblastmeister/neuron.nvim](https://github.com/oberblastmeister/neuron.nvim) - Note taking plugin for neuron that integrates with telescope.nvim.
 - [jbyuki/nabla.nvim](https://github.com/jbyuki/nabla.nvim) - Take your scientific notes in Neovim.
 - [vhyrro/neorg](https://github.com/vhyrro/neorg) - Modernity meets insane extensibility. The future of organizing your life in Neovim.
+- [kristijanhusak/orgmode.nvim](https://github.com/kristijanhusak/orgmode.nvim) - Orgmode clone written in Lua for Neovim 0.5+.
 - [NFrid/due.nvim](https://github.com/NFrid/due.nvim) - Displays due for a date string as a virtual text.
 - [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) - Draw ASCII diagrams in Neovim.
 
@@ -260,6 +262,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [dracula/vim](https://github.com/dracula/vim) - Famous beautiful dark powered theme.
 - [yashguptaz/calvera-dark.nvim](https://github.com/yashguptaz/calvera-dark.nvim) - A port of [VSCode Calvara Dark](https://github.com/saurabhdaware/vscode-calvera-dark) Theme to Neovim with TreeSitter and many other plugins support.  
 - [nxvu699134/vn-night.nvim](https://github.com/nxvu699134/vn-night.nvim) - A dark neovim colorscheme written in lua. Support built-in LSP and Treesitter.
+- [adisen99/codeschool.nvim](https://github.com/adisen99/codeschool.nvim) - Codeschool colorscheme for neovim written in lua with treesitter and built-in lsp support.
 
 ### Utility
 
@@ -268,6 +271,8 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) - Automatically create missing directories when saving files.
 - [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) - Pretty and minimal buffer switcher window.
 - [fhill2/floating.nvim](https://github.com/fhill2/floating.nvim) - Neovim floating window manager.
+- [clojure-vim/jazz.nvim](https://github.com/clojure-vim/jazz.nvim) - Acid + Impromptu = Jazz
+- [code-biscuits/nvim-biscuits](https://github.com/code-biscuits/nvim-biscuits) - A neovim port of Assorted Biscuits. Ends up with more supported languages too.
 
 ### Icons
 
@@ -304,9 +309,12 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Tabline
 
+- [noib3/cokeline](https://github.com/noib3/cokeline.nvim) - A neovim bufferline for people with addictive personalities
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin.
 - [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim.
+- [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) - nvim port of tabline.vim with Lua
 - [alvarosevilla95/luatab.nvim](https://github.com/alvarosevilla95/luatab.nvim) - A simple tabline written in lua.
+- [johann2357/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) - Smart buffer management in neovim.
 
 ### Statusline
 
@@ -499,6 +507,8 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Tmux
 
 - [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes.
+- [hkupty/nvimux](https://github.com/hkupty/nvimux) - Neovim as tmux replacement.
+- [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) - tmux integration for nvim features pane movement and resizing from within nvim.
 
 ### Remote Container Development
 
