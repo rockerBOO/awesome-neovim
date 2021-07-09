@@ -309,7 +309,6 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 ### Tabline
 
-- [noib3/cokeline](https://github.com/noib3/cokeline.nvim) - A neovim bufferline for people with addictive personalities.
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin.
 - [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim.
 - [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) - Nvim port of tabline.vim with Lua.
