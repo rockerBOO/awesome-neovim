@@ -312,7 +312,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [noib3/cokeline](https://github.com/noib3/cokeline.nvim) - A neovim bufferline for people with addictive personalities.
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin.
 - [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim.
-- [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) - nvim port of tabline.vim with Lua.
+- [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) - Nvim port of tabline.vim with Lua.
 - [alvarosevilla95/luatab.nvim](https://github.com/alvarosevilla95/luatab.nvim) - A simple tabline written in lua.
 - [johann2357/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) - Smart buffer management in neovim.
 
@@ -509,7 +509,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes.
 - [hkupty/nvimux](https://github.com/hkupty/nvimux) - Neovim as tmux replacement.
-- [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) - tmux integration for nvim features pane movement and resizing from within nvim.
+- [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) - Tmux integration for nvim features pane movement and resizing from within nvim.
 
 ### Remote Container Development
 
