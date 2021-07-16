@@ -344,7 +344,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Indent
 
 - [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) - Indent plugin.
-- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim/tree/lua) - IndentLine replacement in lua with more features and treesitter support.
+- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - IndentLine replacement in lua with more features and treesitter support.
 
 ### Games
 
