@@ -134,6 +134,7 @@ Neovim supports a wide variety of UI's.
 - [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) - A plugin for setting Neovim LSP with JSON files.
 - [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) - Tools for better development in rust using Neovim's builtin LSP.
 - [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim) - A code outline window for skimming and quick navigation.
+- [jose-elias-alvarez/null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) -  Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.
 
 ##### LSP Installers
 
