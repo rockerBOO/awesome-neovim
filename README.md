@@ -200,6 +200,7 @@ Neovim supports a wide variety of UI's.
 - [winston0410/range-highlight.nvim](https://github.com/winston0410/range-highlight.nvim) - An extremely lightweight plugin (~ 120loc) that highlights ranges you have entered in commandline.
 - [xiyaowong/nvim-transparent](https://github.com/xiyaowong/nvim-transparent) - Make your neovim transparent.
 - [folke/twilight.nvim](https://github.com/folke/twilight.nvim) - Dim inactive portions of the code you're editing using TreeSitter.
+- [rose-pine/neovim](https://github.com/rose-pine/neovim) - All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
 ### Note Taking
 
