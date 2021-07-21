@@ -46,7 +46,6 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [File explorer](#file-explorer)
   - [Dependency management](#dependency-management)
   - [Git](#git)
-  - [Json](#json)
   - [Programming languages support](#programming-languages-support)
   - [Comment](#comment)
   - [Collaborative Editing](#collaborative-editing)
@@ -160,6 +159,7 @@ Neovim supports a wide variety of UI's.
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Nvim Treesitter configurations and abstraction layer.
 - [nvim-treesitter/nvim-treesitter-textobject](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Create your own textobjects using tree-sitter queries.
 - [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) - Location and syntax aware text objects which *do what you mean*.
+- [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) - A surround text object plugin for neovim written in lua.
 
 ### Terminal integration
 
@@ -275,7 +275,6 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) - Delete Neovim buffers without losing your window layout.
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) - Automatically create missing directories when saving files.
 - [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) - Pretty and minimal buffer switcher window.
-- [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) - UI Component Library for Neovim.
 - [clojure-vim/jazz.nvim](https://github.com/clojure-vim/jazz.nvim) - Acid + Impromptu = Jazz.
 - [code-biscuits/nvim-biscuits](https://github.com/code-biscuits/nvim-biscuits) - A neovim port of Assorted Biscuits. Ends up with more supported languages too.
 - [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim) - A NeoVim plugin for managing vim abbreviations.
@@ -309,6 +308,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [jbyuki/one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind) - An adapter for the Neovim lua language. It allows you to debug any lua code running in a Neovim instance (A lua plugin that can debug nvim lua plugins).
 - [tami5/sql.nvim](https://github.com/tami5/sql.nvim) - SQLite/LuaJIT binding for lua and neovim.
 - [folke/lua-dev.nvim](https://github.com/folke/lua-dev.nvim) - Dev setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API.
+- [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) - UI Component Library for Neovim.
 
 ### Fennel
 
@@ -378,15 +378,12 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim) - Single tabpage interface for easily cycling through diffs for all modified files for any git rev.
 - [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) - Plugin for calling lazygit from within Neovim.
 
-### Json
-
-- [gennaro-tedesco/nvim-jqx](https://github.com/gennaro-tedesco/nvim-jqx) - Interactive interface for json files.
-
 ### Programming languages support
 
 - [go.nvim](https://github.com/ray-x/go.nvim) - Golang plugin based on lsp and Treesitter.
 - [akinsho/flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim) - Build flutter and dart applications in neovim using the native lsp.
 - [crispgm/nvim-go](https://github.com/crispgm/nvim-go) - A minimal implementation of Golang development plugin for Neovim.
+- [gennaro-tedesco/nvim-jqx](https://github.com/gennaro-tedesco/nvim-jqx) - Interactive interface for json files.
 
 ### Comment
 
@@ -455,7 +452,6 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use treesitter to autoclose and autorename xml,html,jsx tag.
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - A minimalist autopairs for Neovim written by Lua.
 - [steelsojka/pears.nvim](https://github.com/steelsojka/pears.nvim) - Auto pair plugin for neovim.
-- [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) - A surround text object plugin for neovim written in lua.
 - [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
 - [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) - Rainbow :rainbow: parentheses for neovim using tree-sitter :rainbow:.
 - [AckslD/nvim-revJ.lua](https://github.com/AckslD/nvim-revJ.lua) - Neovim Lua plugin for doing the opposite of join-line (J) for arguments.
