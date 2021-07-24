@@ -192,6 +192,7 @@ Neovim supports a wide variety of UI's.
 - [LoricAndre/fzterm.nvim](https://github.com/LoricAndre/fzterm.nvim) - The basic idea is to make it fully customizable, the plugins provides the basic framework and a few implementations.
 - [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) - Fuzzy.nvim provides a simple mechanism and pipeline to create fuzzy matching in neovim.
 - [camspiers/snap](https://github.com/camspiers/snap) - An extensible fuzzy finder. Similar to Telescope, and optimized for performance, especially when grepping in large codebases.
+- [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) - The lua version of `fzf.vim`, high-performance and fully async, supports `nvim-web-devicons`, git indicators, LSP, quickfix/location lists and more. Also supports [`skim`](https://github.com/lotabout/skim) as its fzf binary.
 
 ### Colors
 
