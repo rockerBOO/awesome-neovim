@@ -164,7 +164,7 @@ Neovim supports a wide variety of UI's.
 
 ### Terminal integration
 
-- [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) - One terminal plugin to rule them all ! (eventually)
+- [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) - Plugin framework for running commands in the terminal. 
 - [nikvdp/neomux](https://github.com/nikvdp/neomux) - Control neovim from shells running inside neovim.
 - [akinsho/nvim-toggleterm.lua](https://github.com/akinsho/nvim-toggleterm.lua) - A neovim lua plugin to help easily manage multiple terminal windows.
 - [norcalli/nvim-terminal.lua](https://github.com/norcalli/nvim-terminal.lua) - A high performance filetype mode for Neovim which leverages conceal and highlights your buffer with the correct color codes.
@@ -190,7 +190,6 @@ Neovim supports a wide variety of UI's.
 
 - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Telescope.nvim is a highly [extendable](https://github.com/nvim-telescope/telescope.nvim/wiki/Extensions) fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
 - [vijaymarupudi/nvim-fzf](https://github.com/vijaymarupudi/nvim-fzf) - A Lua API for using fzf in `Neovim` (>= 0.5). Allows for full asynchronicity for UI speed and usability.
-- [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) - The basic idea is to make it fully customizable, the plugins provides the basic framework and a few implementations.
 - [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) - Fuzzy.nvim provides a simple mechanism and pipeline to create fuzzy matching in neovim.
 - [camspiers/snap](https://github.com/camspiers/snap) - An extensible fuzzy finder. Similar to Telescope, and optimized for performance, especially when grepping in large codebases.
 - [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) - The lua version of `fzf.vim`, high-performance and fully async, supports `nvim-web-devicons`, git indicators, LSP, quickfix/location lists and more. Also supports [`skim`](https://github.com/lotabout/skim) as its fzf binary.
