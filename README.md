@@ -135,6 +135,7 @@ Neovim supports a wide variety of UI's.
 - [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) - Tools for better development in rust using Neovim's builtin LSP.
 - [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim) - A code outline window for skimming and quick navigation.
 - [jose-elias-alvarez/null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) -  Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.
+- [jakewvincent/texmagic.nvim](https://github.com/jakewvincent/texmagic.nvim) - Define custom LaTeX build engines and select them with magic comments by passing a variable to your lspconfig settings for Texlab.
 
 ##### LSP Installers
 
@@ -153,6 +154,7 @@ Neovim supports a wide variety of UI's.
 - [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
 - [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) - Easy pandoc conversion leveraging yaml blocks.
 - [jghauser/follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim) - Press enter to follow internal markdown links.
+- [jakewvincent/mkdnflow.nvim](https://github.com/jakewvincent/mkdnflow.nvim) - Markdown notebook navigation (follow internal and external markdown links, create links, jump to links, etc.)
 - [jubnzv/mdeval.nvim](https://github.com/jubnzv/mdeval.nvim) - A Neovim plugin that evaluates code blocks inside markdown documents.
 
 ### Syntax
@@ -214,6 +216,7 @@ Neovim supports a wide variety of UI's.
 - [kristijanhusak/orgmode.nvim](https://github.com/kristijanhusak/orgmode.nvim) - Orgmode clone written in Lua for Neovim 0.5+.
 - [NFrid/due.nvim](https://github.com/NFrid/due.nvim) - Displays due for a date string as a virtual text.
 - [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) - Draw ASCII diagrams in Neovim.
+- [jakewvincent/mkdnflow.nvim](https://github.com/jakewvincent/mkdnflow.nvim) - Markdown notebook navigation (follow internal and external markdown links, create links, jump to links, etc.)
 
 ### Colorscheme
 
@@ -445,6 +448,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) - Load neovim config depend on project directory.
 - [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre) - Search and replace panel for neovim.
 - [ahmedkhalf/lsp-rooter.nvim](https://github.com/ahmedkhalf/lsp-rooter.nvim) - Automatically change the current working directory to the project's working directory using the native LSP.
+- [jakewvincent/texmagic.nvim](https://github.com/jakewvincent/texmagic.nvim) - Define your own LaTeX build engines and call them on a by-project basis using magic comments (e.g. `%! TEX program = xelatex`)
 
 ### Browser integration
 
