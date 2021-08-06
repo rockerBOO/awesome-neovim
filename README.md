@@ -76,6 +76,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Boilerplate](#boilerplate)
 - [Vim](#vim)
   - [Vim Plugins](#vim-plugins)
+- [Resources](#resources)
 
 ## Wishlist
 
@@ -548,3 +549,8 @@ These tools are used externally to neovim to enhance the experience.
 ### Vim Plugins
 
 Most vim plugins also work for neovim! How cool is that!.
+
+## Resources
+
+- [Neovimcraft](https://neovimcraft.com) - A site dedicated to searching for neovim specific
+  plugins and guides for building plugins in lua.
