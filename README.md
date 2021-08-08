@@ -374,6 +374,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Dependency management
 
 - [akinsho/dependency-assist.nvim](https://github.com/akinsho/dependency-assist.nvim) - Search for and add new dependencies (dart, for now but rust coming soon).
+- [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim) - Display latest package version as virtual text in package.json.
 
 ### Git
 
