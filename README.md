@@ -71,6 +71,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Keybindings](#keybindings)
   - [Tmux](#tmux)
   - [Remote Container Development](#remote-container-development)
+  - [Miscellaneous](#miscellaneous)
 - [External](#external)
   - [Version Managers](#version-managers)
   - [Boilerplate](#boilerplate)
@@ -532,6 +533,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Remote Container Development
 
 - [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode.
+
+### Miscellaneous
+
+- [henriquehbr/nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua) - Displays neovim startup time
 
 ## External
 
