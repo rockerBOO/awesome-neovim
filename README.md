@@ -527,8 +527,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [hkupty/nvimux](https://github.com/hkupty/nvimux) - Neovim as tmux replacement.
 - [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) - Tmux integration for nvim features pane movement and resizing from within nvim.
 
-### Remote Container Development
+### Remote Development
 
+- [chipsenkbeil/distant.nvim](https://github.com/chipsenkbeil/distant.nvim) - Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment
 - [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode.
 
 ## External
