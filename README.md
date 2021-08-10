@@ -40,7 +40,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Tabline](#tabline)
   - [Statusline](#statusline)
   - [Cursorline](#cursorline)
-  - [Start screen](#start-screen)
+  - [Startup](#startup)
   - [Indent](#indent)
   - [Games](#games)
   - [File explorer](#file-explorer)
@@ -350,9 +350,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) - A plugin for neovim that highlights cursor words and lines.
 - [xiyaowong/nvim-cursorword](https://github.com/xiyaowong/nvim-cursorword) - Part of nvim-cursorline. Highlight the word under the cursor.
 
-### Start screen
+### Startup
 
 - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim) - A minimalist dashboard for neovim, inspired by doom-emacs.
+- [henriquehbr/nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua) - Displays neovim startup time.
 
 ### Indent
 
