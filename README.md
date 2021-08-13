@@ -159,7 +159,7 @@ Neovim supports a wide variety of UI's.
 - [jakewvincent/mkdnflow.nvim](https://github.com/jakewvincent/mkdnflow.nvim) - Markdown notebook navigation (follow internal and external markdown links, create links, jump to links, etc.)
 - [jubnzv/mdeval.nvim](https://github.com/jubnzv/mdeval.nvim) - A Neovim plugin that evaluates code blocks inside markdown documents.
 - [mjlbach/babelfish.nvim](https://github.com/mjlbach/babelfish.nvim) - A Neovim plugin to convert Markdown to vimdoc using Treesitter.
-- [kdheepak/panvimdoc](https://github.com/kdheepak/panvimdoc) - A pandoc to vimdoc github action.
+- [kdheepak/panvimdoc](https://github.com/kdheepak/panvimdoc) - A pandoc to vimdoc GitHub action.
 
 ### Syntax
 
