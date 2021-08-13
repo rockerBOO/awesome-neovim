@@ -324,6 +324,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Fennel
 
 - [Olical/aniseed](https://github.com/Olical/aniseed) - Configure and extend Neovim with Fennel (Lisp to Lua).
+- [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) - Seamless, transparent Fennel inside Neovim.
 
 ### Tabline
 
