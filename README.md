@@ -289,6 +289,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [code-biscuits/nvim-biscuits](https://github.com/code-biscuits/nvim-biscuits) - A neovim port of Assorted Biscuits. Ends up with more supported languages too.
 - [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim) - A NeoVim plugin for managing vim abbreviations.
 - [kazhala/close-buffers.nvim](https://github.com/kazhala/close-buffers.nvim) - Delete multiple vim buffers based on different conditions.
+- [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) - Post selections or buffers to online paste bins.
 
 ### Icons
 
