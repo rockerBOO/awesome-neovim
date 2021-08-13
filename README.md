@@ -441,6 +441,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Search
 
 - [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - Nvim-hlslens helps you better glance searched information, seamlessly jump matched instances.
+- [rktjmp/highlight-current-n.nivm](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or * match under your cursor when pressing n or N and gets out of the way afterwards.
 
 ### Scrollbar
 
