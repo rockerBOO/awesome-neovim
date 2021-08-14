@@ -72,7 +72,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Tmux](#tmux)
   - [Remote Development](#remote-development)
   - [Music](#music)
-  - [Splits](#splits)
+  - [Splits and windows](#splits-and-windows)
 - [External](#external)
   - [Version Managers](#version-managers)
   - [Boilerplate](#boilerplate)
@@ -545,7 +545,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim)
 - [madskjeldgaard/reaper-nvim](https://github.com/madskjeldgaard/reaper-nvim)
 
-### Splits
+### Splits and Windows
 
 - [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) -  Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids. 
 
