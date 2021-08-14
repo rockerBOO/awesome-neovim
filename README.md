@@ -72,7 +72,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Tmux](#tmux)
   - [Remote Development](#remote-development)
   - [Music](#music)
-  - [Splits and windows](#splits-and-windows)
+  - [Splits and Windows](#splits-and-windows)
 - [External](#external)
   - [Version Managers](#version-managers)
   - [Boilerplate](#boilerplate)
