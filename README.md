@@ -72,7 +72,6 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Keybindings](#keybindings)
   - [Tmux](#tmux)
   - [Remote Development](#remote-development)
-  - [Music](#music)
   - [Splits and Windows](#splits-and-windows)
 - [External](#external)
   - [Version Managers](#version-managers)
@@ -504,6 +503,9 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Media
 
 - [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) - Neovim Lua plugin to paste image from clipboard.
+- [gwatcha/reaper-keys](https://github.com/gwatcha/reaper-keys) - Modal keybindings for Reaper DAW.
+- [madskjeldgaard/reaper-nvim](https://github.com/madskjeldgaard/reaper-nvim) - Remote control Reaper DAW from Neovim.
+- [davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim) - Neovim frontend for SuperCollider.
 
 ### Discord Rich Presence
 
@@ -547,11 +549,6 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [chipsenkbeil/distant.nvim](https://github.com/chipsenkbeil/distant.nvim) - Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment.
 - [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode.
-
-### Music
-
-- [davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim)
-- [madskjeldgaard/reaper-nvim](https://github.com/madskjeldgaard/reaper-nvim)
 
 ### Splits and Windows
 
