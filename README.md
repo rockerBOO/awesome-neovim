@@ -151,6 +151,8 @@ Neovim supports a wide variety of UI's.
 
 - [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim) - An async completion framework aims to provide completion to neovim's built in LSP written in Lua.
 - [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe) - Auto completion plugin for nvim written in Lua.
+- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for neovim written in Lua. New version of nvim-compe.
+- [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) - Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.
 
 ### Markdown
 
@@ -384,6 +386,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) - A file manager for neovim written in lua.
 - [kevinhwang91/rnvimr](https://github.com/kevinhwang91/rnvimr) - A simple yet amazing file explorer for neovim.
 - [Xuyuanp/yanil](https://github.com/Xuyuanp/yanil) - Yet Another Nerdtree In Lua.
+- [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) - File manager for Neovim. Better than NERDTree.
 
 ### Dependency management
 
