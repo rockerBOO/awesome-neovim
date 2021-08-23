@@ -40,6 +40,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Fennel](#fennel)
   - [Tabline](#tabline)
   - [Statusline](#statusline)
+  - [Statusline components](#statusline-components)
   - [Cursorline](#cursorline)
   - [Startup](#startup)
   - [Indent](#indent)
@@ -358,6 +359,10 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [Famiu/feline.nvim](https://github.com/Famiu/feline.nvim) - A minimal, stylish and customizable statusline for Neovim written in Lua.
 - [windwp/windline.nvim](https://github.com/windwp/windline.nvim) - The next generation statusline for neovim. Animation statusline.
 - [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) - A galaxyline configuration inspired by airline.
+
+### Statusline components
+
+- [SmiteshP/nvim-gps](https://github.com/SmiteshP/nvim-gps) - Simple statusline component that shows what scope you are working inside.
 
 ### Cursorline
 
