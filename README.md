@@ -288,6 +288,8 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [projekt0n/github-nvim-theme](https://github.com/projekt0n/github-nvim-theme) - A GitHub theme for neovim, kitty, alacritty written in lua. Support built-in LSP and TreeSitter.
 - [kdheepak/monochrome.nvim](https://github.com/kdheepak/monochrome.nvim) - A 16 bit monochrome colorscheme that uses hsluv for perceptually distinct gray colors, with support for tree sitter and other commonly used plugins.
 - [rose-pine/neovim](https://github.com/rose-pine/neovim) - All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+- [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) - A light vim/nvim colorscheme designed to highlight code using contrasts and font variations. Colors are tasked only for other roles such as diagnostics, diffs, search matches.
+
 
 ### Utility
 
