@@ -361,6 +361,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [Famiu/feline.nvim](https://github.com/Famiu/feline.nvim) - A minimal, stylish and customizable statusline for Neovim written in Lua.
 - [windwp/windline.nvim](https://github.com/windwp/windline.nvim) - The next generation statusline for neovim. Animation statusline.
 - [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) - A galaxyline configuration inspired by airline.
+- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - A snazzy nail_care buffer line for Neovim built using lua.
 
 ### Statusline components
 
