@@ -236,6 +236,8 @@ Neovim supports a wide variety of UI's.
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port.
 - [Shadorain/shadotheme](https://github.com/Shadorain/shadotheme) - Shadotheme, an amazing colorscheme featuring purple, pink, and shades of red.
 - [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) - A dark, yet vibrant colorscheme for neovim.
+- [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) - A port of jellybeans colorscheme for neovim.
+- [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) - Nord Color Palette, written in lua with tree sitter support
 
 #### Treesitter Supported Colorschemes
 
