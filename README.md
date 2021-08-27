@@ -574,12 +574,6 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) -  Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids.
 - [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) - A zen mode for improving code readability on neovim.
 
-## IDEs
-
-Fully configured neovim setups that suits the standards of an IDE (but better)
-- [NvChad](https://github.com/NvChad/NvChad)
-- [LunarVim](https://github.com/LunarVim/LunarVim)
-
 ## External
 
 These tools are used externally to neovim to enhance the experience.
