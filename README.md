@@ -344,7 +344,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 ### Tabline
 
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin.
-- [akinsho/nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim.
+- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - A snazzy nail_care buffer line for Neovim built using lua.
 - [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) - Nvim port of tabline.vim with Lua.
 - [alvarosevilla95/luatab.nvim](https://github.com/alvarosevilla95/luatab.nvim) - A simple tabline written in lua.
 - [johann2357/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) - Smart buffer management in neovim.
@@ -363,7 +363,6 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [Famiu/feline.nvim](https://github.com/Famiu/feline.nvim) - A minimal, stylish and customizable statusline for Neovim written in Lua.
 - [windwp/windline.nvim](https://github.com/windwp/windline.nvim) - The next generation statusline for neovim. Animation statusline.
 - [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) - A galaxyline configuration inspired by airline.
-- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - A snazzy nail_care buffer line for Neovim built using lua.
 
 ### Statusline components
 
