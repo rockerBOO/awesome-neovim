@@ -186,7 +186,7 @@ Neovim supports a wide variety of UI's.
 - [jghauser/kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim) - Poor man's REPL. Easily send buffer lines and commands to a kitty terminal.
 - [jlesquembre/nterm.nvim](https://github.com/jlesquembre/nterm.nvim) - A neovim plugin to interact with the terminal, with notifications.
 - [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) - A simple & easy to use multi-terminal plugin.
-- [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm) - Terminal manager for (neo)vim
+- [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm) - Terminal manager for (neo)vim.
 
 ### Snippets
 
