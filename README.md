@@ -117,6 +117,7 @@ Neovim supports a wide variety of UI's.
 #### (requires Neovim 0.5)
 
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Quickstart configurations for the Nvim LSP client.
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Node.js extension host for vim & neovim, load extensions like VSCode and host language servers.
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) - This is a Neovim plugin/library for generating statusline components from the built-in LSP client.
 - [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim) - Repo to hold a bunch of info & extension callbacks for built-in LSP.
 - [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils) - Better defaults for nvim-lsp actions.
@@ -185,6 +186,7 @@ Neovim supports a wide variety of UI's.
 - [jghauser/kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim) - Poor man's REPL. Easily send buffer lines and commands to a kitty terminal.
 - [jlesquembre/nterm.nvim](https://github.com/jlesquembre/nterm.nvim) - A neovim plugin to interact with the terminal, with notifications.
 - [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) - A simple & easy to use multi-terminal plugin.
+- [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm) - Terminal manager for (neo)vim.
 
 ### Snippets
 
