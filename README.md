@@ -391,6 +391,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) - Vim-be-good is a nvim plugin designed to make you better at Vim Movements.
 - [ThePrimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) - Vim APM, Actions per minute, is the greatest plugin since vim-slicedbread.
 - [alec-gibson/nvim-tetris](https://github.com/alec-gibson/nvim-tetris) - Bringing emacs' greatest feature to neovim - Tetris!.
+- [seandewar/nvimesweeper](https://github.com/seandewar/nvimesweeper) - Play Minesweeper in your favourite text editor.
 
 ### File explorer
 
@@ -456,6 +457,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 
 - [michaelb/sniprun](https://github.com/michaelb/sniprun) - Run parts of code of any language directly from Neovim.
 - [pianocomposer321/yabs.nvim](https://github.com/pianocomposer321/yabs.nvim) - Yet Another Build System for Neovim, written in lua.
+- [CRAG666/code_runner.nvim](https://github.com/CRAG666/code_runner.nvim) - The best code runner you could have, with super powers.
 
 ### GitHub
 
@@ -558,6 +560,7 @@ Treesitter is a new system coming in Neovim 0.5 that incrementally parses your c
 - [AckslD/nvim-whichkey-setup.lua](https://github.com/AckslD/nvim-whichkey-setup.lua) - Nvim-plugin what wraps vim-which-key to simplify setup in lua.
 - [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Neovim plugin that shows a popup with possible keybindings of the command you started typing.
 - [Iron-E/nvim-cartographer](https://github.com/Iron-E/nvim-cartographer) - a more convenient `:map`ping syntax for Lua environments.
+- [b0o/mapx.lua](https://github.com/b0o/mapx.lua) - A small lua library providing a simpler key mapping API that mimics vim's builtin `:map`-family of commands. Integrates with which-key.nvim.
 
 ### Tmux
 
