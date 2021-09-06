@@ -240,7 +240,7 @@ Neovim supports a wide variety of UI's.
 - [Shadorain/shadotheme](https://github.com/Shadorain/shadotheme) - Shadotheme, an amazing colorscheme featuring purple, pink, and shades of red.
 - [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) - A dark, yet vibrant colorscheme for neovim.
 - [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) - A port of jellybeans colorscheme for neovim.
-- [mangeshrex/uwu.vim](https://github.com/mangeshrex/uwu.vim) -A neovim colorscheme which I think it looks like a cat, maybe.
+- [mangeshrex/uwu.vim](https://github.com/mangeshrex/uwu.vim) - A neovim colorscheme which I think it looks like a cat, maybe.
 - [ghifarit53/tokyonight-vim](https://github.com/ghifarit53/tokyonight-vim) - A clean, dark vim colorscheme that celebrates the lights of downtown Tokyo at night.
 - [cocopon/iceberg.vim](https://github.com/cocopon/iceberg.vim) - A vim colorscheme with dark blues.
 - [glepnir/oceanic-material](https://github.com/glepnir/oceanic-material) - Vim theme with oceanic colors.
