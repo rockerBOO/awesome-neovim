@@ -31,7 +31,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Note Taking](#note-taking)
   - [Colors](#colors)
   - [Colorscheme Creation](#colorscheme-creation)
-  - [Colorscheme](#colorscheme)
+  - [Colorschemes](#colorschemes)
   - [Utility](#utility)
   - [Icons](#icons)
   - [Debugging](#debugging)
