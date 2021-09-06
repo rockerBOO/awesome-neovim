@@ -61,7 +61,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Mouse](#mouse)
   - [Project](#project)
   - [Browser integration](#browser-integration)
-  - [Editing supports](#editing-supports)
+  - [Editing support](#editing-support)
   - [Formatting](#formatting)
   - [Web development](#web-development)
   - [Media](#media)
