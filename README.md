@@ -538,7 +538,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 
 - [notomo/cmdbuf.nvim](https://github.com/notomo/cmdbuf.nvim) - Alternative command-line-window plugin.
 
-### Sessions
+### Session
 
 - [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - A small automated session manager for Neovim.
 
