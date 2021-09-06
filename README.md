@@ -31,7 +31,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Note Taking](#note-taking)
   - [Colors](#colors)
   - [Colorscheme Creation](#colorscheme-creation)
-  - [Colorschemes](#colorschemes)
+  - [Colorscheme](#colorscheme)
   - [Utility](#utility)
   - [Icons](#icons)
   - [Debugging](#debugging)
@@ -233,7 +233,7 @@ Neovim supports a wide variety of UI's.
 - [rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim) - Define Neovim themes as a DSL in lua, with real-time feedback.
 - [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) - A colorscheme template that is "lite" on logic for the developer.
 
-### Colorschemes
+### Colorscheme
 
 #### Tree-sitter Supported Colorschemes
 
