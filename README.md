@@ -52,7 +52,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Comment](#comment)
   - [Collaborative Editing](#collaborative-editing)
   - [Quickfix](#quickfix)
-  - [Motions](#motions)
+  - [Motion](#motion)
   - [Code Runner](#code-runner)
   - [GitHub](#github)
   - [Search](#search)
@@ -542,7 +542,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 
 - [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - A small automated session manager for Neovim.
 
-### Tests
+### Test
 
 - [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
 
