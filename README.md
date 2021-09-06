@@ -18,33 +18,33 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
 
 - [Wishlist](#wishlist)
 - [UI](#ui)
-- [Plugins](#plugins)
-  - [Plugin Managers](#plugin-managers)
+- [Plugin](#plugin)
+  - [Plugin Manager](#plugin-manager)
   - [LSP](#lsp)
   - [Completion](#completion)
   - [Markdown](#markdown)
   - [Syntax](#syntax)
   - [Terminal integration](#terminal-integration)
-  - [Snippets](#snippets)
-  - [Registers](#registers)
+  - [Snippet](#snippet)
+  - [Register](#register)
   - [Fuzzy Finder](#fuzzy-finder)
   - [Note Taking](#note-taking)
-  - [Colors](#colors)
+  - [Color](#color)
   - [Colorscheme Creation](#colorscheme-creation)
   - [Colorscheme](#colorscheme)
   - [Utility](#utility)
-  - [Icons](#icons)
+  - [Icon](#icon)
   - [Debugging](#debugging)
   - [Spellcheck](#spellcheck)
   - [Neovim Lua Development](#neovim-lua-development)
   - [Fennel](#fennel)
   - [Tabline](#tabline)
   - [Statusline](#statusline)
-  - [Statusline components](#statusline-components)
+  - [Statusline component](#statusline-component)
   - [Cursorline](#cursorline)
   - [Startup](#startup)
   - [Indent](#indent)
-  - [Games](#games)
+  - [Game](#game)
   - [File explorer](#file-explorer)
   - [Dependency management](#dependency-management)
   - [Git](#git)
@@ -67,19 +67,19 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Media](#media)
   - [Discord Rich Presence](#discord-rich-presence)
   - [Command Line](#command-line)
-  - [Sessions](#sessions)
-  - [Tests](#tests)
-  - [Preconfigured Configurations](#preconfigured-configurations)
-  - [Keybindings](#keybindings)
+  - [Session](#session)
+  - [Test](#test)
+  - [Preconfigured Configuration](#preconfigured-configuration)
+  - [Keybinding](#keybinding)
   - [Tmux](#tmux)
   - [Remote Development](#remote-development)
-  - [Splits and Windows](#splits-and-windows)
+  - [Split and Window](#split-and-window)
 - [External](#external)
-  - [Version Managers](#version-managers)
+  - [Version Manager](#version-manager)
   - [Boilerplate](#boilerplate)
 - [Vim](#vim)
-  - [Vim Plugins](#vim-plugins)
-- [Resources](#resources)
+  - [Vim Plugin](#vim-plugin)
+- [Resource](#resource)
 
 ## Wishlist
 
@@ -104,9 +104,9 @@ Neovim supports a wide variety of UI's.
 - [vv-vim/vv](https://github.com/vv-vim/vv) - Neovim client for macOS. A pure, fast, minimalistic Vim experience with good macOS integration. Optimized for speed and nice font rendering.
 - [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) - A JavaFX text pane, backed by Neovim, created with Clojure.
 
-## Plugins
+## Plugin
 
-### Plugin Managers
+### Plugin Manager
 
 - [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) - A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config.
 - [savq/paq-nvim](https://github.com/savq/paq-nvim) - Neovim package manager written in Lua.
@@ -143,7 +143,7 @@ Neovim supports a wide variety of UI's.
 - [jakewvincent/texmagic.nvim](https://github.com/jakewvincent/texmagic.nvim) - Enhance the lspconfig settings for Texlab by defining any number of custom LaTeX build engines and selecting them with magic comments.
 - [nanotee/nvim-lsp-basics](https://github.com/nanotee/nvim-lsp-basics) - Basic wrappers for LSP features.
 
-##### LSP Installers
+##### LSP Installer
 
 - [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) - Easy to install language servers.
 - [alexaandru/nvim-lspupdate](https://github.com/alexaandru/nvim-lspupdate) - Updates installed (or auto installs if missing) LSP servers.
@@ -188,14 +188,14 @@ Neovim supports a wide variety of UI's.
 - [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) - A simple & easy to use multi-terminal plugin.
 - [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm) - Terminal manager for (neo)vim.
 
-### Snippets
+### Snippet
 
 - [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim) - Snippets in lua.
 - [hrsh7th/vim-vsnip](https://github.com/hrsh7th/vim-vsnip) - Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.
 - [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippets collection for all kind of programming languages that integrates really well with vim-vsnip.
 - [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) - A snippet engine for Neovim written in Lua.
 
-### Registers
+### Register
 
 - [gennaro-tedesco/nvim-peekup](https://github.com/gennaro-tedesco/nvim-peekup) - Dynamically interact with vim registers.
 - [tversteeg/registers.nvim](https://github.com/tversteeg/registers.nvim) - Non-obtrusive minimal preview of vim registers.
@@ -218,7 +218,7 @@ Neovim supports a wide variety of UI's.
 - [NFrid/due.nvim](https://github.com/NFrid/due.nvim) - Displays due for a date string as a virtual text.
 - [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) - Draw ASCII diagrams in Neovim.
 
-### Colors
+### Color
 
 - [norcalli/nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) - A high-performance color highlighter for Neovim which has no external dependencies!.
 - [sunjon/Shade.nvim](https://github.com/sunjon/Shade.nvim) - Shade is a Neovim plugin that dims your inactive windows, making it easier to see the active window at a glance.
@@ -235,7 +235,7 @@ Neovim supports a wide variety of UI's.
 
 ### Colorscheme
 
-#### Tree-sitter Supported Colorschemes
+#### Tree-sitter Supported Colorscheme
 
 Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for Tree-sitter highlight groups. Vim colorschemes will work with the new groups out of the box.
 
@@ -290,7 +290,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 - [Pocco81/Catppuccino.nvim](https://github.com/Pocco81/Catppuccino.nvim) - An eye-candy and full-featured Neovim theme with support for native LSP, Tree-sitter, and more 🍨!
 - [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) - A dark, yet vibrant colorscheme for neovim.
 
-#### Lua Colorschemes
+#### Lua Colorscheme
 
 These colorschemes may not specialize in Treesitter directly but are written in lua.
 
@@ -309,7 +309,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 - [kazhala/close-buffers.nvim](https://github.com/kazhala/close-buffers.nvim) - Delete multiple vim buffers based on different conditions.
 - [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) - Post selections or buffers to online paste bins.
 
-### Icons
+### Icon
 
 - [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) - A Lua fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons).
 - [yamatsum/nvim-nonicons](https://github.com/yamatsum/nvim-nonicons) - Collection of configurations for nvim-web-devicons.
@@ -368,7 +368,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 - [windwp/windline.nvim](https://github.com/windwp/windline.nvim) - The next generation statusline for neovim. Animation statusline.
 - [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) - A galaxyline configuration inspired by airline.
 
-### Statusline components
+### Statusline component
 
 - [SmiteshP/nvim-gps](https://github.com/SmiteshP/nvim-gps) - Simple statusline component that shows what scope you are working inside.
 
@@ -387,7 +387,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 - [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) - Indent plugin.
 - [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - IndentLine replacement in lua with more features and treesitter support.
 
-### Games
+### Game
 
 - [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) - Vim-be-good is a nvim plugin designed to make you better at Vim Movements.
 - [ThePrimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) - Vim APM, Actions per minute, is the greatest plugin since vim-slicedbread.
@@ -447,7 +447,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 - [kevinhwang91/nvim-bqf](https://github.com/kevinhwang91/nvim-bqf) - The goal of nvim-bqf is to make Neovim's quickfix window better.
 - [stevearc/qf_helper.nvim](https://github.com/stevearc/qf_helper.nvim) - A collection of improvements for Neovim quickfix.
 
-### Motions
+### Motion
 
 - [tjdevries/train.nvim](https://github.com/tjdevries/train.nvim) - Train yourself with vim motions and make your own train tracks.
 - [phaazon/hop.nvim](https://github.com/phaazon/hop.nvim) - Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
@@ -493,7 +493,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 
 - [glacambre/firenvim](https://github.com/glacambre/firenvim) - Embed Neovim right into your browser, no questions asked.
 
-### Editing supports
+### Editing support
 
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use treesitter to autoclose and autorename xml,html,jsx tag.
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - A minimalist autopairs for Neovim written by Lua.
@@ -546,7 +546,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 
 - [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
 
-### Preconfigured Configurations
+### Preconfigured Configuration
 
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - Port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
 - [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, JavaScript).
@@ -556,7 +556,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 - [siduck76/NvChad](https://github.com/siduck76/NvChad) - An attempt to make neovim cli as functional as an IDE while being very beautiful and less bloated.
 - [ashincoder/StarVim](https://github.com/ashincoder/StarVim) - A IDE wrapper which is beyond the moon 🌝 and above the stars ⭐.
 
-### Keybindings
+### Keybinding
 
 - [AckslD/nvim-whichkey-setup.lua](https://github.com/AckslD/nvim-whichkey-setup.lua) - Nvim-plugin what wraps vim-which-key to simplify setup in lua.
 - [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Neovim plugin that shows a popup with possible keybindings of the command you started typing.
@@ -574,7 +574,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 - [chipsenkbeil/distant.nvim](https://github.com/chipsenkbeil/distant.nvim) - Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment.
 - [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) - Develop inside docker containers, just like VSCode.
 
-### Splits and Windows
+### Split and Window
 
 - [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) -  Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids.
 - [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) - A zen mode for improving code readability on neovim.
@@ -583,7 +583,7 @@ These colorschemes may not specialize in Treesitter directly but are written in 
 
 These tools are used externally to neovim to enhance the experience.
 
-### Version Managers
+### Version Manager
 
 - [NTBBloodbath/nvenv](https://github.com/NTBBloodbath/nvenv) - A lightweight and blazing fast Neovim version manager.
 - [shohi/neva](https://github.com/shohi/neva) - A Neovim version manager written in Lua.
@@ -597,11 +597,11 @@ These tools are used externally to neovim to enhance the experience.
 - [Vimawesome](https://vimawesome.com/) - showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting neovim.
 - https://github.com/akrawchyk/awesome-vim#tools short list of vim plugins and helpful guides.
 
-### Vim Plugins
+### Vim Plugin
 
 Most vim plugins also work for neovim! How cool is that!.
 
-## Resources
+## Resource
 
 - [Neovimcraft](https://neovimcraft.com) - A site dedicated to searching for neovim specific
   plugins and guides for building plugins in lua.
