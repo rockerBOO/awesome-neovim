@@ -289,6 +289,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 - [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) - A light vim/nvim colorscheme designed to highlight code using contrasts and font variations. Colors are tasked only for other roles such as diagnostics, diffs, search matches.
 - [Pocco81/Catppuccino.nvim](https://github.com/Pocco81/Catppuccino.nvim) - An eye-candy and full-featured Neovim theme with support for native LSP, Tree-sitter, and more 🍨!
 - [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) - A dark, yet vibrant colorscheme for neovim.
+- [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) - A soft dark, fully customizable Neovim theme, with support for lsp, treesitter and a variety of plugins.
 
 #### Lua Colorscheme
 
