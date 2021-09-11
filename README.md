@@ -293,7 +293,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 
 #### Lua Colorscheme
 
-These colorschemes may not specialize in Treesitter directly but are written in lua.
+These colorschemes may not specialize in Tree-sitter directly but are written in lua.
 
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors.
 - [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme lua port.
