@@ -310,6 +310,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim) - A NeoVim plugin for managing vim abbreviations.
 - [kazhala/close-buffers.nvim](https://github.com/kazhala/close-buffers.nvim) - Delete multiple vim buffers based on different conditions.
 - [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) - Post selections or buffers to online paste bins.
+- [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) - Create shortcuts to escape insert mode without getting delay.
 
 ### Icon
 
