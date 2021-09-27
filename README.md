@@ -354,11 +354,12 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Tabline
 
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - A neovim tabline plugin.
-- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - A snazzy nail_care buffer line for Neovim built using lua.
+- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - A snazzy buffer line for Neovim built using lua.
 - [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) - Nvim port of tabline.vim with Lua.
 - [alvarosevilla95/luatab.nvim](https://github.com/alvarosevilla95/luatab.nvim) - A simple tabline written in lua.
 - [johann2357/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) - Smart buffer management in neovim.
 - [kdheepak/tabline.nvim](https://github.com/kdheepak/tabline.nvim) - A "buffer and tab" tabline.
+- [noib3/cokeline.nvim](https://github.com/noib3/cokeline.nvim) - A neovim bufferline for people with addictive personalities. 
 
 ### Statusline
 
