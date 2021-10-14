@@ -409,6 +409,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### File explorer
 
 - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A simple and fast file explorer tree for neovim !.
+- [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) - File explorer powered by [nnn](https://github.com/jarun/nnn) and lua.
 - [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) - Simple file explorer.
 - [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) - A file manager for neovim written in lua.
 - [kevinhwang91/rnvimr](https://github.com/kevinhwang91/rnvimr) - A simple yet amazing file explorer for neovim.
