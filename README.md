@@ -296,7 +296,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 - [ldelossa/vimdark](https://github.com/ldelossa/vimdark) - A minimal Vim theme for night time. Loosely based on vim-monotonic and chrome's dark reader extention. A light theme is included as well for the day time.
 - [mangeshrex/uwu.vim](https://github.com/Mangeshrex/uwu.vim) - A beautiful and dark vim colorscheme written in vimscript.
 - [adisen99/apprentice.nvim](https://github.com/adisen99/apprentice.nvim) - Colorscheme for neovim written in lua based on the [Apprentice](https://github.com/romainl/Apprentice) color pattete with Tree-sitter and built-in lsp support.
-- [olimorris/onedark.nvim](https://github.com/olimorris/onedark.nvim) - Onedark theme for Neovim, written in Lua. Dark and light themes. Completely customisable colors, styles and highlights.
+- [olimorris/onedarkpro.nvim](https://github.com/olimorris/onedarkpro.nvim) - One Dark Pro theme for Neovim, written in Lua and based on the VS Code theme. Includes dark and light themes with completely customisable colors, styles and highlights.
 
 #### Lua Colorscheme
 
