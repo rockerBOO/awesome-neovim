@@ -316,6 +316,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [kazhala/close-buffers.nvim](https://github.com/kazhala/close-buffers.nvim) - Delete multiple vim buffers based on different conditions.
 - [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) - Post selections or buffers to online paste bins.
 - [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) - Create shortcuts to escape insert mode without getting delay.
+- [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify) - A fancy, configurable, notification manager for NeoVim.
 
 ### Icon
 
