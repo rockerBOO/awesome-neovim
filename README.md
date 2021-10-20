@@ -553,6 +553,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Command Line
 
 - [notomo/cmdbuf.nvim](https://github.com/notomo/cmdbuf.nvim) - Alternative command-line-window plugin.
+- [gelguy/wilder.nvim](https://github.com/gelguy/wilder.nvim) - A plugin for fuzzy command line autocompletion.
 
 ### Session
 
