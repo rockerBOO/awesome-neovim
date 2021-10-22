@@ -27,6 +27,7 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Terminal integration](#terminal-integration)
   - [Snippet](#snippet)
   - [Register](#register)
+  - [Marks](#marks)
   - [Fuzzy Finder](#fuzzy-finder)
   - [Note Taking](#note-taking)
   - [Color](#color)
@@ -199,6 +200,10 @@ Neovim supports a wide variety of UI's.
 - [gennaro-tedesco/nvim-peekup](https://github.com/gennaro-tedesco/nvim-peekup) - Dynamically interact with vim registers.
 - [tversteeg/registers.nvim](https://github.com/tversteeg/registers.nvim) - Non-obtrusive minimal preview of vim registers.
 - [acksld/nvim-neoclip.lua](https://github.com/AckslD/nvim-neoclip.lua) - Clipboard manager neovim plugin with telescope integration.
+
+### Marks
+
+- [chentau/marks.nvim](https://github.com/chentau/marks.nvim) - A better user experience for viewing and interacting with vim marks.
 
 ### Fuzzy Finder
 
