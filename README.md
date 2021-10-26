@@ -249,6 +249,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 
 - [rafamadriz/neon](https://github.com/rafamadriz/neon) - Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with Tree-sitter.
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) - A dark color scheme heavily inspired by the look of the Dark+ scheme of Visual Studio Code.
+- [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) - A lua port of [vim-code-dark](https://github.com/tomasiser/vim-code-dark) colorscheme for neovim with vscode light and dark theme.
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - Material.nvim is a highly configurable colorscheme written in lua and based on the material palette.
 - [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) - Nightfly is a dark GUI color scheme heavily inspired by Sarah Drasner's Night Owl theme.
 - [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - Moonfly is a dark color scheme with Tree-sitter support.
@@ -399,6 +400,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Startup
 
 - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim) - A minimalist dashboard for neovim, inspired by doom-emacs.
+- [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) - A fast and highly customizable greeter like [vim-startify](https://github.com/mhinz/vim-startify)/[dashboard-nvim](https://github.com/glepnir/dashboard-nvim) for neovim.
 - [henriquehbr/nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua) - Displays neovim startup time.
 
 ### Indent
