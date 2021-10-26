@@ -370,7 +370,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [alvarosevilla95/luatab.nvim](https://github.com/alvarosevilla95/luatab.nvim) - A simple tabline written in lua.
 - [johann2357/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) - Smart buffer management in neovim.
 - [kdheepak/tabline.nvim](https://github.com/kdheepak/tabline.nvim) - A "buffer and tab" tabline.
-- [noib3/cokeline.nvim](https://github.com/noib3/cokeline.nvim) - A neovim bufferline for people with addictive personalities. 
+- [noib3/cokeline.nvim](https://github.com/noib3/cokeline.nvim) - A neovim bufferline for people with addictive personalities.
 
 ### Statusline
 
@@ -535,6 +535,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [abecodes/tabout.nvim](https://github.com/abecodes/tabout.nvim) - Jump out of brackets, quotes, objects, etc.
 - [Allendang/nvim-expand-expr](https://github.com/AllenDang/nvim-expand-expr) - Expand and repeat expression to multiple lines.
 - [h-hg/fcitx.nvim](https://github.com/h-hg/fcitx.nvim) - Switching and restoring fcitx state for each buffer seperately.
+- [McAuleyPenney/tidy.nvim](https://github.com/McAuleyPenney/tidy.nvim) - Clear trailing whitespace and empty lines at end of file on every save.
 
 ### Formatting
 
