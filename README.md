@@ -325,7 +325,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) - Post selections or buffers to online paste bins.
 - [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) - Create shortcuts to escape insert mode without getting delay.
 - [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify) - A fancy, configurable, notification manager for NeoVim.
-- [saifulapm/chartoggle.nvim](https://github.com/saifulapm/chartoggle.nvim) - Toogle any character at end of line for Neovim.
+- [saifulapm/chartoggle.nvim](https://github.com/saifulapm/chartoggle.nvim) - Toggle any character at end of line for Neovim.
 
 ### Icon
 
