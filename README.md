@@ -583,6 +583,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [siduck76/NvChad](https://github.com/siduck76/NvChad) - An attempt to make neovim cli as functional as an IDE while being very beautiful and less bloated.
 - [ashincoder/StarVim](https://github.com/ashincoder/StarVim) - A IDE wrapper which is beyond the moon 🌝 and above the stars ⭐.
 - [mjlbach/defaults.nvim](https://github.com/mjlbach/defaults.nvim) - An extremely small, single file, and commented configuration template demonstrating LSP integration, autocompletion, snippets, treesitter, and more.
+- [cstsunfu/.sea.nvim](https://github.com/cstsunfu/.sea.nvim) - A modular NeoVim configuration with beautiful UI and some useful features(Pomodoro Clock, Window Number).
 
 ### Keybinding
 
