@@ -172,7 +172,7 @@ Neovim supports a wide variety of UI's.
 
 ### Markdown
 
-- [npxbr/glow.nvim](https://github.com/npxbr/glow.nvim) - Markdown preview using glow.
+- [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) - Markdown preview using glow.
 - [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
 - [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) - Easy pandoc conversion leveraging yaml blocks.
 - [jghauser/follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim) - Press enter to follow internal markdown links.
@@ -323,7 +323,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 These colorschemes may not specialize in Tree-sitter directly but are written in Lua.
 
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors.
-- [npxbr/gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim) - Gruvbox community colorscheme Lua port.
+- [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Gruvbox community colorscheme Lua port.
 - [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) - A port of jellybeans colorscheme for Neovim.
 
 ### Utility
