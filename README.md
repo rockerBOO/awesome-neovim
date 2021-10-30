@@ -610,9 +610,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Tmux
 
-- [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes.
-- [hkupty/nvimux](https://github.com/hkupty/nvimux) - Neovim as tmux replacement.
 - [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) - Tmux integration for Neovim features pane movement and resizing from within Neovim.
+- [danielpieper/telescope-tmuxinator.nvim](https://github.com/danielpieper/telescope-tmuxinator.nvim) - Integration for tmuxinator with telescope.nvim.
+- [hkupty/nvimux](https://github.com/hkupty/nvimux) - Neovim as tmux replacement.
+- [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes.
 
 ### Remote Development
 
@@ -621,7 +622,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Split and Window
 
-- [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) -  Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids.
 - [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) - A zen mode for improving code readability on Neovim.
 - [gitlab.com/yorickpeterse/nvim-window](https://gitlab.com/yorickpeterse/nvim-window) - Easily jump between Neovim windows.
 - [sindrets/winshift.nvim](https://github.com/sindrets/winshift.nvim) - Rearrange your windows with ease.
