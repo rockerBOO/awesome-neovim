@@ -590,6 +590,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [David-Kunz/jester](https://github.com/David-Kunz/jester) - A Neovim plugin to easily run and debug Jest tests.
 
 ### Preconfigured Configuration
+
 - [artart222/CodeArt](https://github.com/artart222/CodeArt) - A fast general-purpose IDE Written entirely in lua with installer for linux/windows/macOS and built in `:CodeArtUpdate` command for updating it for linux and mcaOS.
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - Port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
 - [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, JavaScript).
