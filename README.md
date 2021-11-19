@@ -146,6 +146,7 @@ Neovim supports a wide variety of UI's.
 - [weilbith/nvim-code-action-menu](https://github.com/weilbith/nvim-code-action-menu) - A floating pop-up menu for code actions to show code action information and a diff preview.
 - [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint) - An asynchronous linter plugin for Neovim (>= 0.5) complementary to the built-in Language Server Protocol support.
 - [b0o/SchemaStore.nvim](https://github.com/b0o/SchemaStore.nvim) - A Neovim Lua plugin providing access to the [SchemaStore](https://github.com/SchemaStore/schemastore) catalog.
+- [ldelossa/calltree.nvim](https://github.com/ldelossa/calltree.nvim) - Neovim's missing call-hierarchy UI. 
 
 ##### LSP Installer
 
