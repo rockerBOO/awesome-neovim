@@ -79,7 +79,6 @@ Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Ne
   - [Version Manager](#version-manager)
   - [Boilerplate](#boilerplate)
 - [Vim](#vim)
-  - [Vim Plugin](#vim-plugin)
 - [Resource](#resource)
 
 ## Wishlist
