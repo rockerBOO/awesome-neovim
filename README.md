@@ -680,12 +680,8 @@ These tools are used externally to Neovim to enhance the experience.
 
 ## Vim
 
-- [Vimawesome](https://vimawesome.com/) - showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting Neovim.
-- https://github.com/akrawchyk/awesome-vim#tools short list of vim plugins and helpful guides.
-
-### Vim Plugin
-
-Most vim plugins also work for Neovim! How cool is that!.
+- [Vimawesome](https://vimawesome.com/) - Showcases various plugins for vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting Neovim.
+- [awesome-vim](https://github.com/akrawchyk/awesome-vim#tools) - Short list of vim plugins and helpful guides.
 
 ## Resource
 
