@@ -1,8 +1,6 @@
 <!-- lint ignore awesome-git-repo-age -->
 
-<div align="center">
-
-<img src="https://neovim.io/logos/neovim-mark-flat.png" width=200 />
+<img src="https://neovim.io/logos/neovim-mark-flat.png" align="right" width="144" />
 
 # Awesome Neovim
 
@@ -10,9 +8,9 @@
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 -->
 
-Collections of awesome [Neovim](https://neovim.io/) plugins. Mostly targeting Neovim specific features.
+> Collections of awesome Neovim plugins. Mostly targeting Neovim specific features.
 
-</div>
+[Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions. 
 
 ## Contents
 
