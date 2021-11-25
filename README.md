@@ -1,6 +1,6 @@
 <!-- lint ignore awesome-git-repo-age -->
 
-<img src="https://neovim.io/logos/neovim-mark-flat.png" align="right" width="144" />
+[<img src="https://neovim.io/logos/neovim-mark-flat.png" align="right" width="144" />](https://neovim.io)
 
 # Awesome Neovim
 
