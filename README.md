@@ -585,6 +585,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [McAuleyPenney/tidy.nvim](https://github.com/McAuleyPenney/tidy.nvim) - Clear trailing whitespace and empty lines at end of file on every save.
 <!--lint ignore double-link-->
 - [mini.trailspace](https://github.com/echasnovski/mini.nvim#minitrailspace) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for automatic highlighting of trailing whitespace with functionality to remove it.
+- [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) - VS Code-like renaming UI for Neovim, writen in Lua.
 
 ### Formatting
 
