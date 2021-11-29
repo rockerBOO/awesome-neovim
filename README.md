@@ -402,6 +402,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [noib3/cokeline.nvim](https://github.com/noib3/cokeline.nvim) - A Neovim bufferline for people with addictive personalities.
 <!--lint ignore double-link-->
 - [mini.tabline](https://github.com/echasnovski/mini.nvim#minitabline) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for minimal tabline showing listed buffers in case of one tab and falling back to default otherwise.
+- [rafcamlet/tabline-framework.nvim](https://github.com/rafcamlet/tabline-framework.nvim) - User-friendly framework for building your dream tabline in a few lines of code.
 
 ### Statusline
 
