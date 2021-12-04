@@ -300,7 +300,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 - [savq/melange](https://github.com/savq/melange) - Dark color scheme for Neovim and Vim 🗡️.
 - [RRethy/nvim-base16](https://github.com/RRethy/nvim-base16) - Neovim plugin for building base16 colorschemes. Includes support for Treesitter and LSP highlight groups.
 - [fenetikm/falcon](https://github.com/fenetikm/falcon) - A colour scheme for terminals, Vim and friends.
-- [maaslalani/nordbuddy](https://github.com/maaslalani/nordbuddy) - A nord-esque colorscheme using colorbuddy.nvim.
+- [andersevenrud/nordic.nvim](https://github.com/andersevenrud/nordic.nvim) - A nord-esque colorscheme.
 - [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) - Neovim theme based off of the Nord Color Palette.
 - [MordechaiHadad/nvim-papadark](https://github.com/MordechaiHadad/nvim-papadark) - My own Neovim colorscheme.
 - [ishan9299/nvim-solarized-lua](https://github.com/ishan9299/nvim-solarized-lua) - Solarized colorscheme in Lua for Neovim 0.5.
