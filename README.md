@@ -593,6 +593,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 <!--lint ignore double-link-->
 - [mini.trailspace](https://github.com/echasnovski/mini.nvim#minitrailspace) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for automatic highlighting of trailing whitespace with functionality to remove it.
 - [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) - VS Code-like renaming UI for Neovim, writen in Lua.
+- [gbprod/cutlass.nvim](https://github.com/gbprod/cutlass.nvim) - Plugin that adds a 'cut' operation separate from 'delete'.
 
 ### Formatting
 
