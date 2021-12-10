@@ -10,7 +10,7 @@
 
 > Collections of awesome Neovim plugins. Mostly targeting Neovim specific features.
 
-[Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions. 
+[Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions.
 
 ## Contents
 
@@ -87,6 +87,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 Neovim supports a wide variety of UI's.
 
+- [CosmicNvim/cosmic-ui](https://github.com/CosmicNvim/cosmic-ui) - Cosmic-UI is a simple wrapper around specific vim functionality. Built in order to provide a quick and easy way to create a Cosmic UI experience with Neovim!
 - [yatli/fvim](https://github.com/yatli/fvim) - Cross platform Neovim front-end UI, built with F# + Avalonia.
 - [smolck/uivonim](https://github.com/smolck/uivonim) - Goal: Feature-rich cross-platform GUI that leverages the latest Neovim features.
 - [qvacua/vimr](https://github.com/qvacua/vimr) - Neovim GUI for macOS in Swift.
@@ -145,7 +146,7 @@ Neovim supports a wide variety of UI's.
 - [weilbith/nvim-code-action-menu](https://github.com/weilbith/nvim-code-action-menu) - A floating pop-up menu for code actions to show code action information and a diff preview.
 - [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint) - An asynchronous linter plugin for Neovim (>= 0.5) complementary to the built-in Language Server Protocol support.
 - [b0o/SchemaStore.nvim](https://github.com/b0o/SchemaStore.nvim) - A Neovim Lua plugin providing access to the [SchemaStore](https://github.com/SchemaStore/schemastore) catalog.
-- [ldelossa/calltree.nvim](https://github.com/ldelossa/calltree.nvim) - Neovim's missing call-hierarchy UI. 
+- [ldelossa/calltree.nvim](https://github.com/ldelossa/calltree.nvim) - Neovim's missing call-hierarchy UI.
 
 ##### LSP Installer
 
@@ -170,7 +171,7 @@ Neovim supports a wide variety of UI's.
   - [andersevenrud/compe-tmux](https://github.com/andersevenrud/compe-tmux) - A nvim-cmp source for Tmux.
   - [David-Kunz/cmp-npm](https://github.com/David-Kunz/cmp-npm) - A nvim-cmp source for NPM.
   - [lukas-reineke/cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) - A nvim-cmp function for better sorting.
-<!--lint ignore double-link-->
+  <!--lint ignore double-link-->
 - [mini.completion](https://github.com/echasnovski/mini.nvim#minicompletion) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for asynchronous two-stage completion. Supports showing completion item info and independent function signature.
 
 ### Markdown
@@ -540,7 +541,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Search
 
 - [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - Helps you better glance searched information, seamlessly jump matched instances.
-- [rktjmp/highlight-current-n.nivm](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or * match under your cursor when pressing n or N and gets out of the way afterwards.
+- [rktjmp/highlight-current-n.nivm](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or \* match under your cursor when pressing n or N and gets out of the way afterwards.
 
 ### Scrollbar
 
@@ -634,6 +635,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Preconfigured Configuration
 
+- [CosmicNvim/CosmicNvim](https://github.com/CosmicNvim/CosmicNvim) - CosmicNvim is a lightweight and opinionated Neovim config for web development, specifically designed to provide a 💫 COSMIC programming experience!
 - [artart222/CodeArt](https://github.com/artart222/CodeArt) - A fast general-purpose IDE written entirely in Lua with an installer for Linux/Windows/macOS and built in `:CodeArtUpdate` command for updating it.
 - [NTBBloodbath/doom-nvim](https://github.com/NTBBloodbath/doom-nvim) - Port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.
 - [crivotz/nv-ide](https://github.com/crivotz/nv-ide) - Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, JavaScript).
