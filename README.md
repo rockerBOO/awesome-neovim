@@ -161,6 +161,7 @@ Neovim supports a wide variety of UI's.
 - [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for Neovim written in Lua. New version of nvim-compe.
   - [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - A nvim-cmp source for Neovim builtin LSP client.
   - [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) - A nvim-cmp source for luasnip completion.
+  - [quangnguyen30192/cmp-nvim-ultisnips](https://github.com/quangnguyen30192/cmp-nvim-ultisnips) - A nvim-cmp source for UltiSnips.
   - [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path) - A nvim-cmp source for filesystem paths.
   - [petertriho/cmp-git](https://github.com/petertriho/cmp-git) - A nvim-cmp source for Git.
   - [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - A nvim-cmp source for buffer words.
