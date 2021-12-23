@@ -563,6 +563,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) - Load Neovim config depend on project directory.
 - [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre) - Search and replace panel for Neovim.
 - [ahmedkhalf/project.nvim](https://github.com/ahmedkhalf/project.nvim) - An all in one Neovim plugin that provides superior project management.
+- [klen/nvim-config-local](https://github.com/klen/nvim-config-local) - Secure load local config files from working directories.
 
 ### Browser integration
 
