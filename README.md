@@ -332,6 +332,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 - [RishabhRD/gruvy](https://github.com/RishabhRD/gruvy) - Gruvbuddy without colorbuddy using Lush.
 <!--lint ignore double-link-->
 - [minischeme](https://github.com/echasnovski/mini.nvim#plugin-colorscheme) - Color scheme of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) which is a variant of base16 with accent colors chosen according to optimal perceptual uniformity.
+- [luisiacc/gruvbox-baby](https://github.com/luisiacc/gruvbox-baby) - A modern gruvbox theme with full treesitter support.
 
 #### Lua Colorscheme
 
