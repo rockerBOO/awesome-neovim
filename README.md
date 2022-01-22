@@ -68,6 +68,7 @@
   - [Command Line](#command-line)
   - [Session](#session)
   - [Test](#test)
+  - [Competitive Programming](#competitive-programming)
   - [Preconfigured Configuration](#preconfigured-configuration)
   - [Keybinding](#keybinding)
   - [Tmux](#tmux)
