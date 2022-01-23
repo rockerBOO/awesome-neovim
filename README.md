@@ -68,6 +68,7 @@
   - [Command Line](#command-line)
   - [Session](#session)
   - [Test](#test)
+  - [Competitive Programming](#competitive-programming)
   - [Preconfigured Configuration](#preconfigured-configuration)
   - [Keybinding](#keybinding)
   - [Tmux](#tmux)
@@ -650,6 +651,11 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
 - [David-Kunz/jester](https://github.com/David-Kunz/jester) - A Neovim plugin to easily run and debug Jest tests.
+
+### Competitive Programming
+
+- [p00f/cphelper.nvim](https://github.com/p00f/cphelper.nvim) - Neovim helper for competitive programming written in Lua.
+- [xeluxee/competitest.nvim](https://github.com/xeluxee/competitest.nvim) - A plugin to automate testcases management and checking for Competitive Programming contests.
 
 ### Preconfigured Configuration
 
