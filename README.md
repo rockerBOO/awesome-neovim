@@ -149,6 +149,7 @@ Neovim supports a wide variety of UI's.
 - [b0o/SchemaStore.nvim](https://github.com/b0o/SchemaStore.nvim) - A Neovim Lua plugin providing access to the [SchemaStore](https://github.com/SchemaStore/schemastore) catalog.
 - [ldelossa/litee.nvim](https://github.com/ldelossa/litee.nvim) - Neovim's missing IDE features.
 - [fidget.nvim](https://github.com/j-hui/fidget.nvim) - Standalone UI for nvim-lsp progress.
+- [git.sr.ht/~whynothugo/lsp_lines.nvim](https://git.sr.ht/~whynothugo/lsp_lines.nvim) - A Neovim plugin that renders diagnostics using virtual lines on top of the real line of code.
 
 ##### LSP Installer
 
