@@ -402,6 +402,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [m00qek/plugin-template.nvim](https://github.com/m00qek/plugin-template.nvim) - A plugin template that setups test infrastructure and GitHub Actions.
 <!--lint ignore double-link-->
 - [mini.doc](https://github.com/echasnovski/mini.nvim#minidoc) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for generation of help files from EmmyLua-like annotations. Allows flexible customization of output via hook functions.
+- [nanotee/luv-vimdocs](https://github.com/nanotee/luv-vimdocs) - The luv docs in vimdoc format.
+- [milisims/nvim-luaref](https://github.com/milisims/nvim-luaref) - A reference for builtin lua functions.
 
 ### Fennel
 
@@ -520,8 +522,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [danymat/neogen](https://github.com/danymat/neogen) - A better annotation generator. Supports multiple languages and annotation conventions.
 <!--lint ignore double-link-->
 - [mini.comment](https://github.com/echasnovski/mini.nvim#minicomment) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for per-line commenting. Fully supports dot-repeat.
-- [nanotee/luv-vimdocs](https://github.com/nanotee/luv-vimdocs) - The luv docs in vimdoc format.
-- [milisims/nvim-luaref](https://github.com/milisims/nvim-luaref) - A reference for builtin lua functions.
 
 ### Collaborative Editing
 
