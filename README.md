@@ -520,6 +520,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [danymat/neogen](https://github.com/danymat/neogen) - A better annotation generator. Supports multiple languages and annotation conventions.
 <!--lint ignore double-link-->
 - [mini.comment](https://github.com/echasnovski/mini.nvim#minicomment) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for per-line commenting. Fully supports dot-repeat.
+- [nanotee/luv-vimdocs](https://github.com/nanotee/luv-vimdocs) - The luv docs in vimdoc format.
+- [milisims/nvim-luaref](https://github.com/milisims/nvim-luaref) - A reference for builtin lua functions.
 
 ### Collaborative Editing
 
