@@ -622,6 +622,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Formatting
 
+- [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) - An EditorConfig plugin for Neovim written in Fennel.
 - [mhartington/formatter.nvim](https://github.com/mhartington/formatter.nvim) - A format runner for Neovim written in Lua.
 - [lukas-reineke/format.nvim](https://github.com/lukas-reineke/format.nvim) - Fast asynchronous formatting for Neovim. Supports formatting embedded code blocks.
 - [sbdchd/neoformat](https://github.com/sbdchd/neoformat) - A (Neo)vim plugin for formatting code.
