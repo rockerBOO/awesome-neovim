@@ -464,6 +464,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) - Indent plugin.
 - [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - IndentLine replacement in Lua with more features and treesitter support.
+<!--lint ignore double-link-->
+- [mini.indentscope](https://github.com/echasnovski/mini.nvim#miniindentscope) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for visualizing and operating on indent scope. Supports customization of debounce delay, animation style, and different granularity of options for scope computing algorithm.
 
 ### Game
 
