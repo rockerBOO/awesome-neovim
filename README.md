@@ -228,6 +228,7 @@ Neovim supports a wide variety of UI's.
 ### Marks
 
 - [chentau/marks.nvim](https://github.com/chentau/marks.nvim) - A better user experience for viewing and interacting with vim marks.
+- [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon) - A per project, auto updating and editable marks utility for fast file navigation.
 
 ### Fuzzy Finder
 
