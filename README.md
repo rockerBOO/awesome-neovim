@@ -660,7 +660,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) - The ultimate testing plugin for NeoVim.
 - [David-Kunz/jester](https://github.com/David-Kunz/jester) - A Neovim plugin to easily run and debug Jest tests.
-- [klen/nvim-test](https://github.com/klen/nvim-test) - Test Runner for neovim
+- [klen/nvim-test](https://github.com/klen/nvim-test) - Test Runner for neovim.
 
 ### Competitive Programming
 
