@@ -594,6 +594,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use treesitter to autoclose and autorename xml,html,jsx tag.
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - A minimalist autopairs for Neovim written by Lua.
+- [ZhiyuanLck/smart-pairs](https://github.com/ZhiyuanLck/smart-pairs) - Ultimate smart pairs for Neovim written by Lua.
 - [steelsojka/pears.nvim](https://github.com/steelsojka/pears.nvim) - Auto pair plugin for Neovim.
 <!--lint ignore double-link-->
 - [mini.pairs](https://github.com/echasnovski/mini.nvim#minipairs) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for autopairs which has minimal defaults and functionality to do per-key mapping.
