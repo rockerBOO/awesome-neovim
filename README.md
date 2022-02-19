@@ -269,6 +269,7 @@ Neovim supports a wide variety of UI's.
 - [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) - A colorscheme template that is "lite" on logic for the developer.
 <!--lint ignore double-link-->
 - [mini.base16](https://github.com/echasnovski/mini.nvim#minibase16) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) with fast implementation of base16 theme for manually supplied palette.
+- [ThemerCorp/themer.lua](https://github.com/themercorp/themer.lua) - A simple highlighter plugin for neovim. It has a huge collection of colorschemes. It also has ability to create colorschemes for vim/neovim and other supported apps (such as kitty and alacritty).
 
 ### Colorscheme
 
