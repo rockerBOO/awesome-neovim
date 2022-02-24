@@ -353,6 +353,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) - Gruvbox colors.
 - [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Gruvbox community colorscheme Lua port.
 - [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) - A port of jellybeans colorscheme for Neovim.
+- [lalitmee/cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) - A port of cobalt2 colorscheme for Neovim using [tjdevries/colorbuddy.nvim](https://github.com/tjdevries/colorbuddy.nvim).
 
 ### Utility
 
