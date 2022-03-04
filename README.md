@@ -160,6 +160,7 @@ Neovim supports a wide variety of UI's.
 ### Completion
 
 - [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) - Fast as FUCK Neovim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.
+- [Shougo/ddc.vim](https://github.com/Shougo/ddc.vim) - A dark deno-powered completion framework for neovim/Vim8. More ddc plugins (sources and filters) can be found [here](https://github.com/topics/ddc-vim).
 - [jameshiew/nvim-magic](https://github.com/jameshiew/nvim-magic) - Framework for integrating AI code assistance.
 - [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for Neovim written in Lua. New version of nvim-compe.
   - [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - A nvim-cmp source for Neovim builtin LSP client.
