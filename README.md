@@ -661,6 +661,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - A small automated session manager for Neovim.
 <!--lint ignore double-link-->
 - [mini.sessions](https://github.com/echasnovski/mini.nvim#minisessions) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for session management (read, write, delete).
+- [persisted.nvim](https://github.com/olimorris/persisted.nvim) - Simple lua plugin for automated session management, even supporting sessions by git branch.
 
 ### Test
 
