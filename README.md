@@ -193,7 +193,6 @@ Neovim supports a wide variety of UI's.
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Neovim Treesitter configurations and abstraction layer.
 - [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Create your own textobjects using tree-sitter queries.
 - [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) - Location and syntax aware text objects which _do what you mean_.
-- [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) - A surround text object plugin for Neovim written in Lua.
 <!--lint ignore double-link-->
 - [mini.surround](https://github.com/echasnovski/mini.nvim#minisurround) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for working with text surroundings (add, delete, replace, find, highlight). Fully supports dot-repeat.
 
