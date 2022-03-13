@@ -168,6 +168,8 @@ Neovim supports a wide variety of UI's.
   - [petertriho/cmp-git](https://github.com/petertriho/cmp-git) - A nvim-cmp source for Git.
   - [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - A nvim-cmp source for buffer words.
   - [tzachar/cmp-tabnine](https://github.com/tzachar/cmp-tabnine) - A nvim-cmp source for TabNine.
+  - [tzachar/cmp-fuzzy-buffer](https://github.com/tzachar/cmp-fuzzy-buffer) - A nvim-cmp source for fuzzy buffer words.
+  - [tzachar/cmp-fuzzy-path](https://github.com/tzachar/cmp-tabnine) - A nvim-cmp source for fuzzy path completion, both in buffers and in command line mode.
   - [hrsh7th/cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua) - A nvim-cmp source for the Neovim Lua API.
   - [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg) - A nvim-cmp source for Ripgrep.
   - [f3fora/cmp-spell](https://github.com/f3fora/cmp-spell) - A nvim-cmp source for vim's spellsuggest.
