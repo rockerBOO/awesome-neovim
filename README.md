@@ -703,6 +703,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [shaeinst/roshnivim](https://github.com/shaeinst/roshnivim) - Roshnivim, can be called neovim's distro, is a predefined configs so that you don't need 1000hr to setup neovim as an IDE.
 - [kabinspace/AstroVim](https://github.com/kabinspace/AstroVim) - AstroVim is an aesthetic and feature-rich Neovim config that is extensible and easy to use with a great set of plugins.
 - [shaunsingh/nyoom.nvim](https://github.com/shaunsingh/nyoom.nvim) - Blazing fast, configurable, minimal and lispy neovim config written in Fennel. Base config for users to extend and add upon, leading to a more unique editing experience.
+- [CanKolay3499/CNvim](https://github.com/CanKolay3499/CNvim) - A lightweight Neovim config for web development.
 - [jrychn/moduleVim](https://github.com/jrychn/ModuleVim) - A very easy to use
   for backend and frontend, install lsp automatically.
 
