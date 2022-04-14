@@ -348,6 +348,7 @@ Tree-sitter is a new system coming in Neovim 0.5 that incrementally parses your 
 - [tiagovla/tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim) - A clean dark theme written in lua for neovim 0.5 and above.
 - [cpea2506/one_monokai.nvim](https://github.com/cpea2506/one_monokai.nvim) - One Monokai theme for Neovim written in Lua.
 - [phha/zenburn.nvim](https://github.com/phha/zenburn.nvim) - A low-contrast dark colorscheme with support for various plugins.
+- [kvrohit/rasmus.nvim](https://github.com/kvrohit/rasmus.nvim) - A dark color scheme for Neovim written in Lua ported from [rsms/sublime-theme](https://github.com/rsms/sublime-theme) theme.
 
 #### Lua Colorscheme
 
