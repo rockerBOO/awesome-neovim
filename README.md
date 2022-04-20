@@ -362,6 +362,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Utility
 
+- [nyngwang/NeoNoName.lua](https://github.com/nyngwang/NeoNoName.lua) - Finally, The Most Elegant Layout-Preserving Buffer-Deleter for NeoVim.
 - [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) - Delete Neovim buffers without losing your window layout.
 <!--lint ignore double-link-->
 - [mini.bufremove](https://github.com/echasnovski/mini.nvim#minibufremove) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for buffer removing (unshow, delete, wipeout) while saving window layout.
