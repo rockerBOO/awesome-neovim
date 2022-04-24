@@ -716,6 +716,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [CanKolay3499/CNvim](https://github.com/CanKolay3499/CNvim) - A lightweight Neovim config for web development.
 - [jrychn/moduleVim](https://github.com/jrychn/ModuleVim) - A very easy to use
   for backend and frontend, install lsp automatically.
+- [askfiy/nvim](https://github.com/askfiy/nvim) - An excellent Neovim configuration, which is as powerful as Vcode, is lightning fast ⚡️.
 
 ### Keybinding
 
