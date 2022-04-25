@@ -20,7 +20,7 @@
   - [Plugin Manager](#plugin-manager)
   - [LSP](#lsp)
   - [Completion](#completion)
-  - [Markdown / LaTeX](#markdown-latex)
+  - [Markdown / LaTeX](#markdown--latex)
   - [Syntax](#syntax)
   - [Terminal integration](#terminal-integration)
   - [Snippet](#snippet)
