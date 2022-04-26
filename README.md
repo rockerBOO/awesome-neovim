@@ -597,6 +597,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Scrolling
 
 - [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) - Smooth scrolling for Neovim.
+- [declancm/cinnamon.nvim](https://github.com/declancm/cinnamon.nvim) - Smooth scrolling for any movement command in Neovim.
 
 ### Mouse
 
@@ -741,6 +742,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [danielpieper/telescope-tmuxinator.nvim](https://github.com/danielpieper/telescope-tmuxinator.nvim) - Integration for tmuxinator with telescope.nvim.
 - [hkupty/nvimux](https://github.com/hkupty/nvimux) - Neovim as tmux replacement.
 - [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes.
+- [declancm/windex.nvim](https://github.com/declancm/windex.nvim) - Collection of window functions which includes moving between, closing and maximizing Neovim splits and Tmux panes.
 
 ### Remote Development
 
