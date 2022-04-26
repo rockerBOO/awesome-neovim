@@ -597,6 +597,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Scrolling
 
 - [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) - Smooth scrolling for Neovim.
+- [declancm/cinnamon.nvim](https://github.com/declancm/cinnamon.nvim) - Smooth scrolling for any movement command in Neovim.
 
 ### Mouse
 
