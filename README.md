@@ -425,8 +425,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [Olical/aniseed](https://github.com/Olical/aniseed) - Configure and extend Neovim with Fennel (Lisp to Lua).
 - [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) - Seamless, transparent Fennel inside Neovim.
-- [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - :tangerine: Sweet Fennel integration for Neovim, aims to be as fast as possible.
-- [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - :hibiscus: Flavored Fennel macro library for Neovim.
+- [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - 🍊 Sweet Fennel integration for Neovim, aims to be as fast as possible.
+- [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - 🌺 Flavored Fennel macro library for Neovim.
 
 
 ### Tabline
