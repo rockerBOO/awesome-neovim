@@ -194,6 +194,7 @@ Neovim supports a wide variety of UI's.
 - [mjlbach/babelfish.nvim](https://github.com/mjlbach/babelfish.nvim) - A Neovim plugin to convert Markdown to vimdoc using Treesitter.
 - [kdheepak/panvimdoc](https://github.com/kdheepak/panvimdoc) - A pandoc to vimdoc GitHub action.
 - [frabjous/knap](https://github.com/frabjous/knap) - Plugin for creating automatic updating-as-you-type previews for markdown, LaTeX and other documents.
+- [lervag/vimtex](https://github.com/lervag/vimtex) - A modern Vim and neovim filetype plugin for LaTeX files.
 
 ### Syntax
 
