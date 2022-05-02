@@ -179,6 +179,7 @@ Neovim supports a wide variety of UI's.
   - [David-Kunz/cmp-npm](https://github.com/David-Kunz/cmp-npm) - A nvim-cmp source for NPM.
   - [lukas-reineke/cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) - A nvim-cmp function for better sorting.
   - [zbirenbaum/copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) - A nvim-cmp source for GitHub copilot.
+  - [rcarriga/cmp-dap](https://github.com/rcarriga/cmp-dap) - A nvim-cmp source for nvim-dap.
   <!--lint ignore double-link-->
 - [mini.completion](https://github.com/echasnovski/mini.nvim#minicompletion) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for asynchronous two-stage completion. Supports showing completion item info and independent function signature.
 - [noib3/nvim-compleet](https://github.com/noib3/nvim-compleet) - A Neovim autocompletion framework written in Rust.
