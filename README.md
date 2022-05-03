@@ -217,6 +217,7 @@ Neovim supports a wide variety of UI's.
 - [jghauser/kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim) - Poor man's REPL. Easily send buffer lines and commands to a kitty terminal.
 - [jlesquembre/nterm.nvim](https://github.com/jlesquembre/nterm.nvim) - A Neovim plugin to interact with the terminal, with notifications.
 - [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) - A simple & easy to use multi-terminal plugin.
+- [m00qek/baleia.nvim](https://github.com/m00qek/baleia.nvim) - Colorize text with ANSI escape sequences (8, 16, 256 or TrueColor).
 
 ### Snippet
 
