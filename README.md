@@ -460,6 +460,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) - A galaxyline configuration inspired by airline.
 <!--lint ignore double-link-->
 - [mini.statusline](https://github.com/echasnovski/mini.nvim#ministatusline) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for minimal and fast statusline. Supports content change depending on window width.
+- [b0o/incline.nvim](https://github.com/b0o/incline.nvim) - Lightweight floating statuslines, intended for use with Neovim's new global statusline.
 
 ### Statusline component
 
