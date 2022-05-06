@@ -573,6 +573,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim) - A refined successor of Lightspeed, aiming to establish a widely accepted standard interface extension for moving around in Vim-like editors.
 <!--lint ignore double-link-->
 - [mini.jump](https://github.com/echasnovski/mini.nvim#minijump) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for smarter jumping to a single character.
+<!--lint ignore double-link-->
+- [mini.jump2d](https://github.com/echasnovski/mini.nvim#minijump2d) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for smarter jumping within visible lines via iterative label filtering. Supports custom jump targets (spots), labels, hooks, allowed windows and lines, and more.
 - [mfussenegger/nvim-ts-hint-textobject](https://github.com/mfussenegger/nvim-ts-hint-textobject) - Region selection with hints on the AST nodes of a document powered by treesitter.
 - [rlane/pounce.nvim](https://github.com/rlane/pounce.nvim) - An EasyMotion-like plugin for quick cursor movement using fuzzy search.
 - [ziontee113/syntax-tree-surfer](https://github.com/ziontee113/syntax-tree-surfer) - Navigate and swap Treesitter's AST Nodes. Step into, step out, step over, step back.
