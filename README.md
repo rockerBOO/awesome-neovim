@@ -464,6 +464,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 <!--lint ignore double-link-->
 - [mini.statusline](https://github.com/echasnovski/mini.nvim#ministatusline) - Module of [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) for minimal and fast statusline. Supports content change depending on window width.
 - [b0o/incline.nvim](https://github.com/b0o/incline.nvim) - Lightweight floating statuslines, intended for use with Neovim's new global statusline.
+- [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) - Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile.
 
 ### Statusline component
 
