@@ -649,7 +649,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Pocco81/AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim) - A NeoVim plugin for saving your work before the world collapses or you type :qa!
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free coding for Neovim.
 - [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) - Shows virtual text of the current context.
-- [romgrk/nvim-treesitter-context](https://github.com/romgrk/nvim-treesitter-context) - Shows floating hover with the current function/block context.
+- [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) - Shows floating hover with the current function/block context.
 - [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim) - Interactively select and swap function arguments, list elements, and more. Powered by tree-sitter.
 - [nacro90/numb.nvim](https://github.com/nacro90/numb.nvim) - Peek lines in a non-obtrusive way.
 - [abecodes/tabout.nvim](https://github.com/abecodes/tabout.nvim) - Jump out of brackets, quotes, objects, etc.
