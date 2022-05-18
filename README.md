@@ -667,6 +667,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [booperlv/nvim-gomove](https://github.com/booperlv/nvim-gomove) - A complete plugin for moving and duplicating blocks and lines, with complete fold handling, reindenting, and undoing in one go.
 - [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) - Foldtext customization and folded region preview.
 - [bennypowers/nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer) - Explain the regular expression under the cursor.
+- [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) - Readline keyboard shortcuts for Neovim.
 
 ### Formatting
 
