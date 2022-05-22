@@ -389,6 +389,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [axieax/urlview.nvim](https://github.com/axieax/urlview.nvim) - Browse all URLs in the current buffer.
 - [nkakouros-original/numbers.nvim](https://github.com/nkakouros-original/numbers.nvim) - Toggle relativenumber whenever it makes sense.
 - [crusj/structrue-go.nvim](https://github.com/crusj/structrue-go.nvim) - A better structured display of golang symbols information.
+- [crusj/bookmarks](https://github.com/crusj/bookmarks.nvim) - Remember file locations and sort by time and frequency.
 
 ### Icon
 
