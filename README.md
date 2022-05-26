@@ -454,6 +454,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 <!--lint ignore double-link-->
 - [echasnovski/mini.nvim#mini.tabline](https://github.com/echasnovski/mini.nvim#minitabline) - Module of `mini.nvim` for minimal tabline showing listed buffers in case of one tab and falling back to default otherwise.
 - [rafcamlet/tabline-framework.nvim](https://github.com/rafcamlet/tabline-framework.nvim) - User-friendly framework for building your dream tabline in a few lines of code.
+- [nanozuki/tabby.nvim](https://github.com/nanozuki/tabby.nvim) - A minimal, configurable, neovim style tabline. Use your nvim tabs as workspace multiplexer.
 
 ### Statusline
 
