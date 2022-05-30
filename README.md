@@ -787,6 +787,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 These tools are used externally to Neovim to enhance the experience.
 
 ### Version Manager
+
 - [MordechaiHadad/bob](https://github.com/MordechaiHadad/bob) - A cross platform and easy to use neovim version manager
 - [NTBBloodbath/nvenv](https://github.com/NTBBloodbath/nvenv) - A lightweight and blazing fast Neovim version manager.
 - [shohi/neva](https://github.com/shohi/neva) - A Neovim version manager written in Lua.
