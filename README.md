@@ -677,6 +677,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) - Foldtext customization and folded region preview.
 - [bennypowers/nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer) - Explain the regular expression under the cursor.
 - [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) - Readline keyboard shortcuts for Neovim.
+- [ta-tikoma/php.easy.vim](https://github.com/ta-tikoma/php.easy.vim) - Plugin for working with PHP. Auto-generation of classes, DI, quick copy\duplication\deletion of objects.
 
 ### Formatting
 
