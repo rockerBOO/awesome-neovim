@@ -41,6 +41,7 @@
   - [Statusline](#statusline)
   - [Statusline component](#statusline-component)
   - [Cursorline](#cursorline)
+  - [Colorcolumn](#colorcolumn)
   - [Startup](#startup)
   - [Indent](#indent)
   - [Game](#game)
@@ -486,6 +487,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) - Highlight the word under the cursor. Neovim's builtin LSP is available, it can be used to highlight more intelligently.
 <!--lint ignore double-link-->
 - [echasnovski/mini.nvim#mini.cursorword](https://github.com/echasnovski/mini.nvim#minicursorword) - Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay).
+
+### Colorcolumn
+
+- [xiyaowong/virtcolumn.nvim](https://github.com/xiyaowong/virtcolumn.nvim) - Display a line as colorcolumn.
 
 ### Startup
 
