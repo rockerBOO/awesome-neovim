@@ -41,7 +41,6 @@
   - [Statusline](#statusline)
   - [Statusline component](#statusline-component)
   - [Cursorline](#cursorline)
-  - [Colorcolumn](#colorcolumn)
   - [Startup](#startup)
   - [Indent](#indent)
   - [Game](#game)
@@ -399,6 +398,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [someone-stole-my-name/yaml-companion.nvim](https://github.com/someone-stole-my-name/yaml-companion.nvim) - Get, set and autodetect YAML schemas in your buffers.
 - [ghillb/cybu.nvim](https://github.com/ghillb/cybu.nvim) - Displays a notification window with context when cycling buffers.
 - [crusj/bookmarks](https://github.com/crusj/bookmarks.nvim) - Remember file locations and sort by time and frequency.
+- [xiyaowong/virtcolumn.nvim](https://github.com/xiyaowong/virtcolumn.nvim) - Display a line as colorcolumn.
 
 ### Icon
 
@@ -487,10 +487,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) - Highlight the word under the cursor. Neovim's builtin LSP is available, it can be used to highlight more intelligently.
 <!--lint ignore double-link-->
 - [echasnovski/mini.nvim#mini.cursorword](https://github.com/echasnovski/mini.nvim#minicursorword) - Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay).
-
-### Colorcolumn
-
-- [xiyaowong/virtcolumn.nvim](https://github.com/xiyaowong/virtcolumn.nvim) - Display a line as colorcolumn.
 
 ### Startup
 
