@@ -798,7 +798,6 @@ These tools are used externally to Neovim to enhance the experience.
 
 ### Boilerplate
 
-- [gennaro-tedesco/boilit](https://github.com/gennaro-tedesco/boilit) - Create boilerplate structure for Neovim plugins.
 
 ## Vim
 
