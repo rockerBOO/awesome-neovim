@@ -315,7 +315,6 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - A spacemacs inspired dark and light colorscheme for Neovim.
 - [yonlu/omni.vim](https://github.com/yonlu/omni.vim) - Omni color scheme for Vim.
 - [ray-x/aurora](https://github.com/ray-x/aurora) - A 24-bit dark theme with Tree-sitter and LSP support.
-- [novakne/kosmikoa.nvim](https://github.com/novakne/kosmikoa.nvim) - Colorscheme for Neovim.
 - [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) - Monokai theme for Neovim written in Lua.
 - [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) - Neovim colorscheme based on your xresources color.
 - [savq/melange](https://github.com/savq/melange) - Dark color scheme for Neovim and Vim 🗡️.
