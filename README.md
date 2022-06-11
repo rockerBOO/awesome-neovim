@@ -39,7 +39,7 @@
   - [Fennel](#fennel)
   - [Tabline](#tabline)
   - [Statusline](#statusline)
-  - [Statusline component](#statusline-component)
+  - [Winbar and Statusline component](#winbar-and-statusline-component)
   - [Cursorline](#cursorline)
   - [Startup](#startup)
   - [Indent](#indent)
@@ -472,7 +472,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [b0o/incline.nvim](https://github.com/b0o/incline.nvim) - Lightweight floating statuslines, intended for use with Neovim's new global statusline.
 - [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) - Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile.
 
-### Statusline component
+### Winbar and Statusline component
 
 - [SmiteshP/nvim-gps](https://github.com/SmiteshP/nvim-gps) - A simple statusline component that shows your current code context using Treesitter.
 - [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) - A simple statusline/winbar component that shows your current code context using LSP.
