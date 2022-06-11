@@ -474,7 +474,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Statusline component
 
-- [SmiteshP/nvim-gps](https://github.com/SmiteshP/nvim-gps) - Simple statusline component that shows what scope you are working inside.
+- [SmiteshP/nvim-gps](https://github.com/SmiteshP/nvim-gps) - A simple statusline component that shows your current code context using Treesitter.
+- [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) - A simple statusline/winbar component that shows your current code context using LSP.
 
 ### Cursorline
 
