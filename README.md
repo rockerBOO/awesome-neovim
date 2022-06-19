@@ -728,6 +728,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Preconfigured Configuration
 
+- [Abstract-IDE/Abstract](https://github.com/Abstract-IDE/Abstract) - Abstract, The NeoVim configuration to achieve the power of Modern IDE.
 - [SpaceVim/SpaceVim](https://spacevim.org) - A community-driven modular vim/neovim distribution, like spacemacs but for vim/neovim.
 - [CosmicNvim/CosmicNvim](https://github.com/CosmicNvim/CosmicNvim) - CosmicNvim is a lightweight and opinionated Neovim config for web development, specifically designed to provide a 💫 COSMIC programming experience!
 - [artart222/CodeArt](https://github.com/artart222/CodeArt) - A fast general-purpose IDE written entirely in Lua with an installer for Linux/Windows/macOS and built in `:CodeArtUpdate` command for updating it.
