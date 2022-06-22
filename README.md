@@ -289,6 +289,7 @@ Neovim supports a wide variety of UI's.
 
 Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses your code into a tree that works, even with errors in your syntax. These colorschemes have specifically set colors for Tree-sitter highlight groups. Vim colorschemes will work with the new groups out of the box.
 
+- [kaiuri/nvim-mariana](https://github.com/kaiuri/nvim-mariana) - Port of Sublime's Mariana Theme to Neovim for short attention span developers with Tree-sitter support. 
 - [shaeinst/roshnivim-cs](https://github.com/shaeinst/roshnivim-cs) - Colorscheme for Neovim written in Lua, specially made for roshnivim with Tree-sitter support.
 - [rafamadriz/neon](https://github.com/rafamadriz/neon) - Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with Tree-sitter.
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) - A dark color scheme heavily inspired by the look of the Dark+ scheme of Visual Studio Code.
