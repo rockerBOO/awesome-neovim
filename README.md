@@ -273,6 +273,7 @@ Neovim supports a wide variety of UI's.
 - [xiyaowong/nvim-transparent](https://github.com/xiyaowong/nvim-transparent) - Make your Neovim transparent.
 - [folke/twilight.nvim](https://github.com/folke/twilight.nvim) - Dim inactive portions of the code you're editing using TreeSitter.
 - [koenverburg/peepsight.nvim](https://github.com/koenverburg/peepsight.nvim) - Focus only the function your cursor is in.
+- [ziontee113/color-picker.nvim](https://github.com/ziontee113/color-picker.nvim) - Plugin that lets users choose & modify RGB/HSL/HEX colors inside Neovim.
 
 ### Colorscheme Creation
 
@@ -556,7 +557,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [olexsmir/gopher.nvim](https://github.com/olexsmir/gopher.nvim/) - Plugin for making golang development easiest.
 - [gbprod/phpactor.nvim](https://github.com/gbprod/phpactor.nvim) - Lua version of the Phpactor vim plugin to take advantage of the latest Neovim features.
 
-
 ### Comment
 
 - [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) - Smart and Powerful comment plugin for Neovim. Supports commentstring, motions, dot-repeat and more.
@@ -694,7 +694,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) - A wrapper around Neovims native LSP formatting.
 - [sbdchd/neoformat](https://github.com/sbdchd/neoformat) - A (Neo)vim plugin for formatting code.
 - [cappyzawa/trim.nvim](https://github.com/cappyzawa/trim.nvim) - This plugin trims trailing whitespace and lines.
-- [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) - Clear trailing whitespace and empty lines at end of file on every save. 
+- [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) - Clear trailing whitespace and empty lines at end of file on every save.
 
 ### Web development
 
