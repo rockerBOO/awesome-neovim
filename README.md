@@ -531,6 +531,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Dependency management
 
 - [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim) - Display latest package version as virtual text in package.json.
+- [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) -  Rust dependency management for `Cargo.toml`.
 
 ### Git
 
