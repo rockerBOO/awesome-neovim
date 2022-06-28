@@ -359,6 +359,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [kvrohit/rasmus.nvim](https://github.com/kvrohit/rasmus.nvim) - A dark color scheme for Neovim written in Lua ported from [rsms/sublime-theme](https://github.com/rsms/sublime-theme) theme.
 - [chrsm/paramount-ng.nvim](https://github.com/chrsm/paramount-ng.nvim) - A dark color scheme written using Lush. Treesitter supported.
 - [kaiuri/nvim-mariana](https://github.com/kaiuri/nvim-mariana) - Port of Sublime's Mariana Theme to Neovim for short attention span developers with Tree-sitter support.
+- [lmburns/kimbox](https://github.com/lmburns/kimbox) - A colorscheme with a dark background, and vibrant foreground that is centered around the color brown. A modification of [Kimbie Dark](https://marketplace.visualstudio.com/items?itemName=dnamsons.kimbie-dark-plus).
 
 #### Lua Colorscheme
 
