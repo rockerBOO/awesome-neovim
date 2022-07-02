@@ -441,6 +441,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [nanotee/luv-vimdocs](https://github.com/nanotee/luv-vimdocs) - The luv docs in vimdoc format.
 - [milisims/nvim-luaref](https://github.com/milisims/nvim-luaref) - A reference for builtin lua functions.
 - [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) - Another neovim plugin template, using GitHub's template feature.
+<!--lint ignore double-link-->
+- [echasnovski/mini.nvim#mini.test](https://github.com/echasnovski/mini.nvim#minitest) - Module of `mini.nvim` with framework for writing extensive Neovim plugin tests. Supports hierarchical tests, hooks, parametrization, filtering, screen tests, "busted-style" emulation, customizable reporters, and more.
 
 ### Fennel
 
