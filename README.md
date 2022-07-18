@@ -366,6 +366,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [rockyzhang24/arctic.nvim](https://github.com/rockyzhang24/arctic.nvim) - A Neovim colorscheme ported from VSCode Dark+ theme with the strict and precise color picking for both the editor and UI.
 - [kaiuri/nvim-termcolors](https://github.com/kaiuri/nvim-termcolors) - Use your terminal colors as a Neovim colorscheme. Supports Tree-sitter.
 - [meliora-theme/neovim](https://github.com/meliora-theme/neovim) - Warm and cozy theme for Neovim.
+- [Yazeed1s/minimal.nvim](https://github.com/yazeed1s/minimal.nvim) - Two tree-sitter supported colorschemes that are inspired by base16-tomorrow-night and monokai-pro. 
 
 #### Lua Colorscheme
 
@@ -544,6 +545,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - Neo-tree is a Neovim plugin to browse the file system and other tree like structures in whatever style suits you, including sidebars, floating windows, netrw split style, or all of them at once.
 - [elihunter173/dirbuf.nvim](https://github.com/elihunter173/dirbuf.nvim) - A file manager for Neovim which lets you edit your filesystem like you edit text.
 - [theblob42/drex.nvim](https://github.com/TheBlob42/drex.nvim) - A simple and configurable file explorer written in Lua.
+- [SidOfc/carbon.nvim](https://github.com/SidOfc/carbon.nvim) - The simple directory tree viewer for Neovim written in Lua.
 
 ### Dependency management
 
