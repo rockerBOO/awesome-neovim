@@ -705,6 +705,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) - Foldtext customization and folded region preview.
 - [bennypowers/nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer) - Explain the regular expression under the cursor.
 - [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) - Readline keyboard shortcuts for Neovim.
+- [gbprod/stay-in-place.nvim](https://github.com/gbprod/stay-in-place.nvim) -  Neovim plugin that prevent cursor from moving when using shift and filter actions.
 
 ### Formatting
 
