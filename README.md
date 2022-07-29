@@ -710,6 +710,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [bennypowers/nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer) - Explain the regular expression under the cursor.
 - [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) - Readline keyboard shortcuts for Neovim.
 - [gbprod/stay-in-place.nvim](https://github.com/gbprod/stay-in-place.nvim) -  Neovim plugin that prevent cursor from moving when using shift and filter actions.
+<!--lint ignore double-link-->
+- [echasnovski/mini.nvim#mini.ai](https://github.com/echasnovski/mini.nvim#miniai) - Module of `mini.nvim` for extending and creating `a`/`i` textobjects. It enhances some builtin textobjects, creates extensive set of new ones (like `a*`, `a<Space>`, `a?`, and more), and allows user to create their own (via Lua patterns or functions). Supports dot-repeat, different search methods, consecutive application, and more.
 
 ### Formatting
 
