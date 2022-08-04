@@ -759,6 +759,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [David-Kunz/jester](https://github.com/David-Kunz/jester) - A Neovim plugin to easily run and debug Jest tests.
 - [klen/nvim-test](https://github.com/klen/nvim-test) - A Neovim wrapper for running tests.
 - [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) - An extensible framework for interacting with tests within Neovim.
+- [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage) - Displays coverage information in the sign column.
 
 ### Competitive Programming
 
