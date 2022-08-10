@@ -455,6 +455,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) - Another neovim plugin template, using GitHub's template feature.
 <!--lint ignore double-link-->
 - [echasnovski/mini.nvim#mini.test](https://github.com/echasnovski/mini.nvim#minitest) - Module of `mini.nvim` with framework for writing extensive Neovim plugin tests. Supports hierarchical tests, hooks, parametrization, filtering, screen tests, "busted-style" emulation, customizable reporters, and more.
+- [miversen33/import.nvim](https://github.com/miversen33/import.nvim) - A safe require replacement with niceties.
 
 ### Fennel
 
