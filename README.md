@@ -558,7 +558,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Dependency management
 
 - [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim) - Display latest package version as virtual text in package.json.
-- [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) -  Rust dependency management for `Cargo.toml`.
+- [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) - Rust dependency management for `Cargo.toml`.
 
 ### Git
 
@@ -571,6 +571,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim) - Single tabpage interface for easily cycling through diffs for all modified files for any git rev.
 - [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) - Plugin for calling lazygit from within Neovim.
 - [AckslD/nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua) - Plugin using [gfold](https://github.com/nickgerace/gfold) to switch repo and have statusline component.
+- [akinsho/git-conflict.nvim](https://github.com/akinsho/git-conflict.nvim) - A plugin to visualise and resolve merge conflicts in Neovim.
 
 ### Programming languages support
 
@@ -716,7 +717,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) - Foldtext customization.
 - [bennypowers/nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer) - Explain the regular expression under the cursor.
 - [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) - Readline keyboard shortcuts for Neovim.
-- [gbprod/stay-in-place.nvim](https://github.com/gbprod/stay-in-place.nvim) -  Neovim plugin that prevent cursor from moving when using shift and filter actions.
+- [gbprod/stay-in-place.nvim](https://github.com/gbprod/stay-in-place.nvim) - Neovim plugin that prevent cursor from moving when using shift and filter actions.
 <!--lint ignore double-link-->
 - [echasnovski/mini.nvim#mini.ai](https://github.com/echasnovski/mini.nvim#miniai) - Module of `mini.nvim` for extending and creating `a`/`i` textobjects. It enhances some builtin textobjects, creates extensive set of new ones (like `a*`, `a<Space>`, `a?`, and more), and allows user to create their own (via Lua patterns or functions). Supports dot-repeat, different search methods, consecutive application, and more.
 
