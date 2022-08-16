@@ -505,8 +505,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Winbar and Statusline component
 
-- [SmiteshP/nvim-gps](https://github.com/SmiteshP/nvim-gps) - A simple statusline component that shows your current code context using Treesitter.
-- [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) - A simple statusline/winbar component that shows your current code context using LSP.
+- [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) - A simple statusline/winbar component that uses LSP to show your current code context.
 
 ### Cursorline
 
