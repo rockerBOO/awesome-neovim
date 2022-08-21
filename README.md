@@ -643,6 +643,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [jedrzejboczar/toggletasks.nvim](https://github.com/jedrzejboczar/toggletasks.nvim) - Task runner with JSON/YAML configs, using toggleterm.nvim and telescope.nvim.
 - [EthanJWright/vs-tasks.nvim](https://github.com/EthanJWright/vs-tasks.nvim) - Telescope picker for VSCode style tasks.
 - [stevearc/overseer.nvim](https://github.com/stevearc/overseer.nvim) - A task runner and job management plugin.
+- [smzm/hydrovim]([https://](https://github.com/smzm/hydrovim)) - Run python code inside Neovim.
 
 ### GitHub
 
