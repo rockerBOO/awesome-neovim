@@ -692,7 +692,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ZhiyuanLck/smart-pairs](https://github.com/ZhiyuanLck/smart-pairs) - Ultimate smart pairs for Neovim written by Lua.
 <!--lint ignore double-link-->
 - [echasnovski/mini.nvim#mini.pairs](https://github.com/echasnovski/mini.nvim#minipairs) - Module of `mini.nvim` for autopairs which has minimal defaults and functionality to do per-key mapping.
-- [autoclose.nvim](https://github.com/max-0406/autoclose.nvim) - A minimalist autoclose plugin for Neovim written by lua.
+- [m4xshen/autoclose.nvim](https://github.com/m4xshen/autoclose.nvim) - A minimalist autoclose plugin for Neovim written in Lua.
 - [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
 - [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) - Rainbow :rainbow: parentheses for Neovim using tree-sitter :rainbow:.
 - [AckslD/nvim-revJ.lua](https://github.com/AckslD/nvim-revJ.lua) - Neovim Lua plugin for doing the opposite of join-line (J) for arguments.
