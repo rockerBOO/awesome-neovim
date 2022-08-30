@@ -323,7 +323,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - A spacemacs inspired dark and light colorscheme for Neovim.
 - [yonlu/omni.vim](https://github.com/yonlu/omni.vim) - Omni color scheme for Vim.
 - [ray-x/aurora](https://github.com/ray-x/aurora) - A 24-bit dark theme with Tree-sitter and LSP support.
-- [ray-x/starry.nvim](https://github.com/ray-x/starry.nvim) -  A collection of modern nvim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald, earlysummer, middlenight_blue, darksolar.
+- [ray-x/starry.nvim](https://github.com/ray-x/starry.nvim) -  A collection of modern Neovim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald, earlysummer, middlenight_blue, darksolar.
 - [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) - Monokai theme for Neovim written in Lua.
 - [savq/melange](https://github.com/savq/melange) - Dark color scheme for Neovim and Vim 🗡️.
 - [RRethy/nvim-base16](https://github.com/RRethy/nvim-base16) - Neovim plugin for building base16 colorschemes. Includes support for Treesitter and LSP highlight groups.
@@ -464,7 +464,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 <!--lint ignore double-link-->
 - [echasnovski/mini.nvim#mini.test](https://github.com/echasnovski/mini.nvim#minitest) - Module of `mini.nvim` with framework for writing extensive Neovim plugin tests. Supports hierarchical tests, hooks, parametrization, filtering, screen tests, "busted-style" emulation, customizable reporters, and more.
 - [miversen33/import.nvim](https://github.com/miversen33/import.nvim) - A safe require replacement with niceties.
-- [ray-x/guihua.lua](https://github.com/ray-x/guihua.lua) - A lua UI and util library. Includes a fzy search bar, list view and a tree view.
+- [ray-x/guihua.lua](https://github.com/ray-x/guihua.lua) - A Lua UI and util library. Includes a fzy search bar, list view and a tree view.
 
 ### Fennel
 
@@ -658,7 +658,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - Helps you better glance searched information, seamlessly jump matched instances.
 - [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or \* match under your cursor when pressing n or N and gets out of the way afterwards.
 - [gaborvecsei/memento.nvim](https://github.com/gaborvecsei/memento.nvim) - Keeps track of your visited file history after a buffer is closed. Reopen files more easily.
-- [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) - Space Age seD in neovim. Batch file edit tool for neovim, a neovim wrapper for [sad](https://github.com/ms-jpq/sad)
+- [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) - Space Age seD in neovim. Batch file edit tool for Neovim, a neovim wrapper for [sad](https://github.com/ms-jpq/sad)
 
 
 ### Scrollbar
