@@ -17,7 +17,7 @@
 - [Wishlist](#wishlist)
 - [UI](#ui)
 - [Plugin](#plugin)
-  - [Plugin Manager](#plugin-manager)/
+  - [Plugin Manager](#plugin-manager)
   - [LSP](#lsp)
   - [Completion](#completion)
   - [Markdown / LaTeX](#markdown--latex)
