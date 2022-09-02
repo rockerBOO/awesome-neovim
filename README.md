@@ -64,7 +64,6 @@
   - [Formatting](#formatting)
   - [Web development](#web-development)
   - [Media](#media)
-  - [Discord Rich Presence](#discord-rich-presence)
   - [Command Line](#command-line)
   - [Session](#session)
   - [Test](#test)
@@ -751,9 +750,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [gwatcha/reaper-keys](https://github.com/gwatcha/reaper-keys) - Modal keybindings for Reaper DAW.
 - [madskjeldgaard/reaper-nvim](https://github.com/madskjeldgaard/reaper-nvim) - Remote control Reaper DAW from Neovim.
 - [davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim) - Neovim frontend for SuperCollider.
-
-### Discord Rich Presence
-
 - [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim) - Fast and lite Discord Rich Presence plugin for Neovim written in Lua.
 
 ### Command Line
