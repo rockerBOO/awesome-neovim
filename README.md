@@ -34,7 +34,7 @@
   - [Utility](#utility)
   - [Icon](#icon)
   - [Debugging](#debugging)
-  - [Spellcheck](#spellcheck)
+  - [Language](#language)
   - [Neovim Lua Development](#neovim-lua-development)
   - [Fennel](#fennel)
   - [Tabline](#tabline)
@@ -437,9 +437,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ofirgall/goto-breakpoints.nvim](https://github.com/ofirgall/goto-breakpoints.nvim) - Cycle between breakpoints for nvim-dap.
 - [andrewferrier/debugprint.nvim](https://github.com/andrewferrier/debugprint.nvim) - Debugging in Neovim the print() way.
 
-### Spellcheck
+### Language
 
 - [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - Enable Neovim's spell checker with tree-sitter.
+- [potamides/pantran.nvim](https://github.com/potamides/pantran.nvim) - Translate your text with an interactive translation window.
 
 ### Neovim Lua Development
 
