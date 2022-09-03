@@ -73,6 +73,7 @@
   - [Tmux](#tmux)
   - [Remote Development](#remote-development)
   - [Split and Window](#split-and-window)
+  - [Machine Translation](#machine-translation)
 - [External](#external)
   - [Version Manager](#version-manager)
   - [Boilerplate](#boilerplate)
@@ -837,6 +838,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [sindrets/winshift.nvim](https://github.com/sindrets/winshift.nvim) - Rearrange your windows with ease.
 - [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) - Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids.
 - [luukvbaal/stabilize.nvim](https://github.com/luukvbaal/stabilize.nvim) - Stabilized window content on window open/close events.
+
+### Machine Translation
+- [potamides/pantran.nvim](https://github.com/potamides/pantran.nvim) - Use your favorite machine translation engines without having to leave your favorite editor.
 
 ## External
 
