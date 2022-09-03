@@ -614,7 +614,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [kevinhwang91/nvim-bqf](https://github.com/kevinhwang91/nvim-bqf) - The goal of nvim-bqf is to make Neovim's quickfix window better.
 - [gitlab.com/yorickpeterse/nvim-pqf](https://gitlab.com/yorickpeterse/nvim-pqf) - Prettier quickfix/location list windows for Neovim.
-- [stevearc/qf_helper.nvim](https://github.com/stevearc/qf_helper.nvim) - A collection of improvements for Neovim quickfix.
 
 ### Motion
 
