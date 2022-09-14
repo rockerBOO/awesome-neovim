@@ -155,7 +155,6 @@ Neovim supports a wide variety of UI's.
 
 - [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) - Easy to install language servers.
 - [alexaandru/nvim-lspupdate](https://github.com/alexaandru/nvim-lspupdate) - Updates installed (or auto installs if missing) LSP servers.
-- [williamboman/nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) - Easily install more than 50+ LSP servers - with full Windows support.
 - [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) - Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.
 
 ##### Diagnostics
