@@ -8,7 +8,7 @@
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 -->
 
-> Collections of awesome Neo/ plugins. Mostly targeting Neovim specific features.
+> Collections of awesome Neovim plugins. Mostly targeting Neovim specific features.
 
 [Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions.
 
