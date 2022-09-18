@@ -457,6 +457,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [echasnovski/mini.nvim#mini.test](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-test.md) - Module of `mini.nvim` with framework for writing extensive Neovim plugin tests. Supports hierarchical tests, hooks, parametrization, filtering, screen tests, "busted-style" emulation, customizable reporters, and more.
 - [miversen33/import.nvim](https://github.com/miversen33/import.nvim) - A safe require replacement with niceties.
 - [ray-x/guihua.lua](https://github.com/ray-x/guihua.lua) - A Lua UI library. Includes a fzy search bar, list view and tree view modules.
+- [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) - Create animations in Neovim.
 
 ### Fennel
 
@@ -823,6 +824,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [sindrets/winshift.nvim](https://github.com/sindrets/winshift.nvim) - Rearrange your windows with ease.
 - [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) - Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids.
 - [luukvbaal/stabilize.nvim](https://github.com/luukvbaal/stabilize.nvim) - Stabilized window content on window open/close events.
+- [anuvyklack/windows.nvim](https://github.com/anuvyklack/windows.nvim) - Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations! 
 
 ## External
 
