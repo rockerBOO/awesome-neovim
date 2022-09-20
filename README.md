@@ -264,6 +264,7 @@ Neovim supports a wide variety of UI's.
 - [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) - A Neovim (lua) plugin for working with a text-based, markdown zettelkasten / wiki and mixing it with a journal, based on telescope.nvim.
 - [mickael-menu/zk-nvim](https://github.com/mickael-menu/zk-nvim) - Neovim extension for zk, a plain text note-taking assistant.
 - [chrsm/impulse.nvim](https://github.com/chrsm/impulse.nvim) - Read Notion.so notes in Neovim.
+- [epwalsh/obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) - A Neovim plugin for Obsidian, written in Lua.
 
 ### Color
 
@@ -828,7 +829,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [sindrets/winshift.nvim](https://github.com/sindrets/winshift.nvim) - Rearrange your windows with ease.
 - [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) - Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids.
 - [luukvbaal/stabilize.nvim](https://github.com/luukvbaal/stabilize.nvim) - Stabilized window content on window open/close events.
-- [anuvyklack/windows.nvim](https://github.com/anuvyklack/windows.nvim) - Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations! 
+- [anuvyklack/windows.nvim](https://github.com/anuvyklack/windows.nvim) - Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations!
 
 ## External
 
