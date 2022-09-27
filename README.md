@@ -556,6 +556,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [EthanJWright/vs-tasks.nvim](https://github.com/EthanJWright/vs-tasks.nvim) - Telescope picker for VSCode style tasks.
 - [stevearc/overseer.nvim](https://github.com/stevearc/overseer.nvim) - A task runner and job management plugin.
 - [smzm/hydrovim](https://github.com/smzm/hydrovim) - Run python code inside Neovim.
+- [desdic/greyjoy.nvim](https://github.com/desdic/greyjoy.nvim) - A modular task runner for Makefiles, vscode tasks, kitchen etc.
 
 ### Neovim Lua Development
 
