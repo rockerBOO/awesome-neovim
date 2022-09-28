@@ -205,6 +205,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [frabjous/knap](https://github.com/frabjous/knap) - Plugin for creating automatic updating-as-you-type previews for markdown, LaTeX and other documents.
 - [jbyuki/carrot.nvim](https://github.com/jbyuki/carrot.nvim) - Markdown evaluator for Neovim Lua code blocks.
 - [AckslD/nvim-FeMaco.lua](https://github.com/AckslD/nvim-FeMaco.lua) - Catalyze your Fenced Markdown Code-block editing.
+- [xuhdev/vim-latex-live-preview](https://github.com/xuhdev/vim-latex-live-preview) - Live markdown preview as PDF
 
 ### Language
 
