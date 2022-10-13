@@ -464,6 +464,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim) - Fast and lite Discord Rich Presence plugin for Neovim written in Lua.
 - [Chaitanyabsrip/present.nvim](https://github.com/Chaitanyabsprip/present.nvim) - A Presentation plugin written for Neovim in Lua.
 - [krady21/compiler-explorer.nvim](https://github.com/krady21/compiler-explorer.nvim) - Async Lua plugin for interacting with [compiler-explorer](https://godbolt.org/).
+- [samodostal/image.nvim](https://github.com/samodostal/image.nvim) - Image Viewer as ASCII Art.
+- [adelarsq/image_preview.nvim](https://github.com/adelarsq/image_preview.nvim) - Neovim plugin for image previews. Depends on terminal Image Protocol support.
 
 ### Note taking
 
