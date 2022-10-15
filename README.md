@@ -482,6 +482,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [chrsm/impulse.nvim](https://github.com/chrsm/impulse.nvim) - Read Notion.so notes in Neovim.
 - [epwalsh/obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) - A Neovim plugin for Obsidian, written in Lua.
 - [jghauser/papis.nvim](https://github.com/jghauser/papis.nvim) - Manage your bibliography from within your favourite editor.
+- [ostralyan/scribe.nvim](https://github.com/ostralyan/scribe.nvim) - Take notes, easily.
 
 ### Utility
 
