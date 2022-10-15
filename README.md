@@ -162,7 +162,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
   - [hrsh7th/cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua) - A nvim-cmp source for the Neovim Lua API.
   - [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg) - A nvim-cmp source for Ripgrep.
   - [f3fora/cmp-spell](https://github.com/f3fora/cmp-spell) - A nvim-cmp source for vim's spellsuggest.
-  - [andersevenrud/compe-tmux](https://github.com/andersevenrud/compe-tmux) - A nvim-cmp source for Tmux.
+  - [andersevenrud/cmp-tmux](https://github.com/andersevenrud/cmp-tmux) - A nvim-cmp source for Tmux.
   - [David-Kunz/cmp-npm](https://github.com/David-Kunz/cmp-npm) - A nvim-cmp source for NPM.
   - [lukas-reineke/cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) - A nvim-cmp function for better sorting.
   - [zbirenbaum/copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) - A nvim-cmp source for GitHub copilot.
