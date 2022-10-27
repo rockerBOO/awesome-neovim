@@ -520,8 +520,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [AckslD/messages.nvim](https://github.com/AckslD/messages.nvim) - Capture and show any messages in a customisable (floating) buffer.
 - [jbyuki/instant.nvim](https://github.com/jbyuki/instant.nvim) - A collaborative editing plugin for Neovim written in Lua with no dependencies.
 - [numToStr/BufOnly.nvim](https://github.com/numToStr/BufOnly.nvim) - Lua/Neovim port of BufOnly.vim with some changes.
-- [zbirenbaum/neodim](https://github.com/zbirenbaum/neodim) - Dimming the highlights of unused functions, variables, parameters, and more
-- [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage) - Displays coverate information in the sign column and in a pop-up window
+- [zbirenbaum/neodim](https://github.com/zbirenbaum/neodim) - Dimming the highlights of unused functions, variables, parameters, and more.
+- [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage) - Displays coverate information in the sign column and in a pop-up window.
 - [bfredl/nvim-miniyank](https://github.com/bfredl/nvim-miniyank) - The killring-alike plugin with no default mappings.
 
 ### Terminal integration
