@@ -20,8 +20,8 @@
   - [Plugin Manager](#plugin-manager)
   - [LSP](#lsp)
   - [Completion](#completion)
-  - [Programming languages support](#programming-languages-support)
-    - [Web development](#web-development)
+  - [Programming Languages Support](#programming-languages-support)
+    - [Web Development](#web-development)
   - [Markdown / LaTeX](#markdown--latex)
   - [Language](#language)
   - [Syntax](#syntax)
@@ -30,7 +30,7 @@
   - [Marks](#marks)
   - [Search](#search)
   - [Fuzzy Finder](#fuzzy-finder)
-  - [File explorer](#file-explorer)
+  - [File Explorer](#file-explorer)
   - [Project](#project)
   - [Color](#color)
   - [Colorscheme](#colorscheme)
@@ -44,16 +44,16 @@
   - [Startup](#startup)
   - [Icon](#icon)
   - [Media](#media)
-  - [Note taking](#note-taking)
+  - [Note Taking](#note-taking)
   - [Utility](#utility)
-  - [Terminal integration](#terminal-integration)
+  - [Terminal Integration](#terminal-integration)
   - [Debugging](#debugging)
     - [Quickfix](#quickfix)
   - [Test](#test)
   - [Code Runner](#code-runner)
   - [Neovim Lua Development](#neovim-lua-development)
   - [Fennel](#fennel)
-  - [Dependency management](#dependency-management)
+  - [Dependency Management](#dependency-management)
   - [Git](#git)
     - [GitHub](#github)
   - [Motion](#motion)
@@ -61,7 +61,7 @@
   - [Mouse](#mouse)
   - [Scrolling](#scrolling)
     - [Scrollbar](#scrollbar)
-  - [Editing support](#editing-support)
+  - [Editing Support](#editing-support)
     - [Comment](#comment)
   - [Formatting](#formatting)
     - [Indent](#indent)
@@ -177,7 +177,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [vigoux/complementree.nvim](https://github.com/vigoux/complementree.nvim) - Light and synchronous completion plugin based on tree-sitter and with a functional-programming interface.
 - [GitHub/copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot.
 
-### Programming languages support
+### Programming Languages Support
 
 - [go.nvim](https://github.com/ray-x/go.nvim) - Golang plugin based on lsp and Treesitter.
 - [crusj/structrue-go.nvim](https://github.com/crusj/structrue-go.nvim) - A better structured display of golang symbols information.
@@ -195,7 +195,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [someone-stole-my-name/yaml-companion.nvim](https://github.com/someone-stole-my-name/yaml-companion.nvim) - Get, set and autodetect YAML schemas in your buffers.
 - [cuducos/yaml.nvim](https://github.com/cuducos/yaml.nvim) - Utils to work with YAML files.
 
-#### Web development
+#### Web Development
 
 - [NTBBloodbath/rest.nvim](https://github.com/NTBBloodbath/rest.nvim) - A fast Neovim http client written in Lua.
 - [ray-x/web-tools.nvim](https://github.com/ray-x/web-tools.nvim) - Launch a local development server with live reload feature for static & dynamic pages, HTTP & CSS tag rename with LSP.
@@ -263,7 +263,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [jvgrootveld/telescope-zoxide](https://github.com/jvgrootveld/telescope-zoxide) - Telescope integration for [zoxide](https://github.com/ajeetdsouza/zoxide), a smart directory picker that tracks your usage.
 - [echasnovski/mini.nvim#mini.fuzzy](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-fuzzy.md) - Module of `mini.nvim` with functions to perform fuzzy matching of one string to others along with fast Telescope sorter.
 
-### File explorer
+### File Explorer
 
 - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A simple and fast file explorer tree for Neovim.
 - [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) - File explorer powered by [nnn](https://github.com/jarun/nnn) and Lua.
@@ -483,7 +483,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [samodostal/image.nvim](https://github.com/samodostal/image.nvim) - Image Viewer as ASCII Art.
 - [adelarsq/image_preview.nvim](https://github.com/adelarsq/image_preview.nvim) - Image preview based on terminal's Image Protocol support.
 
-### Note taking
+### Note Taking
 
 - [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) - Abbreviation reminders for Neovim 0.5+.
 - [jakewvincent/mkdnflow.nvim](https://github.com/jakewvincent/mkdnflow.nvim) - Fluent markdown notebook navigation & management (create links, follow links, create and manage to-do lists, reference bib files, and more).
@@ -537,7 +537,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [zbirenbaum/neodim](https://github.com/zbirenbaum/neodim) - Dimming the highlights of unused functions, variables, parameters, and more.
 - [bfredl/nvim-miniyank](https://github.com/bfredl/nvim-miniyank) - The killring-alike plugin with no default mappings.
 
-### Terminal integration
+### Terminal Integration
 
 - [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) - Plugin framework for running commands in the terminal.
 - [nikvdp/neomux](https://github.com/nikvdp/neomux) - Control Neovim from shells running inside Neovim.
@@ -617,7 +617,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - Sweet :tangerine: Fennel integration for Neovim, aims to be as fast as possible.
 - [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - Flavored :hibiscus: Fennel macro library for Neovim.
 
-### Dependency management
+### Dependency Management
 
 - [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim) - Display latest package version as virtual text in package.json.
 - [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) - Rust dependency management for `Cargo.toml`.
@@ -656,7 +656,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [woosaaahh/sj.nvim](https://github.com/woosaaahh/sj.nvim) - Search based navigation combined with quick jump features.
 - [Weissle/easy-action](https://github.com/Weissle/easy-action) - Easily perform an action on where you can see.
 
-#### Treesitter based
+#### Treesitter Based
 
 - [mfussenegger/nvim-ts-hint-textobject](https://github.com/mfussenegger/nvim-ts-hint-textobject) - Region selection with hints on the AST nodes of a document powered by Treesitter.
 - [ziontee113/syntax-tree-surfer](https://github.com/ziontee113/syntax-tree-surfer) - Navigate and swap Treesitter's AST Nodes. Step into, step out, step over, step back.
@@ -694,7 +694,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [echasnovski/mini.nvim#mini.map](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-map.md) - Module of `mini.nvim` to show floating window with buffer text overview, scrollbar, and highlights.
 - [gorbit99/codewindow.nvim](https://github.com/gorbit99/codewindow.nvim) - Minimap plugin for Neovim, that is closely integrated with treesitter and the builtin LSP to display more information to the user.
 
-### Editing support
+### Editing Support
 
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use treesitter to autoclose and autorename xml,html,jsx tag.
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - A minimalist autopairs for Neovim written by Lua.
