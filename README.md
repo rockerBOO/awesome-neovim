@@ -35,6 +35,7 @@
   - [Color](#color)
   - [Colorscheme](#colorscheme)
     - [Colorscheme Creation](#colorscheme-creation)
+  - [Winbar](#winbar)
   - [Statusline](#statusline)
   - [Tabline](#tabline)
   - [Winbar and Statusline component](#winbar-and-statusline-component)
@@ -403,6 +404,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) - A colorscheme template that is "lite" on logic for the developer.
 - [echasnovski/mini.nvim#mini.base16](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-base16.md) - Module of `mini.nvim` with fast implementation of base16 theme for manually supplied palette.
 - [ThemerCorp/themer.lua](https://github.com/themercorp/themer.lua) - A simple highlighter plugin for neovim. It has a huge collection of colorschemes. It also has ability to create colorschemes for Vim/Neovim and other supported apps (such as kitty and alacritty).
+
+### Winbar
+
+- [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim) - A VS Code like winbar for Neovim.
 
 ### Statusline
 
