@@ -573,7 +573,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [smzm/hydrovim](https://github.com/smzm/hydrovim) - Run python code inside Neovim.
 - [desdic/greyjoy.nvim](https://github.com/desdic/greyjoy.nvim) - A modular task runner for Makefiles, vscode tasks, kitchen etc.
 - [Shatur/neovim-tasks](https://github.com/Shatur/neovim-tasks) - A stateful task manager focused on integration with build systems.
-- [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim) - Interactive REPLs of over 30 languages embedded in Neovim
+- [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim) - Interactive REPLs of over 30 languages embedded in Neovim.
 
 ### Neovim Lua Development
 
