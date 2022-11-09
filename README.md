@@ -35,11 +35,12 @@
   - [Color](#color)
   - [Colorscheme](#colorscheme)
     - [Colorscheme Creation](#colorscheme-creation)
-  - [Winbar](#winbar)
-  - [Statusline](#statusline)
-  - [Tabline](#tabline)
-  - [Winbar and Statusline component](#winbar-and-statusline-component)
-  - [Cursorline](#cursorline)
+  - [Bars and Lines](#bars-and-lines)
+      - [Statusline](#statusline)
+      - [Tabline](#tabline)
+      - [Winbar](#winbar)
+      - [Cursorline](#cursorline)
+      - [Components](#components)
   - [Startup](#startup)
   - [Icon](#icon)
   - [Media](#media)
@@ -405,11 +406,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [echasnovski/mini.nvim#mini.base16](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-base16.md) - Module of `mini.nvim` with fast implementation of base16 theme for manually supplied palette.
 - [ThemerCorp/themer.lua](https://github.com/themercorp/themer.lua) - A simple highlighter plugin for neovim. It has a huge collection of colorschemes. It also has ability to create colorschemes for Vim/Neovim and other supported apps (such as kitty and alacritty).
 
-### Winbar
+### Bars and Lines
 
-- [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim) - A VS Code like winbar for Neovim.
-
-### Statusline
+#### Statusline
 
 - [NTBBloodbath/galaxyline.nvim](https://github.com/NTBBloodbath/galaxyline.nvim) - Galaxyline componentizes Vim's statusline by having a provider for each text area. This means you can use the api provided by galaxyline to create the statusline that you want, easily.
 - [tjdevries/express_line.nvim](https://github.com/tjdevries/express_line.nvim) - Supports co-routines, functions and jobs.
@@ -427,7 +426,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) - Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile.
 - [yaocccc/nvim-lines.lua](https://github.com/yaocccc/nvim-lines.lua) - A fast, light, customizable Neovim statusline and tabline(buffers) plugin.
 
-### Tabline
+#### Tabline
 
 - [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) - The Neovim tabline plugin.
 - [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - A snazzy buffer line for Neovim built using Lua.
@@ -440,17 +439,22 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [rafcamlet/tabline-framework.nvim](https://github.com/rafcamlet/tabline-framework.nvim) - User-friendly framework for building your dream tabline in a few lines of code.
 - [nanozuki/tabby.nvim](https://github.com/nanozuki/tabby.nvim) - A minimal, configurable, Neovim style tabline. Use your Neovim tabs as workspace multiplexer.
 
-### Winbar and Statusline component
+#### Winbar
 
-- [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) - A simple statusline/winbar component that uses LSP to show your current code context.
+- [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim) - A VS Code like winbar for Neovim.
 
-### Cursorline
+#### Cursorline
 
 - [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) - A plugin for Neovim that highlights cursor words and lines.
 - [xiyaowong/nvim-cursorword](https://github.com/xiyaowong/nvim-cursorword) - Part of nvim-cursorline. Highlight the word under the cursor.
 - [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) - Highlight the word under the cursor. Neovim's builtin LSP is available, it can be used to highlight more intelligently.
 - [echasnovski/mini.nvim#mini.cursorword](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-cursorword.md) - Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay).
 - [melkster/modicator.nvim](https://github.com/melkster/modicator.nvim) - Cursor line number mode indicator. Changes the `CursorLineNr` highlight based on Vim mode.
+
+#### Components
+
+- [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) - A simple statusline/winbar component that uses LSP to show your current code context.
+
 
 ### Startup
 
