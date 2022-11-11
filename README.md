@@ -80,6 +80,7 @@
 - [Vim](#vim)
 - [Resource](#resource)
 
+<!--lint ignore awesome-toc-->
 <!--lint ignore double-link-->
 ## <a name="wishlist"></a> Wishlist <small><sup>[Top ▲](#contents)</sup></small>
 
