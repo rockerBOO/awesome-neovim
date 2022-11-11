@@ -13,7 +13,7 @@
 [Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions.
 
 ## Contents
-
+<!--lint ignore awesome-toc-->
 - [Wishlist](#wishlist)
 - [UI](#ui)
 - [Plugin](#plugin)
@@ -80,7 +80,7 @@
 - [Vim](#vim)
 - [Resource](#resource)
 
-<!--lint ignore awesome-toc-->
+<!--lint ignore double-link-->
 ## <a name="wishlist"></a> Wishlist <small><sup>[Top ▲](#contents)</sup></small>
 
 Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://github.com/nvim-lua/wishlist).
