@@ -204,6 +204,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [jbyuki/carrot.nvim](https://github.com/jbyuki/carrot.nvim) - Markdown evaluator Lua code blocks.
 - [AckslD/nvim-FeMaco.lua](https://github.com/AckslD/nvim-FeMaco.lua) - Catalyze your Fenced Markdown Code-block editing.
 - [NFrid/markdown-togglecheck](https://github.com/NFrid/markdown-togglecheck) - Simple Neovim plugin for toggling check boxes using Treesitter.
+- [toppair/peek.nvim](https://github.com/toppair/peek.nvim) - Preview markdown in a webview window.
 
 ### Language
 
