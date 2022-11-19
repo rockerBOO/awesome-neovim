@@ -246,6 +246,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or \* match under your cursor when pressing n or N and gets out of the way afterwards.
 - [gaborvecsei/memento.nvim](https://github.com/gaborvecsei/memento.nvim) - Keeps track of your visited file history after a buffer is closed. Reopen files more easily.
 - [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) - Space Age seD in neovim. Batch file edit tool, a wrapper for [sad](https://github.com/ms-jpq/sad)
+- [vim-cool](https://github.com/romainl/vim-cool) - Automatically disables search highlighting when you are done searching.
 
 ### Fuzzy Finder
 
