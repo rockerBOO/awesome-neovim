@@ -208,7 +208,6 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 
 ### Language
 
-- [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) - Enable Neovim's spell checker with tree-sitter.
 - [potamides/pantran.nvim](https://github.com/potamides/pantran.nvim) - Translate your text with an interactive translation window.
 
 ### Syntax
