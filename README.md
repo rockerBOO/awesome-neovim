@@ -42,6 +42,7 @@
     - [Tabline](#tabline)
     - [Winbar](#winbar)
     - [Cursorline](#cursorline)
+  - [Highlight](#highlight)    
   - [Startup](#startup)
   - [Icon](#icon)
   - [Media](#media)
@@ -446,6 +447,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [echasnovski/mini.nvim#mini.cursorword](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-cursorword.md) - Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay).
 - [melkster/modicator.nvim](https://github.com/melkster/modicator.nvim) - Cursor line number mode indicator. Changes the `CursorLineNr` highlight based on Vim mode.
 
+### Highlight
+
+- ['azabiong/vim-highlighter'](https://github.com/azabiong/vim-highlighter) - Highlight words and expressions.
+- ['t9md/vim-quickhl'](https://github.com/t9md/vim-quickhl) - Quickly highlight &lt;cword&gt; or visually selected word.
 
 ### Startup
 
