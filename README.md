@@ -282,6 +282,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [cljoly/telescope-repo.nvim](https://cj.rs/telescope-repo-nvim/) - Telescope picker to jump to any repository (git or other) on the file system.
 - [MunifTanjim/exrc.nvim](https://github.com/MunifTanjim/exrc.nvim) - Secure Project Local Config.
 - [otavioschwanck/telescope-alternate.nvim](https://github.com/otavioschwanck/telescope-alternate.nvim) - Alternate between common files using telescope.
+- [gnikdroy/projections.nvim](https://github.com/gnikdroy/projections.nvim) - Tiny project + session manager.
 
 ### Color
 
