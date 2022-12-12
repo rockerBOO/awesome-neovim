@@ -653,6 +653,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) - Readline keyboard shortcuts.
 - [woosaaahh/sj.nvim](https://github.com/woosaaahh/sj.nvim) - Search based navigation combined with quick jump features.
 - [Weissle/easy-action](https://github.com/Weissle/easy-action) - Easily perform an action on where you can see.
+- [cbochs/portal.nvim](https://github.com/cbochs/portal.nvim) - Build upon and enhance existing jumplist motions (i.e. `<c-i>` and `<c-o>`).
 
 #### Treesitter Based
 
