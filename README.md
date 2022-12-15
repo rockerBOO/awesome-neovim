@@ -532,8 +532,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [numToStr/BufOnly.nvim](https://github.com/numToStr/BufOnly.nvim) - Lua/Neovim port of BufOnly.vim with some changes.
 - [zbirenbaum/neodim](https://github.com/zbirenbaum/neodim) - Dimming the highlights of unused functions, variables, parameters, and more.
 - [bfredl/nvim-miniyank](https://github.com/bfredl/nvim-miniyank) - The killring-alike plugin with no default mappings.
-- [chrisgrieser/nvim-genghis](https://github.com/chrisgrieser/nvim-genghis) – Convenience file operations, written in Lua.
-- [chrisgrieser/nvim-recorder](https://github.com/chrisgrieser/nvim-recorder) – Simplifying and improving how you interact with macros.
+- [chrisgrieser/nvim-genghis](https://github.com/chrisgrieser/nvim-genghis) - Convenience file operations, written in Lua.
+- [chrisgrieser/nvim-recorder](https://github.com/chrisgrieser/nvim-recorder) - Simplifying and improving how you interact with macros.
 
 
 ### Terminal Integration
