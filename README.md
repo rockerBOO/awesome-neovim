@@ -285,7 +285,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [cljoly/telescope-repo.nvim](https://cj.rs/telescope-repo-nvim/) - Telescope picker to jump to any repository (git or other) on the file system.
 - [MunifTanjim/exrc.nvim](https://github.com/MunifTanjim/exrc.nvim) - Secure Project Local Config.
 - [otavioschwanck/telescope-alternate.nvim](https://github.com/otavioschwanck/telescope-alternate.nvim) - Alternate between common files using telescope.
-- [natecraddock/workspaces.nvim](https://github.com/natecraddock/workspaces.nvim) - A simple plugin to manage workspace directories in neovim.
+- [natecraddock/workspaces.nvim](https://github.com/natecraddock/workspaces.nvim) - A simple plugin to manage workspace directories.
 - [gnikdroy/projections.nvim](https://github.com/gnikdroy/projections.nvim) - Tiny project + session manager.
 - [nyngwang/suave.lua](https://github.com/nyngwang/suave.lua) - Multi-tabs project session automation.
 - [desdic/telescope-rooter.nvim](https://github.com/desdic/telescope-rooter.nvim) - Makes sure to always start telescope (and only telescope) from the project/root directory.
