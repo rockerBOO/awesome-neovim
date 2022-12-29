@@ -160,8 +160,8 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [echasnovski/mini.nvim#mini.completion](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-completion.md) - Module of `mini.nvim` for asynchronous two-stage completion. Supports showing completion item info and independent function signature.
 - [noib3/nvim-compleet](https://github.com/noib3/nvim-compleet) - A Neovim autocompletion framework written in Rust.
 - [vigoux/complementree.nvim](https://github.com/vigoux/complementree.nvim) - Light and synchronous completion plugin based on tree-sitter and with a functional-programming interface.
-- [GitHub/copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot.
 - [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) - Tools for better development in Rust using Neovim's builtin LSP.
+- [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) - Fully featured Lua replacement for [GitHub/copilot.vim](https://github.com/github/copilot.vim).
 
 ### Programming Languages Support
 
