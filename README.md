@@ -220,7 +220,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround) - A plugin for adding/changing/deleting surrounding delimiter pairs.
 - [echasnovski/mini.nvim#mini.surround](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-surround.md) - Module of `mini.nvim` for working with text surroundings (add, delete, replace, find, highlight). Supports dot-repeat, different search methods, "last"/"next" extended mappings, tree-sitter integration, and more.
 - [m-demare/hlargs.nvim](https://github.com/m-demare/hlargs.nvim) - Highlight arguments' definitions and usages, using Treesitter.
-- [nvim-nu](https://github.com/LhKipp/nvim-nu) Basic editor support for the nushell language.
+- [nvim-nu](https://github.com/LhKipp/nvim-nu) - Basic editor support for the nushell language.
 
 ### Snippet
 
