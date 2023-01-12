@@ -184,7 +184,6 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [rafaelsq/nvim-goc.lua](https://github.com/rafaelsq/nvim-goc.lua) - Highlight your buffer with Golang Code Coverage.
 - [crusj/hierarchy-tree-go.nvim](https://github.com/crusj/hierarchy-tree-go.nvim) - Neovim plugin for Golang, callHierarchy UI tree.
 
-
 #### YAML
 
 - [someone-stole-my-name/yaml-companion.nvim](https://github.com/someone-stole-my-name/yaml-companion.nvim) - Get, set and autodetect YAML schemas in your buffers.
@@ -276,7 +275,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [elihunter173/dirbuf.nvim](https://github.com/elihunter173/dirbuf.nvim) - A file manager which lets you edit your filesystem like you edit text.
 - [theblob42/drex.nvim](https://github.com/TheBlob42/drex.nvim) - A simple and configurable file explorer written in Lua.
 - [SidOfc/carbon.nvim](https://github.com/SidOfc/carbon.nvim) - The simple directory tree viewer written in Lua.
-- [dinhhuy258/sfm.nvim](https://github.com/dinhhuy258/sfm.nvim) - An alternative to Nvim-tree designed to be extensible and minimalist. 
+- [dinhhuy258/sfm.nvim](https://github.com/dinhhuy258/sfm.nvim) - An alternative to Nvim-tree designed to be extensible and minimalist.
 - [kiran94/s3edit.nvim](https://github.com/kiran94/s3edit.nvim) - Edit files from Amazon S3 directly from Neovim.
 - [stevearc/oil.nvim](https://github.com/stevearc/oil.nvim) - Edit your filesystem like a buffer.
 - [EdvinVikstrom/filetree.nvim](https://github.com/EdvinVikstrom/filetree.nvim) - A beautiful and fast file manager easy to customize.
@@ -462,7 +461,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [echasnovski/mini.nvim#mini.cursorword](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-cursorword.md) - Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay).
 - [melkster/modicator.nvim](https://github.com/melkster/modicator.nvim) - Cursor line number mode indicator. Changes the `CursorLineNr` highlight based on Vim mode.
 - [nyngwang/murmur.lua](https://github.com/nyngwang/murmur.lua) - Super-fast cursor word highlighting with callbacks(I call them murmurs) included.
-
 
 ### Startup
 
@@ -729,7 +727,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Pocco81/TrueZen.nvim](https://github.com/Pocco81/TrueZen.nvim) - Clean and elegant distraction-free writing.
 - [Pocco81/HighStr.nvim](https://github.com/Pocco81/HighStr.nvim) - Highlight visual selections like in a normal document editor!
 - [Pocco81/AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim) - Save your work before the world collapses or you type :qa!
-- [tmillr/sos.nvim](https://github.com/tmillr/sos.nvim) -  Automatically save all your modified buffers according to a predefined timeout value.
+- [tmillr/sos.nvim](https://github.com/tmillr/sos.nvim) - Automatically save all your modified buffers according to a predefined timeout value.
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free coding.
 - [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) - Shows virtual text of the current context.
 - [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) - Shows floating hover with the current function/block context.
@@ -805,6 +803,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - A small automated session manager.
 - [echasnovski/mini.nvim#mini.sessions](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-sessions.md) - Module of `mini.nvim` for session management (read, write, delete).
+- [gennaro-tedesco/nvim-possession](https://github.com/gennaro-tedesco/nvim-possession) - The no-nonsense session manager.
 - [olimorris/persisted.nvim](https://github.com/olimorris/persisted.nvim) - Simple session management with git branching, autosave/autoload and Telescope support.
 - [Shatur/neovim-session-manager](https://github.com/Shatur/neovim-session-manager) - A simple wrapper around :mksession.
 - [jedrzejboczar/possession.nvim](https://github.com/jedrzejboczar/possession.nvim) - Flexible session management with arbitrary persistent data stored as JSON.
