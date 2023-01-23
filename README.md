@@ -153,6 +153,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 
 ### Completion
 
+- [Exafunction/codeium.vim](https://github.com/Exafunction/codeium.vim) - Free AI powered code assistance plugin using [Codeium](https://www.codeium.com).
 - [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) - Fast as FUCK Neovim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.
 - [jameshiew/nvim-magic](https://github.com/jameshiew/nvim-magic) - Framework for integrating AI code assistance.
 - [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin written in Lua. New version of nvim-compe.
