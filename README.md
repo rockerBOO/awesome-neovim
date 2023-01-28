@@ -210,6 +210,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 ### Language
 
 - [potamides/pantran.nvim](https://github.com/potamides/pantran.nvim) - Translate your text with an interactive translation window.
+- [niuiic/translate.nvim](https://github.com/niuiic/translate.nvim) - Invoke any translation engine via shell command.
 
 ### Syntax
 
