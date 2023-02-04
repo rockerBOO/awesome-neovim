@@ -37,6 +37,7 @@
   - [Color](#color)
   - [Colorscheme](#colorscheme)
     - [Colorscheme Creation](#colorscheme-creation)
+    - [Colorscheme Switchers](#colorscheme-switchers)
   - [Bars and Lines](#bars-and-lines)
     - [Statusline](#statusline)
     - [Tabline](#tabline)
@@ -420,8 +421,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 #### Colorscheme Switchers
 
-- [4e554c4c/darkman.nvim](https://github.com/4e554c4c/darkman.nvim) - A plugin to follow the system dark-mode setting on Linux.
-- [f-person/auto-dark-mode.nvim](https://github.com/f-person/auto-dark-mode.nvim) - A plugin to follow the system appearance on macOS
+- [4e554c4c/darkman.nvim](https://github.com/4e554c4c/darkman.nvim) -Follow the system dark-mode setting on Linux.
+- [f-person/auto-dark-mode.nvim](https://github.com/f-person/auto-dark-mode.nvim) - Follow the system appearance on macOS.
 
 ### Bars and Lines
 
