@@ -883,7 +883,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [otavioschwanck/mood-nvim](https://github.com/otavioschwanck/mood-nvim) - Ready to use configuration for Ruby on Rails, JavaScript and Typescript.
 - [ldelossa/nvim-ide](https://github.com/ldelossa/nvim-ide) - A full featured IDE layer heavily inspired by VSCode.
 - [jonathandion/web-dev.nvim](https://github.com/jonathandion/web-dev.nvim) - Small, simple and flexible configuration for web development ✨.
-- [linrongbin16/lin.nvim](https://github.com/linrongbin16/lin.nvim) - A highly configured neovim distribution integrated with tons of utilities for development, inspired by spf13-vim.
+- [linrongbin16/lin.nvim](https://github.com/linrongbin16/lin.nvim) - A highly configured Neovim distribution integrated with tons of utilities for development, inspired by spf13-vim.
 
 ## External
 
