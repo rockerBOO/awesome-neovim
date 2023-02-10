@@ -619,7 +619,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Neovim Lua Development
 
-- [tjdevries/nlua.nvim](https://github.com/tjdevries/nlua.nvim) - Lua Development.
+- [folke/neodev.nvim](https://github.com/folke/neodev.nvim) - Lua Development.
 - [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) - Commands to help write your .vimrc in Lua or any Lua based language.
 - [nanotee/nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide) - A guide to using Lua in Neovim.
 - [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) - Interactive real time Neovim scratchpad for embedded Lua engine - Type and watch!.
