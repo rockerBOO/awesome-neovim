@@ -477,7 +477,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 #### Colorcolumn
 
-- [m4xshen/smartcolumn.nvim](https://github.com/m4xshen/smartcolumn.nvim) - Hide your colorcolumn when uneeded.
+- [m4xshen/smartcolumn.nvim](https://github.com/m4xshen/smartcolumn.nvim) - Hide your colorcolumn when unneeded.
 
 ### Startup
 
