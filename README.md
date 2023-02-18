@@ -43,6 +43,7 @@
     - [Tabline](#tabline)
     - [Winbar](#winbar)
     - [Cursorline](#cursorline)
+    - [Colorcolumn](#colorcolumn)
   - [Startup](#startup)
   - [Icon](#icon)
   - [Media](#media)
@@ -473,6 +474,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [echasnovski/mini.nvim#mini.cursorword](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-cursorword.md) - Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay).
 - [mawkler/modicator.nvim](https://github.com/mawkler/modicator.nvim) - Cursor line number mode indicator. Changes the `CursorLineNr` highlight based on Vim mode.
 - [nyngwang/murmur.lua](https://github.com/nyngwang/murmur.lua) - Super-fast cursor word highlighting with callbacks(I call them murmurs) included.
+
+#### Colorcolumn
+
+- [m4xshen/smartcolumn.nvim](https://github.com/m4xshen/smartcolumn.nvim) - Hide your colorcolumn when uneeded.
 
 ### Startup
 
