@@ -362,6 +362,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [lourenci/github-colors](https://github.com/lourenci/github-colors) - GitHub colors leveraging Tree-sitter to get 100% accuracy.
 - [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material) - Gruvbox modification with softer contrast and Tree-sitter support.
 - [sainnhe/everforest](https://github.com/sainnhe/everforest) - A green based colorscheme designed to be warm, soft and easy on the eyes.
+- [neanias/everforest-nvim](https:/github.com/neanias/everforest-nvim) - A Lua port of the Everforest colour scheme.
 - [NTBBloodbath/doom-one.nvim](https://github.com/NTBBloodbath/doom-one.nvim) - Lua port of doom-emacs' doom-one.
 - [dracula/vim](https://github.com/dracula/vim) - Famous beautiful dark powered theme.
 - [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim) - Dracula colorscheme for neovim written in Lua.
