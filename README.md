@@ -667,7 +667,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) - Plugin for calling lazygit.
 - [AckslD/nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua) - Plugin using [gfold](https://github.com/nickgerace/gfold) to switch repo and have statusline component.
 - [akinsho/git-conflict.nvim](https://github.com/akinsho/git-conflict.nvim) - A plugin to visualise and resolve merge conflicts.
-- [linrongbin16/gitlinker.nvim](https://github.com/linrongbin16/gitlinker.nvim) - A fork of [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) with bug fix, enhancement and refactor.
+- [linrongbin16/gitlinker.nvim](https://github.com/linrongbin16/gitlinker.nvim) - A fork of [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) with bug fix, enhancements and refactor.
 
 #### GitHub
 
