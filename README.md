@@ -430,6 +430,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [4e554c4c/darkman.nvim](https://github.com/4e554c4c/darkman.nvim) - Follow the system dark-mode setting on Linux.
 - [f-person/auto-dark-mode.nvim](https://github.com/f-person/auto-dark-mode.nvim) - Follow the system appearance on macOS.
+- [linrongbin16/colorswitch.nvim](https://github.com/linrongbin16/colorswitch.nvim) - A colorscheme switch and awesome collection plugin for Neovim.
 
 ### Bars and Lines
 
