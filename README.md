@@ -880,6 +880,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [seandewar/nvimesweeper](https://github.com/seandewar/nvimesweeper) - Play Minesweeper in your favourite text editor.
 - [seandewar/killersheep.nvim](https://github.com/seandewar/killersheep.nvim) - Neovim port of killersheep.
 - [rktjmp/shenzhen-solitaire.nvim](https://github.com/rktjmp/shenzhen-solitaire.nvim) - Shenzhen I/O Solitaire port.
+- [jim-fx/sudoku.nvim](https://github.com/jim-fx/sudoku.nvim) - Neovim port of sudoku.
 
 #### Competitive Programming
 
