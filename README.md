@@ -601,6 +601,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Weissle/persistent-breakpoints.nvim](https://github.com/Weissle/persistent-breakpoints.nvim) - Persistent breakpoints for nvim-dap.
 - [ofirgall/goto-breakpoints.nvim](https://github.com/ofirgall/goto-breakpoints.nvim) - Cycle between breakpoints for nvim-dap.
 - [andrewferrier/debugprint.nvim](https://github.com/andrewferrier/debugprint.nvim) - Debugging the print() way.
+- [t-troebst/perfanno.nvim](https://github.com/t-troebst/perfanno.nvim) - Explore callgraph profiling data directly in Neovim with native support for perf, flamegraph and the LuaJit profiler.
 
 #### Quickfix
 
