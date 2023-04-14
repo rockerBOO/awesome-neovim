@@ -1,4 +1,8 @@
-Checklist:
+### Repo URL:
+
+https://github.com/...
+
+### Checklist:
 
 - [ ] The plugin is specifically built for Neovim, or if it's a colorscheme, it supports treesitter syntax.
 - [ ] The lines end with a `.`. This is to conform to `awesome-list` linting and requirements.
