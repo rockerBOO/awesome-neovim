@@ -212,6 +212,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [NFrid/markdown-togglecheck](https://github.com/NFrid/markdown-togglecheck) - Simple Neovim plugin for toggling check boxes using Treesitter.
 - [toppair/peek.nvim](https://github.com/toppair/peek.nvim) - Preview markdown in a webview window.
 - [yaocccc/nvim-hl-mdcodeblock.lua](https://github.com/yaocccc/nvim-hl-mdcodeblock.lua) - Highlight markdown codeblock using Tree-sitter.
+- [kiran94/edit-markdown-table.nvim](https://github.com/kiran94/edit-markdown-table.nvim) - Edit Markdown Tables using Tree-sitter.
 
 ### Language
 
