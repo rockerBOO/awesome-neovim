@@ -16,6 +16,7 @@
 
 - [Wishlist](#wishlist)
 - [UI](#ui)
+- [Starter Templates](#starter-templates)
 - [Plugin](#plugin)
   - [Plugin Manager](#plugin-manager)
   - [LSP](#lsp)
@@ -88,6 +89,9 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 Neovim supports a wide variety of UI's.
 You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/wiki/Related-projects#gui)
+
+## Starter templates
+- [tokiory/neovim-boilerplate](https://github.com/tokiory/neovim-boilerplate) - Starter boilerplate for making new configuration
 
 ## Plugin
 
