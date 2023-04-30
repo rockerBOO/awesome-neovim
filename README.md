@@ -91,7 +91,7 @@ Neovim supports a wide variety of UI's.
 You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/wiki/Related-projects#gui)
 
 ## Starter templates
-- [tokiory/neovim-boilerplate](https://github.com/tokiory/neovim-boilerplate) - Starter boilerplate for making new configuration
+- [tokiory/neovim-boilerplate](https://github.com/tokiory/neovim-boilerplate) - Starter boilerplate for making new configurations.
 
 ## Plugin
 
