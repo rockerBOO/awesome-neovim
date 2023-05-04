@@ -267,6 +267,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) - Space Age seD in neovim. Batch file edit tool, a wrapper for [sad](https://github.com/ms-jpq/sad)
 - [s1n7ax/nvim-search-and-replace](https://github.com/s1n7ax/nvim-search-and-replace) - Search and replace in multiple files at the same time from the current working directory.
 - [roobert/search-replace.nvim](https://github.com/roobert/search-replace.nvim) - Brings better features to the native search and replace experience.
+- [AckslD/muren.nvim](https://github.com/AckslD/muren.nvim/) - Multiple replacements through interactive UI.
 
 ### Fuzzy Finder
 
