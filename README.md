@@ -74,6 +74,7 @@
     - [Tmux](#tmux)
   - [Game](#game)
     - [Competitive Programming](#competitive-programming)
+  - [Workflow](#workflow)
   - [Preconfigured Configuration](#preconfigured-configuration)
 - [External](#external)
   - [Version Manager](#version-manager)
@@ -921,6 +922,11 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [p00f/cphelper.nvim](https://github.com/p00f/cphelper.nvim) - Neovim helper for competitive programming written in Lua.
 - [xeluxee/competitest.nvim](https://github.com/xeluxee/competitest.nvim) - A plugin to automate testcases management and checking for Competitive Programming contests.
+
+### Workflow
+
+- [m4xshen/hardtime.nvim](https://github.com/m4xshen/hardtime.nvim) - Helping you establish good command workflow and habit.
+- [antonk52/bad-practices.nvim](https://github.com/antonk52/bad-practices.nvim) - Helping you give up bad practices in Vim.
 
 ### Preconfigured Configuration
 
