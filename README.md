@@ -925,6 +925,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ### Workflow
 
 - [m4xshen/hardtime.nvim](https://github.com/m4xshen/hardtime.nvim) - Helping you establish good command workflow and habit.
+- [antonk52/bad-practices.nvim](https://github.com/antonk52/bad-practices.nvim) - A plugin to help give up bad practices in Vim.
 
 ### Preconfigured Configuration
 
