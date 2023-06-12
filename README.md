@@ -425,6 +425,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [embark-theme/vim](https://github.com/embark-theme/vim) - A deep inky purple theme leveraging bright colors.
 - [nyngwang/nvimgelion](https://github.com/nyngwang/nvimgelion) - Neon Genesis Evangelion but for Vimmers.
 - [maxmx03/FluoroMachine.nvim](https://github.com/maxmx03/FluoroMachine.nvim) - Synthwave x Fluoromachine port.
+- [dasupradyumna/midnight.nvim](https://github.com/dasupradyumna/midnight.nvim) - A modern black Neovim theme with comfortable color contrast for a pleasant visual experience, with LSP and Tree-sitter support.
 
 #### Lua Colorscheme
 
