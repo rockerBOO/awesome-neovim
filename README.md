@@ -716,7 +716,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 - [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) - Show git blame info.
 - [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration: signs, hunk actions, blame, etc.
-- [TimUntersberger/neogit](https://github.com/TimUntersberger/neogit) - A Magit clone that may change some things to fit the Vim philosophy.
+- [NeogitOrg/neogit](https://github.com/NeogitOrg/neogit) - A Magit clone that may change some things to fit the Vim philosophy.
 - [tveskag/nvim-blame-line](https://github.com/tveskag/nvim-blame-line) - A small plugin that uses neovims virtual text to print git blame info at the end of the current line.
 - [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) - Generate shareable file permalinks for several git hosts. Inspired by tpope/vim-fugitive's :GBrowse.
 - [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) - Visual Git Plugin to enhance your git experience.
