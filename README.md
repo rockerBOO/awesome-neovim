@@ -643,6 +643,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ofirgall/goto-breakpoints.nvim](https://github.com/ofirgall/goto-breakpoints.nvim) - Cycle between breakpoints for nvim-dap.
 - [andrewferrier/debugprint.nvim](https://github.com/andrewferrier/debugprint.nvim) - Debugging the print() way.
 - [t-troebst/perfanno.nvim](https://github.com/t-troebst/perfanno.nvim) - Annotate your code with callgraph profiling data. Native support for perf, flamegraph and the LuaJit profiler.
+- [niuiic/dap-utils](https://github.com/niuiic/dap-utils.nvim) - Utilties to provide a better experience for using nvim-dap.
 
 #### Quickfix
 
