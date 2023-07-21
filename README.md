@@ -814,6 +814,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Pocco81/TrueZen.nvim](https://github.com/Pocco81/TrueZen.nvim) - Clean and elegant distraction-free writing.
 - [Pocco81/HighStr.nvim](https://github.com/Pocco81/HighStr.nvim) - Highlight visual selections like in a normal document editor!
 - [Pocco81/AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim) - Save your work before the world collapses or you type :qa!
+- [okuuva/auto-save.nvim](https://github.com/okuuva/auto-save.nvim) - Automatically save your work after you stop editing it for a while. Maintained fork of Pocco81/auto-save.
 - [tmillr/sos.nvim](https://github.com/tmillr/sos.nvim) - Automatically save all your modified buffers according to a predefined timeout value.
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free coding.
 - [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) - Shows virtual text of the current context.
@@ -855,7 +856,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ckolkey/ts-node-action](https://github.com/ckolkey/ts-node-action) - A framework for executing functional transformations on Tree-sitter nodes - Has a lot of built-in actions for transforming text.
 - [tomiis4/hypersonic.nvim](https://github.com/tomiis4/hypersonic.nvim) - Provides explanation for RegExp.
 - [00sapo/visual.nvim](https://github.com/00sapo/visual.nvim) - Provides keybindings for creating a Kakoune/Helix-like experience: first select and then choose the editing command.
-- [okuuva/auto-save.nvim](https://github.com/okuuva/auto-save.nvim) - Automatically save your work after you stop editing it for a while. Maintained fork of Pocco81/auto-save.
 
 #### Comment
 
