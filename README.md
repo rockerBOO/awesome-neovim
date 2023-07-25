@@ -21,7 +21,7 @@
   - [Plugin Manager](#plugin-manager)
   - [LSP](#lsp)
   - [Completion](#completion)
-  - [AI (ChatGPT/GPT/LLM) integration](#ai-chatgptgptllm-integration)
+  - [AI](#ai)
   - [Programming Languages Support](#programming-languages-support)
     - [Golang](#golang)
     - [YAML](#yaml)
@@ -177,7 +177,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) - Tools for better development in Rust using Neovim's builtin LSP.
 - [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) - Fully featured Lua replacement for [GitHub/copilot.vim](https://github.com/github/copilot.vim).
 
-### AI (ChatGPT/GPT/LLM) integration
+### AI
 
 - [Robitx/gp.nvim](https://github.com/Robitx/gp.nvim) - ChatGPT like sessions and instructable text/code operations in your favorite editor.
 - [dpayne/CodeGPT.nvim](https://github.com/dpayne/CodeGPT.nvim) - Provides commands to interact with ChatGPT, the focus is around code related usages.
