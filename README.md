@@ -292,7 +292,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [jvgrootveld/telescope-zoxide](https://github.com/jvgrootveld/telescope-zoxide) - Telescope integration for [zoxide](https://github.com/ajeetdsouza/zoxide), a smart directory picker that tracks your usage.
 - [echasnovski/mini.nvim#mini.fuzzy](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-fuzzy.md) - Module of `mini.nvim` with functions to perform fuzzy matching of one string to others along with fast Telescope sorter.
 - [axkirillov/easypick.nvim](https://github.com/axkirillov/easypick.nvim) - Easypick lets you easily create Telescope pickers from arbitrary console commands.
-- [linrongbin16/fzfx.vim](https://github.com/linrongbin16/fzfx.vim) - E(x)tend fzf commands missing in fzf.vim,  focused on better usability and tiny improvements.
+- [linrongbin16/fzfx.vim](https://github.com/linrongbin16/fzfx.vim) - E(x)tended fzf commands missing in fzf.vim,  focused on better usability and tiny improvements.
 
 ### File Explorer
 
