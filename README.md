@@ -231,7 +231,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [yaocccc/nvim-hl-mdcodeblock.lua](https://github.com/yaocccc/nvim-hl-mdcodeblock.lua) - Highlight markdown codeblock using Tree-sitter.
 - [kiran94/edit-markdown-table.nvim](https://github.com/kiran94/edit-markdown-table.nvim) - Edit Markdown Tables using Tree-sitter.
 - [richardbizik/nvim-toc](https://github.com/richardbizik/nvim-toc) - Easily generate table of contents for markdown files.
-- [Zeioth/markmap.nvim](https://github.com/Zeioth/markmap.nvim) -  Visualize your Markdown as mindmaps with markmap.
+- [Zeioth/markmap.nvim](https://github.com/Zeioth/markmap.nvim) -  Visualize your Markdown as mindmaps.
 
 ### Language
 
