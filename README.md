@@ -184,6 +184,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [Robitx/gp.nvim](https://github.com/Robitx/gp.nvim) - ChatGPT like sessions and instructable text/code operations in your favorite editor.
 - [dpayne/CodeGPT.nvim](https://github.com/dpayne/CodeGPT.nvim) - Provides commands to interact with ChatGPT, the focus is around code related usages.
 - [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim) - Effortless Natural Language Generation with OpenAI's ChatGPT API.
+- [CamdenClark/flyboy](https://github.com/CamdenClark/flyboy) - Simple, markdown and buffer based interaction with ChatGPT. Supports GPT-4 and Azure OpenAI.
 
 ### Programming Languages Support
 
