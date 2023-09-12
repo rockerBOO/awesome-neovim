@@ -461,7 +461,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [xero/miasma.nvim](https://github.com/xero/miasma.nvim) - A dark pastel color scheme inspired by the woods. Built using lush and supports Tree-sitter, diagnostics, CMP, Git-Signs, Telescope, Which-key, Lazy, and more.
 - [Verf/deepwhite.nvim](https://github.com/Verf/deepwhite.nvim) - A light colorscheme inspired by [flatwhite-syntax](https://github.com/biletskyy/flatwhite-syntax) and [elegant-emacs](https://github.com/rougier/elegant-emacs).
 - [judaew/ronny.nvim](https://github.com/judaew/ronny.nvim) - A dark colorscheme, which mostly was inspired by the Monokai originally created by Wimem Hazenberg.
-- [ribru17/bamboo.nvim](https://github.com/ribru17/bamboo.nvim) - A warm green theme for Neovim and beyond.
+- [ribru17/bamboo.nvim](https://github.com/ribru17/bamboo.nvim) - A warm green theme.
 
 #### Lua Colorscheme
 
