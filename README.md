@@ -80,7 +80,7 @@
 - [External](#external)
   - [Version Manager](#version-manager)
   - [Boilerplate](#boilerplate)
-  - [macOS](#macos)
+  - [OS-specific](#os-specific)
 - [Vim](#vim)
 - [Resource](#resource)
 
@@ -1075,9 +1075,9 @@ These tools are used externally to Neovim to enhance the experience.
 - [m00qek/plugin-template.nvim](https://github.com/m00qek/plugin-template.nvim) - A plugin template that setups test infrastructure and GitHub Actions.
 - [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) - Another neovim plugin template, using GitHub's template feature.
 
-### macOS
+### OS-specific
 
-- [chrisgrieser/alfred-neovim-utilities](https://github.com/chrisgrieser/alfred-neovim-utilities) - Search Neovim plugins and online `:help `via Alfred.
+- [chrisgrieser/alfred-neovim-utilities](https://github.com/chrisgrieser/alfred-neovim-utilities) - Search Neovim plugins and online `:help `via Alfred (macOS).
 
 ## Vim
 
