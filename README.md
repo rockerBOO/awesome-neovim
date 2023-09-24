@@ -245,6 +245,10 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [richardbizik/nvim-toc](https://github.com/richardbizik/nvim-toc) - Easily generate table of contents for markdown files.
 - [Zeioth/markmap.nvim](https://github.com/Zeioth/markmap.nvim) - Visualize your Markdown as mindmaps.
 
+#### Typst
+
+- [niuiic/typst-preview.nvim](https://github.com/niuiic/typst-preview.nvim) - Preview typst document, respond to the file changes.
+
 ### Language
 
 - [potamides/pantran.nvim](https://github.com/potamides/pantran.nvim) - Translate your text with an interactive translation window.
