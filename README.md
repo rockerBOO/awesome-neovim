@@ -27,6 +27,7 @@
     - [YAML](#yaml)
     - [Web Development](#web-development)
     - [Markdown and LaTeX](#markdown-and-latex)
+    - [Typst](#typst)
   - [Language](#language)
   - [Syntax](#syntax)
   - [Snippet](#snippet)
