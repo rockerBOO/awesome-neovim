@@ -249,6 +249,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 #### Typst
 
 - [niuiic/typst-preview.nvim](https://github.com/niuiic/typst-preview.nvim) - Preview typst document, respond to the file changes.
+- [kaarmu/typst.vim](https://github.com/kaarmu/typst.vim) - Typst syntax support.
 
 ### Language
 
