@@ -188,7 +188,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim) - Effortless Natural Language Generation with OpenAI's ChatGPT API.
 - [CamdenClark/flyboy](https://github.com/CamdenClark/flyboy) - Simple interaction with ChatGPT in a markdown buffer. Supports GPT-4 and Azure OpenAI.
 - [gsuuon/llm.nvim](https://github.com/gsuuon/llm.nvim) - Integrate LLM's via a prompt builder interface. Multi-providers including OpenAI (+ compatibles), PaLM, HuggingFace and local engines like llamacpp.
-- [dense-analysis/neural](https://github.com/dense-analysis/neural) - Integrate LLMs into Neovim for generating code, interacting with chat bots, and more.
+- [dense-analysis/neural](https://github.com/dense-analysis/neural) - Integrate LLMs for generating code, interacting with chat bots, and more.
 
 ### Programming Languages Support
 
