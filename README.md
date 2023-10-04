@@ -869,8 +869,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) - Extended increment/decrement.
 - [HiPhish/rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim) - Rainbow delimiters with Tree-sitter.
 - [AckslD/nvim-revJ.lua](https://github.com/AckslD/nvim-revJ.lua) - Neovim Lua plugin for doing the opposite of join-line (J) for arguments.
-- [Pocco81/TrueZen.nvim](https://github.com/Pocco81/TrueZen.nvim) - Clean and elegant distraction-free writing.
-- [Pocco81/HighStr.nvim](https://github.com/Pocco81/HighStr.nvim) - Highlight visual selections like in a normal document editor!
+- [Pocco81/true-zen.nvim](https://github.com/Pocco81/true-zen.nvim) - Clean and elegant distraction-free writing.
+- [Pocco81/high-str.nvim](https://github.com/Pocco81/high-str.nvim) - Highlight visual selections like in a normal document editor!
 - [Pocco81/auto-save.nvim](https://github.com/Pocco81/auto-save.nvim) - Save your work before the world collapses or you type :qa!
 - [okuuva/auto-save.nvim](https://github.com/okuuva/auto-save.nvim) - Automatically saves your work as often as needed and as seldom as possible. Customizable with smart defaults. Maintained fork of Pocco81/auto-save.nvim.
 - [tmillr/sos.nvim](https://github.com/tmillr/sos.nvim) - Automatically save all your modified buffers according to a predefined timeout value.
