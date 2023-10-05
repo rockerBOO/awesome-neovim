@@ -12,11 +12,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Restore lychee cache
+        uses: actions/cache@v3
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+          
       - name: Link checker
         id: lychee
         uses: lycheeverse/lychee-action@v1.8.0
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        with:
+          args: "--cache --max-cache-age 1d ."
 
       - name: Create issue from file
         if: env.lychee_exit_code != 0
