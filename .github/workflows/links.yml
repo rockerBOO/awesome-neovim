@@ -15,11 +15,13 @@ jobs:
       - name: Link checker
         id: lychee
         uses: lycheeverse/lychee-action@v1.8.0
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Create issue from file
         if: env.lychee_exit_code != 0
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: "Remove `..`"
+          title: "Link check report"
           content-filepath: ./lychee/out.md
           labels: report, automated issue
