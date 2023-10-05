@@ -25,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: "--cache --max-cache-age 1d ."
+          args: "--cache --max-cache-age 1d -a 429 ."
 
       - name: Create issue from file
         if: env.lychee_exit_code != 0
