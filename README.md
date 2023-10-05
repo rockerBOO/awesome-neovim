@@ -340,7 +340,6 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [ahmedkhalf/project.nvim](https://github.com/ahmedkhalf/project.nvim) - An all in one Neovim plugin that provides superior project management.
 - [klen/nvim-config-local](https://github.com/klen/nvim-config-local) - Secure load local config files from working directories.
 - [cljoly/telescope-repo.nvim](https://cj.rs/telescope-repo-nvim/) - Telescope picker to jump to any repository (git or other) on the file system.
-- [MunifTanjim/exrc.nvim](https://github.com/MunifTanjim/exrc.nvim) - Secure Project Local Config.
 - [otavioschwanck/telescope-alternate.nvim](https://github.com/otavioschwanck/telescope-alternate.nvim) - Alternate between common files using telescope.
 - [natecraddock/workspaces.nvim](https://github.com/natecraddock/workspaces.nvim) - Manage workspace directories.
 - [gnikdroy/projections.nvim](https://github.com/gnikdroy/projections.nvim) - Tiny project + session manager.
