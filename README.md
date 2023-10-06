@@ -662,6 +662,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [GCBallesteros/NotebookNavigator.nvim](https://github.com/GCBallesteros/NotebookNavigator.nvim) - Navigate and execute code cells.
 - [LintaoAmons/scratch.nvim](https://github.com/LintaoAmons/scratch.nvim) - Create and manage scratch files.
 - [luckasRanarison/nvim-devdocs](https://github.com/luckasRanarison/nvim-devdocs) - Preview devdocs.io documentations directly in Markdown format.
+- [VidocqH/data-viewer.nvim](https://github.com/VidocqH/data-viewer.nvim) - Lightweight plugin for providing a simple table view to inspect data files such as `csv`, `tsv`.
 
 ### Terminal Integration
 
