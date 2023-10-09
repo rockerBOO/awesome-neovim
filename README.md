@@ -301,6 +301,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [roobert/search-replace.nvim](https://github.com/roobert/search-replace.nvim) - Builds on the native search and replace experience.
 - [AckslD/muren.nvim](https://github.com/AckslD/muren.nvim/) - Multiple replacements through interactive UI.
 - [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre) - Search and replace panel.
+- [nvimdev/hlsearch.nvim](https://github.com/nvimdev/hlsearch.nvim) - Auto remove search highlight and rehighlight when using n or N.
 
 ### Fuzzy Finder
 
