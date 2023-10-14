@@ -252,6 +252,7 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 
 - [potamides/pantran.nvim](https://github.com/potamides/pantran.nvim) - Translate your text with an interactive translation window.
 - [niuiic/translate.nvim](https://github.com/niuiic/translate.nvim) - Invoke any translation engine via shell command.
+- [coffebar/crowtranslate.nvim](https://github.com/coffebar/crowtranslate.nvim) - Replace selected text with translation using crow-translate cli (google, bing, libretranslate, lingva, yandex).
 
 ### Syntax
 
