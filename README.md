@@ -719,6 +719,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [google/executor.nvim](https://github.com/google/executor.nvim) - Allows you to run command line tasks in the background and be notified of results.
 - [Zeioth/compiler.nvim](https://github.com/Zeioth/compiler.nvim) - Compiler for building and running your code without having to configure anything.
 - [jaytyrrell13/static.nvim](https://github.com/jaytyrrell13/static.nvim) - Run static site generator commands.
+- [dasupradyumna/launch.nvim](https://github.com/dasupradyumna/launch.nvim) - A simple and quick task launcher plugin which allows dynamically configuring tasks on the fly, with optional support for debugging.
 
 ## Neovim Lua Development
 
