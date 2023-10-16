@@ -93,7 +93,7 @@
 - [chiyadev/dep](https://github.com/chiyadev/dep) - An alternative to packer.nvim. It was built to be even better and easier to use. Context can be found [here](https://chiya.dev/posts/2021-11-27-why-package-manager).
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - A modern plugin manager, featuring a graphical interface, async execution, a lockfile and more 💤.
 - [roobert/activate.nvim](https://github.com/roobert/activate.nvim) - A plugin installation system designed to complement `folke/lazy.nvim`.
-- [abeldekat/lazyflex.nvim](https://github.com/abeldekat/lazyflex.nvim) - An addon for `folke/lazy.nvim`. Facilitates the testing and troubleshooting of a Neovim configuration. 
+- [abeldekat/lazyflex.nvim](https://github.com/abeldekat/lazyflex.nvim) - An addon for `folke/lazy.nvim`. Facilitates the testing and troubleshooting of a Neovim configuration.
 
 ## LSP
 
@@ -724,7 +724,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [google/executor.nvim](https://github.com/google/executor.nvim) - Allows you to run command line tasks in the background and be notified of results.
 - [Zeioth/compiler.nvim](https://github.com/Zeioth/compiler.nvim) - Compiler for building and running your code without having to configure anything.
 - [jaytyrrell13/static.nvim](https://github.com/jaytyrrell13/static.nvim) - Run static site generator commands.
-- [dasupradyumna/launch.nvim](https://github.com/dasupradyumna/launch.nvim) - A simple and quick task launcher plugin which allows dynamically configuring tasks on the fly, with optional support for debugging.
+- [dasupradyumna/launch.nvim](https://github.com/dasupradyumna/launch.nvim) - A simple and quick task launcher which allows dynamically configuring tasks on the fly, with optional support for debugging.
 
 ## Neovim Lua Development
 
@@ -1032,6 +1032,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [antonk52/bad-practices.nvim](https://github.com/antonk52/bad-practices.nvim) - Helping you give up bad practices in Vim.
 
 ## Preconfigured Configuration
+
 - [sontungexpt/stinvim](https://github.com/sontungexpt/stinvim) - Ready Neovim's configuration for fullstack developers.
 - [Abstract-IDE/Abstract](https://github.com/Abstract-IDE/Abstract) - Abstract, The Neovim configuration to achieve the power of Modern IDE.
 - [SpaceVim/SpaceVim](https://spacevim.org) - A community-driven modular Vim/Neovim distribution, like spacemacs but for Vim/Neovim.
@@ -1081,7 +1082,7 @@ These tools are used externally to Neovim to enhance the experience.
 
 ### OS-specific
 
-- [chrisgrieser/alfred-neovim-utilities](https://github.com/chrisgrieser/alfred-neovim-utilities) - Search Neovim plugins and online `:help `via Alfred (macOS).
+- [chrisgrieser/alfred-neovim-utilities](https://github.com/chrisgrieser/alfred-neovim-utilities) - Search Neovim plugins and online `:help`via Alfred (macOS).
 
 ## Wishlist
 
