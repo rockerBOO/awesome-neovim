@@ -148,6 +148,7 @@
 - [vxpm/ferris.nvim](https://github.com/vxpm/ferris.nvim) - Interact with Rust-Analyzer's LSP extensions.
 - [mrcjkb/rustaceanvim](https://github.com/mrcjkb/rustaceanvim) - A heavily modified fork of rust-tools.nvim that does not require a `setup` call and does not depend on nvim-lspconfig.
 - [soulis-1256/hoverhints.nvim](https://github.com/soulis-1256/hoverhints.nvim) - Mouse-hover LSP hints.
+- [stevanmilic/nvim-lspimport](https://github.com/stevanmilic/nvim-lspimport) - Automatically resolves imports for undefined terms. Useful with `pyright` language server.
 
 #### LSP Installer
 
