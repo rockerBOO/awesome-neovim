@@ -257,6 +257,7 @@
 - [m-demare/hlargs.nvim](https://github.com/m-demare/hlargs.nvim) - Highlight arguments' definitions and usages, using Treesitter.
 - [LhKipp/nvim-nu](https://github.com/LhKipp/nvim-nu) - Basic editor support for the nushell language.
 - [desdic/agrolens.nvim](https://github.com/desdic/agrolens.nvim) - Navigate via Tree-sitter nodes using Telescope.
+- [IndianBoy42/tree-sitter-just](https://github.com/IndianBoy42/tree-sitter-just) - Treesitter grammar for [Justfiles](https://github.com/casey/just).
 
 ## Snippet
 
