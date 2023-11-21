@@ -507,7 +507,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [4e554c4c/darkman.nvim](https://github.com/4e554c4c/darkman.nvim) - Follow the system dark-mode setting on Linux.
 - [f-person/auto-dark-mode.nvim](https://github.com/f-person/auto-dark-mode.nvim) - Follow the system appearance on macOS.
 - [zaldih/themery.nvim](https://github.com/zaldih/themery.nvim) - A new way to change the colorscheme on the fly like in vscode.
-- [linrongbin16/colorbox.nvim](https://github.com/linrongbin16/colorbox.nvim) - Ultra colors all-in-one! Are you greedy that you want all the most popurlar Vim/Neovim colorschemes? Are you playful that you change colorscheme from time to time? This is it! It use offline GitHub actions to weekly collect and update the most popurlar colorschemes list, install them via git submodules instead of copy-paste source code (e.g. you can get continuously updates from the original author instead of me), and allow you do any switches with multiple policies and timings.
+- [linrongbin16/colorbox.nvim](https://github.com/linrongbin16/colorbox.nvim) - Ultra colors all-in-one! It weekly collect and update the most popurlar colorschemes, install them via git submodules instead of copy-paste source code, and allow you do any switches with multiple policies and timings.
 
 ## Bars and Lines
 
