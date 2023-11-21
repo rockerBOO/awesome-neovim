@@ -682,6 +682,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [luckasRanarison/nvim-devdocs](https://github.com/luckasRanarison/nvim-devdocs) - Preview devdocs.io documentations directly in Markdown format.
 - [VidocqH/data-viewer.nvim](https://github.com/VidocqH/data-viewer.nvim) - Provide a simple table view to inspect data files such as `csv`, `tsv`.
 - [JMarkin/gentags.lua](https://github.com/JMarkin/gentags.lua) - Auto generate tag files by ctags.
+- [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) - UI component library.
 
 ## Terminal Integration
 
