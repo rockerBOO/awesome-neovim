@@ -321,7 +321,7 @@
 
 ## File Explorer
 
-- [preservim/nerdtree](https://github.com/preservim/nerdtree) - Simple file explorer. There are several forks of this plugin.
+- [preservim/nerdtree](https://github.com/preservim/nerdtree) - Simple file explorer.
 - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A simple and fast file explorer tree.
 - [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) - File explorer powered by [nnn](https://github.com/jarun/nnn) and Lua.
 - [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) - Simple file explorer.
