@@ -683,8 +683,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [luckasRanarison/nvim-devdocs](https://github.com/luckasRanarison/nvim-devdocs) - Preview devdocs.io documentations directly in Markdown format.
 - [VidocqH/data-viewer.nvim](https://github.com/VidocqH/data-viewer.nvim) - Provide a simple table view to inspect data files such as `csv`, `tsv`.
 - [JMarkin/gentags.lua](https://github.com/JMarkin/gentags.lua) - Auto generate tag files by ctags.
-- [`yutkat/confirm-quit.nvim`](https://github.com/yutkat/confirm-quit.nvim) - Confirm before quitting Neovim.
-- [`bgaillard/readonly.nvim`](https://github.com/bgaillard/readonly.nvim) - Secure edition of files containing sensible / secret information, passwords, API keys, SSH keys, etc.
+- [yutkat/confirm-quit.nvim](https://github.com/yutkat/confirm-quit.nvim) - Confirm before quitting Neovim.
+- [bgaillard/readonly.nvim](https://github.com/bgaillard/readonly.nvim) - Secure edition of files containing sensible / secret information, passwords, API keys, SSH keys, etc.
 
 ## Terminal Integration
 
