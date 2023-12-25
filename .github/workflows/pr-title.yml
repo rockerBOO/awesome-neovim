@@ -1,0 +1,13 @@
+name: Repo Language
+
+on: [pull_request]
+
+jobs:
+  run:
+    name: Check the repo language
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Slashgear/action-check-pr-title@v4.3.0
+        with:
+          regexp: "(Add|Update|Remove) `.+\/.+`" # Regex the title should match.
+          helpMessage: "Example: 'Add `folke/lazy.nvim`'"
