@@ -12,7 +12,7 @@ jobs:
     name: Template Validator
     steps:
       - name: All Checks
-        uses: flowdify/contribution-inspector@main
+        uses: ranemihir/template-validator@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue--greeting-message: "Thanks for your contribution! :)"
