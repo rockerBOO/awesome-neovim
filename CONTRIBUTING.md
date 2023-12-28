@@ -9,7 +9,9 @@ First of all, thanks for taking the time to contribute to this project!
 
 ## Submitting pull requests
 
-- Ensure your changes follows the [awesome list guidelines][guidelines].
-- Before submitting a PR make sure your changes are passed `awesome-lint`.
+- [ ] Ensure your PR title follows the [regexp rule][regexp_rule].
+- [ ] Ensure your changes follows the [awesome list guidelines][guidelines].
+- [ ] Before submitting a PR make sure your changes are passed `awesome-lint`.
 
 [guidelines]: https://github.com/sindresorhus/awesome/blob/master/pull_request_template.md#requirements-for-your-awesome-list
+[regexp_rule]: https://github.com/rockerBOO/awesome-neovim/blob/main/.github/workflows/pr-title.yml#L14
