@@ -3,6 +3,7 @@ name: PR Title
 on:
   pull_request:
     types: [opened, edited, synchronize]
+    paths: [README.md]
 
 jobs:
   run:
