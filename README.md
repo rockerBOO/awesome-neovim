@@ -23,6 +23,7 @@
   - [YAML](#yaml)
   - [Web Development](#web-development)
   - [Markdown and LaTeX](#markdown-and-latex)
+  - [PHP](#php)
 - [Language](#language)
 - [Syntax](#syntax)
 - [Snippet](#snippet)
@@ -251,6 +252,9 @@
 - [Zeioth/markmap.nvim](https://github.com/Zeioth/markmap.nvim) - Visualize your Markdown as mindmaps.
 - [tadmccorkle/markdown.nvim](https://github.com/tadmccorkle/markdown.nvim) - Configurable tools for markdown files, including inline-style, link, and navigation keymaps, table of contents, improved list editing, and more.
 - [mpas/marp-nvim](https://github.com/mpas/marp-nvim) - Present using markdown with [Marp](https://marp.app/).
+
+### PHP
+- [ta-tikoma/php.easy.nvim](https://github.com/ta-tikoma/php.easy.nvim) - Methods of assistance in PHP development: create classes, constants, methods, properties; simple copying and deleting of an entity.
 
 ## Language
 
