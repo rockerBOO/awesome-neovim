@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: Slashgear/action-check-pr-title@v4.3.0
         with:
-          regexp: "(Add|Update|Remove) `.+\\/.+`"
+          regexp: "^(Add|Update|Remove) `.+\\/.+`$"
           helpMessage: "Example: 'Add `folke/lazy.nvim`'"
