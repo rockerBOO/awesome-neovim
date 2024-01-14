@@ -1154,6 +1154,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [NormalNvim/NormalNvim](https://github.com/NormalNvim/NormalNvim) - Focused on stability for your daily work. From the creator of Compiler.nvim.
 - [chrisgrieser/nvim-kickstart-python](https://github.com/chrisgrieser/nvim-kickstart-python) - A launch point for your Neovim configuration for Python.
 - [mrcjkb/kickstart-nix.nvim](https://github.com/mrcjkb/kickstart-nix.nvim) - A simple [Nix flake](https://nixos.wiki/wiki/Flakes) template repo for Neovim derivations, with the goal of simplifying the migration from existing Neovim configurations.
+- [nix-community/nixvim](https://github.com/nix-community/nixvim): NixVim is a Neovim distribution built around Nix modules. Easy to configure plugins, themes, vimrc, etc., using Nix language.
 
 ## External
 
