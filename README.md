@@ -245,6 +245,7 @@
 - [frabjous/knap](https://github.com/frabjous/knap) - Plugin for creating automatic updating-as-you-type previews for markdown, LaTeX and other documents.
 - [jbyuki/carrot.nvim](https://github.com/jbyuki/carrot.nvim) - Markdown evaluator Lua code blocks.
 - [AckslD/nvim-FeMaco.lua](https://github.com/AckslD/nvim-FeMaco.lua) - Catalyze your Fenced Markdown Code-block editing.
+- [Nedra1998/nvim-mdlink](https://github.com/Nedra1998/nvim-mdlink) - Simplify creating and following markdown links.
 - [NFrid/markdown-togglecheck](https://github.com/NFrid/markdown-togglecheck) - Simple Neovim plugin for toggling check boxes using Treesitter.
 - [toppair/peek.nvim](https://github.com/toppair/peek.nvim) - Preview markdown in a webview window.
 - [yaocccc/nvim-hl-mdcodeblock.lua](https://github.com/yaocccc/nvim-hl-mdcodeblock.lua) - Highlight markdown codeblock using Tree-sitter.
