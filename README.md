@@ -24,6 +24,7 @@
   - [Web Development](#web-development)
   - [Markdown and LaTeX](#markdown-and-latex)
   - [PHP](#php)
+  - [C#/.NET](#c--net)
 - [Language](#language)
 - [Syntax](#syntax)
 - [Snippet](#snippet)
@@ -259,6 +260,10 @@
 
 - [gbprod/phpactor.nvim](https://github.com/gbprod/phpactor.nvim) - Lua version of the Phpactor Vim plugin to take advantage of the latest Neovim features.
 - [ta-tikoma/php.easy.nvim](https://github.com/ta-tikoma/php.easy.nvim) - Methods of assistance in PHP development: create classes, constants, methods, properties; simple copying and deleting of an entity.
+
+## C# / .NET
+
+- [iabdelkareem/csharp.nvim](https://github.com/iabdelkareem/csharp.nvim) Enhances the development experience for .NET developers in Neovim.
 
 ## Language
 
