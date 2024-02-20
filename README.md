@@ -302,6 +302,7 @@
 - [acksld/nvim-neoclip.lua](https://github.com/AckslD/nvim-neoclip.lua) - Clipboard manager Neovim plugin with telescope integration.
 - [tenxsoydev/karen-yank.nvim](https://github.com/tenxsoydev/karen-yank.nvim) - More intentional register handling with delete, cut and yank mappings.
 - [desdic/macrothis.nvim](https://github.com/desdic/macrothis.nvim) - Save and load macros/registers.
+- [kr40/nvim-macros](https://github.com/kr40/nvim-macros) - Easy way to save and load Macros, with backup and formatting options. 
 
 ## Marks
 
