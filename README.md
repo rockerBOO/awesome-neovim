@@ -765,7 +765,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [niuiic/terminal.nvim](https://github.com/niuiic/terminal.nvim) - Manage terminal as buffer, multiple terminals support.
 - [RAprogramm/nekifoch](https://github.com/RAprogramm/nekifoch) - Managing Kitty terminal font settings.
 - [2KAbhishek/termim.nvim](https://github.com/2KAbhishek/termim.nvim/) - Neovim Terminal, Improved.
-- [samharju/yeet.nvim](https://github.com/samharju/yeet.nvim) - Plugin for running shell commands in terminal buffers or tmux panes.
+- [samharju/yeet.nvim](https://github.com/samharju/yeet.nvim) - Run shell commands in terminal buffers or tmux panes.
 
 ## Debugging
 
