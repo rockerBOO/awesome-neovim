@@ -321,6 +321,7 @@
 - [tomasky/bookmarks.nvim](https://github.com/tomasky/bookmarks.nvim) - Bookmarks with global file storage, written in Lua.
 - [LintaoAmons/bookmarks.nvim](https://github.com/LintaoAmons/bookmarks.nvim) - Your new bookmarks option: simple yet powerful.
 - [desdic/marlin.nvim](https://github.com/desdic/marlin.nvim) - Like harpoon, but with key differences like project path, split support, no UI.
+- [fnune/recall.nvim](https://github.com/fnune/recall.nvim) - Recall refines the use of Neovim marks by focusing on global marks, streamlining their usage and enhancing their visibility and navigability. 
 
 ## Search
 
