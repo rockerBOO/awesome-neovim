@@ -749,6 +749,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [linrongbin16/gentags.nvim](https://github.com/linrongbin16/gentags.nvim) - The tags generator/management for old school vimers.
 - [theKnightsOfRohan/csvlens.nvim](https://github.com/theKnightsOfRohan/csvlens.nvim) - A port of [YS-L/csvlens](https://github.com/YS-L/csvlens), for easy previewing of tabular data.
 - [Mr-LLLLL/utilities.nvim](https://github.com/Mr-LLLLL/utilities.nvim) - A repository for collect some little utility in Neovim.
+- [mcauley-penney/visual-whitespace.nvim](https://github.com/mcauley-penney/visual-whitespace.nvim) - See whitespace characters in Visual selections, like VSCode.
 
 ## Terminal Integration
 
