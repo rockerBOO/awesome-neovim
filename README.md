@@ -199,6 +199,7 @@
 - [jpmcb/nvim-llama](https://github.com/jpmcb/nvim-llama) - LLM (Llama 2 and llama.cpp) wrappers.
 - [David-Kunz/gen.nvim](https://github.com/David-Kunz/gen.nvim) - Generate text using LLMs (via Ollama) with customizable prompts.
 - [kiddos/gemini.nvim](https://github.com/kiddos/gemini.nvim) - Bindings to Google Gemini API.
+- [olimorris/codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim) - Use the power of generative AI in Neovim. Use it to chat, author and advise you on your code. Supports Anthropic, Ollama and OpenAI.
 
 ## Programming Languages Support
 
