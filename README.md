@@ -827,7 +827,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [MarcHamamji/runner.nvim](https://github.com/MarcHamamji/runner.nvim) - A customizable Lua code runner.
 - [google/executor.nvim](https://github.com/google/executor.nvim) - Allows you to run command line tasks in the background and be notified of results.
 - [Zeioth/compiler.nvim](https://github.com/Zeioth/compiler.nvim) - Compiler for building and running your code without having to configure anything.
-- [Zeioth/makeit.nvim](https://github.com/Zeioth/makeit.nvim) - Makefile utilities and UI.
+- [Zeioth/makeit.nvim](https://github.com/Zeioth/makeit.nvim) - Makefile runner based on overseer.
 - [jaytyrrell13/static.nvim](https://github.com/jaytyrrell13/static.nvim) - Run static site generator commands.
 - [dasupradyumna/launch.nvim](https://github.com/dasupradyumna/launch.nvim) - A simple and quick task launcher which allows dynamically configuring tasks on the fly, with optional support for debugging.
 - [benlubas/molten-nvim](https://github.com/benlubas/molten-nvim) - Enables running code chunks via the jupyter kernel. Output (including image output) is rendered in a floating window below the code.
