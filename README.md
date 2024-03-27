@@ -201,6 +201,7 @@
 - [David-Kunz/gen.nvim](https://github.com/David-Kunz/gen.nvim) - Generate text using LLMs (via Ollama) with customizable prompts.
 - [kiddos/gemini.nvim](https://github.com/kiddos/gemini.nvim) - Bindings to Google Gemini API.
 - [olimorris/codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim) - Copilot chat like experience via a buffer. Supports Anthropic, Ollama and OpenAI.
+- [simplegpt.nvim](https://github.com/you-n-g/simplegpt.nvim) - Provide a simple yet flexible way to construct and send questions to ChatGPT.
 
 ## Programming Languages Support
 
