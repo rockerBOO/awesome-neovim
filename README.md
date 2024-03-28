@@ -760,6 +760,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Mr-LLLLL/utilities.nvim](https://github.com/Mr-LLLLL/utilities.nvim) - A repository to collect some little utility functions.
 - [mcauley-penney/visual-whitespace.nvim](https://github.com/mcauley-penney/visual-whitespace.nvim) - See whitespace characters in Visual selections, like VSCode.
 - [Zeioth/distroupdate.nvim](https://github.com/Zeioth/distroupdate.nvim) - Distro agnostic updater to get the latest changes from the git repository of your config.
+- [SUSTech-data/neopyter](https://github.com/SUSTech-data/neopyter) - The bridge between Neovim and jupyter lab, edit in Neovim and preview/run in jupyter lab.
 
 ## Terminal Integration
 
