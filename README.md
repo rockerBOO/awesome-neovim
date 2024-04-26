@@ -537,6 +537,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [loganswartz/sunburn.nvim](https://github.com/loganswartz/sunburn.nvim) - A colorscheme sitting somewhere between pastels and solarized, emphasizing readability and hue uniformity above all else.
 - [ptdewey/darkearth-nvim](https://github.com/ptdewey/darkearth-nvim) - A dark and earthy colorscheme supporting Tree-sitter and LSP.
 - [uloco/bluloco.nvim](https://github.com/uloco/bluloco.nvim) - A dark and earthy colorscheme supporting Tree-sitter and LSP.
+- [gerardbm/vim-atomic](https://github.com/gerardbm/vim-atomic) - Vim-atomic is a dark & light color scheme designed to use on vim, gvim and neovim.
 
 ### Lua Colorscheme
 
