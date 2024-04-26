@@ -337,7 +337,7 @@
 - [s1n7ax/nvim-search-and-replace](https://github.com/s1n7ax/nvim-search-and-replace) - Search and replace in multiple files at the same time from the current working directory.
 - [roobert/search-replace.nvim](https://github.com/roobert/search-replace.nvim) - Builds on the native search and replace experience.
 - [AckslD/muren.nvim](https://github.com/AckslD/muren.nvim/) - Multiple replacements through interactive UI.
-- [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre) - Search and replace panel.
+- [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre) - Search and replace panel.
 - [nvimdev/hlsearch.nvim](https://github.com/nvimdev/hlsearch.nvim) - Auto remove search highlight and rehighlight when using n or N.
 - [mangelozzi/rgflow.nvim](https://github.com/mangelozzi/rgflow.nvim) - Quickly get RipGrep results into an editable Quickfix list, while learning RipGrep's CLI.
 - [duane9/nvim-rg](https://github.com/duane9/nvim-rg) - Run RipGrep asynchronously and see results in a quickfix window.
