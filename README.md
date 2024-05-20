@@ -691,6 +691,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [gsuuon/note.nvim](https://github.com/gsuuon/note.nvim) - Daily tasks with deep-linking and project spaces.
 - [backdround/global-note.nvim](https://github.com/backdround/global-note.nvim) - One global note in a floating window.
 - [2KAbhishek/tdo.nvim](https://github.com/2KAbhishek/tdo.nvim) - Fast and simple note taking.
+- [slugbyte/whip.nvim](http://github.com/slugbyte/whip.nvim) - A super fast minimal scratchpad management plugin, biew biew biew.
 
 ## Utility
 
