@@ -865,6 +865,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [bfredl/nvim-ipy](https://github.com/bfredl/nvim-ipy) - Make interfacing with IPython/Jupyter easier.
 - [pianocomposer321/officer.nvim](https://github.com/pianocomposer321/officer.nvim) - Like dispatch.vim but using overseer.nvim.
 - [speelbarrow/spLauncher.nvim](https://github.com/speelbarrow/spLauncher.nvim) - For launching tasks, I guess.
+- [al1-ce/just.nvim](https://github.com/al1-ce/just.nvim) - Task runner for justfiles.
 
 ## Neovim Lua Development
 
