@@ -1261,7 +1261,7 @@ These tools are used externally to Neovim to enhance the experience.
 
 ### OS-specific
 
-- [chrisgrieser/alfred-neovim-utilities](https://github.com/chrisgrieser/alfred-neovim-utilities) - Search Neovim plugins and online `:help`via Alfred (macOS).
+- [chrisgrieser/alfred-neovim-utilities](https://github.com/chrisgrieser/alfred-neovim-utilities) - Search Neovim plugins and online `:help `via Alfred (macOS).
 - [massix/termux.nvim](https://github.com/massix/termux.nvim) - Interact with Termux APIs, useful to gather various information about your Android phone to display in the statusline (e.g. battery level).
 - [m15a/flake-awesome-neovim-plugins](https://github.com/m15a/flake-awesome-neovim-plugins) - Nix flake that provides Awesome Neovim plugins collection as Nix packages.
 
