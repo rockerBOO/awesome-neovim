@@ -278,7 +278,7 @@
 - [MeanderingProgrammer/markdown.nvim](https://github.com/MeanderingProgrammer/markdown.nvim) - Improve viewing markdown files directly.
 - [arminveres/md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim) - Preview markdown files and convert to PDF.
 - [ChuufMaster/markdown-toc](https://github.com/ChuufMaster/markdown-toc) - Generate TOC in any markdown file from any other markdown file with customisable levels of headings and affordances for emojis and ensuring that it works on GitHub using relative paths.
-- [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - An experimental markdown previewer for Neovim.
+- [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - An experimental markdown previewer.
 
 ### PHP
 
