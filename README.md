@@ -800,6 +800,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ChuufMaster/buffer-vacuum](https://github.com/ChuufMaster/buffer-vacuum) - Set a maximum number of buffers to keep open and intelligently delete the oldest buffers over the maximum.
 - [mong8se/buffish.nvim](https://github.com/mong8se/buffish.nvim) - A buffer switcher in the spirit of dirvish or vinegar.
 - [niuiic/todo.nvim](https://github.com/niuiic/todo.nvim) - Simple but powerful todo manager based on text.
+- [QuentinGruber/timespent.nvim](https://github.com/QuentinGruber/timespent.nvim) - Display time spent on projects / files.
 
 ### CSV Files
 
