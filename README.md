@@ -889,7 +889,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [google/executor.nvim](https://github.com/google/executor.nvim) - Allows you to run command line tasks in the background and be notified of results.
 - [Zeioth/compiler.nvim](https://github.com/Zeioth/compiler.nvim) - Compiler for building and running your code without having to configure anything.
 - [Zeioth/makeit.nvim](https://github.com/Zeioth/makeit.nvim) - Makefile runner based on overseer.
-- [jaytyrrell13/static.nvim](https://github.com/jaytyrrell13/static.nvim) - Runstatic site generator commands.
+- [jaytyrrell13/static.nvim](https://github.com/jaytyrrell13/static.nvim) - Run static site generator commands.
 - [dasupradyumna/launch.nvim](https://github.com/dasupradyumna/launch.nvim) - A simple and quick task launcher which allows dynamically configuring tasks on the fly, with optional support for debugging.
 - [benlubas/molten-nvim](https://github.com/benlubas/molten-nvim) - Enables running code chunks via the jupyter kernel. Output (including image output) is rendered in a floating window below the code.
 - [bfredl/nvim-ipy](https://github.com/bfredl/nvim-ipy) - Make interfacing with IPython/Jupyter easier.
@@ -909,7 +909,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [nvim-lua/popup.nvim](https://github.com/nvim-lua/popup.nvim) - An implementation of the Popup API from Vim.
 - [tjdevries/vlog.nvim](https://github.com/tjdevries/vlog.nvim) - Single file, no dependency, easy copy & paste log file to add to your Neovim Lua plugins.
 - [bfredl/nvim-luadev](https://github.com/bfredl/nvim-luadev) - REPL/debug console Lua plugins. The `:Luadev` command will open an scratch window which will show output from executing Lua code.
-- [CWood-sdf/banana.nvim](https://github.com/CWood-sdf/banana.nvim) - Html renderer for plugin UIs
 - [jbyuki/one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind) - An adapter for the Neovim Lua language. It allows you to debug any Lua code running in a Neovim instance (A Lua plugin that can debug Neovim Lua plugins).
 - [kkharji/sqlite.lua](https://github.com/kkharji/sqlite.lua) - SQLite/LuaJIT binding for Lua and Neovim.
 - [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) - UI Component Library.
@@ -922,6 +921,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) - Create animations.
 - [nfrid/treesitter-utils](https://github.com/nfrid/treesitter-utils) - Some useful Treesitter methods.
 - [nvim-lusc](https://github.com/svermeulen/nvim-lusc) - Adds support for Structured Async/Concurrency in Lua.
+- [CWood-sdf/banana.nvim](https://github.com/CWood-sdf/banana.nvim) - HTML renderer for plugin UIs.
 
 ## Fennel
 
