@@ -921,6 +921,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) - Create animations.
 - [nfrid/treesitter-utils](https://github.com/nfrid/treesitter-utils) - Some useful Treesitter methods.
 - [nvim-lusc](https://github.com/svermeulen/nvim-lusc) - Adds support for Structured Async/Concurrency in Lua.
+- [CWood-sdf/banana.nvim](https://github.com/CWood-sdf/banana.nvim) - HTML renderer for plugin UIs.
 
 ## Fennel
 
