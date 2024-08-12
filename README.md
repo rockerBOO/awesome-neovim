@@ -804,7 +804,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [mong8se/buffish.nvim](https://github.com/mong8se/buffish.nvim) - A buffer switcher in the spirit of dirvish or vinegar.
 - [niuiic/todo.nvim](https://github.com/niuiic/todo.nvim) - Simple but powerful todo manager based on text.
 - [QuentinGruber/timespent.nvim](https://github.com/QuentinGruber/timespent.nvim) - Display time spent on projects / files.
-- [SunnyTamang/pendulum.nvim](https://github.com/SunnyTamang/pendulum.nvim) - Simple timer to create time based productive sessions for coders, competitive programmers, developers etc.
+- [SunnyTamang/pendulum.nvim](https://github.com/SunnyTamang/pendulum.nvim) - Simple timer for creating time based productive sessions for coders, competitive programmers, developers etc.
 
 ### CSV Files
 
