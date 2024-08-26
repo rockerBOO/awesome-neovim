@@ -214,6 +214,7 @@
 - [tzachar/cmp-ai](https://github.com/tzachar/cmp-ai) - This is a general purpose AI source for nvim-cmp, easily adapted to any restapi supporting remote code completion.
 - [milanglacier/minuet-ai.nvim](https://github.com/milanglacier/minuet-ai.nvim) - Minuet offers code completion from popular LLMs including OpenAI (compatible), Gemini, Claude, and more providers. Dance with intelligence in your code.
 - [yetone/avante.nvim](https://github.com/yetone/avante.nvim) - Chat with your code as if you are in Cursor AI IDE.
+- [StubbornVegeta/llm.nvim](https://github.com/StubbornVegeta/llm.nvim) - Free large language model (LLM) support for Neovim, provides commands to interact with LLM.
 
 ## Programming Languages Support
 
