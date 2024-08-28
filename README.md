@@ -215,6 +215,7 @@
 - [milanglacier/minuet-ai.nvim](https://github.com/milanglacier/minuet-ai.nvim) - Minuet offers code completion from popular LLMs including OpenAI (compatible), Gemini, Claude, and more providers. Dance with intelligence in your code.
 - [yetone/avante.nvim](https://github.com/yetone/avante.nvim) - Chat with your code as if you are in Cursor AI IDE.
 - [StubbornVegeta/llm.nvim](https://github.com/StubbornVegeta/llm.nvim) - Free large language model (LLM) support, provides commands to interact with LLM.
+- [3v0k4/exit.nvim](https://github.com/3v0k4/exit.nvim) - Prompt LLMs (large language models) to write Vim commands.
 
 ## Programming Languages Support
 
