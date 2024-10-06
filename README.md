@@ -211,6 +211,7 @@
 - [Kurama622/llm.nvim](https://github.com/Kurama622/llm.nvim) - Free large language model (LLM) support, provides commands to interact with LLM.
 - [3v0k4/exit.nvim](https://github.com/3v0k4/exit.nvim) - Prompt LLMs (large language models) to write Vim commands.
 - [k2589/LLuMinate.nvim](https://github.com/k2589/lluminate.nvim) - Enrich context for LLM with LSP hover added to clipboard.
+- [yetone/avante.nvim](https://github.com/k2589/lluminate.nvim) - Use your Neovim like using Cursor AI IDE! Supports chatting to codebase.
 
 ## Programming Languages Support
 
