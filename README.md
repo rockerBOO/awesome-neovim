@@ -927,7 +927,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [nvim-lusc](https://github.com/svermeulen/nvim-lusc) - Adds support for Structured Async/Concurrency in Lua.
 - [CWood-sdf/banana.nvim](https://github.com/CWood-sdf/banana.nvim) - HTML renderer for plugin UIs.
 - [OXY2DEV/helpview.nvim](https://github.com/OXY2DEV/helpview.nvim) - Decorations for `vimdoc/help` files.
-- [niuiic/omega.nvim](https://github.com/niuiic/omega.nvim) - Missing functions for lua plugin development.
+- [niuiic/omega.nvim](https://github.com/niuiic/omega.nvim) - Missing functions for Lua plugin development.
 
 ## Fennel
 
