@@ -259,6 +259,7 @@
 - [cjodo/convert.nvim](https://github.com/cjodo/convert.nvim) - A tool for CSS unit conversions.
 - [farias-hecdin/CSSVarViewer](https://github.com/farias-hecdin/CSSVarViewer) - Easily visualize the content of your CSS variables in a virtual text.
 - [farias-hecdin/CSSVarHighlight](https://github.com/farias-hecdin/CSSVarHighlight) - Quickly highlight the color you defined in your CSS variables with the help of `mini.hipatterns`.
+- [brianhuster/live-preview.nvim](https://github.com/brianhuster/live-preview.nvim) - Launch a local development server with hot reload for live-previewing HTML (with link to CSS, JS), Markdown, Asciidoc
 
 ### Markdown and LaTeX
 
@@ -288,6 +289,7 @@
 - [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - Highly customisable markdown(latex & inline html) previewer.
 - [Kicamon/markdown-table-mode.nvim](https://github.com/Kicamon/markdown-table-mode.nvim) - Markdown format plugin like vim-table-mode but write in Lua.
 - [SCJangra/table-nvim](https://github.com/SCJangra/table-nvim) - A markdown table editor that formats the table as you type.
+- [brianhuster/live-preview.nvim](https://github.com/brianhuster/live-preview.nvim) - Markdown, AsciiDoc and HTML live-previewing
 
 ### PHP
 
