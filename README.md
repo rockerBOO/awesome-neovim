@@ -1302,6 +1302,7 @@ These tools are used externally to Neovim to enhance the experience.
 - [gennaro-tedesco/boilit](https://github.com/gennaro-tedesco/boilit) - Create boilerplate structure plugins.
 - [m00qek/plugin-template.nvim](https://github.com/m00qek/plugin-template.nvim) - A plugin template that setups test infrastructure and GitHub Actions.
 - [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) - Another Neovim plugin template, using GitHub's template feature.
+- [2KAbhishek/template.nvim](https://github.com/2kabhishek/template.nvim) - Opinionated template for starting plugin dev quickly.
 
 ### OS-specific
 
