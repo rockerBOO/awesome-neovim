@@ -977,6 +977,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ldelossa/gh.nvim](https://github.com/ldelossa/gh.nvim) - A fully featured GitHub integration for performing code reviews.
 - [topaxi/gh-actions.nvim](https://github.com/topaxi/gh-actions.nvim) - View and dispatch GitHub Actions workflow runs.
 - [rawnly/gist.nvim](https://github.com/rawnly/gist.nvim) - Create a GitHub Gist from the current file (powered by gh).
+- [2KAbhishek/octohub.nvim](https://github.com/2kabhishek/octohub.nvim) - Access all your gihub repos, stats and more in simple keystrokes.
 
 ## Motion
 
