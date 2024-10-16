@@ -696,6 +696,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [adelarsq/image_preview.nvim](https://github.com/adelarsq/image_preview.nvim) - Image preview based on terminal's Image Protocol support.
 - [niuiic/code-shot.nvim](https://github.com/niuiic/code-shot.nvim) - Take a picture of the code.
 - [AntonVanAssche/music-controls.nvim](https://github.com/AntonVanAssche/music-controls.nvim) - Quickly control your favorite music player (Spotify, VLC, and more).
+- [neo451/feed.nvim](https://github.com/neo451/feed.nvim) - Web feed reader written in Lua (RSS, atom, json feed).
 
 ## Note Taking
 
