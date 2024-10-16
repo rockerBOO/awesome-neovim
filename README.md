@@ -263,7 +263,6 @@
 ### Markdown and LaTeX
 
 - [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) - Markdown preview using glow.
-- [ellisonleao/dotenv.nvim](https://github.com/ellisonleao/dotenv.nvim) - Minimalist .env support.
 - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Preview markdown on your modern browser with synchronised scrolling and flexible configuration.
 - [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
 - [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) - Easy pandoc conversion leveraging YAML blocks.
@@ -286,7 +285,7 @@
 - [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) - Improve viewing markdown files directly.
 - [arminveres/md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim) - Preview markdown files and convert to PDF.
 - [ChuufMaster/markdown-toc](https://github.com/ChuufMaster/markdown-toc) - Generate TOC in any markdown file from any other markdown file with customisable levels of headings and affordances for emojis and ensuring that it works on GitHub using relative paths.
-- [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - An experimental markdown previewer.
+- [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - Highly customisable markdown(latex & inline html) previewer.
 - [Kicamon/markdown-table-mode.nvim](https://github.com/Kicamon/markdown-table-mode.nvim) - Markdown format plugin like vim-table-mode but write in Lua.
 - [SCJangra/table-nvim](https://github.com/SCJangra/table-nvim) - A markdown table editor that formats the table as you type.
 
@@ -571,6 +570,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [killitar/obscure.nvim](https://github.com/killitar/obscure.nvim) - A pastel dark colorscheme inspired by the palette Mellow. Support Tree-sitter, LSP _(including semantic tokens)_ and lots of plugins.
 - [bakageddy/alduin.nvim](https://github.com/bakageddy/alduin.nvim) - A port of [alduin](https://github.com/AlessandroYorba/alduin) theme to Lua with Tree-sitter and semantic highlights support.
 - [diegoulloao/neofusion.nvim](https://github.com/diegoulloao/neofusion.nvim) - A theme compatible with Tree-sitter inspired by `gruvbox.nvim`.
+- [bartekjaszczak/luma-nvim](https://gitlab.com/bartekjaszczak/luma-nvim) - A colorful theme with dark/light modes and adjustable contrast. Supports Tree-sitter and semantic highlighting.
 
 ### Lua Colorscheme
 
@@ -807,7 +807,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ptdewey/pendulum-nvim](https://github.com/ptdewey/pendulum-nvim) - Track time spent coding and glean insights through on-demand time reports.
 - [QuentinGruber/pomodoro.nvim](https://github.com/QuentinGruber/pomodoro.nvim) - Use the Pomodoro Technique with built-in session tracking and break reminders.
 - [rlychrisg/truncateline.nvim](https://github.com/rlychrisg/truncateline.nvim) - Truncate long lines to keep track of where you are when the start gets lost off the left side of the screen.
-
+- [ellisonleao/dotenv.nvim](https://github.com/ellisonleao/dotenv.nvim) - Minimalist .env support.
+  
 ### CSV Files
 
 - [VidocqH/data-viewer.nvim](https://github.com/VidocqH/data-viewer.nvim) - Provide a simple table view to inspect data files such as `csv`, `tsv`.
@@ -928,6 +929,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [nvim-lusc](https://github.com/svermeulen/nvim-lusc) - Adds support for Structured Async/Concurrency in Lua.
 - [CWood-sdf/banana.nvim](https://github.com/CWood-sdf/banana.nvim) - HTML renderer for plugin UIs.
 - [OXY2DEV/helpview.nvim](https://github.com/OXY2DEV/helpview.nvim) - Decorations for `vimdoc/help` files.
+- [niuiic/omega.nvim](https://github.com/niuiic/omega.nvim) - Missing functions for Lua plugin development.
 
 ## Fennel
 
@@ -1184,6 +1186,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [niuiic/multiple-session.nvim](https://github.com/niuiic/multiple-session.nvim) - Provides multi-session management capabilities.
 - [RutaTang/spectacle.nvim](https://github.com/RutaTang/spectacle.nvim) - Easily manage multiple sessions with telescope integration.
 - [coffebar/neovim-project](https://github.com/coffebar/neovim-project) - Declarative project management, automatic saving of sessions, uses Telescope.
+- [njayman/season.nvim](https://github.com/njayman/season.nvim) - A lightweight plugin to manage session based on current working directory.
 
 ## Remote Development
 
