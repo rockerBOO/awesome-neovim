@@ -1045,6 +1045,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [OXY2DEV/helpview.nvim](https://github.com/OXY2DEV/helpview.nvim) - Decorations for `vimdoc/help` files.
 - [niuiic/omega.nvim](https://github.com/niuiic/omega.nvim) - Missing functions for Lua plugin development.
 - [2KAbhishek/utils.nvim](https://github.com/2kabhishek/utils.nvim) - Powerful utilities to speed up plugin development.
+- [YaroSpace/lua-console.nvim](https://github.com/YaroSpace/lua-console.nvim) - A handy scratch pad / REPL / debug console for Lua development and Neovim exploration and configuration.
+
 
 <!--lint disable double-link -->
 **[⬆ back to top](#contents)**
