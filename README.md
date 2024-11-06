@@ -743,6 +743,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [TobinPalmer/Tip.nvim](https://github.com/TobinPalmer/Tip.nvim) - Get a simple tip when you launch Neovim.
 - [CWood-sdf/spaceport.nvim](https://github.com/CWood-sdf/spaceport.nvim) - The start screen that gets you to your projects blazingly fast.
 - [mong8se/actually.nvim](https://github.com/mong8se/actually.nvim) - Load the file you actually meant to load.
+- [Kurama622/profile.nvim](https://github.com/Kurama622/profile.nvim) - Your personal homepage.
 
 <!--lint disable double-link -->
 **[⬆ back to top](#contents)**
