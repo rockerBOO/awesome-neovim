@@ -738,7 +738,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) - A fast and highly customizable greeter like [vim-startify](https://github.com/mhinz/vim-startify)/dashboard-nvim.
 - [echasnovski/mini.nvim#mini.starter](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-starter.md) - Module of `mini.nvim` for start screen. Displayed items are fully customizable, item selection can be done using prefix query with instant visual feedback.
 - [henriquehbr/nvim-startup.lua](https://sr.ht/~henriquehbr/nvim-startup.lua) - Displays Neovim startup time.
-- [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim) - The fully customizable greeter for Neovim.
+- [max397574/startup.nvim](https://github.com/max397574/startup.nvim) - The fully customizable greeter for Neovim.
 - [willothy/veil.nvim](https://github.com/willothy/veil.nvim) - A blazingly fast, animated, and infinitely customizable startup / dashboard plugin.
 - [TobinPalmer/Tip.nvim](https://github.com/TobinPalmer/Tip.nvim) - Get a simple tip when you launch Neovim.
 - [CWood-sdf/spaceport.nvim](https://github.com/CWood-sdf/spaceport.nvim) - The start screen that gets you to your projects blazingly fast.
