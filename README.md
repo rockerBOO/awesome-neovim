@@ -905,6 +905,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [VidocqH/data-viewer.nvim](https://github.com/VidocqH/data-viewer.nvim) - Provide a simple table view to inspect data files such as `csv`, `tsv`.
 - [theKnightsOfRohan/csvlens.nvim](https://github.com/theKnightsOfRohan/csvlens.nvim) - A port of [YS-L/csvlens](https://github.com/YS-L/csvlens), for easy previewing of tabular data.
 - [emmanueltouzery/decisive.nvim](https://github.com/emmanueltouzery/decisive.nvim) - View and edit CSV files with ease and speed.
+- [hat0uma/csvview.nvim](https://github.com/hat0uma/csvview.nvim) - An asynchronous CSV/TSV table viewer with real-time updates, configurable comments and delimiters, and multiple display modes.
 
 <!--lint disable double-link -->
 **[⬆ back to top](#contents)**
