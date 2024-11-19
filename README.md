@@ -1020,6 +1020,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [speelbarrow/spLauncher.nvim](https://github.com/speelbarrow/spLauncher.nvim) - For launching tasks, I guess.
 - [al1-ce/just.nvim](https://github.com/al1-ce/just.nvim) - Task runner for justfiles.
 - [niuiic/task.nvim](https://github.com/niuiic/task.nvim) - Another highly configurable task manager that enables seamless interaction with tasks.
+- [chrisgrieser/nvim-justice](https://github.com/chrisgrieser/nvim-justice) - Lightweight integration of the `just` task runner.
 
 <!--lint disable double-link -->
 **[⬆ back to top](#contents)**
