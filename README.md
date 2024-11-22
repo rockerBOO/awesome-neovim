@@ -1,8 +1,6 @@
 <!-- lint ignore awesome-git-repo-age -->
 
-
 # Awesome Neovim [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
 
 <img src="https://neovim.io/logos/neovim-mark-flat.png" align="right" width="144" />
 <!-- Uncomment the awesome badge when the repository is added to awesome main list.
@@ -100,13 +98,16 @@
 - [echasnovski/mini.nvim#mini.deps](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-deps.md) - Module of `mini.nvim` for managing other plugins. Uses Git and built-in packages to install, update, clean, and snapshot plugins.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## LSP
 
 ### (requires Neovim 0.5)
 
+- [Dan7h3x/signup.nvim](https://github.com/Dan7h3x/signup.nvim) - a little smart `lsp_signature` helper with awesome features.
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Quickstart configurations for the LSP client.
 - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) - This is a plugin/library for generating statusline components from the built-in LSP client.
 - [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils) - Better defaults for nvim-lsp actions.
@@ -185,7 +186,9 @@
 - [artemave/workspace-diagnostics.nvim](https://github.com/artemave/workspace-diagnostics.nvim) - Populate diagnostics for all projects files, not just the opened ones.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Completion
@@ -199,7 +202,9 @@
 - [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) - Fully featured Lua replacement for [GitHub/copilot.vim](https://github.com/github/copilot.vim).
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## AI
@@ -225,7 +230,9 @@
 - [k2589/LLuMinate.nvim](https://github.com/k2589/lluminate.nvim) - Enrich context for LLM with LSP hover added to clipboard.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Programming Languages Support
@@ -313,7 +320,9 @@
 - [ta-tikoma/php.easy.nvim](https://github.com/ta-tikoma/php.easy.nvim) - Methods of assistance in PHP development: create classes, constants, methods, properties; simple copying and deleting of an entity.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Language
@@ -323,7 +332,9 @@
 - [tanloong/interlaced.nvim](https://github.com/tanloong/interlaced.nvim) - Help align bilingual parallel texts.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Syntax
@@ -340,7 +351,9 @@
 - [IndianBoy42/tree-sitter-just](https://github.com/IndianBoy42/tree-sitter-just) - Tree-sitter grammar for [Justfiles](https://github.com/casey/just).
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Snippet
@@ -358,7 +371,9 @@
 - [guilherme-puida/tesoura.nvim](https://github.com/guilherme-puida/tesoura.nvim) - A flexible snippet system using Neovim's new snippet API.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Register
@@ -371,7 +386,9 @@
 - [kr40/nvim-macros](https://github.com/kr40/nvim-macros) - Easy way to save and load Macros, with backup and formatting options.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Marks
@@ -392,7 +409,9 @@
 - [2KAbhishek/markit.nvim](https://github.com/2KAbhishek/markit.nvim) - Improved global marks and project wide bookmarks, to quickly navigate files.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Search
@@ -415,7 +434,9 @@
 - [chrisgrieser/nvim-rip-substitute](https://github.com/chrisgrieser/nvim-rip-substitute) - Search and replace in the current buffer with a modern UI and modern regex flavor. A substitute for Vim's `:substitute` using `ripgrep`.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Fuzzy Finder
@@ -434,7 +455,9 @@
 - [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) - Telescope extension to switch between headings of AsciiDoc, Markdown, Vimdoc, etc.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## File Explorer
@@ -462,7 +485,9 @@
 - [neotree-file-nesting-config](https://github.com/saifulapm/neotree-file-nesting-config) - Pre-defined file nesting rules for `neo-tree.nvim`.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Project
@@ -483,7 +508,9 @@
 - [LintaoAmons/cd-project.nvim](https://github.com/LintaoAmons/cd-project.nvim) - All you need is just an easier way to `cd` to another project directory.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Color
@@ -506,7 +533,9 @@
 - [rachartier/tiny-devicons-auto-colors.nvim](https://github.com/rachartier/tiny-devicons-auto-colors.nvim) - Automatically updates nvim-web-devicons colors based on your current colorscheme.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Colorscheme
@@ -671,7 +700,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [LmanTW/themify.nvim](https://github.com/LmanTW/themify.nvim/tree/main) - A colorscheme manager and switcher. Inspired by Themery.nvim and Lazy.nvim.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Bars and Lines
@@ -732,7 +763,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [nyngwang/murmur.lua](https://github.com/nyngwang/murmur.lua) - Super-fast cursor word highlighting with callbacks(I call them murmurs) included.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Startup
@@ -749,7 +782,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Kurama622/profile.nvim](https://github.com/Kurama622/profile.nvim) - Your personal homepage.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Icon
@@ -761,7 +796,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [2KAbhishek/nerdy.nvim](https://github.com/2KAbhishek/nerdy.nvim/) - Find and insert the latest nerd font glyphs.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Media
@@ -783,7 +820,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [neo451/feed.nvim](https://github.com/neo451/feed.nvim) - Web feed reader written in Lua (RSS, atom, json feed).
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Note Taking
@@ -811,7 +850,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [slugbyte/whip.nvim](http://github.com/slugbyte/whip.nvim) - A super fast minimal scratchpad management plugin, biew biew biew.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Utility
@@ -911,12 +952,17 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [hat0uma/csvview.nvim](https://github.com/hat0uma/csvview.nvim) - An asynchronous CSV/TSV table viewer with real-time updates, configurable comments and delimiters, and multiple display modes.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Terminal Integration
 
+- [Dan7h3x/neaterm.nvim](https://github.com/Dan7h3x/neaterm.nvim) - A little
+  smart terminal/REPL management plugin with awesome features.
 - [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) - Plugin framework for running commands in the terminal.
+
 - [nikvdp/neomux](https://github.com/nikvdp/neomux) - Control Neovim from shells running inside Neovim.
 - [willothy/flatten.nvim](https://github.com/willothy/flatten.nvim) - Open files from terminal buffers in your current Neovim instance instead of launching a nested instance.
 - [willothy/wezterm.nvim](https://github.com/willothy/wezterm.nvim) - Functions for interacting with Wezterm.
@@ -940,7 +986,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [samharju/yeet.nvim](https://github.com/samharju/yeet.nvim) - Run shell commands in terminal buffers or tmux panes.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Debugging
@@ -968,7 +1016,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [stevearc/quicker.nvim](https://github.com/stevearc/quicker.nvim) - Improved quickfix UI and editable quickfix buffer.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Deployment
@@ -978,7 +1028,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [sachinsenal0x64/hot.nvim](https://github.com/sachinsenal0x64/hot.nvim) - A hot reloader that works with any programming language.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Test
@@ -990,7 +1042,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [quolpr/quicktest.nvim](https://github.com/quolpr/quicktest.nvim) - Run your tests in split window or popup with live feedback.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Code Runner
@@ -1023,12 +1077,14 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [chrisgrieser/nvim-justice](https://github.com/chrisgrieser/nvim-justice) - Lightweight integration of the `just` task runner.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Neovim Lua Development
 
-- [folke/lazydev.nvim](https://github.com/folke/lazydev.nvim) -  Faster LuaLS setup.
+- [folke/lazydev.nvim](https://github.com/folke/lazydev.nvim) - Faster LuaLS setup.
 - [nvim-neorocks/luarocks-tag-release](https://github.com/nvim-neorocks/luarocks-tag-release) - A GitHub action that publishes your Neovim plugins to LuaRocks.
 - [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) - Commands to help write your .vimrc in Lua or any Lua based language.
 - [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) - Interactive real time Neovim scratchpad for embedded Lua engine - Type and watch!.
@@ -1053,9 +1109,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [2KAbhishek/utils.nvim](https://github.com/2kabhishek/utils.nvim) - Powerful utilities to speed up plugin development.
 - [YaroSpace/lua-console.nvim](https://github.com/YaroSpace/lua-console.nvim) - A handy scratch pad / REPL / debug console for Lua development and Neovim exploration and configuration.
 
-
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Fennel
@@ -1068,7 +1125,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - Highly opinionated macros to elegantly write your config.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Dependency Management
@@ -1078,7 +1137,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [piersolenski/telescope-import.nvim](https://github.com/piersolenski/telescope-import.nvim) - Import modules faster based on what you've already imported in your project.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Git
@@ -1115,7 +1176,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [2KAbhishek/octohub.nvim](https://github.com/2kabhishek/octohub.nvim) - Access all your gihub repos, stats and more in simple keystrokes.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Motion
@@ -1155,7 +1218,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [atusy/treemonkey.nvim](https://github.com/atusy/treemonkey.nvim) - Region selection with Tree-sitter nodes.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Keybinding
@@ -1174,10 +1239,12 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Wansmer/langmapper.nvim](https://github.com/Wansmer/langmapper.nvim) - Auto translating your mappings for non-English input methods.
 - [tris203/hawtkeys.nvim](https://github.com/tris203/hawtkeys.nvim) - Suggest new easy-to-hit keymaps and find issues with your current keymap configurations.
 - [mawkler/demicolon.nvim](https://github.com/mawkler/demicolon.nvim) - Use `;` and `,` keys to also repeat jumps to diagnostics (e.g. `]d`) and to [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects?tab=readme-ov-file#text-objects-move) (e.g. `]f`), in addition to repeating `t`/`T`/`f`/`F`.
-- [debugloop/layers.nvim](https://github.com/debugloop/layers.nvim) -  Craft temporary keymap overlays and layered modes with ease.
+- [debugloop/layers.nvim](https://github.com/debugloop/layers.nvim) - Craft temporary keymap overlays and layered modes with ease.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Mouse
@@ -1185,7 +1252,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [notomo/gesture.nvim](https://github.com/notomo/gesture.nvim) - Mouse gesture plugin.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Scrolling
@@ -1206,7 +1275,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [lewis6991/satellite.nvim](https://github.com/lewis6991/satellite.nvim) - Decorate scrollbar.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Editing Support
@@ -1296,7 +1367,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Zeioth/dooku.nvim](https://github.com/Zeioth/dooku.nvim) - Generate and open your HTML code documentation.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Formatting
@@ -1333,7 +1406,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [gh-liu/fold_line.nvim](https://github.com/gh-liu/fold_line.nvim) - Lines for indicating code folding, which could achieve an effect similar to indentline by `:set fdm=indent`.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Command Line
@@ -1342,7 +1417,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [gelguy/wilder.nvim](https://github.com/gelguy/wilder.nvim) - A plugin for fuzzy command line autocompletion.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Session
@@ -1359,7 +1436,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [njayman/season.nvim](https://github.com/njayman/season.nvim) - A lightweight plugin to manage session based on current working directory.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Remote Development
@@ -1373,7 +1452,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [live-share.nvim](https://github.com/azratul/live-share.nvim) - Provides remote collaboration capabilities from anywhere, making it ideal for pair-programming scenarios.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Split and Window
@@ -1404,7 +1485,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [EvWilson/slimux.nvim](https://github.com/EvWilson/slimux.nvim) - Send content from the current buffer to a configurable tmux pane.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Game
@@ -1425,7 +1508,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [kawre/leetcode.nvim](https://github.com/kawre/leetcode.nvim) - Solve Leetcode problems.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Workflow
@@ -1434,7 +1519,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [antonk52/bad-practices.nvim](https://github.com/antonk52/bad-practices.nvim) - Helping you give up bad practices in Vim.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Preconfigured Configuration
@@ -1479,7 +1566,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [adoyle-h/one.nvim](https://github.com/adoyle-h/one.nvim) - All-in-one config framework in Lua.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## External
@@ -1505,7 +1594,9 @@ These tools are used externally to Neovim to enhance the experience.
 - [m15a/flake-awesome-neovim-plugins](https://github.com/m15a/flake-awesome-neovim-plugins) - Nix flake that provides Awesome Neovim plugins collection as Nix packages.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Wishlist
@@ -1513,7 +1604,9 @@ These tools are used externally to Neovim to enhance the experience.
 Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://github.com/nvim-lua/wishlist).
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## UI
@@ -1522,7 +1615,9 @@ Neovim supports a wide variety of UI's.
 You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/wiki/Related-projects#gui)
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Starter Templates
@@ -1531,7 +1626,9 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [frans-johansson/lazy-nvim-starter](https://github.com/frans-johansson/lazy-nvim-starter) - Starter boilerplate with lazy plugin manager.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Vim
@@ -1541,7 +1638,9 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [vim-plugin-list](https://github.com/altermo/vim-plugin-list) - List of Vim and Neovim plugins.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
 
 ## Resource
@@ -1549,8 +1648,10 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [Neovimcraft](https://neovimcraft.com) - A site dedicated to searching specific plugins and guides for building plugins in Lua.
 - [Dotfyle](https://dotfyle.com) - Dotfyle is a site for sharing and discovering Neovim configs and plugins.
 - [NeoLand](https://neoland.dev) - A beautifully crafted website for Neovim resources.
-- [Nvim-training]( https://github.com/Weyaaron/nvim-training) - A beginner-friendly tool for training your 'muscle memory' using small, repeatable tasks.
+- [Nvim-training](https://github.com/Weyaaron/nvim-training) - A beginner-friendly tool for training your 'muscle memory' using small, repeatable tasks.
 
 <!--lint disable double-link -->
+
 **[⬆ back to top](#contents)**
+
 <!--lint enable double-link -->
