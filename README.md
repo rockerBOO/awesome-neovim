@@ -407,6 +407,7 @@
 - [tristone13th/lspmark.nvim](https://github.com/tristone13th/lspmark.nvim) - Sane project-wise bookmarks with persistent storage based on LSP.
 - [EvWilson/spelunk.nvim](https://github.com/EvWilson/spelunk.nvim) - Create and manage bookmarks as stacks with a friendly UI.
 - [2KAbhishek/markit.nvim](https://github.com/2KAbhishek/markit.nvim) - Improved global marks and project wide bookmarks, to quickly navigate files.
+- [you-n-g/navigate-note.nvim](https://github.com/you-n-g/navigate-note.nvim) -  Integrating note-taking capabilities with navigation/marking. 
 
 <!--lint disable double-link -->
 
