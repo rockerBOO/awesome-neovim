@@ -1352,6 +1352,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ptdewey/yankbank-nvim](https://github.com/ptdewey/yankbank-nvim) - Enable streamlined access to recent yanks and deletions in a quick-access popup menu.
 - [OXY2DEV/foldtext.nvim](https://github.com/OXY2DEV/foldtext.nvim) - Dynamic & stylized foldtext.
 - [tummetott/unimpaired.nvim](https://github.com/tummetott/unimpaired.nvim) - Lua port of [tpope/vim-unimpaired](https://github.com/tpope/vim-unimpaired).
+- [daltongd/yanklock.nvim](https://github.com/daltongd/yanklock.nvim) - Temporarily lock the paste register to `"0`, and use `d`, `c`, and `s` motions while keeping the most recent yanked content easily accessible.
 
 ### Comment
 
