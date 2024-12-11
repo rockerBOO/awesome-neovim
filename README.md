@@ -256,6 +256,7 @@
 - [iabdelkareem/csharp.nvim](https://github.com/iabdelkareem/csharp.nvim) - Enhances the development experience for .NET developers.
 - [jim-at-jibba/micropython.nvim](https://github.com/jim-at-jibba/micropython.nvim) - Enhances the development experience for developers using Micro-python for IoT and maker projects.
 - [neolooong/whichpy.nvim](https://github.com/neolooong/whichpy.nvim) - Switch Python interpreter without restarting LSP.
+- [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) - Everything you need for a painless Java experience.
 
 ### Golang
 
