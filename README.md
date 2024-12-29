@@ -673,6 +673,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [diegoulloao/neofusion.nvim](https://github.com/diegoulloao/neofusion.nvim) - A theme compatible with Tree-sitter inspired by `gruvbox.nvim`.
 - [bartekjaszczak/luma-nvim](https://gitlab.com/bartekjaszczak/luma-nvim) - A colorful theme with dark/light modes and adjustable contrast. Supports Tree-sitter and semantic highlighting.
 - [bartekjaszczak/finale-nvim](https://gitlab.com/bartekjaszczak/finale-nvim) - A balanced dark theme, blending vivid and pastel colors for a comfortable, high-contrast experience. Supports Tree-sitter and semantic highlighting.
+- [BrunoCiccarino/nekonight](https://github.com/BrunoCiccarino/nekonight) - New colorscheme pack with color schemes to suit all tastes and moods
 
 ### Lua Colorscheme
 
