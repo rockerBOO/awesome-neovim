@@ -992,6 +992,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [NeViRAIDE/nekifoch.nvim](https://github.com/NeViRAIDE/nekifoch.nvim) - Managing Kitty terminal font settings.
 - [2KAbhishek/termim.nvim](https://github.com/2KAbhishek/termim.nvim/) - Neovim Terminal, Improved.
 - [samharju/yeet.nvim](https://github.com/samharju/yeet.nvim) - Run shell commands in terminal buffers or tmux panes.
+- [isak102/ghostty.nvim](https://github.com/isak102/ghostty.nvim) - Automatically validate your Ghostty configuration on save.
 
 <!--lint disable double-link -->
 
