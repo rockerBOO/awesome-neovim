@@ -1496,6 +1496,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [mrjones2014/smart-splits.nvim](https://github.com/mrjones2014/smart-splits.nvim) - Smart, seamless, directional navigation and resizing of splits.
 - [altermo/nwm](https://github.com/altermo/nwm) - X11 window manager.
 - [MisanthropicBit/winmove.nvim](https://github.com/MisanthropicBit/winmove.nvim) - Easily move, swap, and resize windows.
+- [ycdzj/win-mover.nvim](https://github.com/ycdzj/win-mover.nvim) - Window mover that avoids moving side windows.
 
 ### Tmux
 
