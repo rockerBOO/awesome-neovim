@@ -412,7 +412,7 @@
 - [tristone13th/lspmark.nvim](https://github.com/tristone13th/lspmark.nvim) - Sane project-wise bookmarks with persistent storage based on LSP.
 - [EvWilson/spelunk.nvim](https://github.com/EvWilson/spelunk.nvim) - Create and manage bookmarks as stacks with a friendly UI.
 - [2KAbhishek/markit.nvim](https://github.com/2KAbhishek/markit.nvim) - Improved global marks and project wide bookmarks, to quickly navigate files.
-- [you-n-g/navigate-note.nvim](https://github.com/you-n-g/navigate-note.nvim) -  Integrating note-taking capabilities with navigation/marking. 
+- [you-n-g/navigate-note.nvim](https://github.com/you-n-g/navigate-note.nvim) -  Integrating note-taking capabilities with navigation/marking.
 - [zongben/navimark.nvim](https://github.com/zongben/navimark.nvim) - An easy and powerful bookmark manager with telescope.
 
 <!--lint disable double-link -->
@@ -423,6 +423,7 @@
 
 ## Search
 
+- [wurli/visimatch.nvim](https://github.com/wurli/visimatch.nvim) - A tiny plugin to highlight text matching the current selection in visual mode.
 - [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - Helps you better glance searched information, seamlessly jump matched instances.
 - [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or \* match under your cursor when pressing n or N and gets out of the way afterwards.
 - [gaborvecsei/memento.nvim](https://github.com/gaborvecsei/memento.nvim) - Keeps track of your visited file history after a buffer is closed. Reopen files more easily.
