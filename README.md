@@ -515,6 +515,7 @@
 - [echasnovski/mini.nvim#mini.visits](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-visits.md) - Module of `mini.nvim` to persistently track and reuse file system visits. Allows listing "recent"/"frequent"/"frecent" visits, adding/removing labels to visits and other data.
 - [LintaoAmons/cd-project.nvim](https://github.com/LintaoAmons/cd-project.nvim) - All you need is just an easier way to `cd` to another project directory.
 - [LucasTavaresA/headers.nvim](https://github.com/LucasTavaresA/headers.nvim) - Zero-config header/footer warnings.
+- [zongben/proot.nvim](https://github.com/zongben/proot.nvim) - Lightweight project navigator with telescope.
 
 <!--lint disable double-link -->
 
