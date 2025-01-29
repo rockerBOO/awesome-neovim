@@ -199,6 +199,7 @@
   - [SergioRibera/cmp-dotenv](https://github.com/SergioRibera/cmp-dotenv) - Load environment variables from the shell or from your `.env` files.
 - [echasnovski/mini.nvim#mini.completion](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-completion.md) - Module of `mini.nvim` for asynchronous two-stage completion. Supports showing completion item info and independent function signature.
 - [deathbeam/autocomplete.nvim](https://github.com/deathbeam/autocomplete.nvim) - Very simple and minimal autocompletion for cmdline and buffer using LSP and Tree-sitter with signature help.
+- [Saghen/blink.cmp](https://github.com/Saghen/blink.cmp) - Really fast completion with LSP & snippet support, along with signature help, cmdline completion, and autobracket support (based on semantic tokens).
 - [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) - Fully featured Lua replacement for [GitHub/copilot.vim](https://github.com/github/copilot.vim).
 - [brianaung/compl.nvim](https://github.com/brianaung/compl.nvim) - A minimal and dependency-free auto-completion built on top of Vim's ins-completion mechanism.
 
@@ -315,7 +316,7 @@
 - [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) - Improve viewing markdown files directly.
 - [arminveres/md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim) - Preview markdown files and convert to PDF.
 - [ChuufMaster/markdown-toc](https://github.com/ChuufMaster/markdown-toc) - Generate TOC in any markdown file from any other markdown file with customisable levels of headings and affordances for emojis and ensuring that it works on GitHub using relative paths.
-- [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - Highly customisable markdown(latex & inline html) previewer.
+- [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - A hackable markdown, typst, LaTeX, html(inline) & YAML renderer.
 - [Kicamon/markdown-table-mode.nvim](https://github.com/Kicamon/markdown-table-mode.nvim) - Markdown format plugin like vim-table-mode but write in Lua.
 - [SCJangra/table-nvim](https://github.com/SCJangra/table-nvim) - A markdown table editor that formats the table as you type.
 - [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) - Telescope extension to search and paste BibTeX entries into your TeX files.
@@ -544,6 +545,7 @@
 - [moyiz/command-and-cursor.nvim](https://github.com/moyiz/command-and-cursor.nvim) - Highlight cursor and visual selections when entering command mode.
 - [rachartier/tiny-devicons-auto-colors.nvim](https://github.com/rachartier/tiny-devicons-auto-colors.nvim) - Automatically updates nvim-web-devicons colors based on your current colorscheme.
 - [TaDaa/vimade](https://github.com/TaDaa/vimade) - Dim, fade, tint, animate, and customize colors in your windows and buffers.
+- [xzbdmw/colorful-menu.nvim](https://github.com/xzbdmw/colorful-menu.nvim) - Colorize your auto completion menu using Tree-sitter.
 
 <!--lint disable double-link -->
 
@@ -679,6 +681,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [diegoulloao/neofusion.nvim](https://github.com/diegoulloao/neofusion.nvim) - A theme compatible with Tree-sitter inspired by `gruvbox.nvim`.
 - [bartekjaszczak/luma-nvim](https://gitlab.com/bartekjaszczak/luma-nvim) - A colorful theme with dark/light modes and adjustable contrast. Supports Tree-sitter and semantic highlighting.
 - [bartekjaszczak/finale-nvim](https://gitlab.com/bartekjaszczak/finale-nvim) - A balanced dark theme, blending vivid and pastel colors for a comfortable, high-contrast experience. Supports Tree-sitter and semantic highlighting.
+- [m15a/nvim-srcerite](https://github.com/m15a/nvim-srcerite) - A colorscheme inspired by [Srcery](https://srcery.sh/), based on `nvim-highlite`.
 
 ### Lua Colorscheme
 
@@ -918,6 +921,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [yaocccc/nvim-foldsign](https://github.com/yaocccc/nvim-foldsign) - Display folds on sign column.
 - [tenxsoydev/nx.nvim](https://github.com/tenxsoydev/nx.nvim) - Neovim API utility wrapper for more convenience with Lua keymaps, highlights, autocommands and options.
 - [zdcthomas/yop.nvim](https://github.com/zdcthomas/yop.nvim) - Easily create your own operators (like `d` and `y`).
+- [mluders/comfy-line-numbers.nvim](https://github.com/mluders/comfy-line-numbers.nvim) - Limits relative numbers to only show left-hand digits on the keyboard.
 - [cpea2506/relative-toggle.nvim](https://github.com/cpea2506/relative-toggle.nvim) - Toggles smoothly between number and relative numbers, supporting various number combinations, highly customizable.
 - [nvim-early-retirement](https://github.com/chrisgrieser/nvim-early-retirement) - Send buffers into early retirement by automatically closing them after x minutes of inactivity.
 - [hbac.nvim](https://github.com/axkirillov/hbac.nvim) - Automatically close buffers you are not working on.
@@ -932,6 +936,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [chrisgrieser/nvim-origami](https://github.com/chrisgrieser/nvim-origami) - Fold with relentless elegance.
 - [GCBallesteros/NotebookNavigator.nvim](https://github.com/GCBallesteros/NotebookNavigator.nvim) - Navigate and execute code cells.
 - [LintaoAmons/scratch.nvim](https://github.com/LintaoAmons/scratch.nvim) - Create and manage scratch files.
+- [0xJohnnyboy/scretch.nvim](https://github.com/0xJohnnyboy/scretch.nvim) - Create and manage scratch files, scratch templates, with picker integrations.
 - [JMarkin/gentags.lua](https://github.com/JMarkin/gentags.lua) - Auto generate tag files by ctags.
 - [yutkat/confirm-quit.nvim](https://github.com/yutkat/confirm-quit.nvim) - Confirm before quitting Neovim.
 - [bgaillard/readonly.nvim](https://github.com/bgaillard/readonly.nvim) - Secure edition of files containing sensible / secret information, passwords, API keys, SSH keys, etc.
@@ -1117,7 +1122,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [echasnovski/mini.nvim#mini.doc](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-doc.md) - Module of `mini.nvim` for generation of help files from EmmyLua-like annotations. Allows flexible customization of output via hook functions.
 - [milisims/nvim-luaref](https://github.com/milisims/nvim-luaref) - A reference for builtin Lua functions.
 - [echasnovski/mini.nvim#mini.test](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-test.md) - Module of `mini.nvim` with framework for writing extensive Neovim plugin tests. Supports hierarchical tests, hooks, parametrization, filtering, screen tests, "busted-style" emulation, customizable reporters, and more.
-- [miversen33/import.nvim](https://github.com/miversen33/import.nvim) - A safe require replacement with niceties.
 - [ray-x/guihua.lua](https://github.com/ray-x/guihua.lua) - A Lua UI library. Includes a fzy search bar, list view and tree view modules.
 - [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) - Create animations.
 - [nfrid/treesitter-utils](https://github.com/nfrid/treesitter-utils) - Some useful Tree-sitter methods.
