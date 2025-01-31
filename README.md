@@ -233,6 +233,7 @@
 - [supermaven-inc/supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim) - The fastest copilot, brought to you by [Supermaven](https://supermaven.com/).
 - [milanglacier/yarepl.nvim#aider-extensions](https://github.com/milanglacier/yarepl.nvim/blob/main/extensions/README.md) - Integration with [aider-chat](https://aider.chat), a TUI AI coding assistant.
 - [Davidyz/VectorCode](https://github.com/davidyz/vectorcode) - Supercharge your LLM experience with repository-level RAG.
+- [dlants/magenta.nvim](https://github.com/dlants/magenta.nvim) - Leverage coding assistants for chat and code generation. Provides tools for the AI/LLM agent to explore and edit your code, like Aider, Cursor and Windsurf.
 
 <!--lint disable double-link -->
 
@@ -966,6 +967,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [dzfrias/arena.nvim](https://github.com/dzfrias/arena.nvim) - A smart (frecency-based) buffer switcher.
 - [MisanthropicBit/decipher.nvim](https://github.com/MisanthropicBit/decipher.nvim) - Encode and decode text using various codecs such as base64.
 - [philosofonusus/ecolog.nvim](https://github.com/philosofonusus/ecolog.nvim) - Sophisticated all-in-one toolkit to work with `.env` files and environment variables.
+- [theKnightsOfRohan/hexer.nvim](https://github.com/theKnightsOfRohan/hexer.nvim) - Easily convert between binary representations without a conversion table.
 
 ### CSV Files
 
@@ -1029,6 +1031,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [theHamsta/nvim-dap-virtual-text](https://github.com/theHamsta/nvim-dap-virtual-text) - Virtual text support for nvim-dap.
 - [chrisgrieser/nvim-chainsaw](https://github.com/chrisgrieser/nvim-chainsaw) - Speed up log creation. Creates various kinds of language-specific log statements, like logs of variables, assertions, or time-measuring.
 - [Willem-J-an/visidata.nvim](https://github.com/Willem-J-an/visidata.nvim) - Render pandas dataframes in nvim-dap using the power of visidata.
+- [igorlfs/nvim-dap-view](https://github.com/igorlfs/nvim-dap-view) - A modern, minimalistic UI for nvim-dap.
 
 ### Quickfix
 
