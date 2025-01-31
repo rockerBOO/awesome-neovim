@@ -232,6 +232,7 @@
 - [k2589/LLuMinate.nvim](https://github.com/k2589/lluminate.nvim) - Enrich context for LLM with LSP hover added to clipboard.
 - [supermaven-inc/supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim) - The fastest copilot, brought to you by [Supermaven](https://supermaven.com/).
 - [milanglacier/yarepl.nvim#aider-extensions](https://github.com/milanglacier/yarepl.nvim/blob/main/extensions/README.md) - Integration with [aider-chat](https://aider.chat), a TUI AI coding assistant.
+- [Davidyz/VectorCode](https://github.com/davidyz/vectorcode) - Supercharge your LLM experience with repository-level RAG.
 - [dlants/magenta.nvim](https://github.com/dlants/magenta.nvim) - Leverage coding assistants for chat and code generation. Provides tools for the AI/LLM agent to explore and edit your code, like Aider, Cursor and Windsurf.
 
 <!--lint disable double-link -->
