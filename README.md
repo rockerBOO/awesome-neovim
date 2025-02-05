@@ -1133,7 +1133,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [nvim-lusc](https://github.com/svermeulen/nvim-lusc) - Adds support for Structured Async/Concurrency in Lua.
 - [gregorias/coop.nvim](https://github.com/gregorias/coop.nvim) - Structured concurrency with Lua coroutines.
 - [CWood-sdf/banana.nvim](https://github.com/CWood-sdf/banana.nvim) - HTML renderer for plugin UIs.
-- [OXY2DEV/helpview.nvim](https://github.com/OXY2DEV/helpview.nvim) - Decorations for `vimdoc/help` files.
+- [OXY2DEV/helpview.nvim](https://github.com/OXY2DEV/helpview.nvim) - A hackable & fancy `vimdoc/help` file viewer.
 - [niuiic/omega.nvim](https://github.com/niuiic/omega.nvim) - Missing functions for Lua plugin development.
 - [2KAbhishek/utils.nvim](https://github.com/2KAbhishek/utils.nvim) - Powerful utilities to speed up plugin development.
 - [YaroSpace/lua-console.nvim](https://github.com/YaroSpace/lua-console.nvim) - A handy scratch pad / REPL / debug console for Lua development and Neovim exploration and configuration.
