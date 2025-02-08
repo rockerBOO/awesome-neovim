@@ -857,6 +857,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Utility
 
+- [Dan7h3x/LazyDo](https://github.com/Dan7h3x/LazyDo) - A smart, feature-rich task/todo manager for supercharge the neovim experience.
 - [gaborvecsei/usage-tracker.nvim](https://github.com/gaborvecsei/usage-tracker.nvim) - Track your Neovim usage and visualize statistics easily.
 - [mateuszwieloch/automkdir.nvim](https://github.com/mateuszwieloch/automkdir.nvim) - Automatically create non-existent parent directories when writing a file.
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) - Automatically create missing directories when saving files.
