@@ -1200,6 +1200,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [isak102/telescope-git-file-history.nvim](https://github.com/isak102/telescope-git-file-history.nvim) - Open/preview contents of the current file at a specific commit, without using git checkout.
 - [moyiz/git-dev.nvim](https://github.com/moyiz/git-dev.nvim) - Open remote Git repositories in the comfort of Neovim.
 - [SuperBo/fugit2.nvim](https://github.com/SuperBo/fugit2.nvim) - Git GUI powered by [libgit2](https://libgit2.org).
+- [Yu-Leo/blame-column.nvim](https://github.com/Yu-Leo/blame-column.nvim) - Show Git blame info.
 
 ### GitHub
 
