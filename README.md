@@ -974,7 +974,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [philosofonusus/ecolog.nvim](https://github.com/philosofonusus/ecolog.nvim) - Sophisticated all-in-one toolkit to work with `.env` files and environment variables.
 - [theKnightsOfRohan/hexer.nvim](https://github.com/theKnightsOfRohan/hexer.nvim) - Easily convert between binary representations without a conversion table.
 - [rachartier/tiny-glimmer.nvim](https://github.com/rachartier/tiny-glimmer.nvim/) - Adds subtle animations to various operations.  
-- [neanvo/buben.nvim](https://github.com/neanvo/buben.nvim) - Human-readable names to blockchain addresses.
+- [neanvo/buben.nvim](https://github.com/neanvo/buben.nvim) - Human-readable names to blockchain(eth) addresses.
 
 ### CSV Files
 
