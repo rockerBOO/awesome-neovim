@@ -498,6 +498,7 @@
 - [echasnovski/mini.nvim#mini.files](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-files.md) - Module of `mini.nvim` providing file explorer with column view capable of manipulating file system by editing text. Can create/delete/rename/copy/move files/directories inside and across directories.
 - [prichrd/netrw.nvim](https://github.com/prichrd/netrw.nvim) - Add icons and custom keybindings to netrw.
 - [neotree-file-nesting-config](https://github.com/saifulapm/neotree-file-nesting-config) - Pre-defined file nesting rules for `neo-tree.nvim`.
+- [Enigama/miss.nvim](https://github.com/Enigama/miss.nvim) - Simple popup with changed `unsaved` files, allowing you to save and open them. Helps to avoid forgetting to add something to GitHub or similar.
 
 <!--lint disable double-link -->
 
