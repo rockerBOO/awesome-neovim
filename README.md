@@ -234,6 +234,7 @@
 - [milanglacier/yarepl.nvim#aider-extensions](https://github.com/milanglacier/yarepl.nvim/blob/main/extensions/README.md) - Integration with [aider-chat](https://aider.chat), a TUI AI coding assistant.
 - [Davidyz/VectorCode](https://github.com/davidyz/vectorcode) - Supercharge your LLM experience with repository-level RAG.
 - [dlants/magenta.nvim](https://github.com/dlants/magenta.nvim) - Leverage coding assistants for chat and code generation. Provides tools for the AI/LLM agent to explore and edit your code, like Aider, Cursor and Windsurf.
+- [claudius.nvim](https://github.com/StanAngeloff/claudius.nvim) - Text-based interface for chatting with Claude AI directly in your buffer.
 
 <!--lint disable double-link -->
 
