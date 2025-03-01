@@ -275,6 +275,7 @@
 - [yanskun/gotests.nvim](https://github.com/yanskun/gotests.nvim) - Make Go tests easy with [gotests](https://github.com/cweill/gotests).
 - [maxandron/goplements.nvim](https://github.com/maxandron/goplements.nvim) - Visualize Go struct and interface implementations.
 - [Snikimonkd/cmp-go-pkgs](https://github.com/Snikimonkd/cmp-go-pkgs) - Cmp source for Go packages names.
+- [Yu-Leo/gosigns.nvim](https://github.com/Yu-Leo/gosigns.nvim) - Visualize some Go hints: struct, interface, and methods implementations; go comments.
 
 ### YAML
 
