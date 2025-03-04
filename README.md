@@ -1024,6 +1024,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [samharju/yeet.nvim](https://github.com/samharju/yeet.nvim) - Run shell commands in terminal buffers or tmux panes.
 - [isak102/ghostty.nvim](https://github.com/isak102/ghostty.nvim) - Automatically validate your Ghostty configuration on save.
 - [laktak/tome](https://github.com/laktak/tome) - Interactive Script playbooks for your terminal (optionally with Tmux).
+- [Axot017/multiterm.nvim](https://github.com/Axot017/multiterm.nvim) - A lightweight manager of multiple terminal instances with key bindings.
 
 <!--lint disable double-link -->
 
