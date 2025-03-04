@@ -277,6 +277,7 @@
 - [maxandron/goplements.nvim](https://github.com/maxandron/goplements.nvim) - Visualize Go struct and interface implementations.
 - [Snikimonkd/cmp-go-pkgs](https://github.com/Snikimonkd/cmp-go-pkgs) - Cmp source for Go packages names.
 - [Yu-Leo/gosigns.nvim](https://github.com/Yu-Leo/gosigns.nvim) - Visualize some Go hints: struct, interface, and methods implementations; go comments.
+- [Yu-Leo/cmp-go-pkgs](https://github.com/Yu-Leo/cmp-go-pkgs) - nvim-cmp source providing the names of Go packages to import.
 
 ### YAML
 
