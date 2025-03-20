@@ -1411,6 +1411,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [zongben/capsoff.nvim](https://github.com/zongben/capsoff.nvim) - Turns off CapsLock when you leaving insert mode.
 - [kobbikobb/move-lines.nvim](https://github.com/kobbikobb/move-lines.nvim) - Moves lines selected in virtual mode.
 - [kiyoon/telescope-insert-path.nvim](https://github.com/kiyoon/telescope-insert-path.nvim) - Insert file path in the current buffer using Telescope.
+- [zhisme/copy_with_context.nvim](https://github.com/zhisme/copy_with_context.nvim) - Copy lines with file path and line number metadata for sharing code snippets with context.
 
 ### Comment
 
