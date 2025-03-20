@@ -426,6 +426,7 @@
 - [you-n-g/navigate-note.nvim](https://github.com/you-n-g/navigate-note.nvim) -  Integrating note-taking capabilities with navigation/marking.
 - [zongben/navimark.nvim](https://github.com/zongben/navimark.nvim) - An easy and powerful bookmark manager with telescope.
 - [francescarpi/buffon.nvim](https://github.com/francescarpi/buffon.nvim) - Buffers navigation, reorganize and close.
+- [mohseenrm/marko.nvim](https://github.com/mohseenrm/marko.nvim) - Behind the scenes, global marks management for different projects.
 <!--lint disable double-link -->
 
 **[⬆ back to top](#contents)**
