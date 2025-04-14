@@ -266,7 +266,7 @@
 - [neolooong/whichpy.nvim](https://github.com/neolooong/whichpy.nvim) - Switch Python interpreter without restarting LSP.
 - [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) - Everything you need for a painless Java experience.
 - [kiyoon/python-import.nvim](https://github.com/kiyoon/python-import.nvim) - Add Python import statements with Tree-sitter, LSP, and more.
-- [kiyoon/haskell-scope-highlighting.nvim](https://github.com/kiyoon/haskell-scope-highlighting.nvim) - Haskell syntax highlighting that considers variable scopes. Inspired from "Context Coloring" by prof. Douglas Crockford. 
+- [kiyoon/haskell-scope-highlighting.nvim](https://github.com/kiyoon/haskell-scope-highlighting.nvim) - Haskell syntax highlighting that considers variable scopes. Inspired from "Context Coloring" by prof. Douglas Crockford.
 
 ### Golang
 
@@ -351,6 +351,7 @@
 - [niuiic/translate.nvim](https://github.com/niuiic/translate.nvim) - Invoke any translation engine via shell command.
 - [tanloong/interlaced.nvim](https://github.com/tanloong/interlaced.nvim) - Help align bilingual parallel texts.
 - [kiyoon/Korean-IME.nvim](https://github.com/kiyoon/Korean-IME.nvim) - OS-independent Korean input method that converts English inputs to Korean in-place.
+- [doodleEsc/translator.nvim](https://github.com/doodleEsc/translator.nvim) - A powerful AI-powered translation plugin, leveraging OpenAI's GPT models to provide high-quality translations with natural language understanding.
 
 <!--lint disable double-link -->
 
