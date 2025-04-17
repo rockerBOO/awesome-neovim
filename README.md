@@ -86,6 +86,7 @@
 - [Starter Templates](#starter-templates)
 - [Vim](#vim)
 - [Resource](#resource)
+- [Unity Integration](#unity-integration)
 
 ## Plugin Manager
 
@@ -1742,6 +1743,16 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 - [Dotfyle](https://dotfyle.com) - Dotfyle is a site for sharing and discovering Neovim configs and plugins.
 - [NeoLand](https://neoland.dev) - A beautifully crafted website for Neovim resources.
 - [Nvim-training](https://github.com/Weyaaron/nvim-training) - A beginner-friendly tool for training your 'muscle memory' using small, repeatable tasks.
+
+<!--lint disable double-link -->
+
+**[⬆ back to top](#contents)**
+
+<!--lint enable double-link -->
+
+## Unity Integration
+
+- [nvim-unity](https://github.com/apyra/nvim-unity) - Use Neovim as your default Unity editor with full LSP support via OmniSharp.
 
 <!--lint disable double-link -->
 
