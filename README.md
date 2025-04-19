@@ -1359,7 +1359,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Editing Support
 
-- [TheLazyCat00/focus-nvim](https://github.com/TheLazyCat00/focus-nvim) - Automatically folds predefined structures with Tree-sitter.
+- [TheLazyCat00/focus-nvim](https://github.com/TheLazyCat00/focus-nvim) - Automatically folds predefined structures with tree-sitter.
 - [wurli/split.nvim](https://github.com/wurli/split.nvim) - Provides a mapping to split text by delimiter, giving an inverse of the native J command.
 - [csessh/stopinsert.nvim](https://github.com/csessh/stopinsert.nvim) - Automatically exit Insert mode after inactivity.
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use Tree-sitter to autoclose and autorename XML, HTML, JSX tag.
