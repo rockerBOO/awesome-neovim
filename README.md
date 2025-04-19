@@ -1301,6 +1301,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Keybinding
 
+- [TheLazyCat00/racer-nvim](https://github.com/TheLazyCat00/racer-nvim) - Overload ; and , with custom keymappings.
 - [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Neovim plugin that shows a popup with possible keybindings of the command you started typing.
 - [echasnovski/mini.nvim#mini.clue](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-clue.md) - Module of `mini.nvim` to show next key clues. Has opt-in triggers, shows next key information after customizable delay, allows hydra-like submodes, and more.
 - [mrjones2014/legendary.nvim](https://github.com/mrjones2014/legendary.nvim) - Define your keymaps, commands, and autocommands as simple Lua tables, and create a legend for them at the same time (like VS Code's Command Palette), integrates with `which-key.nvim`.
@@ -1457,7 +1458,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Formatting
 
-- [TheLazyCat00/simple-format](https://github.com/TheLazyCat00/simple-format) - Minimalistic plugin for replacing text using custom regex and highlight group rules, useful for formatting whitespace.
 - [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) - An EditorConfig plugin written in Fennel.
 - [mhartington/formatter.nvim](https://github.com/mhartington/formatter.nvim) - A format runner written in Lua.
 - [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) - A wrapper around Neovims native LSP formatting.
