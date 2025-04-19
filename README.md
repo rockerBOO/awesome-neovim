@@ -1359,7 +1359,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Editing Support
 
-- [TheLazyCat00/focus-nvim](https://github.com/TheLazyCat00/focus-nvim) - Automatically folds predefined structures with tree-sitter.
 - [wurli/split.nvim](https://github.com/wurli/split.nvim) - Provides a mapping to split text by delimiter, giving an inverse of the native J command.
 - [csessh/stopinsert.nvim](https://github.com/csessh/stopinsert.nvim) - Automatically exit Insert mode after inactivity.
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use Tree-sitter to autoclose and autorename XML, HTML, JSX tag.
@@ -1458,6 +1457,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Formatting
 
+- [TheLazyCat00/simple-format](https://github.com/TheLazyCat00/simple-format) - Minimalistic plugin for replacing text using custom regex and highlight group rules, useful for formatting whitespace.
 - [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) - An EditorConfig plugin written in Fennel.
 - [mhartington/formatter.nvim](https://github.com/mhartington/formatter.nvim) - A format runner written in Lua.
 - [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) - A wrapper around Neovims native LSP formatting.
