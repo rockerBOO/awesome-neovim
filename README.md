@@ -1007,6 +1007,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ovk/endec.nvim](https://github.com/ovk/endec.nvim) - Encode, decode and re-encode text using Base64, Base64URL and URL (percent) encodings.
 - [kiyoon/jupynium.nvim](https://github.com/kiyoon/jupynium.nvim) - Selenium-automated Jupyter Notebook that is synchronised with Neovim in real-time.
 - [BibekBhusal0/bufstack.nvim](https://github.com/BibekBhusal0/bufstack.nvim) - Track recently visited buffers and reopen recently closed buffers.
+- [OXY2DEV/ui.nvim](https://github.com/OXY2DEV/ui.nvim) - A blueprint/template/guide for customizing the UI.
 
 ### CSV Files
 
