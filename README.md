@@ -1285,6 +1285,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [DanilaMihailov/beacon.nvim](https://github.com/DanilaMihailov/beacon.nvim) - Highlights cursor when it moves, changes windows and more. Inspired by Emacs beacon package.
 - [Aaronik/Treewalker.nvim](https://github.com/aaronik/Treewalker.nvim) - Move seamlessly around the abstract syntax tree.
 - [sphamba/smear-cursor.nvim](https://github.com/sphamba/smear-cursor.nvim) - Animate the cursor with a smear effect in all terminals. Inspired by Neovide's animated cursor.
+- [timseriakov/spamguard.nvim](https://github.com/timseriakov/spamguard.nvim) - Detects excessive key spamming (jjjj/kkkk) and suggests more efficient alternatives.
 
 ### Tree-sitter Based
 
