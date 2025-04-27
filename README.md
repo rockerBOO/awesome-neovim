@@ -1359,7 +1359,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Editing Support
 
-- [TheLazyCat00/lua-mundo](https://github.com/TheLazyCat00/lua-mundo) - Undo tree visualizer, fork of `vim-mundo` with some improvements and a Lua entry point allowing you to set it up like any other Lua plugin.
+- [TheLazyCat00/lua-mundo](https://github.com/TheLazyCat00/lua-mundo) - Undo tree visualizer, fork of vim-mundo with some improvements and a Lua entry point.
 - [wurli/split.nvim](https://github.com/wurli/split.nvim) - Provides a mapping to split text by delimiter, giving an inverse of the native J command.
 - [csessh/stopinsert.nvim](https://github.com/csessh/stopinsert.nvim) - Automatically exit Insert mode after inactivity.
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use Tree-sitter to autoclose and autorename XML, HTML, JSX tag.
