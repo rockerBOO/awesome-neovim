@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
     - name: Run terminology check script
-      run: ./.github/scripts/check_terminology.sh README.md
+      run: ./.github/scripts/check-terms.sh README.md
