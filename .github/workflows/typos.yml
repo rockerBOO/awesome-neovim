@@ -1,14 +1,20 @@
-name: Typos
-
+name: Typos and Terminology Check
 on: [pull_request]
-
 jobs:
-  run:
+  typos-check:
     name: Check for typos
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: crate-ci/typos@master
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+    - uses: crate-ci/typos@b1a1ef3893ff35ade0cfa71523852a49bfd05d19
       with:
         files: ./README.md
         config: ./.github/typos.toml
+
+  terminology-check:
+    name: Check for terminology consistency
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+    - name: Run terminology check script
+      run: ./.github/scripts/check-terms.sh README.md
