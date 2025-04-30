@@ -18,6 +18,7 @@
 - [Completion](#completion)
 - [AI](#ai)
 - [Programming Languages Support](#programming-languages-support)
+  - [Csharp](#csharp)
   - [Golang](#golang)
   - [YAML](#yaml)
   - [Web Development](#web-development)
@@ -86,7 +87,7 @@
 - [Starter Templates](#starter-templates)
 - [Vim](#vim)
 - [Resource](#resource)
-- [Unity Integration](#unity-integration)
+
 
 ## Plugin Manager
 
@@ -269,6 +270,10 @@
 - [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) - Everything you need for a painless Java experience.
 - [kiyoon/python-import.nvim](https://github.com/kiyoon/python-import.nvim) - Add Python import statements with Tree-sitter, LSP, and more.
 - [kiyoon/haskell-scope-highlighting.nvim](https://github.com/kiyoon/haskell-scope-highlighting.nvim) - Haskell syntax highlighting that considers variable scopes. Inspired from "Context Coloring" by prof. Douglas Crockford.
+
+### Csharp
+
+- [nvim-unity](https://github.com/apyra/nvim-unity) - Use Neovim as your default Unity editor with full LSP support via OmniSharp.
 
 ### Golang
 
@@ -1748,14 +1753,4 @@ You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/w
 
 **[⬆ back to top](#contents)**
 
-<!--lint enable double-link -->
 
-## Unity Integration
-
-- [nvim-unity](https://github.com/apyra/nvim-unity) - Use Neovim as your default Unity editor with full LSP support via OmniSharp.
-
-<!--lint disable double-link -->
-
-**[⬆ back to top](#contents)**
-
-<!--lint enable double-link -->
