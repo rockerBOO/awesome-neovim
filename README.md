@@ -240,6 +240,7 @@
 - [claudius.nvim](https://github.com/StanAngeloff/claudius.nvim) - Text-based interface for chatting with Claude AI directly in your buffer.
 - [heilgar/nochat.nvim](https://github.com/heilgar/nochat.nvim) - Cursor-like effortless natural language generation with multiple AI providers including Ollama, Anthropic (Claude), and ChatGPT.
 - [julwrites/llm-nvim](https://github.com/julwrites/llm-nvim) - Comprehensive integration with the [llm](https://github.com/simonw/llm) tool.
+- [azorng/goose.nvim](https://github.com/azorng/goose.nvim) - Seamless neovim integration with goose - work with a powerful AI agent without leaving your editor
 
 <!--lint disable double-link -->
 
