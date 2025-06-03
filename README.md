@@ -1576,6 +1576,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [altermo/nwm](https://github.com/altermo/nwm) - X11 window manager.
 - [MisanthropicBit/winmove.nvim](https://github.com/MisanthropicBit/winmove.nvim) - Easily move, swap, and resize windows.
 - [ycdzj/win-mover.nvim](https://github.com/ycdzj/win-mover.nvim) - Window mover that avoids moving side windows.
+- [mkajsjo/windowcolumns.nvim](https://github.com/mkajsjo/windowcolumns.nvim) - Column-first window management.
 
 ### Tmux
 
