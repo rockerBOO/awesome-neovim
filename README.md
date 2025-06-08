@@ -1275,6 +1275,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Yu-Leo/blame-column.nvim](https://github.com/Yu-Leo/blame-column.nvim) - Show Git blame info.
 - [yutkat/git-rebase-auto-diff.nvim](https://github.com/yutkat/git-rebase-auto-diff.nvim) - Show diff automatically when Git rebase.
 - [Kohei-Wada/yadm-git.nvim](https://github.com/Kohei-Wada/yadm-git.nvim) - Seamless Git plugin support for yadm dotfiles.
+- [axkirillov/unified.nvim](https://github.com/axkirillov/unified.nvim) - Displaying inline unified diffs directly in your buffer.
 
 ### GitHub
 
