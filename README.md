@@ -1608,6 +1608,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [alanfortlink/blackjack.nvim](https://github.com/alanfortlink/blackjack.nvim) - Classic Black Jack game.
 - [jim-fx/sudoku.nvim](https://github.com/jim-fx/sudoku.nvim) - Classic sudoku puzzle.
 - [csessh/aoc.vim](https://github.com/csessh/aoc.nvim) - Simple little elf who fetches Advent of Code puzzle input for you.
+- [seandewar/actually-doom.nvim](https://github.com/seandewar/actually-doom.nvim) - Editing text is boring; play DOOM instead!.
 
 ### Competitive Programming
 
