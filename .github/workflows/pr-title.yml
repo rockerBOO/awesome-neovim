@@ -1,4 +1,8 @@
+---
 name: PR Title
+permissions:
+  contents: read
+  pull-requests: read
 
 on:
   pull_request:
