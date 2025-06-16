@@ -271,6 +271,7 @@
 - [jinzhogjia/zig-lamp](https://github.com/jinzhongjia/zig-lamp) - Improve the Zig experience.
 - [kiyoon/python-import.nvim](https://github.com/kiyoon/python-import.nvim) - Add Python import statements with Tree-sitter, LSP, and more.
 - [kiyoon/haskell-scope-highlighting.nvim](https://github.com/kiyoon/haskell-scope-highlighting.nvim) - Haskell syntax highlighting that considers variable scopes. Inspired from "Context Coloring" by prof. Douglas Crockford.
+- [apyra/nvim-unity.nvim](https://github.com/apyra/nvim-unity) - Use Neovim as your default Unity editor with full LSP support via OmniSharp.
 
 ### Golang
 
