@@ -3,7 +3,11 @@ name: Typos and Terminology Check
 permissions:
   contents: read
   pull-requests: read
-on: [pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize]
 jobs:
   typos-check:
     name: Check for typos
