@@ -31,11 +31,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
-      - name: Setup GitHub CLI
-        uses: cli/gh-extension-manager@v1
-        with:
-          gh-version: latest
-
       - name: Determine PRs to analyze
         id: get-prs
         env:
