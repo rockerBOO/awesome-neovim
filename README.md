@@ -436,7 +436,7 @@
 - [tristone13th/lspmark.nvim](https://github.com/tristone13th/lspmark.nvim) - Sane project-wise bookmarks with persistent storage based on LSP.
 - [EvWilson/spelunk.nvim](https://github.com/EvWilson/spelunk.nvim) - Create and manage bookmarks as stacks with a friendly UI.
 - [2KAbhishek/markit.nvim](https://github.com/2KAbhishek/markit.nvim) - Improved global marks and project wide bookmarks, to quickly navigate files.
-- [you-n-g/navigate-note.nvim](https://github.com/you-n-g/navigate-note.nvim) -  Integrating note-taking capabilities with navigation/marking.
+- [you-n-g/navigate-note.nvim](https://github.com/you-n-g/navigate-note.nvim) - Integrating note-taking capabilities with navigation/marking.
 - [zongben/navimark.nvim](https://github.com/zongben/navimark.nvim) - An easy and powerful bookmark manager with telescope.
 - [francescarpi/buffon.nvim](https://github.com/francescarpi/buffon.nvim) - Buffers navigation, reorganize and close.
 - [Beargruug/skipper.nvim](https://github.com/Beargruug/skipper.nvim/) - Jump between functions in a file with ease.
@@ -489,7 +489,7 @@
 - [echasnovski/mini.nvim#mini.extra](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-extra.md) - Module of `mini.nvim` with extra functionality for its modules. Contains 20+ 'mini.pick' pickers, 'mini.ai' textobjects, and more.
 - [fdschmidt93/telescope-egrepify.nvim](https://github.com/fdschmidt93/telescope-egrepify.nvim) - Telescope plugin for better `rg` flags in `live_grep`.
 - [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) - Telescope extension to switch between headings of AsciiDoc, Markdown, Vimdoc, etc.
-- [bassamsdata/namu.nvim](https://github.com/bassamsdata/namu.nvim) - Flexible and sleek fuzzy picker, LSP symbol navigator, and more. Inspired by Zed. 
+- [bassamsdata/namu.nvim](https://github.com/bassamsdata/namu.nvim) - Flexible and sleek fuzzy picker, LSP symbol navigator, and more. Inspired by Zed.
 
 <!--lint disable double-link -->
 
@@ -915,6 +915,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Utility
 
+- [Cih2001/pikchr.nvim](https://github.com/Cih2001/pikchr.nvim) - Render [Pikchr](https://pikchr.org/) diagrams live in Neovim.
 - [gaborvecsei/usage-tracker.nvim](https://github.com/gaborvecsei/usage-tracker.nvim) - Track your Neovim usage and visualize statistics easily.
 - [mateuszwieloch/automkdir.nvim](https://github.com/mateuszwieloch/automkdir.nvim) - Automatically create non-existent parent directories when writing a file.
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) - Automatically create missing directories when saving files.
@@ -1007,7 +1008,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [MisanthropicBit/decipher.nvim](https://github.com/MisanthropicBit/decipher.nvim) - Encode and decode text using various codecs such as base64.
 - [philosofonusus/ecolog.nvim](https://github.com/philosofonusus/ecolog.nvim) - Sophisticated all-in-one toolkit to work with `.env` files and environment variables.
 - [theKnightsOfRohan/hexer.nvim](https://github.com/theKnightsOfRohan/hexer.nvim) - Easily convert between binary representations without a conversion table.
-- [rachartier/tiny-glimmer.nvim](https://github.com/rachartier/tiny-glimmer.nvim/) - Adds subtle animations to various operations.  
+- [rachartier/tiny-glimmer.nvim](https://github.com/rachartier/tiny-glimmer.nvim/) - Adds subtle animations to various operations.
 - [neanvo/buben.nvim](https://github.com/neanvo/buben.nvim) - Human-readable names to blockchain(eth) addresses.
 - [josephburgess/nvumi](https://github.com/josephburgess/nvumi) - Natural language calculator in a scratch buffer.
 - [redoxahmii/json-to-types.nvim](https://github.com/redoxahmii/json-to-types.nvim) - Convert JSON objects to type definitions for multiple languages.
