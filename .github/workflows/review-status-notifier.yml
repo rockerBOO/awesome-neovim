@@ -1,0 +1,215 @@
+---
+name: Review Status Notifier
+permissions:
+  contents: read
+  pull-requests: read
+
+on:
+  pull_request_review:
+    types: [submitted]
+  schedule:
+    # Check for stale PRs daily at 9 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  notify-review-status:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Setup GitHub CLI
+        uses: cli/gh-extension-manager@v1
+        with:
+          gh-version: latest
+
+      - name: Analyze PR review status
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "## 📊 PR Review Status Dashboard" > status_report.md
+          echo "" >> status_report.md
+          echo "*Last updated: $(date)*" >> status_report.md
+          echo "" >> status_report.md
+
+          # Get all open PRs
+          PR_LIST=$(gh pr list --state open --limit 20 --json number --jq '.[].number' | tr '\n' ' ')
+
+          if [ -n "$PR_LIST" ]; then
+            echo "Analyzing PRs: $PR_LIST"
+
+            # Run compliance check to get review status
+            ./scripts/batch_pr_compliance.sh $PR_LIST > status_output.txt 2>&1
+
+            # Parse review status summary
+            if grep -q "=== REVIEW STATUS SUMMARY ===" status_output.txt; then
+              echo "### Current Status:" >> status_report.md
+              echo "" >> status_report.md
+              grep -A 5 "=== REVIEW STATUS SUMMARY ===" status_output.txt | tail -n +2 >> status_report.md
+              echo "" >> status_report.md
+            fi
+
+            # Extract priority PRs (updated after review)
+            if grep -q "PRs Updated After Review (Priority for Re-review):" status_output.txt; then
+              PRIORITY_PRS=$(grep -A 10 "PRs Updated After Review (Priority for Re-review):" \
+                status_output.txt | tail -n +2 | head -1)
+              if [ -n "$PRIORITY_PRS" ] && [ "$PRIORITY_PRS" != "" ]; then
+                echo "### 🚨 URGENT: PRs Updated After Review" >> status_report.md
+                echo "The following PRs have been updated by contributors after" \
+                  "receiving reviews and need immediate maintainer attention:" >> status_report.md
+                echo "" >> status_report.md
+                echo "$PRIORITY_PRS" | tr ' ' '\n' | while read pr; do
+                  if [ -n "$pr" ]; then
+                    echo "- PR #$pr" >> status_report.md
+                  fi
+                done
+                echo "" >> status_report.md
+                echo "**Action Required**: Please re-review these PRs as contributors" \
+                  "have addressed feedback." >> status_report.md
+                echo "" >> status_report.md
+              fi
+            fi
+
+            # PRs needing initial review
+            if grep -q "PRs Needing Review:" status_output.txt; then
+              NEED_REVIEW=$(grep -A 1 "PRs Needing Review:" status_output.txt | \
+                tail -1)
+              if [ -n "$NEED_REVIEW" ] && [ "$NEED_REVIEW" != "" ]; then
+                echo "### 📋 PRs Needing Initial Review" >> status_report.md
+                echo "$NEED_REVIEW" | tr ' ' '\n' | while read pr; do
+                  if [ -n "$pr" ]; then
+                    echo "- PR #$pr" >> status_report.md
+                  fi
+                done
+                echo "" >> status_report.md
+              fi
+            fi
+
+            # Compliant vs non-compliant breakdown
+            if grep -q "=== COMPLIANCE SUMMARY ===" status_output.txt; then
+              echo "### Compliance Status:" >> status_report.md
+              echo "" >> status_report.md
+              grep -A 5 "=== COMPLIANCE SUMMARY ===" status_output.txt | \
+                tail -n +2 | head -2 >> status_report.md
+              echo "" >> status_report.md
+            fi
+
+            # Individual PR status
+            echo "### Individual PR Status:" >> status_report.md
+            echo "" >> status_report.md
+            echo "| PR | Compliance | Review Status |" >> status_report.md
+            echo "|---|---|---|" >> status_report.md
+
+            # Parse individual PR results
+            for pr in $PR_LIST; do
+              if grep -q "PR $pr:" status_output.txt; then
+                # Check compliance
+                if grep -q "✅ PR $pr: Compliant" status_output.txt; then
+                  compliance="✅ Compliant"
+                else
+                  compliance="❌ Issues"
+                fi
+
+                # Check review status
+                if grep -q "🚨 PR $pr:" status_output.txt; then
+                  review_status="🚨 Updated after review"
+                elif grep -q "✅ PR $pr:" status_output.txt; then
+                  review_status="✅ Reviewed"
+                elif grep -q "ℹ️ PR $pr:" status_output.txt; then
+                  review_status="📋 Needs review"
+                else
+                  review_status="❓ Unknown"
+                fi
+
+                echo "| #$pr | $compliance | $review_status |" >> status_report.md
+              fi
+            done
+
+          else
+            echo "No open PRs to analyze." >> status_report.md
+          fi
+
+          echo "" >> status_report.md
+          echo "---" >> status_report.md
+          echo "*Automated by [enhanced review status tracking](scripts/)*" >> status_report.md
+
+      - name: Post status update for review event
+        if: github.event_name == 'pull_request_review'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const reviewer = context.payload.review.user.login;
+            const reviewState = context.payload.review.state;
+
+            // Post a status update comment
+            const statusEmoji = reviewState === 'approved' ? '✅' :
+                               reviewState === 'changes_requested' ? '❌' : '💬';
+
+            const message = [
+              `## ${statusEmoji} Review Status Update`,
+              '',
+              `**PR #${prNumber}** has been reviewed by **@${reviewer}**`,
+              `**Status**: ${reviewState.replace('_', ' ').toUpperCase()}`,
+              '',
+              reviewState === 'changes_requested' ?
+                '⚠️ **Action Required**: Please address the review feedback and push updates. The automated system will detect your changes and flag this PR for re-review.' :
+                reviewState === 'approved' ?
+                '🎉 **Great work!** This PR has been approved and is ready to merge.' :
+                '💬 **Review feedback provided** - please check the review comments.',
+              '',
+              '*Automated notification by review status tracking system*'
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: message
+            });
+
+      - name: Create daily status issue
+        if: github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('status_report.md', 'utf8');
+
+            // Check if there are any priority items
+            const hasPriorityItems = report.includes('🚨 URGENT');
+            const title = hasPriorityItems ?
+              `🚨 URGENT: Daily PR Status - ${new Date().toISOString().split('T')[0]}` :
+              `📊 Daily PR Status Report - ${new Date().toISOString().split('T')[0]}`;
+
+            const labels = hasPriorityItems ?
+              ['maintenance', 'urgent', 'automated-report'] :
+              ['maintenance', 'automated-report'];
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: `${report}\n\n*This is an automated daily status report.*`,
+              labels: labels
+            });
+
+      - name: Upload status artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-status-${{ github.run_number }}
+          path: |
+            status_report.md
+            status_output.txt
+          retention-days: 7
