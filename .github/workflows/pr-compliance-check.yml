@@ -2,7 +2,8 @@
 name: PR Compliance Check
 permissions:
   contents: read
-  pull-requests: read
+  pull-requests: write
+  issues: write
 
 on:
   pull_request:
@@ -15,6 +16,7 @@ on:
 jobs:
   compliance-check:
     runs-on: ubuntu-latest
+    # Use different permissions strategy for pull_request_target
     permissions:
       contents: read
       pull-requests: write
@@ -125,22 +127,28 @@ jobs:
       - name: Post compliance results as comment
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('compliance_report.md', 'utf8');
             const prNumber = ${{ steps.pr-info.outputs.pr-number }};
 
             try {
+              // Debug: Check current permissions
+              console.log('Event name:', context.eventName);
+              console.log('PR number:', prNumber);
+              console.log('Repository:', context.repo.owner + '/' + context.repo.repo);
+
               // Find existing compliance comment
-              const comments = await github.rest.issues.listComments({
+              const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: prNumber,
               });
 
-              const existingComment = comments.data.find(comment =>
+              const existingComment = comments.find(comment =>
                 comment.body.includes('🔍 PR Compliance Check Results') &&
-                comment.user.type === 'Bot'
+                (comment.user.type === 'Bot' || comment.user.login === 'github-actions[bot]')
               );
 
               if (existingComment) {
@@ -165,7 +173,14 @@ jobs:
             } catch (error) {
               console.error(`❌ Failed to post compliance comment on PR #${prNumber}:`, error.message);
               
-              // Show debugging info
-              const permissions = error.response?.headers?.['x-accepted-github-permissions'] || 'unknown';
-              console.log(`Available permissions: ${permissions}`);
+              // Enhanced debugging
+              if (error.response) {
+                console.log('Response status:', error.response.status);
+                console.log('Response headers:', JSON.stringify(error.response.headers, null, 2));
+                console.log('Response data:', JSON.stringify(error.response.data, null, 2));
+              }
+              
+              // Try alternative approach: use workflow outputs instead
+              core.setOutput('compliance-report', report);
+              core.setOutput('error-message', error.message);
             }
