@@ -74,11 +74,11 @@ check_repo_readme() {
                             license_type=$(grep -oiE "mit|apache|gpl|bsd|isc|mpl|epl|cc" "$license_file" | head -n 1)
                         fi
                         
-                        if [ ! -z "$license_type" ]; then
+                        if [ -n "$license_type" ]; then
                             echo "   License type: ${license_type^^}"
                             
                             # Check for full license text
-                            if [ $(wc -l < "$license_file") -gt 10 ]; then
+                            if [ "$(wc -l < "$license_file")" -gt 10 ]; then
                                 echo "   ✓ Full license text present"
                             else
                                 echo "   ⚠️ Minimal license text"
@@ -106,7 +106,7 @@ check_repo_readme() {
                 fi
                 
                 # Check feature documentation
-                feature_count=$(grep -E "^-" "$readme" | wc -l)
+                feature_count=$(grep -cE "^-" "$readme")
                 if [ "$feature_count" -lt 3 ]; then
                     echo "⚠️ WARNING: Few features documented (${feature_count} found)"
                 fi
