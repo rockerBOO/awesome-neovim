@@ -18,7 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     # Use different permissions strategy for pull_request_target
     permissions:
-      contents: read
       pull-requests: write
       issues: write
 
@@ -53,11 +52,6 @@ jobs:
             core.setOutput('is-fork', isFromFork);
             
             return { prNumber, isFromFork };
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
 
       - name: Run PR compliance check
         env:

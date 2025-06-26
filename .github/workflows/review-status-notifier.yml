@@ -1,8 +1,6 @@
 ---
 name: Review Status Notifier
-permissions:
-  contents: read
-  pull-requests: read
+permissions: read-all
 
 on:
   pull_request_review:
@@ -21,7 +19,6 @@ jobs:
     if: github.event_name == 'pull_request_review' || github.event_name == 'pull_request_target'
     runs-on: ubuntu-latest
     permissions:
-      contents: read
       pull-requests: write
       issues: write
       contents: read
@@ -173,11 +170,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
 
       - name: Analyze PR review status
         env:
