@@ -1,0 +1,107 @@
+---
+name: PR Compliance Check
+permissions: read-all
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  compliance-check:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run PR compliance check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "## 🔍 PR Compliance Check Results" >> compliance_report.md
+          echo "" >> compliance_report.md
+
+          # Run compliance check for this PR
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+
+          # Capture output
+          ./scripts/batch_pr_compliance.sh "$PR_NUMBER" > compliance_output.txt 2>&1
+
+          # Parse results for this PR
+          if grep -q "✅ PR $PR_NUMBER: Compliant" compliance_output.txt; then
+            echo "✅ **Status**: Compliant - All requirements met!" >> compliance_report.md
+          elif grep -q "❌" compliance_output.txt; then
+            echo "❌ **Status**: Non-Compliant - Issues found that need fixing" >> compliance_report.md
+            echo "" >> compliance_report.md
+            echo "### Issues Found:" >> compliance_report.md
+            grep "❌ PR $PR_NUMBER:" compliance_output.txt | sed 's/❌ PR [0-9]*: /- /' >> compliance_report.md
+          fi
+
+          echo "" >> compliance_report.md
+
+          # Review status information
+          if grep -q "🚨\|✅\|ℹ️" compliance_output.txt; then
+            echo "### Review Status:" >> compliance_report.md
+            grep -E "(🚨|✅|ℹ️) PR $PR_NUMBER:" compliance_output.txt | sed "s/PR $PR_NUMBER: //" >> compliance_report.md
+            echo "" >> compliance_report.md
+          fi
+
+          # Add helpful guidance
+          if grep -q "❌" compliance_output.txt; then
+            echo "### Quick Fix Guide:" >> compliance_report.md
+            echo "- **Title Format**: Use \`Add \\\`username/repo\\\`\`" >> compliance_report.md
+            echo "- **Description**: Remove 'plugin' word, end with period" >> compliance_report.md
+            echo "- **Repository**: Ensure public repo with README and license" >> compliance_report.md
+            echo "" >> compliance_report.md
+            echo "*After fixing issues, push new commits to update this check.*" >> compliance_report.md
+          else
+            echo "### Next Steps:" >> compliance_report.md
+            echo "✅ Ready for manual review by maintainers" >> compliance_report.md
+            echo "🔍 Repository quality will be analyzed automatically" >> compliance_report.md
+          fi
+
+          echo "" >> compliance_report.md
+          echo "---" >> compliance_report.md
+          echo "*Automated check powered by [enhanced PR review scripts](scripts/)*" >> compliance_report.md
+
+      - name: Post compliance results as comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('compliance_report.md', 'utf8');
+
+            // Find existing compliance comment
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const existingComment = comments.data.find(comment =>
+              comment.body.includes('🔍 PR Compliance Check Results') &&
+              comment.user.type === 'Bot'
+            );
+
+            if (existingComment) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existingComment.id,
+                body: report
+              });
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: report
+              });
+            }
