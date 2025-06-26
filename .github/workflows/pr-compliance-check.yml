@@ -1,14 +1,10 @@
 ---
 name: PR Compliance Check
-permissions:
-  contents: read
-  pull-requests: write
-  issues: write
+
+permissions: read-all
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
-  pull_request_target:
     types: [opened, synchronize, reopened]
   pull_request_review:
     types: [submitted]
@@ -16,42 +12,24 @@ on:
 jobs:
   compliance-check:
     runs-on: ubuntu-latest
-    # Use different permissions strategy for pull_request_target
     permissions:
-      pull-requests: write
+      contents: read
       issues: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          # For pull_request_target, checkout base branch for security
-          ref: ${{ github.event_name == 'pull_request_target' && github.event.repository.default_branch || github.ref }}
 
-      - name: Get PR information
-        id: pr-info
-        uses: actions/github-script@v7
-        with:
-          script: |
-            let prNumber, prData;
-            
-            if (context.eventName === 'pull_request') {
-              prNumber = context.payload.pull_request.number;
-              prData = context.payload.pull_request;
-            } else if (context.eventName === 'pull_request_target') {
-              prNumber = context.payload.number;
-              prData = context.payload.pull_request;
-            } else if (context.eventName === 'pull_request_review') {
-              prNumber = context.payload.pull_request.number;
-              prData = context.payload.pull_request;
-            }
-            
-            const isFromFork = prData.head.repo.full_name !== context.repo.owner + '/' + context.repo.repo;
-            
-            core.setOutput('pr-number', prNumber);
-            core.setOutput('is-fork', isFromFork);
-            
-            return { prNumber, isFromFork };
+      - name: Check if PR is from fork
+        id: fork-check
+        run: |
+          if [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
+            echo "is_fork=true" >> $GITHUB_OUTPUT
+            echo "This PR is from a fork - compliance check will run with limited permissions"
+          else
+            echo "is_fork=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Run PR compliance check
         env:
@@ -60,8 +38,8 @@ jobs:
           echo "## 🔍 PR Compliance Check Results" >> compliance_report.md
           echo "" >> compliance_report.md
 
-          PR_NUMBER="${{ steps.pr-info.outputs.pr-number }}"
-          IS_FORK="${{ steps.pr-info.outputs.is-fork }}"
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          IS_FORK="${{ steps.fork-check.outputs.is_fork }}"
 
           if [ "$IS_FORK" = "true" ]; then
             echo "**Source**: 🔀 External fork contribution" >> compliance_report.md
@@ -118,22 +96,16 @@ jobs:
           echo "---" >> compliance_report.md
           echo "*Automated check powered by [enhanced PR review scripts](scripts/)*" >> compliance_report.md
 
-      - name: Post compliance results as comment
+      - name: Post compliance results as comment (non-fork only)
+        if: steps.fork-check.outputs.is_fork == 'false'
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('compliance_report.md', 'utf8');
-            const prNumber = ${{ steps.pr-info.outputs.pr-number }};
+            const prNumber = ${{ github.event.pull_request.number }};
 
             try {
-              // Debug: Check current permissions
-              console.log('Event name:', context.eventName);
-              console.log('PR number:', prNumber);
-              console.log('Repository:', context.repo.owner + '/' + context.repo.repo);
-
-              // Find existing compliance comment
               const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -146,7 +118,6 @@ jobs:
               );
 
               if (existingComment) {
-                // Update existing comment
                 await github.rest.issues.updateComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
@@ -155,7 +126,6 @@ jobs:
                 });
                 console.log(`✅ Updated compliance comment on PR #${prNumber}`);
               } else {
-                // Create new comment
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
@@ -165,16 +135,14 @@ jobs:
                 console.log(`✅ Posted compliance comment on PR #${prNumber}`);
               }
             } catch (error) {
-              console.error(`❌ Failed to post compliance comment on PR #${prNumber}:`, error.message);
-              
-              // Enhanced debugging
-              if (error.response) {
-                console.log('Response status:', error.response.status);
-                console.log('Response headers:', JSON.stringify(error.response.headers, null, 2));
-                console.log('Response data:', JSON.stringify(error.response.data, null, 2));
-              }
-              
-              // Try alternative approach: use workflow outputs instead
-              core.setOutput('compliance-report', report);
-              core.setOutput('error-message', error.message);
+              console.error(`❌ Failed to post compliance comment: ${error.message}`);
+              core.setFailed(`Failed to post comment: ${error.message}`);
             }
+
+      - name: Output compliance report for fork PRs
+        if: steps.fork-check.outputs.is_fork == 'true'
+        run: |
+          echo "Fork PR detected - compliance report saved as workflow output"
+          cat compliance_report.md
+          echo ""
+          echo "⚠️ Maintainers: Review the compliance report above for this fork PR"
