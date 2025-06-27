@@ -49,6 +49,7 @@
 - [Note Taking](#note-taking)
 - [Utility](#utility)
   - [CSV Files](#csv-files)
+  - [LazyDevHelper](https://github.com/Silletr/LazyDevHelper)
 - [Terminal Integration](#terminal-integration)
 - [Debugging](#debugging)
   - [Quickfix](#quickfix)
