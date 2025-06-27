@@ -1,5 +1,6 @@
 ---
 name: PR Quality Analysis
+
 permissions: read-all
 
 on:
@@ -14,6 +15,7 @@ jobs:
   quality-analysis:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pull-requests: write
       issues: write
     env:
@@ -22,6 +24,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Check if PR is from fork
+        if: github.event_name == 'pull_request'
+        id: fork-check
+        run: |
+          if [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
+            echo "is_fork=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_fork=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Determine PRs to analyze
         id: get-prs
@@ -108,41 +120,55 @@ jobs:
           # Save output for artifacts
           cp quality_output.txt quality_analysis_raw.txt 2>/dev/null || true
 
-      - name: Post quality analysis for single PR
-        if: github.event_name == 'pull_request'
+      - name: Post quality analysis for single PR (non-fork only)
+        if: github.event_name == 'pull_request' && steps.fork-check.outputs.is_fork == 'false'
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('quality_report.md', 'utf8');
 
-            // Find existing quality comment
-            const comments = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-            });
-
-            const existingComment = comments.data.find(comment =>
-              comment.body.includes('🔍 Repository Quality Analysis') &&
-              comment.user.type === 'Bot'
-            );
-
-            if (existingComment) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existingComment.id,
-                body: report
-              });
-            } else {
-              await github.rest.issues.createComment({
+            try {
+              const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: report
               });
+
+              const existingComment = comments.find(comment =>
+                comment.body.includes('🔍 Repository Quality Analysis') &&
+                (comment.user.type === 'Bot' || comment.user.login === 'github-actions[bot]')
+              );
+
+              if (existingComment) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existingComment.id,
+                  body: report
+                });
+                console.log('✅ Updated quality analysis comment');
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body: report
+                });
+                console.log('✅ Posted quality analysis comment');
+              }
+            } catch (error) {
+              console.error(`❌ Failed to post quality analysis: ${error.message}`);
+              core.setFailed(`Failed to post comment: ${error.message}`);
             }
+
+      - name: Output quality analysis for fork PRs
+        if: github.event_name == 'pull_request' && steps.fork-check.outputs.is_fork == 'true'
+        run: |
+          echo "Fork PR detected - quality analysis saved as workflow output"
+          cat quality_report.md
+          echo ""
+          echo "⚠️ Maintainers: Review the quality analysis above for this fork PR"
 
       - name: Create issue for scheduled analysis
         if: github.event_name == 'schedule'
