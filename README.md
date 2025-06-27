@@ -49,7 +49,7 @@
 - [Note Taking](#note-taking)
 - [Utility](#utility)
   - [CSV Files](#csv-files)
-  - [LazyDevHelper](https://github.com/Silletr/LazyDevHelper)
+  - [LazyDevHelper](#lazydevhelper) - Install and check Python libraries directly from code using the `:SuggestImports` command. Useful when coding and managing dependencies without leaving Neovim.
 - [Terminal Integration](#terminal-integration)
 - [Debugging](#debugging)
   - [Quickfix](#quickfix)
