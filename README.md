@@ -49,7 +49,7 @@
 - [Note Taking](#note-taking)
 - [Utility](#utility)
   - [CSV Files](#csv-files)
-  - [Lazy Developer Helper](https://github.com/Silletr/LazyDevHelper) - Python dependencies manager, with auto-adding to your requirements.txt.
+  - [Silletr/Lazy_Developer_Helper](https://github.com/Silletr/LazyDevHelper) - Python dependencies manager, with auto-adding to your requirements.txt.
 - [Terminal Integration](#terminal-integration)
 - [Debugging](#debugging)
   - [Quickfix](#quickfix)
