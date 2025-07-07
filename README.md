@@ -57,7 +57,6 @@
 - [Test](#test)
 - [Code Runner](#code-runner)
 - [Neovim Lua Development](#neovim-lua-development)
-  - [Silletr/Lazy Developer Helper](https://github.com/Silletr/LazyDevHelper) - Python dependencies manager, with auto-adding to your requirements.txt.
 - [Fennel](#fennel)
 - [Dependency Management](#dependency-management)
 - [Git](#git)
