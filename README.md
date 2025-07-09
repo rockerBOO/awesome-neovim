@@ -927,7 +927,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [slugbyte/whip.nvim](http://github.com/slugbyte/whip.nvim) - A super fast minimal scratchpad management plugin, biew biew biew.
 - [y3owk1n/dotmd.nvim](https://github.com/y3owk1n/dotmd.nvim) - Managing notes, todos, journal entries and inbox all with markdown.
 - [athar-qadri/scratchpad.nvim](https://github.com/athar-qadri/scratchpad.nvim) - Effortlessly manage scratchpads within your favorite editor.
-- [echaya/neowiki.nvim](https://github.com/echaya/neowiki.nvim) - modern vimwiki successor for instant notes & GTD 🚀📝.
+- [echaya/neowiki.nvim](https://github.com/echaya/neowiki.nvim) - modern vimwiki successor for instant notes & GTD.
 
 <!--lint disable double-link -->
 
