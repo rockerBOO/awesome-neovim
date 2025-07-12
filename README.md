@@ -1289,6 +1289,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [2KAbhishek/octohub.nvim](https://github.com/2KAbhishek/octohub.nvim) - Access all your gihub repos, stats and more in simple keystrokes.
 - [claydugo/browsher.nvim](https://github.com/claydugo/browsher.nvim) - Create commit pinned links to GitHub hosted files/lines. Avoid stale links.
 
+### GitLab
+
+- [harrisoncramer/gitlab.nvim](https://github.com/harrisoncramer/gitlab.nvim) -  Review pull requests and manage other GitLab resources.
+
 <!--lint disable double-link -->
 
 **[⬆ back to top](#contents)**
