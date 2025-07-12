@@ -60,6 +60,7 @@
 - [Dependency Management](#dependency-management)
 - [Git](#git)
   - [GitHub](#github)
+  - [GitLab](#gitlab)
 - [Motion](#motion)
 - [Keybinding](#keybinding)
 - [Mouse](#mouse)
