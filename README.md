@@ -60,6 +60,7 @@
 - [Dependency Management](#dependency-management)
 - [Git](#git)
   - [GitHub](#github)
+  - [GitLab](#gitlab)
 - [Motion](#motion)
 - [Keybinding](#keybinding)
 - [Mouse](#mouse)
@@ -1292,6 +1293,10 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [rawnly/gist.nvim](https://github.com/rawnly/gist.nvim) - Create a GitHub Gist from the current file (powered by gh).
 - [2KAbhishek/octohub.nvim](https://github.com/2KAbhishek/octohub.nvim) - Access all your gihub repos, stats and more in simple keystrokes.
 - [claydugo/browsher.nvim](https://github.com/claydugo/browsher.nvim) - Create commit pinned links to GitHub hosted files/lines. Avoid stale links.
+
+### GitLab
+
+- [harrisoncramer/gitlab.nvim](https://github.com/harrisoncramer/gitlab.nvim) -  Review pull requests and manage other GitLab resources.
 
 <!--lint disable double-link -->
 
