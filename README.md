@@ -419,6 +419,7 @@
 - [cvigilv/esqueleto.nvim](https://github.com/cvigilv/esqueleto.nvim) - Simple templates to use when creating new files.
 - [chrisgrieser/nvim-scissors](https://github.com/chrisgrieser/nvim-scissors) - Automagical editing and creation of snippets.
 - [guilherme-puida/tesoura.nvim](https://github.com/guilherme-puida/tesoura.nvim) - A flexible snippet system using Neovim's new snippet API.
+- [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient using snippets.
 
 <!--lint disable double-link -->
 
