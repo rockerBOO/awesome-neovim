@@ -36,7 +36,7 @@ jobs:
         with:
           script: |
             let prNumber, prData;
-            
+
             if (context.eventName === 'pull_request_review') {
               prNumber = context.payload.pull_request.number;
               prData = context.payload.pull_request;
@@ -44,18 +44,18 @@ jobs:
               prNumber = context.payload.number;
               prData = context.payload.pull_request;
             }
-            
+
             const isFromFork = prData.head.repo.full_name !== context.repo.owner + '/' + context.repo.repo;
-            
+
             console.log(`PR #${prNumber} is from fork: ${isFromFork}`);
             console.log(`Head repo: ${prData.head.repo.full_name}`);
             console.log(`Base repo: ${context.repo.owner}/${context.repo.repo}`);
-            
+
             core.setOutput('pr-number', prNumber);
             core.setOutput('is-fork', isFromFork);
             core.setOutput('pr-author', prData.user.login);
             core.setOutput('head-sha', prData.head.sha);
-            
+
             return {
               prNumber,
               isFromFork,
@@ -78,7 +78,7 @@ jobs:
                                reviewState === 'changes_requested' ? '❌' : '💬';
 
             const forkBadge = isFromFork ? ' 🔀' : '';
-            
+
             const message = [
               `## ${statusEmoji} Review Status Update${forkBadge}`,
               '',
@@ -92,7 +92,7 @@ jobs:
                 '🎉 **Great work!** This PR has been approved and is ready to merge.' :
                 '💬 **Review feedback provided** - please check the review comments.',
               '',
-              isFromFork ? 
+              isFromFork ?
                 '*Automated notification by review status tracking system (fork-safe mode)*' :
                 '*Automated notification by review status tracking system*'
             ].filter(line => line !== '').join('\n');
@@ -108,11 +108,11 @@ jobs:
             } catch (error) {
               console.error(`❌ Failed to post comment to PR #${prNumber}:`, error.message);
               console.error('Error details:', error.status, error.response?.data?.message);
-              
+
               // For debugging: show what permissions we actually have
               const permissions = error.response?.headers?.['x-accepted-github-permissions'] || 'unknown';
               console.log(`Available permissions: ${permissions}`);
-              
+
               throw error; // Re-throw to mark job as failed
             }
 
@@ -128,7 +128,7 @@ jobs:
 
             if (action === 'opened') {
               const forkBadge = isFromFork ? ' 🔀' : '';
-              
+
               const message = [
                 `## 📝 PR Status Notification${forkBadge}`,
                 '',
@@ -137,7 +137,7 @@ jobs:
                 '',
                 '🔍 **Status**: Awaiting initial review',
                 '',
-                isFromFork ? 
+                isFromFork ?
                   '✨ Thank you for your contribution! A maintainer will review your PR soon.' :
                   '✨ PR is ready for review by the team.',
                 '',
@@ -196,10 +196,10 @@ jobs:
             done
 
             echo "" >> status_report.md
-            
+
             # Get PR numbers for further analysis
             PR_LIST=$(echo "$PR_DATA" | jq -r '.number' | tr '\n' ' ')
-            
+
             if [ -n "$PR_LIST" ] && [ -f "./scripts/batch_pr_compliance.sh" ]; then
               echo "Analyzing PRs: $PR_LIST"
 
