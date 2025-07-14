@@ -595,6 +595,7 @@
 - [rachartier/tiny-devicons-auto-colors.nvim](https://github.com/rachartier/tiny-devicons-auto-colors.nvim) - Automatically updates nvim-web-devicons colors based on your current colorscheme.
 - [TaDaa/vimade](https://github.com/TaDaa/vimade) - Dim, fade, tint, animate, and customize colors in your windows and buffers.
 - [xzbdmw/colorful-menu.nvim](https://github.com/xzbdmw/colorful-menu.nvim) - Colorize your auto completion menu using Tree-sitter.
+- [nvzone/minty](https://github.com/nvzone/minty) - Beautifully crafted color tools.
 
 <!--lint disable double-link -->
 
@@ -1482,6 +1483,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [kobbikobb/move-lines.nvim](https://github.com/kobbikobb/move-lines.nvim) - Moves lines selected in virtual mode.
 - [kiyoon/telescope-insert-path.nvim](https://github.com/kiyoon/telescope-insert-path.nvim) - Insert file path in the current buffer using Telescope.
 - [zhisme/copy_with_context.nvim](https://github.com/zhisme/copy_with_context.nvim) - Copy lines with file path and line number metadata for sharing code snippets with context.
+- [jake-stewart/multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim) - Adds support for multiple cursors which work how you expect.
+- [brenton-leighton/multiple-cursors.nvim](https://github.com/brenton-leighton/multiple-cursors.nvim) - A multi-cursor plugin that works in normal, insert/replace, or visual modes, and with almost every command.
+- [smoka7/multicursors.nvim](https://github.com/smoka7/multicursors.nvim) - Provides a more intuitive way to edit repetitive text with multiple selections.
 - [tigion/swap.nvim](https://github.com/tigion/swap.nvim) - Quickly switch a word under the cursor or a pattern in the current line.
 
 ### Comment
