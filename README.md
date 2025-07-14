@@ -1299,7 +1299,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### GitLab
 
-- [harrisoncramer/gitlab.nvim](https://github.com/harrisoncramer/gitlab.nvim) -  Review pull requests and manage other GitLab resources.
+- [harrisoncramer/GitLab.nvim](https://github.com/harrisoncramer/GitLab.nvim) -  Review pull requests and manage other GitLab resources.
 
 <!--lint disable double-link -->
 
