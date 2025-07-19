@@ -18,6 +18,7 @@
 - [Completion](#completion)
 - [AI](#ai)
 - [Programming Languages Support](#programming-languages-support)
+  - [D2](#d2)
   - [Golang](#golang)
   - [YAML](#yaml)
   - [Web Development](#web-development)
