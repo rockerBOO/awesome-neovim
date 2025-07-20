@@ -1051,6 +1051,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [penaz91/MiniDYM](https://github.com/Penaz91/MiniDYM) - A very small "Did you mean" plugin, suggesting files the user might have wanted to open instead of creating a new one.
 - [attilarepka/header.nvim](https://github.com/attilarepka/header.nvim) - Add or update copyright and license headers in any source file.
 - [Owen-Dechow/nvim_json_graph_view](https://github.com/Owen-Dechow/nvim_json_graph_view) - Explore a JSON file as a nested unit/node-based graphical representation.
+- [mahyarmirrashed/jdd.nvim](https://github.com/mahyarmirrashed/jdd.nvim) - Run the Johnny Decimal Daemon automatically.
 
 ### CSV Files
 
