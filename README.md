@@ -24,6 +24,7 @@
   - [Markdown and LaTeX](#markdown-and-latex)
   - [PHP](#php)
   - [Powershell](#powershell)
+  - [Netwide Assembler](#netwide-assembler)
 - [Language](#language)
 - [Syntax](#syntax)
 - [Snippet](#snippet)
@@ -371,6 +372,16 @@
 
 <!--lint enable double-link -->
 
+### Netwide Assembler
+
+- [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient.
+
+<!--lint enable double-link -->
+
+**[⬆ back to top](#contents)**
+
+<!--lint enable double-link -->
+
 ## Language
 
 - [potamides/pantran.nvim](https://github.com/potamides/pantran.nvim) - Translate your text with an interactive translation window.
@@ -419,7 +430,6 @@
 - [cvigilv/esqueleto.nvim](https://github.com/cvigilv/esqueleto.nvim) - Simple templates to use when creating new files.
 - [chrisgrieser/nvim-scissors](https://github.com/chrisgrieser/nvim-scissors) - Automagical editing and creation of snippets.
 - [guilherme-puida/tesoura.nvim](https://github.com/guilherme-puida/tesoura.nvim) - A flexible snippet system using Neovim's new snippet API.
-- [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient using snippets.
 
 <!--lint disable double-link -->
 
