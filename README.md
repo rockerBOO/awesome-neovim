@@ -374,7 +374,7 @@
 
 ### Netwide Assembler
 
-- [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient.
+- [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient, faster and more comfortable.
 
 <!--lint enable double-link -->
 
