@@ -24,7 +24,7 @@
   - [Markdown and LaTeX](#markdown-and-latex)
   - [PHP](#php)
   - [Powershell](#powershell)
-  - [Assembly](#Assembly)
+  - [Assembly](#assembly)
 - [Language](#language)
 - [Syntax](#syntax)
 - [Snippet](#snippet)
