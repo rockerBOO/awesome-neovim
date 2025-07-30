@@ -2,6 +2,16 @@
 
 A concise guide for maintaining the awesome-neovim repository.
 
+## New maintainers
+
+Look to approve a PR before merging if not sure. @rockerBOO can take a look to see if there are any issues. Confirmation if everything is good is likely part of the Github Actions workflows. 
+
+## Example PRs to view
+
+These PR's just show some of the flow, and that all the tests should pass. Review with specifics to change. 
+
+- https://github.com/rockerBOO/awesome-neovim/pull/1579
+
 ## Quick Start
 
 ### Prerequisites

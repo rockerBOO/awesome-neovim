@@ -464,6 +464,7 @@
 - [francescarpi/buffon.nvim](https://github.com/francescarpi/buffon.nvim) - Buffers navigation, reorganize and close.
 - [Beargruug/skipper.nvim](https://github.com/Beargruug/skipper.nvim/) - Jump between functions in a file with ease.
 - [mohseenrm/marko.nvim](https://github.com/mohseenrm/marko.nvim) - Behind the scenes, global marks management for different projects.
+- [y3owk1n/warp.nvim](https://github.com/y3owk1n/warp.nvim) - Simple harpoon alternative that focuses on marking & navigating between files.
 <!--lint disable double-link -->
 
 **[⬆ back to top](#contents)**
@@ -491,6 +492,7 @@
 - [chrisgrieser/nvim-rip-substitute](https://github.com/chrisgrieser/nvim-rip-substitute) - Search and replace in the current buffer with a modern UI and modern regex flavor. A substitute for Vim's `:substitute` using `ripgrep`.
 - [wsdjeg/flygrep.nvim](https://github.com/wsdjeg/flygrep.nvim) - Search text in a floating window asynchronously.
 - [prochri/telescope-all-recent.nvim](https://github.com/prochri/telescope-all-recent.nvim) - Frequency and recency sorter for any Telescope picker.
+- [mahyarmirrashed/search-and-replace.nvim](https://github.com/mahyarmirrashed/search-and-replace.nvim) - Simple, effective, search and replace functionality for the pragmatic engineer.
 
 <!--lint disable double-link -->
 
@@ -742,6 +744,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [neko-night/nvim](https://github.com/neko-night/nvim) - A buffet of colorschemes for every taste and mood.
 - [ptdewey/monalisa-nvim](https://github.com/ptdewey/monalisa-nvim) - A dark and colorful Mona Lisa inspired colorscheme.
 - [ntk148v/slack.nvim](https://github.com/ntk148v/slack.nvim) - A ported Slack colorscheme.
+- [motaz-shokry/gruvbox.nvim](https://gitlab.com/motaz-shokry/gruvbox.nvim) - A new gruvbox that the hard variant bg is "#1b1b1b", and it comes with 4 variants.
 
 ### Lua Colorscheme
 
@@ -943,6 +946,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 <!--lint enable double-link -->
 
 ## Utility
+
 - [Silletr/LazyDevHelper](https://github.com/Silletr/LazyDevHelper) - Python dependencies manager, with auto-adding to your requirements.txt.
 - [Cih2001/pikchr.nvim](https://github.com/Cih2001/pikchr.nvim) - Render [Pikchr](https://pikchr.org/) diagrams live in Neovim.
 - [gaborvecsei/usage-tracker.nvim](https://github.com/gaborvecsei/usage-tracker.nvim) - Track your Neovim usage and visualize statistics easily.
@@ -1051,6 +1055,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [penaz91/MiniDYM](https://github.com/Penaz91/MiniDYM) - A very small "Did you mean" plugin, suggesting files the user might have wanted to open instead of creating a new one.
 - [attilarepka/header.nvim](https://github.com/attilarepka/header.nvim) - Add or update copyright and license headers in any source file.
 - [Owen-Dechow/nvim_json_graph_view](https://github.com/Owen-Dechow/nvim_json_graph_view) - Explore a JSON file as a nested unit/node-based graphical representation.
+- [toggleword.nvim](https://github.com/iquzart/toggleword.nvim) - Toggle between common code keywords under the cursor such as true ⇄ false, on ⇄ off, enabled ⇄ disabled, and dev ⇄ prod.
 
 ### CSV Files
 
@@ -1067,9 +1072,9 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Terminal Integration
 
+- [waiting-for-dev/ergoterm.nvim](https://github.com/waiting-for-dev/ergoterm.nvim) - Seamless terminal workflow integration with smart picker-based terminal selection, flexible text sending and persistent configuration.
 - [Dan7h3x/neaterm.nvim](https://github.com/Dan7h3x/neaterm.nvim) - A little smart terminal/REPL manager with awesome features.
 - [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) - Plugin framework for running commands in the terminal.
-
 - [nikvdp/neomux](https://github.com/nikvdp/neomux) - Control Neovim from shells running inside Neovim.
 - [willothy/flatten.nvim](https://github.com/willothy/flatten.nvim) - Open files from terminal buffers in your current Neovim instance instead of launching a nested instance.
 - [willothy/wezterm.nvim](https://github.com/willothy/wezterm.nvim) - Functions for interacting with Wezterm.
@@ -1300,7 +1305,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### GitLab
 
-- [harrisoncramer/GitLab.nvim](https://github.com/harrisoncramer/GitLab.nvim) -  Review pull requests and manage other GitLab resources.
+- [harrisoncramer/GitLab.nvim](https://github.com/harrisoncramer/GitLab.nvim) - Review pull requests and manage other GitLab resources.
 
 <!--lint disable double-link -->
 
@@ -1360,7 +1365,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ## Keybinding
 
 - [sontungexpt/bim.nvim](https://github.com/sontungexpt/bim.nvim) - Enhances insert mode key mapping by showing typed keys in real time, without waiting for timeoutlen. It provides a responsive and intuitive insert-mode experience, ideal for complex input workflows like ime.
-- [TheLazyCat00/racer-nvim](https://github.com/TheLazyCat00/racer-nvim) - Overload ; and , with custom keymaps. 
+- [TheLazyCat00/racer-nvim](https://github.com/TheLazyCat00/racer-nvim) - Overload ; and , with custom keymaps.
 - [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Neovim plugin that shows a popup with possible keybindings of the command you started typing.
 - [echasnovski/mini.nvim#mini.clue](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-clue.md) - Module of `mini.nvim` to show next key clues. Has opt-in triggers, shows next key information after customizable delay, allows hydra-like submodes, and more.
 - [mrjones2014/legendary.nvim](https://github.com/mrjones2014/legendary.nvim) - Define your keymaps, commands, and autocommands as simple Lua tables, and create a legend for them at the same time (like VS Code's Command Palette), integrates with `which-key.nvim`.
@@ -1643,6 +1648,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [EvWilson/slimux.nvim](https://github.com/EvWilson/slimux.nvim) - Send content from the current buffer to a configurable tmux pane.
 - [juselara1/tmutils.nvim](https://github.com/juselara1/tmutils.nvim) - Tmux utilities that enable sending lines, capturing content, creating terminals, and managing REPLs.
 - [kiyoon/tmux-send.nvim](https://github.com/kiyoon/tmux-send.nvim) - Copy and paste buffer content or file path in Nvim-Tree, Neo-Tree, Oil to another tmux pane in Neovim.
+- [jkeresman01/tmux-switch.nvim](https://github.com/jkeresman01/tmux-switch.nvim) - Provides fuzzy session switching for Tmux.
 
 <!--lint disable double-link -->
 
@@ -1750,6 +1756,7 @@ These tools are used externally to Neovim to enhance the experience.
 - [m00qek/plugin-template.nvim](https://github.com/m00qek/plugin-template.nvim) - A plugin template that setups test infrastructure and GitHub Actions.
 - [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) - Another Neovim plugin template, using GitHub's template feature.
 - [2KAbhishek/template.nvim](https://github.com/2KAbhishek/template.nvim) - Opinionated template for starting plugin dev quickly.
+- [jkeresman01/spring-initializr.nvim](https://github.com/jkeresman01/spring-initializr.nvim) - Scaffold Spring Boot projects with a Telescope-powered UI.
 
 ### OS-specific
 
