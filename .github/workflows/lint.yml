@@ -1,4 +1,8 @@
+---
 name: Lint
+permissions:
+  contents: read
+  pull-requests: read
 
 on:
   push:
