@@ -482,7 +482,7 @@
 <!--lint enable double-link -->
 
 ## Search
-
+- [Natestah/blitzsearch.nvim/](https://github.com/Natestah/blitzsearch.nvim/) - A Universal improvement to Find/Replace.
 - [wurli/visimatch.nvim](https://github.com/wurli/visimatch.nvim) - Adds highlights to any text matching the current selection in visual mode.
 - [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - Helps you better glance searched information, seamlessly jump matched instances.
 - [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or \* match under your cursor when pressing n or N and gets out of the way afterwards.
