@@ -1,4 +1,8 @@
+---
 name: PR Title
+permissions:
+  contents: read
+  pull-requests: read
 
 on:
   pull_request:
@@ -10,7 +14,7 @@ jobs:
     name: Check the Pull Request Title
     runs-on: ubuntu-latest
     steps:
-      - uses: Slashgear/action-check-pr-title@v4.3.0
+      - uses: Slashgear/action-check-pr-title@860e8dc639f8e60335a6f5e8936ba67ed2536890
         with:
           regexp: "^(Add|Update|Remove) `.+\\/.+`$"
           helpMessage: "Example: 'Add `folke/lazy.nvim`'"
