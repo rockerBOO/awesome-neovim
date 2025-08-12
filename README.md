@@ -529,7 +529,7 @@
 - [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) - Telescope extension to switch between headings of AsciiDoc, Markdown, Vimdoc, etc.
 - [bassamsdata/namu.nvim](https://github.com/bassamsdata/namu.nvim) - Flexible and sleek fuzzy picker, LSP symbol navigator, and more. Inspired by Zed.
 - [folke/snacks.nvim#picker](https://github.com/folke/snacks.nvim/blob/main/docs/picker.md) - Modern fuzzy-finder to navigate the Neovim universe.
-- [fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) - Fuzzy files picker with standalone native impelmentation of file indexing and typo resistant fuzzy matcher. Includes all the QOL features, file previews, frecency sorting, last query matching, and much more.
+- [fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) - Fuzzy files picker with standalone native implementation of file indexing and typo resistant fuzzy matcher. Includes all the QOL features, file previews, frecency sorting, last query matching, and much more.
 
 <!--lint disable double-link -->
 
