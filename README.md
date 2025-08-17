@@ -952,7 +952,8 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [y3owk1n/dotmd.nvim](https://github.com/y3owk1n/dotmd.nvim) - Managing notes, todos, journal entries and inbox all with markdown.
 - [athar-qadri/scratchpad.nvim](https://github.com/athar-qadri/scratchpad.nvim) - Effortlessly manage scratchpads within your favorite editor.
 - [echaya/neowiki.nvim](https://github.com/echaya/neowiki.nvim) - The modern vimwiki successor offering a minimal, intuitive workflow out of the box for note-taking and Getting Things Done (GTD).
-- [phrmendes/todotxt.nvim](https://github.com/phrmendes/todotxt.nvim) -  A minimal `todo.txt` implementation in Lua.
+- [phrmendes/todotxt.nvim](https://github.com/phrmendes/todotxt.nvim) - A minimal `todo.txt` implementation in Lua.
+- [iwe-org/iwe](https://github.com/iwe-org/iwe) - LSP for Markdown notes taking.
 
 <!--lint disable double-link -->
 
