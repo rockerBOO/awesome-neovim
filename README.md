@@ -920,6 +920,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Rits1272/riff.nvim](https://github.com/Rits1272/riff.nvim) - Search and stream songs right inside your editor — discoverable with Telescope, played through mpv, and managed with simple commands. Fast, minimal, and theme-agnostic.
 - [neo451/feed.nvim](https://github.com/neo451/feed.nvim) - Web feed reader written in Lua (RSS, atom, json feed).
 - [vyfor/cord.nvim](https://github.com/vyfor/cord.nvim) - Highly extensible Rich Presence for Discord.
+- [iamt4nk/smm.nvim](https://github.com/iamt4nk/smm.nvim) - Small TUI that allows for controlling Spotify playback.
 
 <!--lint disable double-link -->
 
