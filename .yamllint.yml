@@ -1,0 +1,15 @@
+---
+extends: default
+
+rules:
+  line-length:
+    max: 120  # More reasonable for GitHub Actions
+    level: warning
+  truthy:
+    allowed-values: ['true', 'false', 'on', 'off', 'yes', 'no']
+    check-keys: false  # Allow 'on:' in GitHub Actions
+  document-start:
+    present: true
+  trailing-spaces: enable
+  empty-lines:
+    max-end: 1
