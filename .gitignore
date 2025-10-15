@@ -1,0 +1,8 @@
+.ignore
+
+# Claude Code
+.claude
+CLAUDE.md
+
+# Session reviews
+sessions/

@@ -1,10 +1,14 @@
+---
 name: Links
+permissions:
+  contents: read
+  pull-requests: read
 
 on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron: "00 18 * * *"
+    - cron: "0 18 * * *"
 
 jobs:
   linkChecker:
@@ -18,18 +22,19 @@ jobs:
           path: .lycheecache
           key: cache-lychee-${{ github.sha }}
           restore-keys: cache-lychee-
-          
+
       - name: Link checker
         id: lychee
-        uses: lycheeverse/lychee-action@v1.8.0
+        uses: lycheeverse/lychee-action@1d97d84f0bc547f7b25f4c2170d87d810dc2fb2c
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: "--cache --max-cache-age 1d -a 429 ."
+          # Excluding sourcehut because they block automated requests due to AI scrapers
+          args: "--exclude '^https://git.sr.ht' --cache --max-cache-age 7d -a 429 ."
 
       - name: Create issue from file
         if: env.lychee_exit_code != 0
-        uses: peter-evans/create-issue-from-file@v4
+        uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd
         with:
           title: "Link check report"
           content-filepath: ./lychee/out.md
