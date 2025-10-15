@@ -1,4 +1,8 @@
+---
 name: Lint
+permissions:
+  contents: read
+  pull-requests: read
 
 on:
   push:
@@ -14,4 +18,4 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - run: npx awesome-lint
+      - run: npx awesome-lint@1.2.0
