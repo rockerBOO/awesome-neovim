@@ -1773,6 +1773,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ## Database
 
 - [zongben/dbout.nvim](https://github.com/zongben/dbout.nvim) - Manage database connections and run SQL queries directly in Neovim with JSON results.
+- [kndndrj/nvim-dbee](https://github.com/kndndrj/nvim-dbee) - Interactive database client.
 
 <!--lint disable double-link -->
 
