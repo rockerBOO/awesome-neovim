@@ -1773,6 +1773,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ## Database
 
 - [zongben/dbout.nvim](https://github.com/zongben/dbout.nvim) - Manage database connections and run SQL queries directly in Neovim with JSON results.
+- [tashikomaaa/neomongo.nvim](https://github.com/tashikomaaa/neomongo.nvim) - Explore, query, and edit MongoDB collections directly through a Telescope-powered dashboard.
 
 <!--lint disable double-link -->
 
