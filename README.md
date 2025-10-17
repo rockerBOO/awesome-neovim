@@ -1824,6 +1824,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Shaobin-Jiang/IceNvim](https://github.com/Shaobin-Jiang/IceNvim) - A beautiful, powerful and customizable config that is blazingly fast.
 - [ayamir/nvimdots](https://github.com/ayamir/nvimdots) - A well-configured and structured configuration with NixOS support.
 - [adoyle-h/one.nvim](https://github.com/adoyle-h/one.nvim) - All-in-one config framework in Lua.
+- [nvim-mini/MiniMax](https://github.com/nvim-mini/MiniMax) - A collection of self-contained and extensively commented configurations which mostly use MINI tools.
 
 <!--lint disable double-link -->
 
