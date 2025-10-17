@@ -781,12 +781,12 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [motaz-shokry/gruvbox.nvim](https://gitlab.com/motaz-shokry/gruvbox.nvim) - A new gruvbox that the hard variant bg is "#1b1b1b", and it comes with 4 variants.
 - [mcauley-penney/techbase.nvim](https://github.com/mcauley-penney/techbase.nvim) - Dark, cold color scheme inspired by sci-fi horror and retro technology.
 - [y3owk1n/base16-pro-max.nvim](https://github.com/y3owk1n/base16-pro-max.nvim) - Base16 for modern Neovim — not just colors.
+- [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Gruvbox community colorscheme Lua port.
 
 ### Lua Colorscheme
 
 These colorschemes may not specialize in Tree-sitter directly but are written in Lua.
 
-- [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Gruvbox community colorscheme Lua port.
 - [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) - A port of jellybeans colorscheme.
 - [lalitmee/cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) - A port of cobalt2 colorscheme using colorbuddy.
 - [calind/selenized.nvim](https://github.com/calind/selenized.nvim) - Lua port of Selenized theme with support for Tree-sitter, nvim-cmp, GitSigns and some more.
