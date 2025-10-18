@@ -1,0 +1,148 @@
+---
+name: PR Compliance Check
+
+permissions: read-all
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  compliance-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check if PR is from fork
+        id: fork-check
+        run: |
+          if [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
+            echo "is_fork=true" >> $GITHUB_OUTPUT
+            echo "This PR is from a fork - compliance check will run with limited permissions"
+          else
+            echo "is_fork=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run PR compliance check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "## 🔍 PR Compliance Check Results" >> compliance_report.md
+          echo "" >> compliance_report.md
+
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          IS_FORK="${{ steps.fork-check.outputs.is_fork }}"
+
+          if [ "$IS_FORK" = "true" ]; then
+            echo "**Source**: 🔀 External fork contribution" >> compliance_report.md
+            echo "" >> compliance_report.md
+          fi
+
+          # Run compliance check for this PR
+          if [ -f "./scripts/batch_pr_compliance.sh" ]; then
+            ./scripts/batch_pr_compliance.sh "$PR_NUMBER" > compliance_output.txt 2>&1
+
+            # Parse results for this PR
+            if grep -q "✅ PR $PR_NUMBER: Compliant" compliance_output.txt; then
+              echo "✅ **Status**: Compliant - All requirements met!" >> compliance_report.md
+            elif grep -q "❌" compliance_output.txt; then
+              echo "❌ **Status**: Non-Compliant - Issues found that need fixing" >> compliance_report.md
+              echo "" >> compliance_report.md
+              echo "### Issues Found:" >> compliance_report.md
+              grep "❌ PR $PR_NUMBER:" compliance_output.txt | sed 's/❌ PR [0-9]*: /- /' >> compliance_report.md
+            fi
+
+            echo "" >> compliance_report.md
+
+            # Review status information
+            if grep -q "🚨\|✅\|ℹ️" compliance_output.txt; then
+              echo "### Review Status:" >> compliance_report.md
+              grep -E "(🚨|✅|ℹ️) PR $PR_NUMBER:" compliance_output.txt | sed "s/PR $PR_NUMBER: //" >> compliance_report.md
+              echo "" >> compliance_report.md
+            fi
+          else
+            echo "⚠️ **Status**: Compliance script not found - manual review required" >> compliance_report.md
+            echo "" >> compliance_report.md
+          fi
+
+          # Add helpful guidance
+          if grep -q "❌" compliance_output.txt 2>/dev/null; then
+            echo "### Quick Fix Guide:" >> compliance_report.md
+            echo "- **Title Format**: Use \`Add \\\`username/repo\\\`\`" >> compliance_report.md
+            echo "- **Description**: Remove 'plugin' word, end with period" >> compliance_report.md
+            echo "- **Repository**: Ensure public repo with README and license" >> compliance_report.md
+            echo "" >> compliance_report.md
+            echo "*After fixing issues, push new commits to update this check.*" >> compliance_report.md
+          else
+            echo "### Next Steps:" >> compliance_report.md
+            if [ "$IS_FORK" = "true" ]; then
+              echo "✅ Thank you for your contribution!" >> compliance_report.md
+              echo "🔍 Ready for maintainer review" >> compliance_report.md
+            else
+              echo "✅ Ready for manual review by maintainers" >> compliance_report.md
+              echo "🔍 Repository quality will be analyzed automatically" >> compliance_report.md
+            fi
+          fi
+
+          echo "" >> compliance_report.md
+          echo "---" >> compliance_report.md
+          echo "*Automated check powered by [enhanced PR review scripts](scripts/)*" >> compliance_report.md
+
+      - name: Post compliance results as comment (non-fork only)
+        if: steps.fork-check.outputs.is_fork == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('compliance_report.md', 'utf8');
+            const prNumber = ${{ github.event.pull_request.number }};
+
+            try {
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+              });
+
+              const existingComment = comments.find(comment =>
+                comment.body.includes('🔍 PR Compliance Check Results') &&
+                (comment.user.type === 'Bot' || comment.user.login === 'github-actions[bot]')
+              );
+
+              if (existingComment) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existingComment.id,
+                  body: report
+                });
+                console.log(`✅ Updated compliance comment on PR #${prNumber}`);
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: prNumber,
+                  body: report
+                });
+                console.log(`✅ Posted compliance comment on PR #${prNumber}`);
+              }
+            } catch (error) {
+              console.error(`❌ Failed to post compliance comment: ${error.message}`);
+              core.setFailed(`Failed to post comment: ${error.message}`);
+            }
+
+      - name: Output compliance report for fork PRs
+        if: steps.fork-check.outputs.is_fork == 'true'
+        run: |
+          echo "Fork PR detected - compliance report saved as workflow output"
+          cat compliance_report.md
+          echo ""
+          echo "⚠️ Maintainers: Review the compliance report above for this fork PR"
