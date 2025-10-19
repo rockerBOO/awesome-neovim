@@ -1045,7 +1045,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [jghauser/kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim) - Poor man's REPL. Easily send buffer lines and commands to a kitty terminal.
 - [jlesquembre/nterm.nvim](https://github.com/jlesquembre/nterm.nvim) - Interact with the terminal, with notifications.
 - [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) - A simple & easy to use multi-terminal plugin.
-- [logicmagix/XTide86](https://github.com/logicmagix/XTide86) – A fully integrated terminal IDE built on Neovim, tmux, and scriptable workflows. Features live Python/C++ shells, ergonomic layout, and minimal dependencies.
+- [logicmagix/tide42](https://github.com/logicmagix/tide42) – A fully integrated terminal IDE built on Neovim, tmux, and scriptable workflows. Features live Python/C++ shells, ergonomic layout, and minimal dependencies.
 - [m00qek/baleia.nvim](https://github.com/m00qek/baleia.nvim) - Colorize text with ANSI escape sequences (8, 16, 256 or TrueColor).
 - [samjwill/nvim-unception](https://github.com/samjwill/nvim-unception) - Automatic unnesting of Neovim sessions started from terminal buffers.
 - [kassio/neoterm](https://github.com/kassio/neoterm) - Wrapper of some `:terminal` functions.
