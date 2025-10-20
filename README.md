@@ -835,7 +835,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) - A simple statusline/winbar component that uses LSP to show your current code context.
 - [luukvbaal/statuscol.nvim](https://github.com/luukvbaal/statuscol.nvim) - Configurable 'statuscolumn' with builtin segments and click handlers.
 - [mawkler/hml.nvim](https://github.com/mawkler/hml.nvim) - Adds `H`/`M`/`L` indicators to your line numbers.
-- [neur1n/noline.nvim](https://github.com/neur1n/noline.nvim) - Fully customizable bars and lines components with no presets or constraints. See [construction](https://github.com/neur1n/dotfiles/tree/master/neovim/lua/plugconf/noline) and [setup](https://github.com/neur1n/dotfiles/blob/master/neovim/lua/plugconf/noline.lua) examples.
+- [neur1n/noline.nvim](https://github.com/neur1n/noline.nvim) - Fully customizable bars and lines components with no presets nor constraints.
 - [OXY2DEV/bars.nvim](https://github.com/OXY2DEV/bars.nvim) - A starting point/guide for creating custom statusline, statuscolumn, tabline & winbar.
 
 ### Statusline
