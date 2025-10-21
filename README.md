@@ -950,6 +950,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 <!--lint enable double-link -->
 
 ## Note Taking
+
 - [flashcodes-themayankjha/Fknotes.nvim](https://github.com/flashcodes-themayankjha/Fknotes.nvim) - Take notes, TODOS from anywhere inside your project, search all todos, get reminders and more.
 - [apdot/doodle](https://github.com/apdot/doodle) - A developer-centric knowledge base with project/branch scoped notes, bi-directional linking, note-tagging, graph-view, telescope integration, and Git synchronization.
 - [jameswolensky/marker-groups.nvim](https://github.com/jameswolensky/marker-groups.nvim) - Take persistent code notes without modifying code.
@@ -1188,6 +1189,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [Willem-J-an/visidata.nvim](https://github.com/Willem-J-an/visidata.nvim) - Render pandas dataframes in nvim-dap using the power of visidata.
 - [igorlfs/nvim-dap-view](https://github.com/igorlfs/nvim-dap-view) - A modern, minimalistic UI for nvim-dap.
 - [Carcuis/dap-breakpoints.nvim](https://github.com/Carcuis/dap-breakpoints.nvim) - Manage and create advanced breakpoints with virtual text and popup reveal for nvim-dap.
+- [ravsii/nvim-dap-envfile](https://github.com/ravsii/nvim-dap-envfile) - Automatic `envFile` support for nvim-dap.
 
 ### Quickfix
 
