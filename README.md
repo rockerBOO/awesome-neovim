@@ -492,6 +492,8 @@
 - [mohseenrm/marko.nvim](https://github.com/mohseenrm/marko.nvim) - Behind the scenes, global marks management for different projects.
 - [y3owk1n/warp.nvim](https://github.com/y3owk1n/warp.nvim) - Simple harpoon alternative that focuses on marking & navigating between files.
 - [walkersumida/fusen.nvim](https://github.com/walkersumida/fusen.nvim) - Sticky note bookmarks, per Git branch with hover annotations and Telescope integration.
+- [ahkohd/buffer-sticks.nvim](https://github.com/ahkohd/buffer-sticks.nvim) - Cosmetic buffers indicator & picker.
+
 <!--lint disable double-link -->
 
 **[⬆ back to top](#contents)**
