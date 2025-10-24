@@ -331,6 +331,7 @@
 - [BibekBhusal0/nvim-shadcn](https://github.com/BibekBhusal0/nvim-shadcn) - Easily add Shadcn UI components with telescope.
 - [azratul/expose-localhost.nvim](https://github.com/azratul/expose-localhost.nvim) - Expose your local server to the internet with cloudflared or ngrok.
 - [yelog/i18n.nvim](https://github.com/yelog/i18n.nvim) - Internationalization (i18n) management with LSP support for `Vue`, `React`, `Java` and more.
+- [Kenzo-Wada/boundary.nvim](https://github.com/Kenzo-Wada/boundary.nvim) - Display `'use client'` markers inline in your JSX code to visualize client component boundaries.
 
 ### Markdown and LaTeX
 
@@ -365,6 +366,7 @@
 - [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) - Telescope extension to search and paste BibTeX entries into your TeX files.
 - [Thiago4532/mdmath.nvim](https://github.com/Thiago4532/mdmath.nvim) - A markdown equation previewer, using Kitty Graphics Protocol.
 - [OXY2DEV/markdoc.nvim](https://github.com/OXY2DEV/markdoc.nvim) - Tree-sitter based `markdown -> vimdoc` converter.
+- [YousefHadder/markdown-plus.nvim](https://github.com/YousefHadder/markdown-plus.nvim) - Provides a full editing experience for Markdown files which includes support for lists, links, TOC, and more with simple and fast keymaps.
 
 ### PHP
 
@@ -950,6 +952,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 <!--lint enable double-link -->
 
 ## Note Taking
+
 - [flashcodes-themayankjha/Fknotes.nvim](https://github.com/flashcodes-themayankjha/Fknotes.nvim) - Take notes, TODOS from anywhere inside your project, search all todos, get reminders and more.
 - [apdot/doodle](https://github.com/apdot/doodle) - A developer-centric knowledge base with project/branch scoped notes, bi-directional linking, note-tagging, graph-view, telescope integration, and Git synchronization.
 - [jameswolensky/marker-groups.nvim](https://github.com/jameswolensky/marker-groups.nvim) - Take persistent code notes without modifying code.
