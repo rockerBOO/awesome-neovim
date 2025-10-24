@@ -1107,6 +1107,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ravsii/timers.nvim](https://github.com/ravsii/timers.nvim) - Timer manager, a clean Lua API, supporting multiple timers, persistence, UI, and plugin integrations.
 - [francescarpi/buffon.nvim](https://github.com/francescarpi/buffon.nvim) - Buffers navigation, reorganize and close.
 - [ahkohd/buffer-sticks.nvim](https://github.com/ahkohd/buffer-sticks.nvim) - Cosmetic buffers indicator & picker.
+- [gpanders/nvim-moonwalk](https://github.com/gpanders/nvim-moonwalk) - Use any language that compiles to Lua anywhere in your Neovim configuration.
 - [markgandolfo/lightswitch.nvim](https://github.com/markgandolfo/lightswitch.nvim) - Toggle various options using the `nui.nvim` library.
 
 ### CSV Files
