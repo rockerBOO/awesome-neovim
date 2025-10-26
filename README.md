@@ -934,7 +934,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [askfiy/nvim-picgo](https://github.com/askfiy/nvim-picgo) - A picgo-core-based Neovim plugin, written in Lua, that allows you to upload images to the image bed, which means you can view your images from anywhere on the internet.
 - [davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim) - Neovim frontend for SuperCollider.
 - [Chaitanyabsrip/present.nvim](https://github.com/Chaitanyabsprip/present.nvim) - A Presentation plugin written in Lua.
-- [krady21/compiler-explorer.nvim](https://github.com/krady21/compiler-explorer.nvim) - Async Lua plugin for interacting with [compiler-explorer](https://godbolt.org/).
 - [3rd/image.nvim](https://github.com/3rd/image.nvim) - Add image support through Kitty's graphics protocol or ueberzugpp.
 - [adelarsq/image_preview.nvim](https://github.com/adelarsq/image_preview.nvim) - Image preview based on terminal's Image Protocol support.
 - [niuiic/code-shot.nvim](https://github.com/niuiic/code-shot.nvim) - Take a picture of the code.
@@ -1248,6 +1247,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [smzm/hydrovim](https://github.com/smzm/hydrovim) - Run Python code inside Neovim.
 - [desdic/greyjoy.nvim](https://github.com/desdic/greyjoy.nvim) - A modular task runner for Makefiles, vscode tasks, kitchen etc.
 - [Shatur/neovim-tasks](https://github.com/Shatur/neovim-tasks) - A stateful task manager focused on integration with build systems.
+- [krady21/compiler-explorer.nvim](https://github.com/krady21/compiler-explorer.nvim) - Asynchronous compilation using the [compiler-explorer](https://godbolt.org/) REST API.
 - [milanglacier/yarepl.nvim](https://github.com/milanglacier/yarepl.nvim) - Yet Another REPL, flexible, supporting multiple paradigms to interact with REPLs, and native dot repeat without other dependencies.
 - [Vigemus/iron.nvim](https://github.com/Vigemus/iron.nvim) - Interactive REPLs of over 30 languages embedded.
 - [Civitasv/cmake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim) - CMake integration.
