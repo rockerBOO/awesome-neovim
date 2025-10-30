@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Check if PR is from fork
         if: github.event_name == 'pull_request'
@@ -42,28 +42,27 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             echo "pr_numbers=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # Always run all_open for workflow_dispatch
-            echo "Getting all open PRs..."
-            PR_LIST=$(gh pr list --state open --limit 20 --json number --jq '.[].number' | tr '\n' ',' | sed 's/,$//')
-            echo "pr_numbers=$PR_LIST" >> $GITHUB_OUTPUT
           else
             # Scheduled run - get all open PRs
             PR_LIST=$(gh pr list --state open --limit 20 --json number --jq '.[].number' | tr '\n' ',' | sed 's/,$//')
             echo "pr_numbers=$PR_LIST" >> $GITHUB_OUTPUT
+
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              # Always run all_open for workflow_dispatch
+              echo -e "\nGetting all open PRs..."
+            fi
           fi
 
       - name: Run repository quality analysis
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo "## 🔍 Repository Quality Analysis" > quality_report.md
-          echo "" >> quality_report.md
+          echo -e "## 🔍 Repository Quality Analysis:\n" > quality_report.md
 
           PR_NUMBERS="${{ steps.get-prs.outputs.pr_numbers }}"
 
           if [ -n "$PR_NUMBERS" ]; then
-            echo "Analyzing PRs: $PR_NUMBERS"
+            echo -e "Analyzing PRs: $PR_NUMBERS\n"
 
             # Convert comma-separated to space-separated
             PR_LIST=$(echo "$PR_NUMBERS" | tr ',' ' ')
@@ -72,53 +71,51 @@ jobs:
             ./scripts/batch_pr_readme_review.sh $PR_LIST > quality_output.txt 2>&1
 
             # Parse results for report
-            echo "### Analysis Results:" >> quality_report.md
-            echo "" >> quality_report.md
+            echo -e "### Analysis Results:\n" >> quality_report.md
 
             # Extract priority PRs
             if grep -q "🚨 PRIORITY:" quality_output.txt; then
-              echo "#### 🚨 Priority PRs (Updated After Review):" >> quality_report.md
+              echo -e "#### 🚨 Priority PRs (Updated After Review):\n" >> quality_report.md
               grep -A 10 "🚨 PRIORITY:" quality_output.txt | grep "=== Priority README Review for PR" | sed 's/=== Priority README Review for PR /- PR /' >> quality_report.md
               echo "" >> quality_report.md
             fi
 
             # Extract PRs needing review
             if grep -q "📋 Processing PRs needing initial review" quality_output.txt; then
-              echo "#### 📋 PRs Needing Initial Review:" >> quality_report.md
+              echo -e "#### 📋 PRs Needing Initial Review:\n" >> quality_report.md
               grep -A 10 "📋 Processing PRs needing initial review" quality_output.txt | grep "=== README Review for PR" | sed 's/=== README Review for PR /- PR /' >> quality_report.md
               echo "" >> quality_report.md
             fi
 
             # Extract summary
             if grep -q "=== README REVIEW SUMMARY ===" quality_output.txt; then
-              echo "#### Summary:" >> quality_report.md
+              echo -e "#### Summary:\n" >> quality_report.md
               grep -A 5 "=== README REVIEW SUMMARY ===" quality_output.txt | tail -n +2 >> quality_report.md
               echo "" >> quality_report.md
             fi
 
             # Add repository health warnings
             if grep -q "⚠️ WARNING" quality_output.txt; then
-              echo "#### ⚠️ Repository Health Warnings:" >> quality_report.md
+              echo -e "#### ⚠️ Repository Health Warnings:\n" >> quality_report.md
               grep "⚠️ WARNING" quality_output.txt | sed 's/⚠️ WARNING: /- /' >> quality_report.md
               echo "" >> quality_report.md
             fi
 
             # Add license information
             if grep -q "✅ License found" quality_output.txt; then
-              echo "#### ✅ License Status:" >> quality_report.md
+              echo -e "#### ✅ License Status:\n" >> quality_report.md
               grep -A 2 "✅ License found" quality_output.txt | head -3 >> quality_report.md
               echo "" >> quality_report.md
             fi
 
           else
-            echo "No PRs to analyze at this time." >> quality_report.md
+            echo -e "**No PRs to analyze at this time.**\n" >> quality_report.md
           fi
 
-          echo "---" >> quality_report.md
-          echo "*Quality analysis powered by [enhanced repository review scripts](scripts/)*" >> quality_report.md
+          echo -e "---\n_Quality analysis powered by [enhanced repository review scripts](scripts/)._" >> quality_report.md
 
           # Save output for artifacts
-          cp quality_output.txt quality_analysis_raw.txt 2>/dev/null || true
+          cp quality_output.txt quality_analysis_raw.txt 2> /dev/null || true
 
       - name: Post quality analysis for single PR (non-fork only)
         if: github.event_name == 'pull_request' && steps.fork-check.outputs.is_fork == 'false'
@@ -165,10 +162,9 @@ jobs:
       - name: Output quality analysis for fork PRs
         if: github.event_name == 'pull_request' && steps.fork-check.outputs.is_fork == 'true'
         run: |
-          echo "Fork PR detected - quality analysis saved as workflow output"
+          echo -e "Fork PR detected - quality analysis saved as workflow output.\n"
           cat quality_report.md
-          echo ""
-          echo "⚠️ Maintainers: Review the quality analysis above for this fork PR"
+          echo -e "\n⚠️ Maintainers: Review the quality analysis above for this fork PR."
 
       - name: Create issue for scheduled analysis
         if: github.event_name == 'schedule'
