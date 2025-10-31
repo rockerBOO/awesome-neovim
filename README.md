@@ -293,7 +293,6 @@
 - [chomosuke/typst-preview.nvim](https://github.com/chomosuke/typst-preview.nvim) - Preview Typst documents in the browser, instant update on each keystroke, and cross jump between code and preview.
 - [quarto-dev/quarto-nvim](https://github.com/quarto-dev/quarto-nvim) - Tools for working with [Quarto](https://quarto.org/) documents.
 - [iabdelkareem/csharp.nvim](https://github.com/iabdelkareem/csharp.nvim) - Enhances the development experience for .NET developers.
-- [jim-at-jibba/micropython.nvim](https://github.com/jim-at-jibba/micropython.nvim) - Enhances the development experience for developers using MicroPython for IoT and maker projects.
 - [neolooong/whichpy.nvim](https://github.com/neolooong/whichpy.nvim) - Switch Python interpreter without restarting LSP.
 - [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) - Everything you need for a painless Java experience.
 - [jinzhogjia/zig-lamp](https://github.com/jinzhongjia/zig-lamp) - Improve the Zig experience.
