@@ -346,7 +346,6 @@
 
 ### Markdown and LaTeX
 
-- [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) - Markdown preview using glow.
 - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Preview Markdown on your modern browser with synchronised scrolling and flexible configuration.
 - [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
 - [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) - Easy pandoc conversion leveraging YAML blocks.
