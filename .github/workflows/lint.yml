@@ -15,7 +15,7 @@ jobs:
     name: Run awesome linter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - run: npx awesome-lint@1.2.0
