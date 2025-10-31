@@ -605,7 +605,6 @@
 
 ## Project
 
-- [sukineco/neoproj](https://github.com/sukineco/neoproj) - Small yet powerful project (and session) manager.
 - [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) - Project's root directory and documents Indentation detector with project based config loader.
 - [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) - Load Neovim config depend on project directory.
 - [DrKJeff16/project.nvim](https://github.com/DrKJeff16/project.nvim) - An actively maintained fork of [`ahmedkhalf/project.nvim`](https://github.com/ahmedkhalf/project.nvim) with documented code, `fzf-lua` support and new features.
