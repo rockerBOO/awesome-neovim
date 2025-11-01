@@ -203,6 +203,7 @@
   - [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - `nvim-cmp` source for buffer words.
   - [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path) - `nvim-cmp` source for filesystem paths.
   - [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - `nvim-cmp` source for the Neovim builtin LSP client.
+  - [hrsh7th/cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua) - `nvim-cmp` source for the Neovim Lua API.
   - [petertriho/cmp-git](https://github.com/petertriho/cmp-git) - `nvim-cmp` source for `git`.
   - [lukas-reineke/cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) - A nvim-cmp function for better sorting.
   - [SergioRibera/cmp-dotenv](https://github.com/SergioRibera/cmp-dotenv) - Load environment variables from the shell or from your `.env` files.
