@@ -22,7 +22,6 @@
   - [YAML](#yaml)
   - [Web Development](#web-development)
   - [Markdown and LaTeX](#markdown-and-latex)
-  - [PHP](#php)
   - [Powershell](#powershell)
   - [Assembly](#assembly)
 - [Language](#language)
@@ -355,16 +354,6 @@
 - [Thiago4532/mdmath.nvim](https://github.com/Thiago4532/mdmath.nvim) - A Markdown equation previewer, using Kitty Graphics Protocol.
 - [OXY2DEV/markdoc.nvim](https://github.com/OXY2DEV/markdoc.nvim) - Tree-sitter based `markdown -> vimdoc` converter.
 - [YousefHadder/markdown-plus.nvim](https://github.com/YousefHadder/markdown-plus.nvim) - Provides a full editing experience for Markdown files which includes support for lists, links, TOC, and more with simple and fast keymaps.
-
-### PHP
-
-- [ta-tikoma/php.easy.nvim](https://github.com/ta-tikoma/php.easy.nvim) - Methods of assistance in PHP development: create classes, constants, methods, properties; simple copying and deleting of an entity.
-
-<!--lint disable double-link -->
-
-**[⬆ back to top](#contents)**
-
-<!--lint enable double-link -->
 
 ### Powershell
 
