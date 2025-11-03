@@ -1071,6 +1071,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [johannww/tts.nvim](https://github.com/johannww/tts.nvim) - Text to speech tool based on the Microsoft Edge online services.
 - [doctorfree/cheatsheet.nvim](https://github.com/doctorfree/cheatsheet.nvim) - Searchable cheatsheet.
 - [gaborvecsei/cryptoprice.nvim](https://github.com/gaborvecsei/cryptoprice.nvim) - Check the price of the defined cryptocurrencies.
+- [DrKJeff16/lastplace.nvim](https://github.com/DrKJeff16/lastplace.nvim) - An up-to-date rewrite of [ethanholz/nvim-lastplace](https://github.com/ethanholz/nvim-lastplace) for opening a file in the last edit position.
 
 ### CSV Files
 
