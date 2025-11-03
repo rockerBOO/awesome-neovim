@@ -200,7 +200,7 @@
 ## Completion
 
 - [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) - Fast as FUCK Neovim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.
-- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine written in Lua, sucessor of `nvim-compe`.
+- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine written in Lua, successor of `nvim-compe`.
   - [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline) - `nvim-cmp` completion source for cmdline completion.
   - [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) - `nvim-cmp` completion source for `LuaSnip`.
   - [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - `nvim-cmp` completion source for buffer words.
