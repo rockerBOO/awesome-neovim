@@ -1581,7 +1581,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ## Formatting
 
 - [TheLazyCat00/simple-format](https://github.com/TheLazyCat00/simple-format) - Replace text using custom regex and highlight group rules.
-- [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) - An EditorConfig plugin written in Fennel.
 - [mhartington/formatter.nvim](https://github.com/mhartington/formatter.nvim) - A format runner written in Lua.
 - [sbdchd/neoformat](https://github.com/sbdchd/neoformat) - A (Neo)vim plugin for formatting code.
 - [cappyzawa/trim.nvim](https://github.com/cappyzawa/trim.nvim) - Trims trailing whitespace and lines.
