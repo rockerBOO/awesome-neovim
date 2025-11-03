@@ -201,23 +201,23 @@
 
 - [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) - Fast as FUCK Neovim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.
 - [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine written in Lua, successor of `nvim-compe`.
-  - [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline) - `nvim-cmp` completion source for cmdline completion.
-  - [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) - `nvim-cmp` completion source for `LuaSnip`.
-  - [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - `nvim-cmp` completion source for buffer words.
-  - [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path) - `nvim-cmp` completion source for filesystem paths.
-  - [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - `nvim-cmp` completion source for the Neovim builtin LSP client.
-  - [petertriho/cmp-git](https://github.com/petertriho/cmp-git) - `nvim-cmp` completion source for `git`.
+  - [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline) - `nvim-cmp` source for cmdline completion.
+  - [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) - `nvim-cmp` source for `LuaSnip`.
+  - [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - `nvim-cmp` source for buffer words.
+  - [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path) - `nvim-cmp` source for filesystem paths.
+  - [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - `nvim-cmp` source for the Neovim builtin LSP client.
+  - [petertriho/cmp-git](https://github.com/petertriho/cmp-git) - `nvim-cmp` source for `git`.
   - [lukas-reineke/cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) - `nvim-cmp` function for better sorting.
-  - [SergioRibera/cmp-dotenv](https://github.com/SergioRibera/cmp-dotenv) - `nvim-cmp` completion source for environment variables (from system and `.env` files).
+  - [SergioRibera/cmp-dotenv](https://github.com/SergioRibera/cmp-dotenv) - `nvim-cmp` source for environment variables (from system and `.env` files).
 - [nvim-mini/mini.nvim#mini.completion](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-completion.md) - Module of `mini.nvim` for asynchronous two-stage completion. Supports showing completion item info and independent function signature.
 - [Saghen/blink.cmp](https://github.com/Saghen/blink.cmp) - Really fast completion with LSP & snippet support, along with signature help, cmdline completion, and autobracket support (based on semantic tokens).
   - [Saghen/blink.compat](https://github.com/Saghen/blink.compat) - Compatibility layer for using `nvim-cmp` sources on `blink.cmp`.
-  - [Kaiser-Yang/blink-cmp-git](https://github.com/Kaiser-Yang/blink-cmp-git) - `blink.cmp` completion source for Git.
-  - [disrupted/blink-cmp-conventional-commits](https://github.com/disrupted/blink-cmp-conventional-commits) - `blink.cmp` completion source for [Conventional Commits](https://www.conventionalcommits.org/).
-  - [bydlw98/blink-cmp-env](https://github.com/bydlw98/blink-cmp-env) - `blink.cmp` completion source for environment variables.
-  - [bydlw98/blink-cmp-sshconfig](https://github.com/bydlw98/blink-cmp-sshconfig) - `blink.cmp` completion source for `sshconfig` files.
-  - [mgalliou/blink-cmp-tmux](https://github.com/mgalliou/blink-cmp-tmux) - `blink.cmp` completion source for [tmux](https://github.com/tmux/tmux).
-  - [moyiz/blink-emoji.nvim](https://github.com/moyiz/blink-emoji.nvim) - `blink.cmp` completion source for GitHub Markdown emojis.
+  - [Kaiser-Yang/blink-cmp-git](https://github.com/Kaiser-Yang/blink-cmp-git) - `blink.cmp` source for Git.
+  - [disrupted/blink-cmp-conventional-commits](https://github.com/disrupted/blink-cmp-conventional-commits) - `blink.cmp` source for [Conventional Commits](https://www.conventionalcommits.org/).
+  - [bydlw98/blink-cmp-env](https://github.com/bydlw98/blink-cmp-env) - `blink.cmp` source for environment variables.
+  - [bydlw98/blink-cmp-sshconfig](https://github.com/bydlw98/blink-cmp-sshconfig) - `blink.cmp` source for `sshconfig` files.
+  - [mgalliou/blink-cmp-tmux](https://github.com/mgalliou/blink-cmp-tmux) - `blink.cmp` source for [tmux](https://github.com/tmux/tmux).
+  - [moyiz/blink-emoji.nvim](https://github.com/moyiz/blink-emoji.nvim) - `blink.cmp` source for GitHub Markdown emojis.
 - [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) - Fully featured Lua replacement for [GitHub/copilot.vim](https://github.com/github/copilot.vim).
 - [brianaung/compl.nvim](https://github.com/brianaung/compl.nvim) - A minimal and dependency-free auto-completion built on top of Vim's ins-completion mechanism.
 
