@@ -214,6 +214,7 @@
   - [Saghen/blink.compat](https://github.com/Saghen/blink.compat) - Compatibility layer for using `nvim-cmp` sources on `blink.cmp`.
   - [Kaiser-Yang/blink-cmp-git](https://github.com/Kaiser-Yang/blink-cmp-git) - `blink.cmp` source for Git.
   - [disrupted/blink-cmp-conventional-commits](https://github.com/disrupted/blink-cmp-conventional-commits) - `blink.cmp` source for [Conventional Commits](https://www.conventionalcommits.org/).
+  - [mikavilpas/blink-ripgrep.nvim](https://github.com/mikavilpas/blink-ripgrep.nvim) - `blink.cmp` source for `ripgrep` / `git grep`.
   - [bydlw98/blink-cmp-env](https://github.com/bydlw98/blink-cmp-env) - `blink.cmp` source for environment variables.
   - [bydlw98/blink-cmp-sshconfig](https://github.com/bydlw98/blink-cmp-sshconfig) - `blink.cmp` source for `sshconfig` files.
   - [mgalliou/blink-cmp-tmux](https://github.com/mgalliou/blink-cmp-tmux) - `blink.cmp` source for [tmux](https://github.com/tmux/tmux).
