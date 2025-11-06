@@ -962,6 +962,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [athar-qadri/scratchpad.nvim](https://github.com/athar-qadri/scratchpad.nvim) - Effortlessly manage scratchpads within your favorite editor.
 - [echaya/neowiki.nvim](https://github.com/echaya/neowiki.nvim) - The modern vimwiki successor offering a minimal, intuitive workflow out of the box for note-taking and Getting Things Done (GTD).
 - [happyeric77/joplin.nvim](https://github.com/happyeric77/joplin.nvim) - Joplin notes utilities: tree browser, search, open, and Telescope integration.
+- [nbeversl/urtext_neovim](https://github.com/nbeversl/urtext_neovim) - Urtext, a markup language for Python-scriptable notebooks in a text editor.
 <!--lint disable double-link -->
 
 **[⬆ back to top](#contents)**
