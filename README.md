@@ -1135,7 +1135,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 ## Debugging
 
 - [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) - Debug Adapter Protocol client implementation.
-- [sakhnik/nvim-gdb](https://github.com/sakhnik/nvim-gdb) - Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB.
 - [rcarriga/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) - A UI for nvim-dap.
 - [pocco81/dap-buddy.nvim](https://github.com/pocco81/dap-buddy.nvim) - Manage several debuggers for nvim-dap.
 - [Weissle/persistent-breakpoints.nvim](https://github.com/Weissle/persistent-breakpoints.nvim) - Persistent breakpoints for nvim-dap.
