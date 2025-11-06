@@ -770,6 +770,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [y3owk1n/base16-pro-max.nvim](https://github.com/y3owk1n/base16-pro-max.nvim) - Base16 for modern Neovim — not just colors.
 - [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Gruvbox community colorscheme Lua port.
 - [pmouraguedes/neodarcula.nvim](https://github.com/pmouraguedes/neodarcula.nvim) - A dark theme with support for transparency, dimming, LSP semantic tokens and more.
+- [jpwol/thorn.nvim](https://github.com/jpwol/thorn.nvim) - A rich green theme with dark and light options. Supports LSP, transparency, many plugins, and more.
 
 ### Lua Colorscheme
 
