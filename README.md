@@ -1286,7 +1286,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim) - Display latest package version as virtual text in package.json.
 - [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) - Rust dependency management for `Cargo.toml`.
 - [piersolenski/import.nvim](https://github.com/piersolenski/import.nvim) - Import modules faster based on what you've already imported in your project.
-- [Silletr/LazyDevHelper](https://github.com/Silletr/LazyDevHelper) - Python dependencies manager, with auto-adding to your requirements.txt.
+- [Silletr/LazyDeveloperHelper](https://github.com/Silletr/LazyDeveloperHelper) - Python dependencies manager, with auto-adding to your `requirements.txt` file.
 
 <!--lint disable double-link -->
 
