@@ -551,7 +551,6 @@
 - [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) - A simple and fast file explorer tree.
 - [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) - File explorer powered by [nnn](https://github.com/jarun/nnn) and Lua.
 - [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) - Simple file explorer.
-- [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) - A file manager written in Lua.
 - [kevinhwang91/rnvimr](https://github.com/kevinhwang91/rnvimr) - A simple yet amazing file explorer.
 - [Xuyuanp/yanil](https://github.com/Xuyuanp/yanil) - Yet Another Nerdtree In Lua.
 - [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) - File manager. Better than NERDTree.
