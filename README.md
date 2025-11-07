@@ -64,6 +64,7 @@
   - [GitHub](#github)
   - [GitLab](#gitlab)
 - [Motion](#motion)
+  - [Tree-sitter Based](#tree-sitter-based)
 - [Keybinding](#keybinding)
 - [Mouse](#mouse)
 - [Scrolling](#scrolling)
