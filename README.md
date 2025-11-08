@@ -1570,6 +1570,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Indent
 
+- [saghen/blink.indent](https://github.com/saghen/blink.indent) - Performant indent guides with scope on every keystroke.
 - [nvimdev/indentmini.nvim](https://github.com/nvimdev/indentmini.nvim) - A minimal and blazing fast indentline plugin by using the `nvim_set_decoration_provide` API function.
 - [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - IndentLine replacement in Lua with more features and Tree-sitter support.
 - [LucasTavaresA/simpleIndentGuides.nvim](https://github.com/LucasTavaresA/simpleIndentGuides.nvim) - Indentation guides using the builtin variables.
