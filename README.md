@@ -15,6 +15,8 @@
 
 - [Plugin Manager](#plugin-manager)
 - [LSP](#lsp)
+  - [LSP Installer](#lsp-installer)
+  - [Diagnostics](#diagnostics)
 - [Completion](#completion)
 - [AI](#ai)
 - [Programming Languages Support](#programming-languages-support)
@@ -64,6 +66,7 @@
   - [GitHub](#github)
   - [GitLab](#gitlab)
 - [Motion](#motion)
+  - [Tree-sitter Based](#tree-sitter-based)
 - [Keybinding](#keybinding)
 - [Mouse](#mouse)
 - [Scrolling](#scrolling)
@@ -113,7 +116,7 @@
 
 ## LSP
 
-### (requires Neovim 0.5)
+**(requires Neovim 0.5)**
 
 - [romus204/referencer.nvim](https://github.com/romus204/referencer.nvim) - Lightweight, asynchronous that uses the LSP to show references to functions, methods, types and other.
 - [Dan7h3x/signup.nvim](https://github.com/Dan7h3x/signup.nvim) - a little smart `lsp_signature` helper with awesome features.
@@ -178,11 +181,11 @@
 - [SunnyTamang/neodoc.nvim](https://github.com/SunnyTamang/neodoc.nvim) - DocString generator that helps writing function/classes docstrings in formats like `google`, `numpy`, `sphinx` with live preview.
 - [barreiroleo/ltex_extra.nvim](https://github.com/barreiroleo/ltex_extra.nvim) - LTeX LSP extension providing external file handling (rules and dictionaries).
 
-#### LSP Installer
+### LSP Installer
 
 - [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) - Portable package manager that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.
 
-#### Diagnostics
+### Diagnostics
 
 - [sontungexpt/better-diagnostic-virtual-text](https://github.com/sontungexpt/better-diagnostic-virtual-text) - Enhances the display of virtual text for diagnostics. This function aims to provide a more user-friendly and informative presentation of diagnostic messages directly within the editor.
 - [~whynothugo/lsp_lines.nvim](https://git.sr.ht/~whynothugo/lsp_lines.nvim) - Render diagnostics using virtual lines on top of the real line of code.
