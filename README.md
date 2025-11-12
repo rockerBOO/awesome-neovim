@@ -1457,6 +1457,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Editing Support
 
+- [qwavies/smart-backspace.nvim](https://github.com/qwavies/smart-backspace.nvim) - Context-aware backspace which handles pairs, whitespace and indentation.
 - [TheLazyCat00/replace-nvim](https://github.com/TheLazyCat00/replace-nvim) - Replace part of your code with the contents of the `+` register using textobjects.
 - [wurli/split.nvim](https://github.com/wurli/split.nvim) - Provides a mapping to split text by delimiter, giving an inverse of the native J command.
 - [csessh/stopinsert.nvim](https://github.com/csessh/stopinsert.nvim) - Automatically exit Insert mode after inactivity.
