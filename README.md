@@ -1775,6 +1775,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [ayamir/nvimdots](https://github.com/ayamir/nvimdots) - A well-configured and structured configuration with NixOS support.
 - [adoyle-h/one.nvim](https://github.com/adoyle-h/one.nvim) - All-in-one config framework in Lua.
 - [nvim-mini/MiniMax](https://github.com/nvim-mini/MiniMax) - A collection of self-contained and extensively commented configurations which mostly use MINI tools.
+- [TheItcor/MoaiVim](https://github.com/TheItcor/MoaiVim) - A minimalist, fast Neovim config that feels like an IDE but stays lightweight. Programming without the bloat.
 
 <!--lint disable double-link -->
 
