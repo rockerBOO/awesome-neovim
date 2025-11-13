@@ -1655,7 +1655,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [hkupty/nvimux](https://github.com/hkupty/nvimux) - Neovim as tmux replacement.
 - [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) - Smoothly navigate between Neovim splits and Tmux panes.
 - [declancm/windex.nvim](https://github.com/declancm/windex.nvim) - Collection of window functions which includes moving between, closing and maximizing Neovim splits and Tmux panes.
-- [otavioschwanck/tmux-awesome-manager.nvim](https://github.com/otavioschwanck/tmux-awesome-manager.nvim) - Run your workflow commands like yarn install, rails console, yarn add, bundle install, etc.
 - [karshPrime/only-tmux.nvim](https://github.com/karshPrime/only-tmux.nvim) - Expand the functionality of `:only` with tmux panes in the same window, with either moving them to a new window or closing them.
 - [karshPrime/tmux-compile.nvim](https://github.com/karshPrime/tmux-compile.nvim) - Set up same key, like F5, to run any compile/run command per language, like `make` for C and `cargo build` for Rust, and have the project run or compile in a new tmux pane or window.
 - [EvWilson/slimux.nvim](https://github.com/EvWilson/slimux.nvim) - Send content from the current buffer to a configurable tmux pane.
