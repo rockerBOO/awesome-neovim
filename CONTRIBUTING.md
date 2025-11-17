@@ -27,9 +27,8 @@ Please follow these instructions in a sequential order:
 When submitting a Pull Request make sure to cover all of the following points:
 
 1. Ensure your changes follow the [awesome list guidelines][guidelines].
-2. Before submitting a PR make sure your changes comply with `awesome-lint` checks.
-3. Ensure the plugin you're requesting meets our [acceptance criteria][criteria].
-4. Ensure your Pull Request title follows the [regexp rule][regexp_rule] (``` Add|Update|Remove `username/repo` ```).
+2. Ensure the plugin you're requesting meets our [acceptance criteria][criteria].
+3. Ensure your Pull Request title follows the [regexp rule][regexp_rule] (``` Add|Update|Remove `username/repo` ```).
 
 [issues]: https://github.com/rockerBOO/awesome-neovim/issues
 [criteria]: https://github.com/rockerBOO/awesome-neovim/blob/main/MAINTAINERS.md#acceptance-criteria
