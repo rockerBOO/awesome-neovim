@@ -906,6 +906,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Media
 
+- [melMass/echo.nvim](https://github.com/melMass/echo.nvim) - Seamless sound integration for your editing workflow.
 - [pandasoli/nekovim](https://github.com/pandasoli/nekovim) - Flexible Discord rich presence.
 - [edluffy/hologram.nvim](https://github.com/edluffy/hologram.nvim) - A cross platform terminal image viewer. Works on macOS and Linux.
 - [HakonHarnes/img-clip.nvim](https://github.com/HakonHarnes/img-clip.nvim) - Effortlessly embed images into any markup language, like LaTeX, Markdown or Typst.
@@ -1532,7 +1533,6 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [smoka7/multicursors.nvim](https://github.com/smoka7/multicursors.nvim) - Provides a more intuitive way to edit repetitive text with multiple selections.
 - [tigion/swap.nvim](https://github.com/tigion/swap.nvim) - Quickly switch a word under the cursor or a pattern in the current line.
 - [XXiaoA/atone.nvim](https://github.com/XXiaoA/atone.nvim) - Undo tree for visualizing and managing undo history.
-- [melMass/echo.nvim](https://github.com/melMass/echo.nvim) - Seamless sound integration for your editing workflow.
 
 ### Comment
 
