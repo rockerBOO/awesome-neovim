@@ -3,6 +3,7 @@
 # Awesome Neovim [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <a href="https://neovim.io/"><img src="https://neovim.io/logos/neovim-mark-flat.png" align="right" width="144" /></a>
+
 <!-- Uncomment the awesome badge when the repository is added to awesome main list.
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 -->
@@ -962,6 +963,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ## Utility
 
+- [necrom4/convy.nvim](https://github.com/necrom4/convy.nvim) - Easily convert strings between various formats.
 - [gisketch/triforce.nvim](https://github.com/gisketch/triforce.nvim) - Gamified stat tracker with XP, levels, achievements, and activity heatmaps for your coding sessions with lualine integration.
 - [gaborvecsei/usage-tracker.nvim](https://github.com/gaborvecsei/usage-tracker.nvim) - Track your Neovim usage and visualize statistics easily.
 - [mateuszwieloch/automkdir.nvim](https://github.com/mateuszwieloch/automkdir.nvim) - Automatically create non-existent parent directories when writing a file.
