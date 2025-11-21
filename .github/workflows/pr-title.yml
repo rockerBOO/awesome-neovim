@@ -6,8 +6,12 @@ permissions:
 
 on:
   pull_request:
-    types: [opened, edited, synchronize]
-    paths: [README.md]
+    types:
+      - opened
+      - edited
+      - synchronize
+    paths:
+      - README.md
 
 jobs:
   run:
