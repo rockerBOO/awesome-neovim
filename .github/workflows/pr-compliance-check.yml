@@ -5,9 +5,13 @@ permissions: read-all
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types:
+      - opened
+      - synchronize
+      - reopened
   pull_request_review:
-    types: [submitted]
+    types:
+      - submitted
 
 jobs:
   compliance-check:
@@ -19,7 +23,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Check if PR is from fork
         id: fork-check
@@ -91,7 +95,7 @@ jobs:
 
       - name: Post compliance results as comment (non-fork only)
         if: steps.fork-check.outputs.is_fork == 'false'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
