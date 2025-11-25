@@ -1693,7 +1693,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 - [jim-fx/sudoku.nvim](https://github.com/jim-fx/sudoku.nvim) - Classic sudoku puzzle.
 - [csessh/aoc.vim](https://github.com/csessh/aoc.nvim) - Simple little elf who fetches Advent of Code puzzle input for you.
 - [seandewar/actually-doom.nvim](https://github.com/seandewar/actually-doom.nvim) - Editing text is boring; play DOOM instead!.
-- [piersolenski/skifree.nvim](https://github.com/piersolenski/skifree.nvim) - A Neovim plugin inspired by the classic Windows 3.1 game SkiFree.
+- [piersolenski/skifree.nvim](https://github.com/piersolenski/skifree.nvim) - Play the Windows 3.1 SkiFree game.
 
 ### Competitive Programming
 
