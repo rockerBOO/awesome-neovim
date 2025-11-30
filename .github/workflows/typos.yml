@@ -5,15 +5,18 @@ permissions:
   pull-requests: read
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    types: [opened, synchronize]
+    types:
+      - opened
+      - synchronize
 jobs:
   typos-check:
     name: Check for typos
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@v6
       - uses: crate-ci/typos@b1a1ef3893ff35ade0cfa71523852a49bfd05d19
         with:
           files: ./README.md
@@ -23,6 +26,6 @@ jobs:
     name: Check for terminology consistency
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@v6
       - name: Run terminology check script
         run: ./.github/scripts/check-terms.sh README.md
