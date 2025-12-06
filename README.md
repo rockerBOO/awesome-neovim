@@ -219,6 +219,8 @@
 - [nvim-mini/mini.nvim#mini.completion](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-completion.md) - Module of `mini.nvim` for asynchronous two-stage completion. Supports showing completion item info and independent function signature.
 - [saghen/blink.cmp](https://github.com/saghen/blink.cmp) - Really fast completion with LSP & snippet support, along with signature help, cmdline completion, and autobracket support (based on semantic tokens).
   - [saghen/blink.compat](https://github.com/saghen/blink.compat) - Compatibility layer for using `nvim-cmp` sources on `blink.cmp`.
+  - [Kasier-Yang/blink-cmp-avante](https://github.com/Kaiser-Yang/blink-cmp-avante) - `blink-cmp` source for Avante.
+  - [krissen/blink-cmp-bibtex](https://github.com/krissen/blink-cmp-bibtex) - `blink.cmp` source for BibTeX citation files.
   - [Kaiser-Yang/blink-cmp-git](https://github.com/Kaiser-Yang/blink-cmp-git) - `blink.cmp` source for Git.
   - [disrupted/blink-cmp-conventional-commits](https://github.com/disrupted/blink-cmp-conventional-commits) - `blink.cmp` source for [Conventional Commits](https://www.conventionalcommits.org/).
   - [mikavilpas/blink-ripgrep.nvim](https://github.com/mikavilpas/blink-ripgrep.nvim) - `blink.cmp` source for `ripgrep` / `git grep`.
@@ -339,6 +341,7 @@
 - [yelog/i18n.nvim](https://github.com/yelog/i18n.nvim) - Internationalization (i18n) management with LSP support for `Vue`, `React`, `Java` and more.
 - [Kenzo-Wada/boundary.nvim](https://github.com/Kenzo-Wada/boundary.nvim) - Display `'use client'` markers inline in your JSX code to visualize client component boundaries.
 - [abidibo/nvim-httpyac](https://github.com/abidibo/nvim-httpyac) - Provides integration with `httpYac`.
+- [rodrigoscc/nurl.nvim](https://github.com/rodrigoscc/nurl.nvim) - HTTP client with requests defined in pure Lua.
 
 ### Markdown and LaTeX
 
@@ -775,6 +778,7 @@ Tree-sitter is a new system introduced in Neovim 0.5 that incrementally parses y
 - [jpwol/thorn.nvim](https://github.com/jpwol/thorn.nvim) - A rich green theme with dark and light options. Supports LSP, transparency, many plugins, and more.
 - [calind/selenized.nvim](https://github.com/calind/selenized.nvim) - Lua port of [selenized](https://github.com/jan-warchol/selenized) with support for Tree-sitter, `nvim-cmp`, GitSigns, and more.
 - [motaz-shokry/gruvbox.nvim](https://gitlab.com/motaz-shokry/gruvbox.nvim) - A new gruvbox theme with a different background color for the hard variant, and comes with 4 variants.
+- [pebeto/dookie.nvim](https://github.com/pebeto/dookie.nvim) - A color scheme inspired by Plan9's acme editor.
 
 ### Lua Colorscheme
 
