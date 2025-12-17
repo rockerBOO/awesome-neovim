@@ -652,46 +652,44 @@ then it is not supported:
 `[TS]` - Has Tree-sitter highlighting.
 `[LSP]` - Has LSP Semantic Tokens support.
 `[L/D]` - Has both "light" and "dark" variants.
-`[Plug]` - Has integrations with other plugins.
 `[Lua]` - Is written in Lua.
 
-- [kuri-sun/yoda.nvim](https://github.com/kuri-sun/yoda.nvim) - `[TS][LSP][L/D][Plug][Lua]` Muted green palette for focused, balanced editing.
-- [wurli/cobalt.nvim](https://github.com/wurli/cobalt.nvim) - `[TS][Plug][LSP][Lua]` A (mostly) faithful port of the classic blue theme from TextMate.
-- [datsfilipe/min-theme.nvim](https://github.com/datsfilipe/min-theme.nvim) - `[TS][LSP][Plug][Lua]` It's a port of Min, a minimal theme for VSCode, written in Lua.
-- [github-main-user/lytmode.nvim](https://github.com/github-main-user/lytmode.nvim) - `[TS][LSP][Plug][Lua]` A unique in-between theme inspired by LYT-Mode for Obsidian. Not quite dark, not quite light — just right.
-- [datsfilipe/vesper.nvim](https://github.com/datsfilipe/vesper.nvim) - `[TS][LSP][Plug][Lua]` It's a port of the popular VS Code theme Vesper, written in Lua.
-- [sontungexpt/witch](https://github.com/sontungexpt/witch) - `[TS][LSP][L/D][Plug][Lua]` The primary stinvim distro colorscheme includes the default feature of dimming inactive windows, along with various other customization options for users.
-- [Abstract-IDE/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) - `[TS][LSP][Plug][Lua]` Colorscheme written in Lua, specially made for roshnivim with Tree-sitter support.
+- [kuri-sun/yoda.nvim](https://github.com/kuri-sun/yoda.nvim) - `[TS][LSP][L/D][Lua]` Muted green palette for focused, balanced editing.
+- [wurli/cobalt.nvim](https://github.com/wurli/cobalt.nvim) - `[TS][LSP][Lua]` A (mostly) faithful port of the classic blue theme from TextMate.
+- [datsfilipe/min-theme.nvim](https://github.com/datsfilipe/min-theme.nvim) - `[TS][LSP][Lua]` It's a port of Min, a minimal theme for VSCode, written in Lua.
+- [github-main-user/lytmode.nvim](https://github.com/github-main-user/lytmode.nvim) - `[TS][LSP][Lua]` A unique in-between theme inspired by LYT-Mode for Obsidian. Not quite dark, not quite light — just right.
+- [datsfilipe/vesper.nvim](https://github.com/datsfilipe/vesper.nvim) - `[TS][LSP][Lua]` It's a port of the popular VS Code theme Vesper, written in Lua.
+- [sontungexpt/witch](https://github.com/sontungexpt/witch) - `[TS][LSP][L/D][Lua]` The primary stinvim distro colorscheme includes the default feature of dimming inactive windows, along with various other customization options for users.
+- [Abstract-IDE/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) - `[TS][LSP][Lua]` Colorscheme written in Lua, specially made for roshnivim with Tree-sitter support.
 - [rafamadriz/neon](https://github.com/rafamadriz/neon) - `[TS][LSP][L/D][Lua]` Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with Tree-sitter.
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) - `[TS]` A dark color scheme heavily inspired by the look of the Dark+ scheme of VSCode.
-- [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) - `[TS][L/D][Plug][Lua]` A Lua port of vim-code-dark colorscheme with VSCode light and dark theme.
-- [askfiy/visual_studio_code](https://github.com/askfiy/visual_studio_code) - `[TS][LSP][L/D][Plug][Lua]`  A Neovim theme that highly restores VSCode, so that your friends will no longer be surprised that you use Neovim, because they will think you are using VSCode.
-- [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - `[TS][LSP][L/D][Plug][Lua]` Material.nvim is a highly configurable colorscheme written in Lua and based on the material palette.
-- [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) - `[TS][LSP][Plug][Lua]` A dark midnight colorscheme with modern Neovim support including Tree-sitter.
-- [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - `[TS][LSP][Plug][Lua]` A dark charcoal colorscheme with modern Neovim support including Tree-sitter.
+- [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) - `[TS][L/D][Lua]` A Lua port of vim-code-dark colorscheme with VSCode light and dark theme.
+- [askfiy/visual_studio_code](https://github.com/askfiy/visual_studio_code) - `[TS][LSP][L/D][Lua]`  A Neovim theme that highly restores VSCode, so that your friends will no longer be surprised that you use Neovim, because they will think you are using VSCode.
+- [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - `[TS][LSP][L/D][Lua]` Material.nvim is a highly configurable colorscheme written in Lua and based on the material palette.
+- [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) - `[TS][LSP][Lua]` A dark midnight colorscheme with modern Neovim support including Tree-sitter.
+- [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - `[TS][LSP][Lua]` A dark charcoal colorscheme with modern Neovim support including Tree-sitter.
 - [ChristianChiarulli/nvcode-color-schemes.vim](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim) - `[TS]` Nvcode, onedark, nord colorschemes with Tree-sitter support.
-- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - `[TS][LSP][L/D][Plug][Lua]` A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
-- [comfysage/evergarden](https://github.com/comfysage/evergarden) - `[TS][LSP][L/D][Plug][Lua]` A comfy Neovim colorscheme for cozy morning coding.
-- [uhs-robert/oasis.nvim](https://github.com/uhs-robert/oasis.nvim) - `[TS][LSP][L/D][Plug][Lua]` Desert theme from Vim ported to Neovim and made modern with 12 variants, a collection of dark themes for every color of the rainbow.
-- [sainnhe/sonokai](https://github.com/sainnhe/sonokai) - `[TS][LSP][Plug]` High Contrast & Vivid Color Scheme based on Monokai Pro.
-- [nyoom-engineering/oxocarbon.nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) - `[TS][LSP][L/D][Plug][Lua]` A dark and light Neovim theme written in fennel, inspired by IBM Carbon.
-- [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next) - `[TS][L/D][Plug]` Oceanic Next theme.
+- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - `[TS][LSP][L/D][Lua]` A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
+- [comfysage/evergarden](https://github.com/comfysage/evergarden) - `[TS][LSP][L/D][Lua]` A comfy Neovim colorscheme for cozy morning coding.
+- [uhs-robert/oasis.nvim](https://github.com/uhs-robert/oasis.nvim) - `[TS][LSP][L/D][Lua]` Desert theme from Vim ported to Neovim and made modern with 12 variants, a collection of dark themes for every color of the rainbow.
+- [sainnhe/sonokai](https://github.com/sainnhe/sonokai) - `[TS][LSP]` High Contrast & Vivid Color Scheme based on Monokai Pro.
+- [nyoom-engineering/oxocarbon.nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) - `[TS][LSP][L/D][Lua]` A dark and light Neovim theme written in fennel, inspired by IBM Carbon.
+- [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next) - `[TS][L/D]` Oceanic Next theme.
 - [nvimdev/zephyr-nvim](https://github.com/nvimdev/zephyr-nvim) - `[TS][Lua]` A dark colorscheme with Tree-sitter support.
-- [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) - `[TS][Plug][Lua]` A colorscheme with handcrafted support for LSP, Tree-sitter.
-- [jim-at-jibba/ariake.nvim](https://github.com/jim-at-jibba/ariake.nvim) - `[TS][LSP][Plug][Lua]` A port of the great Atom theme. Beautiful, dark colour scheme.
+- [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) - `[TS][Lua]` A colorscheme with handcrafted support for LSP, Tree-sitter.
+- [jim-at-jibba/ariake.nvim](https://github.com/jim-at-jibba/ariake.nvim) - `[TS][LSP][Lua]` A port of the great Atom theme. Beautiful, dark colour scheme.
 - [Th3Whit3Wolf/onebuddy](https://github.com/Th3Whit3Wolf/onebuddy) - `[TS][L/D][Lua]` Light and dark atom one theme.
-- [ishan9299/modus-theme-vim](https://github.com/ishan9299/modus-theme-vim) - `[TS][L/D][Plug][Lua]` This is a color scheme developed by Protesilaos Stavrou for emacs.
-- [sainnhe/edge](https://github.com/sainnhe/edge) - `[TS][LSP][L/D][Plug]` Clean and Elegant Color Scheme inspired by Atom One and Material.
-- [bkegley/gloombuddy](https://github.com/bkegley/gloombuddy) - `[TS]` Gloom inspired theme.
-- [Th3Whit3Wolf/one-nvim](https://github.com/Th3Whit3Wolf/one-nvim) - `[TS]` An Atom One inspired dark and light colorscheme.
-- [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - `[TS]` A spacemacs inspired dark and light colorscheme.
-- [ray-x/aurora](https://github.com/ray-x/aurora) - `[TS]` A 24-bit dark theme with Tree-sitter and LSP support.
-- [ray-x/starry.nvim](https://github.com/ray-x/starry.nvim) - `[TS]` A collection of modern Neovim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald, earlysummer, middlenight_blue, darksolar.
-- [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) - `[TS]` Monokai theme written in Lua.
-- [ofirgall/ofirkai.nvim](https://github.com/ofirgall/ofirkai.nvim) - `[TS]` Monokai theme that aims to feel like Sublime Text.
-- [savq/melange-nvim](https://github.com/savq/melange-nvim) - `[TS]` Warm colorscheme written in Lua with support for various terminal emulators.
-- [RRethy/base16-nvim](https://github.com/RRethy/base16-nvim) - `[TS]` Neovim plugin for building base16 colorschemes. Includes support for Tree-sitter and LSP highlight groups.
-- [fenetikm/falcon](https://github.com/fenetikm/falcon) - `[TS]` A colour scheme for terminals, Vim and friends.
+- [ishan9299/modus-theme-vim](https://github.com/ishan9299/modus-theme-vim) - `[TS][L/D][Lua]` This is a color scheme developed by Protesilaos Stavrou for emacs.
+- [sainnhe/edge](https://github.com/sainnhe/edge) - `[TS][LSP][L/D]` Clean and Elegant Color Scheme inspired by Atom One and Material.
+- [bkegley/gloombuddy](https://github.com/bkegley/gloombuddy) - `[TS][Lua]` Gloom inspired theme.
+- [Th3Whit3Wolf/one-nvim](https://github.com/Th3Whit3Wolf/one-nvim) - `[TS][L/D][Lua]` An Atom One inspired dark and light colorscheme.
+- [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - `[TS][L/D][Lua]` A spacemacs inspired dark and light colorscheme.
+- [ray-x/aurora](https://github.com/ray-x/aurora) - `[TS][LSP][Lua]` A 24-bit dark theme with Tree-sitter and LSP support.
+- [ray-x/starry.nvim](https://github.com/ray-x/starry.nvim) - `[TS][LSP][L/D][Lua]` A collection of modern Neovim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald, earlysummer, middlenight_blue, darksolar.
+- [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) - `[TS][LSP][Lua]` Monokai theme written in Lua.
+- [ofirgall/ofirkai.nvim](https://github.com/ofirgall/ofirkai.nvim) - `[TS][LSP][Lua]` Monokai theme that aims to feel like Sublime Text.
+- [savq/melange-nvim](https://github.com/savq/melange-nvim) - `[TS][LSP][L/D][Lua]` Warm colorscheme written in Lua with support for various terminal emulators.
+- [fenetikm/falcon](https://github.com/fenetikm/falcon) - `[TS][Lua]` A colour scheme for terminals, Vim and friends.
 - [andersevenrud/nordic.nvim](https://github.com/andersevenrud/nordic.nvim) - `[TS]` A nord-esque colorscheme.
 - [AlexvZyl/nordic.nvim](https://github.com/AlexvZyl/nordic.nvim) - `[TS]` Nord for Neovim, but warmer and darker. Supports a variety of plugins and other platforms.
 - [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) - `[TS]` Neovim theme based off of the Nord Color Palette.
@@ -764,23 +762,23 @@ then it is not supported:
 - [ptdewey/darkearth-nvim](https://github.com/ptdewey/darkearth-nvim) - `[TS]` A dark and earthy colorscheme supporting Tree-sitter and LSP.
 - [uloco/bluloco.nvim](https://github.com/uloco/bluloco.nvim) - `[TS]` A fancy and sophisticated colorscheme for night and day coding. Supports LSP, Tree-sitter and all the plugins you love.
 - [slugbyte/lackluster.nvim](https://github.com/slugbyte/lackluster.nvim) - `[TS]` A delightful mostly grayscale colorscheme that is soft on the eyes, and supports heaps of plugins.
-- [0xstepit/flow.nvim](https://github.com/0xstepit/flow.nvim) - `[TS][L/D][Plug][Lua]` Carefully designed colors to help focusing during coding plus fluorescent details. Support many plugins and tools.
-- [samharju/serene.nvim](https://github.com/samharju/serene.nvim) - `[TS][Plug][Lua]` A soothing and dark Tree-sitter/LSP-supported theme for relaxing your eyes after using more vibrant colorschemes.
-- [killitar/obscure.nvim](https://github.com/killitar/obscure.nvim) - `[TS][LSP][Plug][Lua]` A pastel dark colorscheme inspired by the palette Mellow. Support Tree-sitter, LSP _(including semantic tokens)_ and lots of plugins.
-- [bakageddy/alduin.nvim](https://github.com/bakageddy/alduin.nvim) - `[TS][LSP][Plug][Lua]` A port of [alduin](https://github.com/AlessandroYorba/alduin) theme to Lua with Tree-sitter and semantic highlights support.
-- [diegoulloao/neofusion.nvim](https://github.com/diegoulloao/neofusion.nvim) - `[TS][LSP][Plug][Lua]` A theme compatible with Tree-sitter inspired by `gruvbox.nvim`.
-- [bartekjaszczak/luma-nvim](https://gitlab.com/bartekjaszczak/luma-nvim) - `[TS][LSP][L/D][Plug][Lua]` A colorful theme with dark/light modes and adjustable contrast. Supports Tree-sitter and semantic highlighting.
-- [bartekjaszczak/finale-nvim](https://gitlab.com/bartekjaszczak/finale-nvim) - `[TS][LSP][Plug][Lua]` A balanced dark theme, blending vivid and pastel colors for a comfortable, high-contrast experience. Supports Tree-sitter and semantic highlighting.
+- [0xstepit/flow.nvim](https://github.com/0xstepit/flow.nvim) - `[TS][L/D][Lua]` Carefully designed colors to help focusing during coding plus fluorescent details. Support many plugins and tools.
+- [samharju/serene.nvim](https://github.com/samharju/serene.nvim) - `[TS][Lua]` A soothing and dark Tree-sitter/LSP-supported theme for relaxing your eyes after using more vibrant colorschemes.
+- [killitar/obscure.nvim](https://github.com/killitar/obscure.nvim) - `[TS][LSP][Lua]` A pastel dark colorscheme inspired by the palette Mellow. Support Tree-sitter, LSP _(including semantic tokens)_ and lots of plugins.
+- [bakageddy/alduin.nvim](https://github.com/bakageddy/alduin.nvim) - `[TS][LSP][Lua]` A port of [alduin](https://github.com/AlessandroYorba/alduin) theme to Lua with Tree-sitter and semantic highlights support.
+- [diegoulloao/neofusion.nvim](https://github.com/diegoulloao/neofusion.nvim) - `[TS][LSP][Lua]` A theme compatible with Tree-sitter inspired by `gruvbox.nvim`.
+- [bartekjaszczak/luma-nvim](https://gitlab.com/bartekjaszczak/luma-nvim) - `[TS][LSP][L/D][Lua]` A colorful theme with dark/light modes and adjustable contrast. Supports Tree-sitter and semantic highlighting.
+- [bartekjaszczak/finale-nvim](https://gitlab.com/bartekjaszczak/finale-nvim) - `[TS][LSP][Lua]` A balanced dark theme, blending vivid and pastel colors for a comfortable, high-contrast experience. Supports Tree-sitter and semantic highlighting.
 - [m15a/nvim-srcerite](https://github.com/m15a/nvim-srcerite) - `[TS][Lua]` A colorscheme inspired by [Srcery](https://srcery.sh/), based on `nvim-highlite`.
-- [neko-night/nvim](https://github.com/neko-night/nvim) - `[TS][LSP][L/D][Plug][Lua]` A buffet of colorschemes for every taste and mood.
+- [neko-night/nvim](https://github.com/neko-night/nvim) - `[TS][LSP][L/D][Lua]` A buffet of colorschemes for every taste and mood.
 - [ptdewey/monalisa-nvim](https://github.com/ptdewey/monalisa-nvim) - `[TS][LSP][Lua]` A dark and colorful Mona Lisa inspired colorscheme.
-- [ntk148v/slack.nvim](https://github.com/ntk148v/slack.nvim) - `[TS][L/D][Plug][Lua]` A ported Slack colorscheme.
-- [y3owk1n/base16-pro-max.nvim](https://github.com/y3owk1n/base16-pro-max.nvim) - `[TS][LSP][Plug][Lua]` Base16 for modern Neovim — not just colors.
-- [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - `[TS][LSP][L/D][Plug][Lua]` Gruvbox community colorscheme Lua port.
+- [ntk148v/slack.nvim](https://github.com/ntk148v/slack.nvim) - `[TS][L/D][Lua]` A ported Slack colorscheme.
+- [y3owk1n/base16-pro-max.nvim](https://github.com/y3owk1n/base16-pro-max.nvim) - `[TS][LSP][Lua]` Base16 for modern Neovim — not just colors.
+- [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - `[TS][LSP][L/D][Lua]` Gruvbox community colorscheme Lua port.
 - [pmouraguedes/neodarcula.nvim](https://github.com/pmouraguedes/neodarcula.nvim) - `[TS][LSP][Lua]` A dark theme with support for transparency, dimming, LSP semantic tokens and more.
-- [jpwol/thorn.nvim](https://github.com/jpwol/thorn.nvim) - `[TS][LSP][L/D][Plug][Lua]` A rich green theme with dark and light options. Supports LSP, transparency, many plugins, and more.
-- [calind/selenized.nvim](https://github.com/calind/selenized.nvim) - `[TS][LSP][L/D][Plug][Lua]` Lua port of [selenized](https://github.com/jan-warchol/selenized) with support for Tree-sitter, `nvim-cmp`, GitSigns, and more.
-- [motaz-shokry/gruvbox.nvim](https://gitlab.com/motaz-shokry/gruvbox.nvim) - `[TS][L/D][Plug][Lua]` A new gruvbox theme with a different background color for the hard variant, and comes with 4 variants.
+- [jpwol/thorn.nvim](https://github.com/jpwol/thorn.nvim) - `[TS][LSP][L/D][Lua]` A rich green theme with dark and light options. Supports LSP, transparency, many plugins, and more.
+- [calind/selenized.nvim](https://github.com/calind/selenized.nvim) - `[TS][LSP][L/D][Lua]` Lua port of [selenized](https://github.com/jan-warchol/selenized) with support for Tree-sitter, `nvim-cmp`, GitSigns, and more.
+- [motaz-shokry/gruvbox.nvim](https://gitlab.com/motaz-shokry/gruvbox.nvim) - `[TS][L/D][Lua]` A new gruvbox theme with a different background color for the hard variant, and comes with 4 variants.
 - [pebeto/dookie.nvim](https://github.com/pebeto/dookie.nvim) - `[TS][Lua]` A color scheme inspired by Plan9's acme editor.
 
 ### Lua Colorscheme
@@ -792,6 +790,7 @@ These colorschemes may not specialize in Tree-sitter directly but are written in
 
 ### Colorscheme Creation
 
+- [RRethy/base16-nvim](https://github.com/RRethy/base16-nvim) - A base16 colorscheme builder. Includes support for Tree-sitter and LSP highlight groups.
 - [tjdevries/colorbuddy.nvim](https://github.com/tjdevries/colorbuddy.nvim) - A colorscheme helper. Written in Lua! Quick & Easy Color Schemes.
 - [norcalli/nvim-base16.lua](https://github.com/norcalli/nvim-base16.lua) - Programmatic Lua library for setting base16 themes.
 - [rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim) - Define Neovim themes as a DSL in Lua, with real-time feedback.
