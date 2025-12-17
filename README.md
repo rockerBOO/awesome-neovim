@@ -682,7 +682,6 @@ then it is not supported:
 - [Th3Whit3Wolf/onebuddy](https://github.com/Th3Whit3Wolf/onebuddy) - `[TS][L/D][Lua]` Light and dark atom one theme.
 - [ishan9299/modus-theme-vim](https://github.com/ishan9299/modus-theme-vim) - `[TS][L/D][Plug][Lua]` This is a color scheme developed by Protesilaos Stavrou for emacs.
 - [sainnhe/edge](https://github.com/sainnhe/edge) - `[TS][LSP][L/D][Plug]` Clean and Elegant Color Scheme inspired by Atom One and Material.
-- [theniceboy/nvim-deus](https://github.com/theniceboy/nvim-deus) - `[TS]` Vim-deus with Tree-sitter support.
 - [bkegley/gloombuddy](https://github.com/bkegley/gloombuddy) - `[TS]` Gloom inspired theme.
 - [Th3Whit3Wolf/one-nvim](https://github.com/Th3Whit3Wolf/one-nvim) - `[TS]` An Atom One inspired dark and light colorscheme.
 - [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) - `[TS]` A spacemacs inspired dark and light colorscheme.
