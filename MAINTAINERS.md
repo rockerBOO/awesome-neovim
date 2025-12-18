@@ -63,7 +63,7 @@ gh auth login
 
 ### Example PRs
 
-These PR's just show some of the flow how should all the tests pass.
+These PR's just show some of the flow on how should all the tests pass.
 Review with specifics to change.
 
 - https://github.com/rockerBOO/awesome-neovim/pull/1579
@@ -113,7 +113,7 @@ Any new plugin intended to be added to this repository must fit the following cr
   or the `Apache 2.0` have to be recommended to the plugin author.
 - **Should have a quality README** - The file must include sufficiently detailed installation/usage
   instructions.
-- **Should be actively maintained** - Prefferably it should have recent commits.
+- **Should be actively maintained** - Preferably it should have recent commits.
 
 ### Common Issues and Fixes
 
