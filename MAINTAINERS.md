@@ -63,7 +63,7 @@ gh auth login
 
 ### Example PRs
 
-These PR's just show some of the flow on how should all the tests pass.
+These PRs just show some of the flow on how should all the tests pass.
 Review with specifics to change.
 
 - https://github.com/rockerBOO/awesome-neovim/pull/1579
@@ -86,13 +86,13 @@ Review with specifics to change.
 
 ### Manual Commands
 
-To get overview of all open PR's:
+To get overview of all open PRs:
 
 ```bash
 ./scripts/batch_pr_compliance.sh $(gh pr list --state open --limit 20 --json number --jq '.[].number | tostring' | tr '\n' ' ')
 ```
 
-To analyze the repository quality for specific PR's:
+To analyze the repository quality for specific PRs:
 
 ```bash
 ./scripts/batch_pr_readme_review.sh <PR_numbers>
@@ -156,7 +156,7 @@ Thanks! Please fix:
 
 - **NEVER CLONE SUSPICIOUS CODE!**
 - **CLOSE MALICIOUS PRs IMMEDIATELY!**
-- **REPORT ANY SUSPECTED PR's!**
+- **REPORT ANY SUSPECTED PRs!**
 
 ---
 
