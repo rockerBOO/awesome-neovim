@@ -1731,8 +1731,7 @@ then it is not supported:
 ## Workflow
 
 <!-- lint disable double-link -->
-
-- [kuri-sun/comment-graph.nvim](https://github.com/kuri-sun/comment-graph.nvim) - Neovim plugin for [comment-graph](https://github.com/kuri-sun/comment-graph) that makes your codebase traceable at a glance.
+- [kuri-sun/comment-graph.nvim](https://github.com/kuri-sun/comment-graph.nvim) - Integration with [comment-graph](https://github.com/kuri-sun/comment-graph) that makes your codebase traceable at a glance.
 <!-- lint enable double-link -->
 - [letieu/jira.nvim](https://github.com/letieu/jira.nvim) - Manage Jira tasks with a beautiful UI.
 - [m4xshen/hardtime.nvim](https://github.com/m4xshen/hardtime.nvim) - Helping you establish good command workflow and habit.
