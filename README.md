@@ -1,18 +1,11 @@
 # Awesome Neovim [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-<a href="https://neovim.io/">
-<img
-src="https://neovim.io/logos/neovim-mark-flat.png"
-align="right"
-width="144"
-/>
-</a>
+<a href="https://neovim.io/"><img src="https://neovim.io/logos/neovim-mark-flat.png" align="right" width="144"/></a>
 
 > A collection of awesome Neovim plugins. Mostly targeting Neovim specific features.
 > This means Vim-compatible plugins are not listed here.
 
-[Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability,
-to encourage new applications and contributions.
+[Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions.
 
 ## Contents
 
@@ -306,7 +299,7 @@ to encourage new applications and contributions.
 - [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) - Everything you need for a painless Java experience.
 - [kiyoon/python-import.nvim](https://github.com/kiyoon/python-import.nvim) - Add Python import statements with Tree-sitter, LSP, and more.
 - [kiyoon/haskell-scope-highlighting.nvim](https://github.com/kiyoon/haskell-scope-highlighting.nvim) - Haskell syntax highlighting which considers variable scopes. Inspired from "Context Coloring" by prof. Douglas Crockford.
-- [apyra/nvim-unity.nvim](https://github.com/apyra/nvim-unity) - Unity editing with full LSP support via OmniSharp.
+- [apyra/nvim-unity.nvim](https://github.com/apyra/nvim-unity) - Use Neovim as your default Unity editor with full LSP support via OmniSharp.
 - [atomicptr/defold.nvim](https://github.com/atomicptr/defold.nvim) - Batteries-included development environment for the Defold game engine.
 - [onlyati/quadlet-lsp.nvim](https://github.com/onlyati/quadlet-lsp.nvim) - Provides completion, hover and other language server features for Podman Quadlet files.
 - [leblocks/hopcsharp.nvim](https://github.com/leblocks/hopcsharp.nvim) - Provides LSP-less navigation and type-hierarchy information in C# repositories.
@@ -524,7 +517,7 @@ to encourage new applications and contributions.
 - [wurli/visimatch.nvim](https://github.com/wurli/visimatch.nvim) - Adds highlights to any text matching the current selection in visual mode.
 - [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) - Helps you better glance searched information, seamlessly jump matched instances.
 - [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) - Highlights the current /, ? or \* match under your cursor when pressing n or N and gets out of the way afterwards.
-- [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) - Space Age seD. Batch file edit tool, a wrapper for [sad](https://github.com/ms-jpq/sad)
+- [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) - Space Age seD integration. Batch file edit tool, a wrapper for [sad](https://github.com/ms-jpq/sad)
 - [s1n7ax/nvim-search-and-replace](https://github.com/s1n7ax/nvim-search-and-replace) - Search and replace in multiple files at the same time from the current working directory.
 - [AckslD/muren.nvim](https://github.com/AckslD/muren.nvim/) - Multiple replacements through interactive UI.
 - [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre) - Search and replace panel.
@@ -620,7 +613,7 @@ to encourage new applications and contributions.
 - [LucasTavaresA/headers.nvim](https://github.com/LucasTavaresA/headers.nvim) - Zero-config header/footer warnings.
 - [zongben/proot.nvim](https://github.com/zongben/proot.nvim) - Lightweight project navigator with telescope.
 - [wsdjeg/rooter.nvim](https://github.com/wsdjeg/rooter.nvim) - Change working directory to project root.
-- [mrjones2014/codesettings.nvim](https://github.com/mrjones2014/codesettings.nvim) - Load project-local settings (like `.vscode/settings.json`) into native LSP settings easily.
+- [mrjones2014/codesettings.nvim](https://github.com/mrjones2014/codesettings.nvim) - Easily load project-local settings (like `.vscode/settings.json`) into Neovim 0.11+ native LSP settings.
 
 <!--lint disable double-link -->
 
