@@ -98,10 +98,9 @@
 <!--lint enable double-link -->
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - A modern plugin manager, featuring a graphical interface, async execution, a lockfile and more.
 - [alex-popov-tech/store.nvim](https://github.com/alex-popov-tech/store.nvim) - Plugins discovery tool with hourly updated database, and one-key installation for `lazy.nvim` and `vim.pack`.
-- [nvim-neorocks/rocks.nvim](https://github.com/nvim-neorocks/rocks.nvim) - A modern approach to plugin management using Luarocks, inspired by Cargo.
+- [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) - A modern approach to plugin management using Luarocks, inspired by Cargo.
 - [nvim-mini/mini.nvim#mini.deps](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-deps.md) - Module of `mini.nvim` for managing other plugins. Uses Git and built-in packages to install, update, clean, and snapshot plugins.
 - [wsdjeg/nvim-plug](https://github.com/wsdjeg/nvim-plug) - Asynchronous plugin manager written in Lua.
-- [alyxshang/nuwa.nvim](https://github.com/alyxshang/nuwa.nvim) - A light package manager.
 - [piersolenski/plugin-addict.nvim](https://github.com/piersolenski/plugin-addict.nvim) - A stupidly simple way to quickly install plugins.
 - [synapse.nvim](https://github.com/OriginCoderPulse/synapse.nvim) - A modern, lightweight plugin manager with beautiful UI, intelligent dependency management, tag/branch support, and post-install command execution.
 - [zuqini/zpack.nvim](https://github.com/zuqini/zpack.nvim) - A thin layer on top of `vim.pack` to support lazy-loading and `lazy.nvim`'s declarative spec.
@@ -184,7 +183,7 @@
 
 ### LSP Installer
 
-- [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) - Portable package manager that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.
+- [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) - Portable package manager that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.
 
 ### Diagnostics
 
@@ -678,7 +677,7 @@ then it is not supported:
 - [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - **_`[TS][LSP][Lua]`_** A dark charcoal colorscheme with Tree-sitter support.
 - [ChristianChiarulli/nvcode-color-schemes.vim](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim) - **_`[TS]`_** Nvcode, onedark, nord colorschemes with Tree-sitter support.
 - [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - **_`[TS][LSP][L/D][Lua]`_** A clean, dark and light theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
-- [comfysage/evergarden](https://github.com/comfysage/evergarden) - **_`[TS][LSP][L/D][Lua]`_** A comfy colorscheme for cozy morning coding.
+- [everviolet/nvim](https://github.com/everviolet/nvim) - **_`[TS][LSP][L/D][Lua]`_** A comfy colorscheme for cozy morning coding.
 - [uhs-robert/oasis.nvim](https://github.com/uhs-robert/oasis.nvim) - **_`[TS][LSP][L/D][Lua]`_** Desert theme from Vim ported to Neovim and made modern with 12 variants, a collection of dark themes for every color of the rainbow.
 - [sainnhe/sonokai](https://github.com/sainnhe/sonokai) - **_`[TS][LSP]`_** High Contrast & Vivid Color Scheme based on Monokai Pro.
 - [nyoom-engineering/oxocarbon.nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) - **_`[TS][LSP][L/D][Lua]`_** A dark and light theme written in fennel, inspired by IBM Carbon.
@@ -1258,7 +1257,7 @@ then it is not supported:
 ## Neovim Lua Development
 
 - [folke/lazydev.nvim](https://github.com/folke/lazydev.nvim) - Faster LuaLS setup.
-- [nvim-neorocks/luarocks-tag-release](https://github.com/nvim-neorocks/luarocks-tag-release) - A GitHub action that publishes your Neovim plugins to LuaRocks.
+- [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) - A GitHub action that publishes your Neovim plugins to LuaRocks.
 - [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) - Commands to help write your .vimrc in Lua or any Lua based language.
 - [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim) - Plenary: full; complete; entire; absolute; unqualified. All the Lua functions I don't want to write twice.
 - [tjdevries/vlog.nvim](https://github.com/tjdevries/vlog.nvim) - Single file, no dependency, easy copy & paste log file to add to your Neovim Lua plugins.
