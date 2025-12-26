@@ -673,7 +673,7 @@ then it is not supported:
 - [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - **_`[TS][LSP][Lua]`_** A dark charcoal colorscheme with modern Neovim support including Tree-sitter.
 - [ChristianChiarulli/nvcode-color-schemes.vim](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim) - **_`[TS]`_** Nvcode, onedark, nord colorschemes with Tree-sitter support.
 - [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - **_`[TS][LSP][L/D][Lua]`_** A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
-- [comfysage/evergarden](https://github.com/comfysage/evergarden) - **_`[TS][LSP][L/D][Lua]`_** A comfy Neovim colorscheme for cozy morning coding.
+- [everviolet/nvim](https://github.com/everviolet/nvim) - **_`[TS][LSP][L/D][Lua]`_** A comfy Neovim colorscheme for cozy morning coding.
 - [uhs-robert/oasis.nvim](https://github.com/uhs-robert/oasis.nvim) - **_`[TS][LSP][L/D][Lua]`_** Desert theme from Vim ported to Neovim and made modern with 12 variants, a collection of dark themes for every color of the rainbow.
 - [sainnhe/sonokai](https://github.com/sainnhe/sonokai) - **_`[TS][LSP]`_** High Contrast & Vivid Color Scheme based on Monokai Pro.
 - [nyoom-engineering/oxocarbon.nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) - **_`[TS][LSP][L/D][Lua]`_** A dark and light Neovim theme written in fennel, inspired by IBM Carbon.
