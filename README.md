@@ -973,6 +973,7 @@ then it is not supported:
 - [ymich9963/mdnotes.nvim](https://github.com/ymich9963/mdnotes.nvim) - Simple and improved Markdown note taking.
 - [nbeversl/urtext_neovim](https://github.com/nbeversl/urtext_neovim) - An implementation of Urtext.
 - [losch/ztl](https://codeberg.org/losch/ztl) - A fast static note generator in a single binary with everything built-in.
+- [stikypiston/studytools.nvim](https://github.com/stikypiston/studytools.nvim) - Various utilities to enhance the studying and note-taking experience.
 <!--lint disable double-link -->
 
 [**⬆ back to top**](#contents)
