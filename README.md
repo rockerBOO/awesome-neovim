@@ -1710,9 +1710,6 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 
 ## UI
 
-Neovim supports a wide variety of UI's.
-You can find them listed on the [Neovim wiki](https://github.com/neovim/neovim/wiki/Related-projects#gui)
-
 - [OXY2DEV/ui.nvim](https://github.com/OXY2DEV/ui.nvim) - A blueprint/template/guide for customizing the UI.
 - [mcauley-penney/visual-whitespace.nvim](https://github.com/mcauley-penney/visual-whitespace.nvim) - See whitespace characters in Visual selections, like VSCode.
 - [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) - Pretty and minimal buffer switcher window.
