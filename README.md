@@ -1704,6 +1704,7 @@ These tools are used externally to Neovim to enhance the experience.
 - [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) - Another Neovim plugin template, using GitHub's template feature.
 - [2KAbhishek/template.nvim](https://github.com/2KAbhishek/template.nvim) - Opinionated template for starting plugin dev quickly.
 - [jkeresman01/spring-initializr.nvim](https://github.com/jkeresman01/spring-initializr.nvim) - Scaffold Spring Boot projects with a Telescope-powered UI.
+- [DrKJeff16/nvim-plugin-boilerplate](https://github.com/DrKJeff16/nvim-plugin-boilerplate) - A template for new plugins with dynamic setup, annotations and CI utilities.
 
 ### OS-specific
 
