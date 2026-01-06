@@ -1,9 +1,17 @@
+<!--
+PLEASE make sure to read the CONTRIBUTING.md file!
+https://github.com/rockerBOO/awesome-neovim/blob/main/CONTRIBUTING.md
+-->
+
 ### Repo URL:
 
 https://github.com/...
 
 ### Checklist:
 
+<!-- Is your plugin a colorscheme? Then uncomment this section (and remove this line).
+- [ ] The plugin is a colorscheme and has been properly tagged.
+-->
 - [ ] The plugin is specifically built for Neovim.
 - [ ] The plugin is licensed.
 - [ ] The lines end with a `.`. This is to conform to `awesome-list` linting and requirements.
