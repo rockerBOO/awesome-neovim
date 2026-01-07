@@ -101,7 +101,7 @@
 - [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) - A configuration switcher written in Lua. Inspired by [chemacs](https://github.com/plexus/chemacs).
 <!--lint enable double-link -->
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - A modern plugin manager, featuring a graphical interface, async execution, a lockfile and more.
-- [cosmicbuffalo/super_lazy.nvim](https://github.com/cosmicbuffalo/super_lazy.nvim) - An extension to `folke`'s `lazy.nvim`, enables use of multiple lockfiles for large teams that want to combine shared/personal Neovim configurations.
+  - [cosmicbuffalo/super_lazy.nvim](https://github.com/cosmicbuffalo/super_lazy.nvim) - An extension to `folke`'s `lazy.nvim`, enables use of multiple lockfiles for large teams that want to combine shared/personal Neovim configurations.
 - [alex-popov-tech/store.nvim](https://github.com/alex-popov-tech/store.nvim) - Plugins discovery tool with hourly updated database, and one-key installation for `lazy.nvim` and `vim.pack`.
 - [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) - A modern approach to plugin management using Luarocks, inspired by Cargo.
 - [nvim-mini/mini.nvim#mini.deps](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-deps.md) - Module of `mini.nvim` for managing other plugins. Uses Git and built-in packages to install, update, clean, and snapshot plugins.
