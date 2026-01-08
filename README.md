@@ -634,6 +634,7 @@ then it is not supported:
 - **_`[Fnl]`_** - Is written in Fennel.
 <!--lint enable awesome-list-item-->
 
+- [serhez/teide.nvim](https://github.com/serhez/teide.nvim) - **_`[TS][LSP][L/D][Lua]`_** A fork of folke's `tokyonight.nvim` with a different color palette.
 - [kuri-sun/yoda.nvim](https://github.com/kuri-sun/yoda.nvim) - **_`[TS][LSP][L/D][Lua]`_** Muted green palette for focused, balanced editing.
 - [wurli/cobalt.nvim](https://github.com/wurli/cobalt.nvim) - **_`[TS][LSP][Lua]`_** A (mostly) faithful port of the classic blue theme from TextMate.
 - [datsfilipe/min-theme.nvim](https://github.com/datsfilipe/min-theme.nvim) - **_`[TS][LSP][Lua]`_** It's a port of Min, a minimal theme for VSCode, written in Lua.
