@@ -1194,6 +1194,7 @@ then it is not supported:
 - [piersolenski/import.nvim](https://github.com/piersolenski/import.nvim) - Import modules faster based on what you've already imported in your project.
 - [Silletr/LazyDeveloperHelper](https://github.com/Silletr/LazyDeveloperHelper) - Python dependencies manager, with auto-adding to your `requirements.txt` file.
 - [JesperLundberg/projektgunnar.nvim](https://github.com/JesperLundberg/projektgunnar.nvim) - C# dependency manager with support for handling references between projects and solution files.
+- [cosmicbuffalo/gem_install.nvim](https://github.com/cosmicbuffalo/gem_install.nvim) - Install Ruby gems, trigger `bundle install` and `gem install` with progress and caching to prevent retries when installs fail.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
