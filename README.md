@@ -335,6 +335,7 @@
 - [Kenzo-Wada/boundary.nvim](https://github.com/Kenzo-Wada/boundary.nvim) - Display `'use client'` markers inline in your JSX code to visualize client component boundaries.
 - [abidibo/nvim-httpyac](https://github.com/abidibo/nvim-httpyac) - Provides integration with `httpYac`.
 - [rodrigoscc/nurl.nvim](https://github.com/rodrigoscc/nurl.nvim) - HTTP client with requests defined in pure Lua.
+- [cjodo/convert.nvim](https://github.com/cjodo/convert.nvim) - Helps with CSS unit conversions.
 
 ### Markdown and LaTeX
 
