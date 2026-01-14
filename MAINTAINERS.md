@@ -29,6 +29,7 @@ a welcoming contributor experience.
     - [Common Issues and Fixes](#common-issues-and-fixes)
     - [Quick Templates](#quick-templates)
 - [Special Cases](#special-cases)
+    - [Colorschemes](#colorschemes)
     - [Unlicensed Repositories](#unlicensed-repositories)
     - [Duplicates](#duplicates)
     - [Security](#security)
@@ -141,6 +142,73 @@ Thanks! Please fix:
 ```
 
 ## Special Cases
+
+### Colorschemes
+
+Since [#2044](https://github.com/rockerBOO/awesome-neovim/pull/2044) our approach regarding
+colorschemes has changed into a tagging system (see [the Colorscheme section](https://github.com/rockerBOO/awesome-neovim#colorscheme)):
+
+- **_`[TS]`_** - Has Tree-sitter highlighting.
+- **_`[LSP]`_** - Has LSP Semantic Tokens support.
+- **_`[L/D]`_** - Has both "light" and "dark" variants.
+- **_`[Lua]`_** - Is written in Lua.
+- **_`[Fnl]`_** - Is written in Fennel.
+
+For the `[LSP]` tag to be added you must make sure that the colorscheme has highlights for
+Semantic Tokens.
+
+As detailed in the following [example from `folke/tokyonight.nvim`](https://github.com/folke/tokyonight.nvim/blob/main/lua/tokyonight/groups/semantic_tokens.lua), highlight groups for
+LSP Semantic Tokens MUST start with `@lsp.`:
+
+<details>
+<summary><b>Example</b></summary>
+
+```lua
+{
+  ["@lsp.type.boolean"]                      = "@boolean",
+  ["@lsp.type.builtinType"]                  = "@type.builtin",
+  ["@lsp.type.comment"]                      = "@comment",
+  ["@lsp.type.decorator"]                    = "@attribute",
+  ["@lsp.type.deriveHelper"]                 = "@attribute",
+  ["@lsp.type.enum"]                         = "@type",
+  ["@lsp.type.enumMember"]                   = "@constant",
+  ["@lsp.type.escapeSequence"]               = "@string.escape",
+  ["@lsp.type.formatSpecifier"]              = "@markup.list",
+  ["@lsp.type.generic"]                      = "@variable",
+  -- ...
+  ["@lsp.type.keyword"]                      = "@keyword",
+  ["@lsp.type.lifetime"]                     = "@keyword.storage",
+  ["@lsp.type.namespace"]                    = "@module",
+  ["@lsp.type.namespace.python"]             = "@variable",
+  ["@lsp.type.number"]                       = "@number",
+  ["@lsp.type.operator"]                     = "@operator",
+  ["@lsp.type.parameter"]                    = "@variable.parameter",
+  ["@lsp.type.property"]                     = "@property",
+  ["@lsp.type.selfKeyword"]                  = "@variable.builtin",
+  ["@lsp.type.selfTypeKeyword"]              = "@variable.builtin",
+  ["@lsp.type.string"]                       = "@string",
+  ["@lsp.type.typeAlias"]                    = "@type.definition",
+  -- ...
+  ["@lsp.typemod.class.defaultLibrary"]      = "@type.builtin",
+  ["@lsp.typemod.enum.defaultLibrary"]       = "@type.builtin",
+  ["@lsp.typemod.enumMember.defaultLibrary"] = "@constant.builtin",
+  ["@lsp.typemod.function.defaultLibrary"]   = "@function.builtin",
+  ["@lsp.typemod.keyword.async"]             = "@keyword.coroutine",
+  ["@lsp.typemod.keyword.injected"]          = "@keyword",
+  ["@lsp.typemod.macro.defaultLibrary"]      = "@function.builtin",
+  ["@lsp.typemod.method.defaultLibrary"]     = "@function.builtin",
+  ["@lsp.typemod.operator.injected"]         = "@operator",
+  ["@lsp.typemod.string.injected"]           = "@string",
+  ["@lsp.typemod.struct.defaultLibrary"]     = "@type.builtin",
+  -- ...
+  ["@lsp.typemod.variable.callable"]         = "@function",
+  ["@lsp.typemod.variable.defaultLibrary"]   = "@variable.builtin",
+  ["@lsp.typemod.variable.injected"]         = "@variable",
+  ["@lsp.typemod.variable.static"]           = "@constant",
+}
+```
+
+</details>
 
 ### Unlicensed Repositories
 

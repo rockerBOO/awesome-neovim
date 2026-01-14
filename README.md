@@ -319,6 +319,7 @@
 ### YAML
 
 - [cuducos.me/yaml.nvim](https://tangled.org/cuducos.me/yaml.nvim) - Utils to work with YAML files.
+- [mosheavni/yaml-companion.nvim](https://github.com/mosheavni/yaml-companion.nvim) - Automatic schema detection and selection for YAML files with `yaml-language-server`, including built-in Kubernetes support.
 
 ### Web Development
 
@@ -326,7 +327,6 @@
 - [lima1909/resty.nvim](https://github.com/lima1909/resty.nvim) - Fast and easy-to-use HTTP-Rest-Client.
 - [mistweaverco/kulala.nvim](https://github.com/mistweaverco/kulala.nvim) - A minimal HTTP-client interface.
 - [heilgar/nvim-http-client](https://github.com/heilgar/nvim-http-client) - Easy to use HTTP client with IntelliJ (JetBrains) HTTP client syntax compatibility.
-- [luckasRanarison/tailwind-tools.nvim](https://github.com/luckasRanarison/tailwind-tools.nvim) - Unofficial Tailwind CSS tooling.
 - [farias-hecdin/CSSVarViewer](https://github.com/farias-hecdin/CSSVarViewer) - Easily visualize the content of your CSS variables in a virtual text.
 - [farias-hecdin/CSSVarHighlight](https://github.com/farias-hecdin/CSSVarHighlight) - Quickly highlight the color you defined in your CSS variables with the help of `mini.hipatterns`.
 - [mawkler/jsx-element.nvim](https://github.com/mawkler/jsx-element.nvim) - JSX/TSX text-objects and motions.
@@ -362,7 +362,6 @@
 - [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) - A hackable Markdown, Typst, LaTeX, HTML (inline) and YAML renderer.
 - [Kicamon/markdown-table-mode.nvim](https://github.com/Kicamon/markdown-table-mode.nvim) - Markdown format plugin like vim-table-mode but write in Lua.
 - [SCJangra/table-nvim](https://github.com/SCJangra/table-nvim) - A Markdown table editor that formats the table as you type.
-- [brianhuster/live-preview.nvim](https://github.com/brianhuster/live-preview.nvim) - Live preview HTML, Markdown and Asciidoc in the browser.
 - [timantipov/md-table-tidy.nvim](https://github.com/timantipov/md-table-tidy.nvim) - Simple Markdown tables formatting.
 - [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) - Telescope extension to search and paste BibTeX entries into your TeX files.
 - [Thiago4532/mdmath.nvim](https://github.com/Thiago4532/mdmath.nvim) - A Markdown equation previewer, using Kitty Graphics Protocol.
@@ -1019,6 +1018,7 @@ then it is not supported:
 - [rachartier/tiny-glimmer.nvim](https://github.com/rachartier/tiny-glimmer.nvim/) - Adds subtle animations to various operations.
 - [y3owk1n/undo-glow.nvim](https://github.com/y3owk1n/undo-glow.nvim/) - Animated glow/highlight effects for editing operations (undo, redo, yank, paste, etc.) with fully customizable animations and appearance.
 - [gen740/SmoothCursor.nvim](https://github.com/gen740/SmoothCursor.nvim) - Add fancy sub-cursor to signcolumn to show your scroll or jump direction.
+- [stikypiston/smudge.nvim](https://github.com/stikypiston/smudge.nvim) - Performant cursor animations.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1106,6 +1106,7 @@ then it is not supported:
 - [zkucekovic/tdd.nvim](https://github.com/zkucekovic/tdd.nvim) - Opens or creates the matching PHPUnit test file for a given class, based on PSR-4 namespace mappings.
 - [nvim-neotest/neotest-jest](https://github.com/nvim-neotest/neotest-jest) - Neotest adapter for running Jest tests.
 - [MisanthropicBit/neotest-busted](https://github.com/MisanthropicBit/neotest-busted) - Neotest adapter for running busted tests using Neovim as a Lua interpreter.
+- [mr-u0b0dy/crazy-coverage.nvim](https://github.com/mr-u0b0dy/crazy-coverage.nvim) - Display code coverage.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1545,6 +1546,7 @@ then it is not supported:
 
 - [hat0uma/prelive.nvim](https://github.com/hat0uma/prelive.nvim) - A simple luv-based development server with live reloading.
 - [hat0uma/doxygen-previewer.nvim](https://github.com/hat0uma/doxygen-previewer.nvim) - Live previewing of Doxygen documentation.
+- [brianhuster/live-preview.nvim](https://github.com/brianhuster/live-preview.nvim) - Live preview HTML, Markdown and Asciidoc in the browser.
 - [SUSTech-data/neopyter](https://github.com/SUSTech-data/neopyter) - Edit in Neovim and preview/run in Jupyter Lab.
 - [kiyoon/jupynium.nvim](https://github.com/kiyoon/jupynium.nvim) - Selenium-automated Jupyter Notebook that is synchronised with Neovim in real-time.
 - [gruvw/strudel.nvim](https://github.com/gruvw/strudel.nvim) - Live coding controller for [strudel](https://strudel.cc).
@@ -1705,6 +1707,7 @@ These tools are used externally to Neovim to enhance the experience.
 - [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) - Another Neovim plugin template, using GitHub's template feature.
 - [2KAbhishek/template.nvim](https://github.com/2KAbhishek/template.nvim) - Opinionated template for starting plugin dev quickly.
 - [jkeresman01/spring-initializr.nvim](https://github.com/jkeresman01/spring-initializr.nvim) - Scaffold Spring Boot projects with a Telescope-powered UI.
+- [DrKJeff16/nvim-plugin-boilerplate](https://github.com/DrKJeff16/nvim-plugin-boilerplate) - A documented template for new plugins generated by a script. Includes tests, CI utilities, etc.
 
 ### OS-specific
 
@@ -1739,6 +1742,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [LukasPietzschmann/telescope-tabs](https://github.com/LukasPietzschmann/telescope-tabs) - Quickly navigate between tabs using telescope.
 - [ariel-frischer/bmessages.nvim](https://github.com/ariel-frischer/bmessages.nvim) - Replace the default `:messages` window with a configurable, auto-updating buffer.
 - [markgandolfo/lightswitch.nvim](https://github.com/markgandolfo/lightswitch.nvim) - Toggle various options using the `nui.nvim` library.
+- [wsdjeg/calendar.nvim](https://github.com/wsdjeg/calendar.nvim) - A simple floating calendar with extensions support.
 
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
