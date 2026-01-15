@@ -29,9 +29,9 @@ When submitting a Pull Request make sure to cover all of the following points:
 - Ensure your changes follow the [awesome list guidelines][guidelines].
 - Ensure the plugin you're requesting meets our [acceptance criteria][criteria].
 - Ensure your Pull Request title follows the [regexp rule][regexp_rule] (``` Add|Update|Remove `username/repo` ```).
-- Ensure all acronyms ("YAML", "LaTeX", "TOML", "INI", "JSON", etc.) are correctly written.
+- Ensure all acronyms ("YAML", "TOML", "INI", "JSON", etc.) are correctly written.
 - Avoid using emojis in your description.
-- Avoid any mentions of the word "plugin" and "Neovim" if not absolutely necessary.
+- Avoid any mentions of the word "plugin" and "Neovim" unless absolutely necessary.
   - If needed, please make sure you write "Neovim" correctly in your description.
     These will be rejected: "nvim", "Nvim", "NeoVim", "(Neo)Vim", etc.
 
