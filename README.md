@@ -948,6 +948,7 @@ then it is not supported:
 - [nbeversl/urtext_neovim](https://github.com/nbeversl/urtext_neovim) - An implementation of Urtext.
 - [losch/ztl](https://codeberg.org/losch/ztl) - A fast static note generator in a single binary with everything built-in.
 - [stikypiston/studytools.nvim](https://github.com/stikypiston/studytools.nvim) - Various utilities to enhance the studying and note-taking experience.
+- [iwe-org/iwe.nvim](https://github.com/iwe-org/iwe.nvim) - Integration with `IWE`, an LSP designed for Markdown-based knowledge management and note-taking workflows.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
