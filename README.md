@@ -699,6 +699,7 @@ then it is not supported:
 <!--lint enable awesome-spell-check-->
 - [zenbones-theme/zenbones.nvim](https://github.com/zenbones-theme/zenbones.nvim) - **_`[TS][LSP][L/D][Lua]`_** A collection of Vim/Neovim colorschemes designed to highlight code using contrasts and font variations.
 - [catppuccin/nvim](https://github.com/catppuccin/nvim) - **_`[TS][LSP][L/D][Lua]`_** Warm mid-tone dark theme to show off your vibrant self! With support for native LSP, Tree-sitter, and more.
+- [samesense/savitsky.nvim](https://github.com/samesense/savitsky.nvim) - **_`[TS][LSP][L/D][Lua]`_** Curated color palettes inspired by paintings from the Savitsky Museum, built on top of `catppuccin`.
 - [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) - **_`[TS][L/D]`_** A dark, yet vibrant colorscheme.
 - [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) - **_`[TS][LSP][L/D][Lua]`_** A soft dark, fully customizable colorscheme with support for LSP, Tree-sitter and a variety of plugins.
 - [ldelossa/vimdark](https://github.com/ldelossa/vimdark) - **_`[TS][L/D]`_** A minimal Vim theme for night time. Loosely based on vim-monotonic and chrome's dark reader extension. A light theme is included as well for the day time.
