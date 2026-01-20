@@ -8,6 +8,7 @@ First of all, thank you for taking the time to contribute to this project!
 
 - [Submitting Issues](#submitting-issues)
 - [Submitting Pull Requests](#submitting-pull-requests)
+  - [Regarding Colorschemes](#regarding-colorschemes)
 
 ---
 
