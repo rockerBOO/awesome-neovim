@@ -1468,6 +1468,7 @@ then it is not supported:
 - [chrisgrieser/nvim-origami](https://github.com/chrisgrieser/nvim-origami) - Fold with relentless elegance.
 - [malbertzard/inline-fold.nvim](https://github.com/malbertzard/inline-fold.nvim) - Hide certain elements inline like long CSS classes or `href` content.
 - [netmute/foldchanged.nvim](https://github.com/netmute/foldchanged.nvim) - Adds a `FoldChanged` User event.
+- [netmute/foldsigns.nvim](https://github.com/netmute/foldsigns.nvim) - Adds fold markers to sign column to make folds more visible while editing.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
