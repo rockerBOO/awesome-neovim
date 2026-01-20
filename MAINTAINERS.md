@@ -136,13 +136,13 @@ Any new plugin intended to be added to this repository must fit the following cr
 
 When requesting changes:
 
-```markdown
+`````markdown
 Please reword your description as suggested below:
 
-\`\`\`markdown
+```markdown
 ...
-\`\`\`
 ```
+```````
 
 When approving a Pull Request:
 
