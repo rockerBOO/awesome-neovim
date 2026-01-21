@@ -8,6 +8,7 @@ First of all, thank you for taking the time to contribute to this project!
 
 - [Submitting Issues](#submitting-issues)
 - [Submitting Pull Requests](#submitting-pull-requests)
+  - [Regarding Colorschemes](#regarding-colorschemes)
 
 ---
 
@@ -45,15 +46,17 @@ The general format for adding colorschemes is:
 
 With the tags being:
 
-- **_`[TS]`_** - Has Tree-sitter highlighting.
-- **_`[LSP]`_** - Has LSP Semantic Tokens support.
+- **_`[TS]`_** - [Has Tree-sitter highlighting][tree_sitter].
+- **_`[LSP]`_** - [Has LSP Semantic Tokens support][semantic_tokens].
 - **_`[L/D]`_** - Has both "light" and "dark" variants.
 - **_`[Lua]`_** - Is written in Lua.
 - **_`[Fnl]`_** - Is written in Fennel.
 
-You may find examples [here](https://github.com/rockerBOO/awesome-neovim#colorscheme).
+You may find examples in the [Colorscheme Section](https://github.com/rockerBOO/awesome-neovim#colorscheme).
 
 [issues]: https://github.com/rockerBOO/awesome-neovim/issues
 [criteria]: https://github.com/rockerBOO/awesome-neovim/blob/main/MAINTAINERS.md#acceptance-criteria
 [guidelines]: https://github.com/sindresorhus/awesome/blob/master/pull_request_template.md#requirements-for-your-awesome-list
 [regexp_rule]: https://github.com/rockerBOO/awesome-neovim/blob/main/.github/workflows/pr-title.yml#L23
+[tree_sitter]: https://github.com/rockerBOO/awesome-neovim/blob/main/MAINTAINERS.md#tree-sitter
+[semantic_tokens]: https://github.com/rockerBOO/awesome-neovim/blob/main/MAINTAINERS.md#lsp-semantic-tokens

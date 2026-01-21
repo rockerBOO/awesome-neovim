@@ -18,25 +18,27 @@ a welcoming contributor experience.
 ## Contents
 
 - [New Maintainers](#new-maintainers)
-    - [Quick Start](#quick-start)
-    - [Example PRs](#example-prs)
+  - [Quick Start](#quick-start)
+  - [Example PRs](#example-prs)
 - [Daily Workflow](#daily-workflow)
-    - [Check Automated Reports](#check-automated-reports)
-    - [Review Priority Order](#review-priority-order)
-    - [Manual Commands](#manual-commands)
+  - [Check Automated Reports](#check-automated-reports)
+  - [Review Priority Order](#review-priority-order)
+  - [Manual Commands](#manual-commands)
 - [Review Guidelines](#review-guidelines)
-    - [Acceptance Criteria](#acceptance-criteria)
-    - [Common Issues and Fixes](#common-issues-and-fixes)
-    - [Quick Templates](#quick-templates)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [Common Issues and Fixes](#common-issues-and-fixes)
+  - [Quick Templates](#quick-templates)
+- [Colorschemes](#colorschemes)
+  - [Tree-sitter](#tree-sitter)
+  - [LSP Semantic Tokens](#lsp-semantic-tokens)
 - [Special Cases](#special-cases)
-    - [Colorschemes](#colorschemes)
-    - [Unlicensed Repositories](#unlicensed-repositories)
-    - [Duplicates](#duplicates)
-    - [Security](#security)
+  - [Unlicensed Repositories](#unlicensed-repositories)
+  - [Duplicates](#duplicates)
+  - [Security](#security)
 - [Automation Features](#automation-features)
-    - [GitHub Actions](#github-actions)
-    - [Manual Scripts](#manual-scripts)
-    - [Status Indicators](#status-indicators)
+  - [GitHub Actions](#github-actions)
+  - [Manual Scripts](#manual-scripts)
+  - [Status Indicators](#status-indicators)
 - [Troubleshooting](#troubleshooting)
 
 ---
@@ -67,7 +69,7 @@ gh auth login
 These PRs just show some of the flow on how should all the tests pass.
 Review with specifics to change.
 
-- https://github.com/rockerBOO/awesome-neovim/pull/1579
+- [#1579](https://github.com/rockerBOO/awesome-neovim/pull/1579)
 
 ---
 
@@ -103,6 +105,8 @@ To analyze the repository quality for specific PRs:
 
 ## Review Guidelines
 
+When creating/reviewing a Pull Request take our guidelines into account and follow them thoroughly.
+
 ### Acceptance Criteria
 
 Any new plugin intended to be added to this repository must fit the following criteria:
@@ -110,11 +114,15 @@ Any new plugin intended to be added to this repository must fit the following cr
 - **Must be Neovim-specific** - The plugin must be both compatible and usable in Neovim.
 - **Must be functional and usable** - Any plugin that is proven to be broken can not be included
   until its issues have been resolved.
-- **Must be licensed under an Open-source license** - If no license is found, either the `MIT`
+- **Must be licensed under an Open-source license** - If no license is found either the `MIT`
   or the `Apache 2.0` have to be recommended to the plugin author.
 - **Should have a quality README** - The file must include sufficiently detailed installation/usage
   instructions.
 - **Should be actively maintained** - Preferably it should have recent commits.
+- **Should be a week old at least** - All requested plugins must be old enough to ensure stability.
+  - If a plugin is good for approval but is not old enough should be labeled with the `pending-merge`
+    label and its approval message should explicitly tell the PR author that the Pull Request is fit
+    for approval but that enough time should pass before actually merging.
 
 ### Common Issues and Fixes
 
@@ -126,93 +134,211 @@ Any new plugin intended to be added to this repository must fit the following cr
 
 ### Quick Templates
 
-**To request changes:**
+When requesting changes:
+
+`````markdown
+Please reword your description as suggested below:
 
 ```markdown
-Thanks! Please fix:
-- [ ] Title format: `Add \`username/repo\``
-- [ ] Remove "plugin" from description, add period
-- [ ] Add license file (MIT/Apache 2.0 recommended)
+...
 ```
+```````
 
-**To approve a Pull Request:**
+When approving a Pull Request:
 
 ```markdown
 ✅ Great contribution! Approved for merge.
 ```
 
-## Special Cases
+Or:
 
-### Colorschemes
+```markdown
+LGTM.
+```
+
+When a Pull Request is good to be approved but the plugin is less than a week old:
+
+```markdown
+Looks good to me. We usually wait a little bit for newer plugins to stabilize.
+
+Thank you for your patience!
+```
+
+---
+
+## Colorschemes
 
 Since [#2044](https://github.com/rockerBOO/awesome-neovim/pull/2044) our approach regarding
-colorschemes has changed into a tagging system (see [the Colorscheme section](https://github.com/rockerBOO/awesome-neovim#colorscheme)):
+colorschemes has changed into a tagging system
+(see [the Colorscheme Section](https://github.com/rockerBOO/awesome-neovim#colorscheme)):
 
-- **_`[TS]`_** - Has Tree-sitter highlighting.
-- **_`[LSP]`_** - Has LSP Semantic Tokens support.
+- **_`[TS]`_** - [Has Tree-sitter highlighting](#tree-sitter).
+- **_`[LSP]`_** - [Has LSP Semantic Tokens support](#lsp-semantic-tokens).
 - **_`[L/D]`_** - Has both "light" and "dark" variants.
 - **_`[Lua]`_** - Is written in Lua.
 - **_`[Fnl]`_** - Is written in Fennel.
 
+### Tree-sitter
+
+For the `[TS]` tag to be added you must make sure that the colorscheme has highlights for
+Tree-sitter. Highlight groups for Tree-sitter should start with a `@` character
+([**except for `@lsp.`**](#lsp-semantic-tokens)).
+
+Here are some examples:
+
+- `"@annotation"`
+- `"@attribute"`
+- `"@boolean"`
+- `"@character"`
+- `"@character.printf"`
+- `"@character.special"`
+- `"@comment"`
+- `"@comment.error"`
+- `"@comment.hint"`
+- `"@comment.info"`
+- `"@comment.note"`
+- `"@comment.todo"`
+- `"@comment.warning"`
+- `"@constant"`
+- `"@constant.builtin"`
+- `"@constant.macro"`
+- `"@constructor"`
+- `"@constructor.tsx"`
+- `"@diff.delta"`
+- `"@diff.minus"`
+- `"@diff.plus"`
+- `"@function"`
+- `"@function.builtin"`
+- `"@function.call"`
+- `"@function.macro"`
+- `"@function.method"`
+- `"@function.method.call"`
+- `"@keyword"`
+- `"@keyword.conditional"`
+- `"@keyword.coroutine"`
+- `"@keyword.debug"`
+- `"@keyword.directive"`
+- `"@keyword.directive.define"`
+- `"@keyword.exception"`
+- `"@keyword.function"`
+- `"@keyword.import"`
+- `"@keyword.operator"`
+- `"@keyword.repeat"`
+- `"@keyword.return"`
+- `"@keyword.storage"`
+- `"@label"`
+- `"@markup"`
+- `"@markup.emphasis"`
+- `"@markup.environment"`
+- `"@markup.environment.name"`
+- `"@markup.heading"`
+- `"@markup.italic"`
+- `"@markup.link"`
+- `"@markup.link.label"`
+- `"@markup.link.label.symbol"`
+- `"@markup.link.url"`
+- `"@markup.list"`
+- `"@markup.list.checked"`
+- `"@markup.list.markdown"`
+- `"@markup.list.unchecked"`
+- `"@markup.math"`
+- `"@markup.raw"`
+- `"@markup.raw.markdown_inline"`
+- `"@markup.strikethrough"`
+- `"@markup.strong"`
+- `"@markup.underline"`
+- `"@module"`
+- `"@module.builtin"`
+- `"@namespace.builtin"`
+- `"@none"`
+- `"@number"`
+- `"@number.float"`
+- `"@operator"`
+- `"@property"`
+- `"@punctuation.bracket"`
+- `"@punctuation.delimiter"`
+- `"@punctuation.special"`
+- `"@punctuation.special.markdown"`
+- `"@string"`
+- `"@string.documentation"`
+- `"@string.escape"`
+- `"@string.regexp"`
+- `"@tag"`
+- `"@tag.attribute"`
+- `"@tag.delimiter"`
+- `"@tag.delimiter.tsx"`
+- `"@tag.tsx"`
+- `"@tag.javascript"`
+- `"@type"`
+- `"@type.builtin"`
+- `"@type.definition"`
+- `"@type.qualifier"`
+- `"@variable"`
+- `"@variable.builtin"`
+- `"@variable.member"`
+- `"@variable.parameter"`
+- `"@variable.parameter.builtin"`
+
+### LSP Semantic Tokens
+
 For the `[LSP]` tag to be added you must make sure that the colorscheme has highlights for
-Semantic Tokens.
+Semantic Tokens. Highlight groups for LSP Semantic Tokens should start with `@lsp.`.
 
-As detailed in the following [example from `folke/tokyonight.nvim`](https://github.com/folke/tokyonight.nvim/blob/main/lua/tokyonight/groups/semantic_tokens.lua), highlight groups for
-LSP Semantic Tokens MUST start with `@lsp.`:
+Here are some examples:
 
-<details>
-<summary><b>Example</b></summary>
+- `"@lsp.type.boolean"`
+- `"@lsp.type.builtinType"`
+- `"@lsp.type.comment"`
+- `"@lsp.type.decorator"`
+- `"@lsp.type.deriveHelper"`
+- `"@lsp.type.enum"`
+- `"@lsp.type.enumMember"`
+- `"@lsp.type.escapeSequence"`
+- `"@lsp.type.formatSpecifier"`
+- `"@lsp.type.generic"`
+- `"@lsp.type.interface"`
+- `"@lsp.type.keyword"`
+- `"@lsp.type.lifetime"`
+- `"@lsp.type.namespace"`
+- `"@lsp.type.namespace.python"`
+- `"@lsp.type.number"`
+- `"@lsp.type.operator"`
+- `"@lsp.type.parameter"`
+- `"@lsp.type.property"`
+- `"@lsp.type.selfKeyword"`
+- `"@lsp.type.selfTypeKeyword"`
+- `"@lsp.type.string"`
+- `"@lsp.type.typeAlias"`
+- `"@lsp.type.unresolvedReference"`
+- `"@lsp.type.variable"`
+- `"@lsp.typemod.class.defaultLibrary"`
+- `"@lsp.typemod.enum.defaultLibrary"`
+- `"@lsp.typemod.enumMember.defaultLibrary"`
+- `"@lsp.typemod.function.defaultLibrary"`
+- `"@lsp.typemod.keyword.async"`
+- `"@lsp.typemod.keyword.injected"`
+- `"@lsp.typemod.macro.defaultLibrary"`
+- `"@lsp.typemod.method.defaultLibrary"`
+- `"@lsp.typemod.operator.injected"`
+- `"@lsp.typemod.string.injected"`
+- `"@lsp.typemod.struct.defaultLibrary"`
+- `"@lsp.typemod.type.defaultLibrary"`
+- `"@lsp.typemod.typeAlias.defaultLibrary"`
+- `"@lsp.typemod.variable.callable"`
+- `"@lsp.typemod.variable.defaultLibrary"`
+- `"@lsp.typemod.variable.injected"`
+- `"@lsp.typemod.variable.static"`
 
-```lua
-{
-  ["@lsp.type.boolean"]                      = "@boolean",
-  ["@lsp.type.builtinType"]                  = "@type.builtin",
-  ["@lsp.type.comment"]                      = "@comment",
-  ["@lsp.type.decorator"]                    = "@attribute",
-  ["@lsp.type.deriveHelper"]                 = "@attribute",
-  ["@lsp.type.enum"]                         = "@type",
-  ["@lsp.type.enumMember"]                   = "@constant",
-  ["@lsp.type.escapeSequence"]               = "@string.escape",
-  ["@lsp.type.formatSpecifier"]              = "@markup.list",
-  ["@lsp.type.generic"]                      = "@variable",
-  -- ...
-  ["@lsp.type.keyword"]                      = "@keyword",
-  ["@lsp.type.lifetime"]                     = "@keyword.storage",
-  ["@lsp.type.namespace"]                    = "@module",
-  ["@lsp.type.namespace.python"]             = "@variable",
-  ["@lsp.type.number"]                       = "@number",
-  ["@lsp.type.operator"]                     = "@operator",
-  ["@lsp.type.parameter"]                    = "@variable.parameter",
-  ["@lsp.type.property"]                     = "@property",
-  ["@lsp.type.selfKeyword"]                  = "@variable.builtin",
-  ["@lsp.type.selfTypeKeyword"]              = "@variable.builtin",
-  ["@lsp.type.string"]                       = "@string",
-  ["@lsp.type.typeAlias"]                    = "@type.definition",
-  -- ...
-  ["@lsp.typemod.class.defaultLibrary"]      = "@type.builtin",
-  ["@lsp.typemod.enum.defaultLibrary"]       = "@type.builtin",
-  ["@lsp.typemod.enumMember.defaultLibrary"] = "@constant.builtin",
-  ["@lsp.typemod.function.defaultLibrary"]   = "@function.builtin",
-  ["@lsp.typemod.keyword.async"]             = "@keyword.coroutine",
-  ["@lsp.typemod.keyword.injected"]          = "@keyword",
-  ["@lsp.typemod.macro.defaultLibrary"]      = "@function.builtin",
-  ["@lsp.typemod.method.defaultLibrary"]     = "@function.builtin",
-  ["@lsp.typemod.operator.injected"]         = "@operator",
-  ["@lsp.typemod.string.injected"]           = "@string",
-  ["@lsp.typemod.struct.defaultLibrary"]     = "@type.builtin",
-  -- ...
-  ["@lsp.typemod.variable.callable"]         = "@function",
-  ["@lsp.typemod.variable.defaultLibrary"]   = "@variable.builtin",
-  ["@lsp.typemod.variable.injected"]         = "@variable",
-  ["@lsp.typemod.variable.static"]           = "@constant",
-}
-```
+---
 
-</details>
+## Special Cases
+
+Here are some helpful tips on how to act whenever any of the following cases occur.
 
 ### Unlicensed Repositories
 
 - **DO NOT MERGE** until licensing is resolved.
+  Repositories without license are by default under the "all rights reserved" copyright license.
 - Suggest either `MIT` or `Apache 2.0` (for compatibility).
 
 ### Duplicates
@@ -222,13 +348,15 @@ LSP Semantic Tokens MUST start with `@lsp.`:
 
 ### Security
 
-- **NEVER CLONE SUSPICIOUS CODE!**
+- **AVOID CLONING SUSPICIOUS CODE!**
 - **CLOSE MALICIOUS PRs IMMEDIATELY!**
-- **REPORT ANY SUSPECTED PRs!**
+- **REPORT AND CLOSE ANY SUSPECTED PRs!**
 
 ---
 
 ## Automation Features
+
+We use GitHub Actions to ensure the quality of Pull Requests.
 
 ### GitHub Actions
 
