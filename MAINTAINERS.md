@@ -338,6 +338,7 @@ Here are some helpful tips on how to act whenever any of the following cases occ
 ### Unlicensed Repositories
 
 - **DO NOT MERGE** until licensing is resolved.
+  Repositories without license are by default under the "all rights reserved" copyright license.
 - Suggest either `MIT` or `Apache 2.0` (for compatibility).
 
 ### Duplicates
@@ -347,9 +348,9 @@ Here are some helpful tips on how to act whenever any of the following cases occ
 
 ### Security
 
-- **NEVER CLONE SUSPICIOUS CODE!**
+- **AVOID CLONING SUSPICIOUS CODE!**
 - **CLOSE MALICIOUS PRs IMMEDIATELY!**
-- **REPORT ANY SUSPECTED PRs!**
+- **REPORT AND CLOSE ANY SUSPECTED PRs!**
 
 ---
 
