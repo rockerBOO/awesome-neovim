@@ -6,3 +6,11 @@ CLAUDE.md
 
 # Session reviews
 sessions/
+
+# Python
+Pipfile
+Pipfile.lock
+venv
+.venv
+requirements.txt
+uv.lock
