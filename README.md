@@ -659,7 +659,7 @@ then it is not supported:
 - [everviolet/nvim](https://github.com/everviolet/nvim) - **_`[TS][LSP][L/D][Lua]`_** A comfy colorscheme for cozy morning coding.
 - [uhs-robert/oasis.nvim](https://github.com/uhs-robert/oasis.nvim) - **_`[TS][LSP][L/D][Lua]`_** Desert theme from Vim ported to Neovim and made modern with 12 variants, a collection of dark themes for every color of the rainbow.
 - [sainnhe/sonokai](https://github.com/sainnhe/sonokai) - **_`[TS][LSP]`_** High Contrast & Vivid Color Scheme based on Monokai Pro.
-- [nyoom-engineering/oxocarbon.nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) - **_`[TS][LSP][L/D][Lua]`_** A dark and light theme written in fennel, inspired by IBM Carbon.
+- [nyoom-engineering/oxocarbon.nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) - **_`[TS][LSP][L/D][Lua]`_** A dark and light theme written in Fennel, inspired by IBM Carbon.
 - [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next) - **_`[TS][L/D]`_** Oceanic Next theme.
 - [nvimdev/zephyr-nvim](https://github.com/nvimdev/zephyr-nvim) - **_`[TS][Lua]`_** A dark colorscheme with Tree-sitter support.
 - [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) - **_`[TS][Lua]`_** A colorscheme with handcrafted support for LSP, Tree-sitter.
@@ -1191,7 +1191,7 @@ then it is not supported:
 - [Olical/nfnl](https://github.com/Olical/nfnl) - Streamlined successor to Aniseed, compiling Fennel to Lua on file write.
 - [Olical/conjure](https://github.com/Olical/conjure) - Interactive evaluation (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile).
 - [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) - Seamless, transparent Fennel inside Neovim.
-- [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - Tangerine provides a painless way to add fennel to your config.
+- [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - Tangerine provides a painless way to add Fennel to your config.
 - [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - Highly opinionated macros to elegantly write your config.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
