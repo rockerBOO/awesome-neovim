@@ -53,7 +53,7 @@ If unsure then [other maintainers](#maintainers) can take a look to see if there
 Install the following required tools:
 
 ```bash
-sudo apt-get install jq git # For Debian/Ubuntu-based distros
+sudo apt install jq git # For Ubuntu-based distros
 sudo pacman -S --needed jq git # For Arch-based distros
 ```
 
@@ -406,7 +406,7 @@ To correct most of the improper capitalizations/acronyms:
 Make sure you install the required dependencies:
 
 ```bash
-sudo apt-get install jq git # For Debian/Ubuntu-based distros
+sudo apt install jq git # For Ubuntu-based distros
 sudo pacman -S --needed jq git # For Arch-based distros
 ```
 
