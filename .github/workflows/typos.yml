@@ -29,3 +29,19 @@ jobs:
       - uses: actions/checkout@v6
       - name: Run terminology check script
         run: ./.github/scripts/check-terms.sh README.md
+
+  capitalizations-check:
+    name: Ensure correct capitalizations
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Run capitalize.sh
+        run:
+          ./scripts/capitalize.sh -vc
+      - name: Check if diff has changed
+        id: check_diff
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            exit 1
+          fi
