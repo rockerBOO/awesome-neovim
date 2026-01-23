@@ -24,7 +24,7 @@ jobs:
       ANALYSIS_TYPE: 'all_open'
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v6
 
       - name: Check if PR is from fork
