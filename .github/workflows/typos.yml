@@ -43,6 +43,5 @@ jobs:
         id: check_diff
         run: |
           if [[ -n $(git status --porcelain) ]]; then
-            git restore README.md
             exit 1
           fi
