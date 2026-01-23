@@ -1,4 +1,4 @@
-# MAINTAINERS.md
+# Maintainers Guide
 
 A concise guide for maintaining the `awesome-neovim` repository.
 
@@ -53,12 +53,12 @@ If unsure then [other maintainers](#maintainers) can take a look to see if there
 Install the following required tools:
 
 ```bash
-sudo apt install jq git # For Debian/Ubuntu-based distros
+sudo apt-get install jq git # For Debian/Ubuntu-based distros
 sudo pacman -S --needed jq git # For Arch-based distros
 ```
 
-Install the [GitHub CLI](https://cli.github.com/) from the website
-or by using your package manager. Then make sure to log in:
+[Install the GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md), then make sure to log in
+on your terminal:
 
 ```bash
 gh auth login
@@ -358,6 +358,8 @@ Here are some helpful tips on how to act whenever any of the following cases occ
 
 We use GitHub Actions to ensure the quality of Pull Requests.
 
+You can also run these features manually using the scripts inside the `scripts/` folder.
+
 ### GitHub Actions
 
 - **PR Compliance Check**: Automatic feedback on new/updated PRs.
@@ -384,6 +386,12 @@ To force re-analysis:
 ./scripts/batch_pr_readme_review.sh <PR_numbers> --force
 ```
 
+To correct most of the improper capitalizations/acronyms:
+
+```bash
+./scripts/capitalize.sh
+```
+
 ### Status Indicators
 
 - 🚨 **Priority**: Updated after review.
@@ -398,7 +406,8 @@ To force re-analysis:
 Make sure you install the required dependencies:
 
 ```bash
-sudo apt install jq git
+sudo apt-get install jq git # For Debian/Ubuntu-based distros
+sudo pacman -S --needed jq git # For Arch-based distros
 ```
 
 Don't forget to authenticate through the GitHub CLI:
@@ -407,8 +416,14 @@ Don't forget to authenticate through the GitHub CLI:
 gh auth login
 ```
 
-If scripts are not executable in your shell then make the scripts executable (MacOS/Linux/BSD-only):
+If scripts are not executable in your shell then make the scripts executable (macOS/Linux/BSD-only):
 
 ```bash
-chmod u+x scripts/*.sh
+chmod 755 scripts/*.sh
+```
+
+Then run them as needed:
+
+```bash
+./scripts/capitalize.sh # Example
 ```
