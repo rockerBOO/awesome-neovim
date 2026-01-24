@@ -216,6 +216,13 @@ check_sql() {
 }
 
 # Check for bad TOML acronyms
+check_todo() {
+    fix_suspected_lines '[Tt][Oo][Dd][Oo]' 'TODO' || return 1
+    fix_suspected_lines '[Tt][Oo][Dd][Oo][Ss]' 'TODOs' || return 1
+    return 0
+}
+
+# Check for bad TOML acronyms
 check_toml() {
     fix_suspected_lines '[Tt][Oo][Mm][Ll]' 'TOML' || return 1
     return 0
@@ -235,9 +242,41 @@ check_ini() {
     return 0
 }
 
-# Check for bad C capitalizations
+# Check for bad C/C++ capitalizations
 check_c() {
     fix_suspected_lines 'c' 'C' || return 1
+    fix_suspected_lines 'c++' 'C++' || return 1
+    return 0
+}
+
+# Check for bad Fortran capitalizations
+check_fortran() {
+    fix_suspected_lines '[Ff][Oo][Rr][Tt][Rr][Aa][Nn]' 'Fortran' || return 1
+    return 0
+}
+
+# Check for bad R capitalizations
+check_r() {
+    fix_suspected_lines '[Rr]' 'R' || return 1
+    return 0
+}
+
+# Check for bad LLVM/Clang capitalizations
+check_llvm() {
+    fix_suspected_lines '[Ll][Ll][Vv][Mm]' 'LLVM' || return 1
+    fix_suspected_lines '[Cc][Ll][Aa][Nn][Gg]' 'Clang' || return 1
+    return 0
+}
+
+# Check for bad Perl capitalizations
+check_perl() {
+    fix_suspected_lines '[Pp][Ee][Rr][Ll]' 'Perl' || return 1
+    return 0
+}
+
+# Check for bad Julia capitalizations
+check_julia() {
+    fix_suspected_lines '[Jj][Uu][Ll][Ii][Aa]' 'Julia' || return 1
     return 0
 }
 
@@ -263,12 +302,6 @@ check_html() {
 check_lisp() {
     fix_suspected_lines '[Cc]ommon\(\s\|-\)*[Ll]isp' 'Common Lisp' || return 1
     fix_suspected_lines '[Ff][Ee][Nn][Nn][Ee][Ll]' 'Fennel' || return 1
-    return 0
-}
-
-# Check for bad C++ capitalizations
-check_cpp() {
-    fix_suspected_lines 'c++' 'C++' || return 1
     return 0
 }
 
@@ -306,6 +339,24 @@ check_bash() {
     return 0
 }
 
+# Check for bad Unity capitalizations
+check_unity() {
+    fix_suspected_lines '[Uu][Nn][Ii][Tt][Yy]' 'Unity' || return 1
+    return 0
+}
+
+# Check for bad OpenCL capitalizations
+check_opencl() {
+    fix_suspected_lines '[Oo][Pp][Ee][Nn]-\?[Cc][Ll]' 'OpenCL' || return 1
+    return 0
+}
+
+# Check for bad OpenGL capitalizations
+check_opengl() {
+    fix_suspected_lines '[Oo][Pp][Ee][Nn]-\?[Gg][Ll]' 'OpenGL' || return 1
+    return 0
+}
+
 # Check for bad Haskell capitalizations
 check_haskell() {
     fix_suspected_lines '[Hh][Aa][Ss][Kk][Ee][Ll][Ll]\?' 'Haskell' || return 1
@@ -326,13 +377,30 @@ check_js() {
     return 0
 }
 
-# Check for bad UNIX/Linux/macOS/BSD/FreeBSD/OpenBSD/NetBSD/NixOS/Nix capitalizations
+# Check for bad WSL capitalizations
+check_wsl() {
+    fix_suspected_lines '[Ww][Ss][Ll]' 'WSL' || return 1
+    return 0
+}
+
+# Check for bad Arch Linux/Ubuntu/Debian/Fedora/Gentoo/Void Linux/Nix/NixOS capitalizations
+check_distros() {
+    fix_suspected_lines '[Aa][Rr][Cc][Hh]\(\s\|[\-_]\)*[Ll][Ii][Nn][Uu][Xx]' 'Arch Linux' || return 1
+    fix_suspected_lines '[Vv][Oo][Ii][Dd]\(\s\|[\-_]\)*[Ll][Ii][Nn][Uu][Xx]' 'Void Linux' || return 1
+    fix_suspected_lines '[Uu][Bb][Uu][Nn][Tt][Uu]' 'Ubuntu' || return 1
+    fix_suspected_lines '[Dd][Ee][Bb][Ii][Aa][Nn]' 'Debian' || return 1
+    fix_suspected_lines '[Ff][Ee][Dd][Oo][Rr][Aa]' 'Fedora' || return 1
+    fix_suspected_lines '[Gg][Ee][Nn][Tt][Oo][Oo]' 'Gentoo' || return 1
+    fix_suspected_lines '[Nn][Ii][Xx]' 'Nix' || return 1
+    fix_suspected_lines '[Nn][Ii][Xx]\(\s\|[\-_]\)*[Oo][Ss]' 'NixOS' || return 1
+    return 0
+}
+
+# Check for bad UNIX/Linux/macOS/BSD/FreeBSD/OpenBSD/NetBSD capitalizations
 check_unix() {
     fix_suspected_lines '[Uu][Nn][Ii][Xx]' 'UNIX' || return 1
     fix_suspected_lines '[Pp][Oo][Ss][Ii][Xx]' 'POSIX' || return 1
     fix_suspected_lines '[Ll][Ii][Nn][Uu][Xx]' 'Linux' || return 1
-    fix_suspected_lines '[Nn][Ii][Xx]' 'Nix' || return 1
-    fix_suspected_lines '[Nn][Ii][Xx]\(\s\|[\-_]\)*[Oo][Ss]' 'NixOS' || return 1
     fix_suspected_lines '[Bb][Ss][Dd]' 'BSD' || return 1
     fix_suspected_lines '[Ff]ree\(\s\|[\-_]\)*[Bb][Ss][Dd]' 'FreeBSD' || return 1
     fix_suspected_lines '[Oo]pen\(\s\|[\-_]\)*[Bb][Ss][Dd]' 'OpenBSD' || return 1
@@ -419,11 +487,12 @@ if [[ $# -gt 0 ]]; then
 fi
 
 check_bash         || die 1 "Error while analyzing (Bash/Zsh/C shell)"
-check_c            || die 1 "Error while analyzing (C)"
+check_c            || die 1 "Error while analyzing (C/C++)"
 check_coffeescript || die 1 "Error while analyzing (CoffeeScript/CSON)"
-check_cpp          || die 1 "Error while analyzing (C++)"
 check_cs           || die 1 "Error while analyzing (C#)"
 check_csv          || die 1 "Error while analyzing (CSV)"
+check_distros      || die 1 "Error while analyzing (Arch Linux/Void Linux/Ubuntu/Debian/Fedora/Gentoo/NixOS/Nix)"
+check_fortran      || die 1 "Error while analyzing (Fortran)"
 check_git          || die 1 "Error while analyzing (Git)"
 check_golang       || die 1 "Error while analyzing (Golang)"
 check_haskell      || die 1 "Error while analyzing (Haskell)"
@@ -432,23 +501,32 @@ check_ini          || die 1 "Error while analyzing (INI)"
 check_java         || die 1 "Error while analyzing (Java)"
 check_js           || die 1 "Error while analyzing (JavaScript/JS)"
 check_json         || die 1 "Error while analyzing (JSON)"
+check_julia        || die 1 "Error while analyzing (Julia)"
 check_lisp         || die 1 "Error while analyzing (Common Lisp/Fennel)"
+check_llvm         || die 1 "Error while analyzing (LLVM/Clang)"
 check_lsp          || die 1 "Error while analyzing (LSP/Language Server Protocol)"
 check_lua          || die 1 "Error while analyzing (Lua/StyLua)"
 check_markdown     || die 1 "Error while analyzing (Markdown)"
 check_neovim       || die 1 "Error while analyzing (Neovim)"
+check_opencl       || die 1 "Error while analyzing (OpenCL)"
+check_opengl       || die 1 "Error while analyzing (OpenGL)"
+check_perl         || die 1 "Error while analyzing (Perl)"
 check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI)"
+check_r            || die 1 "Error while analyzing (R)"
 check_rst          || die 1 "Error while analyzing (RST/ReStructuredText)"
 check_ruby         || die 1 "Error while analyzing (Ruby/Rails)"
 check_rust         || die 1 "Error while analyzing (Rust)"
 check_sql          || die 1 "Error while analyzing (SQL/MySQL/PostgresSQL/SQLite/MariaDB)"
 check_tex          || die 1 "Error while analyzing (TeX/LaTeX)"
+check_todo         || die 1 "Error while analyzing (TODO)"
 check_toml         || die 1 "Error while analyzing (TOML)"
 check_tree_sitter  || die 1 "Error while analyzing (Tree-sitter)"
 check_ts           || die 1 "Error while analyzing (TypeScript/TS)"
-check_unix         || die 1 "Error while analyzing (UNIX/Linux/macOS/BSD/FreeBSD/OpenBSD/NetBSD/NixOS/Nix)"
+check_unity        || die 1 "Error while analyzing (UNITY)"
+check_unix         || die 1 "Error while analyzing (UNIX/Linux/macOS/BSD/FreeBSD/OpenBSD/NetBSD)"
 check_vim          || die 1 "Error while analyzing (Vim/Vimscript/VimL)"
 check_vue          || die 1 "Error while analyzing (Vue/VueJS)"
+check_wsl          || die 1 "Error while analyzing (WSL)"
 check_xml          || die 1 "Error while analyzing (XML)"
 check_yaml         || die 1 "Error while analyzing (YAML)"
 
