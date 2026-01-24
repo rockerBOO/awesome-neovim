@@ -8,6 +8,7 @@ USE_COLORS=1
 LIST_SUPPORTED=0
 
 SUPPORTED=()
+BACKUPS=()
 
 error() {
     local TXT=("$@")
@@ -39,6 +40,8 @@ verbose_print() {
 }
 
 die() {
+    rm -f "${BACKUPS[@]}"
+
     local EC=1
     if [[ $# -ge 1 ]] && [[ $1 =~ ^(0|-?[1-9][0-9]*)$ ]]; then
         EC="$1"
@@ -104,9 +107,12 @@ fix_suspected_lines() {
     local LEAD_CHARS=""
     local MSG=""
     local EC=0
+    local CHANGED=0
+    local FOUND=0
 
     local MAGENTA=""
     local RED=""
+    local CYAN=""
     local GREEN=""
     local BOLD=""
     local RESET=""
@@ -114,6 +120,7 @@ fix_suspected_lines() {
         MAGENTA="$(tput setaf 5)"
         RED="$(tput setaf 1)"
         GREEN="$(tput setaf 2)"
+        CYAN="$(tput setaf 6)"
         BOLD="$(tput bold)"
         RESET="$(tput sgr0)"
     fi
@@ -124,11 +131,12 @@ fix_suspected_lines() {
         case "$TRAIL_CHAR" in
             '.') TRAIL='\.' ;;
             ' ') TRAIL='\s' ;;
+            ')') TRAIL='\)' ;;
             *) TRAIL="$TRAIL_CHAR" ;;
         esac
         for LEAD in "${LEADING[@]}"; do
-            # HACK: Convert regex to non-regex for replacement
-            case "$LEAD" in
+            local BACKUP=""
+            case "$LEAD" in # HACK: Convert regex to non-regex for replacement
                 '\s') LEAD_CHARS=' ' ;;
                 '\.\s') LEAD_CHARS='. ' ;;
                 ',\s') LEAD_CHARS=', ' ;;
@@ -136,16 +144,32 @@ fix_suspected_lines() {
                 '!\s') LEAD_CHARS='! ' ;;
                 *) LEAD_CHARS="$LEAD" ;;
             esac
-            if ! sed -i "s/${LEAD}${REGEX}${TRAIL}/${LEAD_CHARS}${REPLACE}${TRAIL_CHAR}/g" ./README.md; then
+            if [[ $VERBOSE -eq 1 ]] && grep -E "${LEAD}${REGEX}${TRAIL}" ./README.md &> /dev/null; then
+                FOUND=1
+                BACKUP="$(mktemp -p .)"
+                BACKUPS+=("${BACKUP}")
+                cp ./README.md "${BACKUP}"
+            fi
+            if ! sed -E -i "s/${LEAD}${REGEX}${TRAIL}/${LEAD_CHARS}${REPLACE}${TRAIL_CHAR}/g" ./README.md; then
                 MSG+="${RED}ERROR"
                 EC=1
                 break
+            fi
+
+            if [[ -n "${BACKUP}" ]]; then
+                ! diff -q ./README.md "${BACKUP}" &> /dev/null && CHANGED=1
             fi
         done
         [[ $EC -eq 1 ]] && break
     done
 
-    [[ $EC -eq 0 ]] && MSG+="${GREEN}SUCCESS"
+    if [[ $EC -eq 0 ]]; then
+        if [[ $FOUND -eq 1 ]] && [[ $CHANGED -eq 1 ]]; then
+            MSG+="${GREEN}CHANGED"
+        else
+            MSG+="UNCHANGED"
+        fi
+    fi
 
     verbose_print "${BOLD}${MSG}${RESET}"
     return "$EC"
@@ -155,7 +179,7 @@ fix_suspected_lines() {
 check_lsp() {
     fix_suspected_lines '[Ll][Ss][Pp]' 'LSP' || return 1
     fix_suspected_lines \
-        '[Ll]anguage\(\s\|-\)*[Ss]erver\(\s\|-\)*[Pp]rotocol' \
+        '[Ll]anguage(\s|-)*[Ss]erver(\s|-)*[Pp]rotocol' \
         'Language Server Protocol' \
         || return 1
 
@@ -178,9 +202,10 @@ check_lua() {
 # Check for bad Python/Python 2/Python 3/PyPI capitalizations
 check_python() {
     fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn]' 'Python' || return 1
-    fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn]\(\s\|[-_]\)*2' 'Python 2' || return 1
-    fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn]\(\s\|[-_]\)*3' 'Python 3' || return 1
+    fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn](\s|[-_])*2' 'Python 2' || return 1
+    fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn](\s|[-_])*3' 'Python 3' || return 1
     fix_suspected_lines '[Pp][Yy][Pp][Ii]' 'PyPI' || return 1
+    fix_suspected_lines '[Jj][Uu][Pp][Yy][Tt][Ee][Rr]' 'Jupyter' || return 1
     return 0
 }
 
@@ -194,7 +219,13 @@ check_ruby() {
 # Check for bad RST/ReStructuredText capitalizations
 check_rst() {
     fix_suspected_lines '[Rr][Ss][Tt]' 'RST' || return 1
-    fix_suspected_lines '[Rr]e\(\s\|-\)*[Ss]tructured\(\s\|-\)*[Tt]ext' 'ReStructuredText' || return 1
+    fix_suspected_lines '[Rr]e(\s|-)*[Ss]tructured(\s|-)*[Tt]ext' 'ReStructuredText' || return 1
+    return 0
+}
+
+# Check for bad PHP capitalizations
+check_php() {
+    fix_suspected_lines '[Pp][Hh][Pp]' 'PHP' || return 1
     return 0
 }
 
@@ -208,10 +239,10 @@ check_rust() {
 # Check for bad SQL/MySQL/PostgresSQL/MariaDB/SQLite capitalizations
 check_sql() {
     fix_suspected_lines '[Ss][Qq][Ll]' 'SQL' || return 1
-    fix_suspected_lines '[Mm][Yy]\(\s\|[\-_]\)*[Ss][Qq][Ll]' 'MySQL' || return 1
-    fix_suspected_lines '[Mm][Aa][Rr][Ii][Aa]\(\s\|-\)*[Dd][Bb]' 'MariaDB' || return 1
-    fix_suspected_lines '[Pp][Oo][Ss][Tt][Gg][Rr][Ee][Ss]\?\(\s\|-\)*[Ss][Qq][Ll]' 'PostgresSQL' || return 1
-    fix_suspected_lines '[Ss][Qq][Ll]\(\s\|-\)*l\?ite' 'SQLite' || return 1
+    fix_suspected_lines '[Mm][Yy](\s|[\-_])*[Ss][Qq][Ll]' 'MySQL' || return 1
+    fix_suspected_lines '[Mm][Aa][Rr][Ii][Aa](\s|-)*[Dd][Bb]' 'MariaDB' || return 1
+    fix_suspected_lines '[Pp][Oo][Ss][Tt][Gg][Rr][Ee][Ss]?(\s|-)*[Ss][Qq][Ll]' 'PostgresSQL' || return 1
+    fix_suspected_lines '[Ss][Qq][Ll](\s|-)*l?ite' 'SQLite' || return 1
     return 0
 }
 
@@ -242,10 +273,11 @@ check_ini() {
     return 0
 }
 
-# Check for bad C/C++ capitalizations
+# Check for bad C/C++/GCC capitalizations
 check_c() {
     fix_suspected_lines 'c' 'C' || return 1
-    fix_suspected_lines 'c++' 'C++' || return 1
+    fix_suspected_lines 'c\+\+' 'C++' || return 1
+    fix_suspected_lines '[Gg][Cc][Cc]' 'GCC' || return 1
     return 0
 }
 
@@ -280,9 +312,10 @@ check_julia() {
     return 0
 }
 
-# Check for bad C# capitalizations
+# Check for bad C#/.NET capitalizations
 check_cs() {
-    fix_suspected_lines '\(c#\|[Cc]\(\s\|-\)*[Ss]harp\)' 'C#' || return 1
+    fix_suspected_lines '(c#|[Cc](\s|-)*[Ss]harp)' 'C#' || return 1
+    fix_suspected_lines '(\.[Nn][Ee][Tt]|[Dd][Oo][Tt](\s|-)*[Nn][Ee][Tt])' '.NET' || return 1
     return 0
 }
 
@@ -290,17 +323,17 @@ check_cs() {
 # (`Less` and `SASS` are not checked for practical reasons)
 check_html() {
     fix_suspected_lines '[Hh][Tt][Mm][Ll]' 'HTML' || return 1
-    fix_suspected_lines '[Hh][Tt][Mm][Ll]-\?5' 'HTML5' || return 1
-    fix_suspected_lines '[Xx]\(\s\|-\)*[Hh][Tt][Mm][Ll]' 'XHTML' || return 1
+    fix_suspected_lines '[Hh][Tt][Mm][Ll]-?5' 'HTML5' || return 1
+    fix_suspected_lines '[Xx](\s|-)*[Hh][Tt][Mm][Ll]' 'XHTML' || return 1
     fix_suspected_lines '[Cc][Ss][Ss]' 'CSS' || return 1
     fix_suspected_lines '[Ss][Cc][Ss][Ss]' 'SCSS' || return 1
-    fix_suspected_lines '[Tt]ail\(\s\|[\-_]\)*[Ww]ind\(\s\|[\-_]\)*[Cc][Ss][Ss]' 'Tailwind CSS' || return 1
+    fix_suspected_lines '[Tt]ail(\s|[\-_])*[Ww]ind(\s|[\-_])*[Cc][Ss][Ss]' 'Tailwind CSS' || return 1
     return 0
 }
 
 # Check for bad Common Lisp/Fennel capitalizations
 check_lisp() {
-    fix_suspected_lines '[Cc]ommon\(\s\|-\)*[Ll]isp' 'Common Lisp' || return 1
+    fix_suspected_lines '[Cc]ommon(\s|-)*[Ll]isp' 'Common Lisp' || return 1
     fix_suspected_lines '[Ff][Ee][Nn][Nn][Ee][Ll]' 'Fennel' || return 1
     return 0
 }
@@ -320,14 +353,14 @@ check_xml() {
 # Check for bad Git/GitHub/GitLab capitalizations
 check_git() {
     fix_suspected_lines '[Gg][Ii][Tt]' 'Git' || return 1
-    fix_suspected_lines '[Gg][Ii][Tt]\(\s\|[\-_]\)*[Hh][Uu][Bb]' 'GitHub' || return 1
-    fix_suspected_lines '[Gg][Ii][Tt]\(\s\|[\-_]\)*[Ll][Aa][Bb]' 'GitLab' || return 1
+    fix_suspected_lines '[Gg][Ii][Tt](\s|[\-_])*[Hh][Uu][Bb]' 'GitHub' || return 1
+    fix_suspected_lines '[Gg][Ii][Tt](\s|[\-_])*[Ll][Aa][Bb]' 'GitLab' || return 1
     return 0
 }
 
 # Check for bad Golang capitalizations
 check_golang() {
-    fix_suspected_lines '[Gg]o\(\s\|-\)*[Ll]ang' 'Golang' || return 1
+    fix_suspected_lines '[Gg]o(\s|-)*[Ll]ang' 'Golang' || return 1
     return 0
 }
 
@@ -335,7 +368,7 @@ check_golang() {
 check_bash() {
     fix_suspected_lines '[Bb][Aa][Ss][Hh]' 'Bash' || return 1
     fix_suspected_lines '[Zz][Ss][Hh]' 'Zsh' || return 1
-    fix_suspected_lines '[Cc]\(\s\|-\)*[Ss][Hh]\([Ee][Ll][Ll]\)\?' 'C shell' || return 1
+    fix_suspected_lines '[Cc](\s|-)*[Ss][Hh]([Ee][Ll][Ll])?' 'C shell' || return 1
     return 0
 }
 
@@ -347,25 +380,25 @@ check_unity() {
 
 # Check for bad OpenCL capitalizations
 check_opencl() {
-    fix_suspected_lines '[Oo][Pp][Ee][Nn]-\?[Cc][Ll]' 'OpenCL' || return 1
+    fix_suspected_lines '[Oo][Pp][Ee][Nn]-?[Cc][Ll]' 'OpenCL' || return 1
     return 0
 }
 
 # Check for bad OpenGL capitalizations
 check_opengl() {
-    fix_suspected_lines '[Oo][Pp][Ee][Nn]-\?[Gg][Ll]' 'OpenGL' || return 1
+    fix_suspected_lines '[Oo][Pp][Ee][Nn]-?[Gg][Ll]' 'OpenGL' || return 1
     return 0
 }
 
 # Check for bad Haskell capitalizations
 check_haskell() {
-    fix_suspected_lines '[Hh][Aa][Ss][Kk][Ee][Ll][Ll]\?' 'Haskell' || return 1
+    fix_suspected_lines '[Hh][Aa][Ss][Kk][Ee][Ll][Ll]?' 'Haskell' || return 1
     return 0
 }
 
 # Check for bad CoffeeScript/CSON capitalizations
 check_coffeescript() {
-    fix_suspected_lines '[Cc]off\?ee\?\(\s\|[\-_]\)*[Ss]cript' 'CoffeeScript' || return 1
+    fix_suspected_lines '[Cc]off?ee?(\s|[\-_])*[Ss]cript' 'CoffeeScript' || return 1
     fix_suspected_lines '[Cc][Ss][Oo][Nn]' 'CSON' || return 1
     return 0
 }
@@ -373,7 +406,7 @@ check_coffeescript() {
 # Check for bad JavaScript/JS capitalizations
 check_js() {
     fix_suspected_lines '[Jj][Ss]' 'JS' || return 1
-    fix_suspected_lines '[Jj]ava\(\s\|[\-_]\)*[Ss]cript' 'JavaScript' || return 1
+    fix_suspected_lines '[Jj]ava(\s|[\-_])*[Ss]cript' 'JavaScript' || return 1
     return 0
 }
 
@@ -385,14 +418,14 @@ check_wsl() {
 
 # Check for bad Arch Linux/Ubuntu/Debian/Fedora/Gentoo/Void Linux/Nix/NixOS capitalizations
 check_distros() {
-    fix_suspected_lines '[Aa][Rr][Cc][Hh]\(\s\|[\-_]\)*[Ll][Ii][Nn][Uu][Xx]' 'Arch Linux' || return 1
-    fix_suspected_lines '[Vv][Oo][Ii][Dd]\(\s\|[\-_]\)*[Ll][Ii][Nn][Uu][Xx]' 'Void Linux' || return 1
+    fix_suspected_lines '[Aa][Rr][Cc][Hh](\s|[\-_])*[Ll][Ii][Nn][Uu][Xx]' 'Arch Linux' || return 1
+    fix_suspected_lines '[Vv][Oo][Ii][Dd](\s|[\-_])*[Ll][Ii][Nn][Uu][Xx]' 'Void Linux' || return 1
     fix_suspected_lines '[Uu][Bb][Uu][Nn][Tt][Uu]' 'Ubuntu' || return 1
     fix_suspected_lines '[Dd][Ee][Bb][Ii][Aa][Nn]' 'Debian' || return 1
     fix_suspected_lines '[Ff][Ee][Dd][Oo][Rr][Aa]' 'Fedora' || return 1
     fix_suspected_lines '[Gg][Ee][Nn][Tt][Oo][Oo]' 'Gentoo' || return 1
     fix_suspected_lines '[Nn][Ii][Xx]' 'Nix' || return 1
-    fix_suspected_lines '[Nn][Ii][Xx]\(\s\|[\-_]\)*[Oo][Ss]' 'NixOS' || return 1
+    fix_suspected_lines '[Nn][Ii][Xx](\s|[\-_])*[Oo][Ss]' 'NixOS' || return 1
     return 0
 }
 
@@ -402,10 +435,10 @@ check_unix() {
     fix_suspected_lines '[Pp][Oo][Ss][Ii][Xx]' 'POSIX' || return 1
     fix_suspected_lines '[Ll][Ii][Nn][Uu][Xx]' 'Linux' || return 1
     fix_suspected_lines '[Bb][Ss][Dd]' 'BSD' || return 1
-    fix_suspected_lines '[Ff]ree\(\s\|[\-_]\)*[Bb][Ss][Dd]' 'FreeBSD' || return 1
-    fix_suspected_lines '[Oo]pen\(\s\|[\-_]\)*[Bb][Ss][Dd]' 'OpenBSD' || return 1
-    fix_suspected_lines '[Nn]et\(\s\|[\-_]\)*[Bb][Ss][Dd]' 'NetBSD' || return 1
-    fix_suspected_lines '\([Mm][Aa][Cc]\(\s\|-\)*[Oo][Ss]\|[Oo][Ss]\(\s\|-\)*[Xx]\)' 'macOS' || return 1
+    fix_suspected_lines '[Ff]ree(\s|[\-_])*[Bb][Ss][Dd]' 'FreeBSD' || return 1
+    fix_suspected_lines '[Oo]pen(\s|[\-_])*[Bb][Ss][Dd]' 'OpenBSD' || return 1
+    fix_suspected_lines '[Nn]et(\s|[\-_])*[Bb][Ss][Dd]' 'NetBSD' || return 1
+    fix_suspected_lines '([Mm][Aa][Cc](\s|-)*[Oo][Ss]|[Oo][Ss](\s|-)*[Xx])' 'macOS' || return 1
     return 0
 }
 
@@ -424,14 +457,14 @@ check_tex() {
 
 # Check for bad Tree-sitter capitalizations
 check_tree_sitter() {
-    fix_suspected_lines '[Tt][Rr][Ee][Ee][+\-]*[Ss][Ii][Tt][Tt][Ee][Rr]' 'Tree-sitter' || return 1
+    fix_suspected_lines '[Tt][Rr][Ee][Ee][\+\-]*[Ss][Ii][Tt][Tt][Ee][Rr]' 'Tree-sitter' || return 1
     return 0
 }
 
 # Check for bad TypeScript/TS capitalizations
 check_ts() {
     fix_suspected_lines '[Tt][Ss]' 'TS' || return 1
-    fix_suspected_lines '[Tt]ype\(\s\|[\-_]\)*[Ss]cript' 'TypeScript' || return 1
+    fix_suspected_lines '[Tt]ype(\s|[\-_])*[Ss]cript' 'TypeScript' || return 1
     return 0
 }
 
@@ -443,22 +476,22 @@ check_java() {
 
 # Check for bad Neovim capitalizations
 check_neovim() {
-    fix_suspected_lines '[Nn]\([Ee][Oo]\)\?\(-\|(\)*[Vv][Ii][Mm])\?' 'Neovim' || return 1
+    fix_suspected_lines '[Nn]([Ee][Oo])?(-|\()*[Vv][Ii][Mm]\)?' 'Neovim' || return 1
     return 0
 }
 
 # Check for bad Vim/Vimscript/VimL capitalizations
 check_vim() {
     fix_suspected_lines '[Vv][Ii][Mm]' 'Vim' || return 1
-    fix_suspected_lines '[Vv][Ii][Mm]\(\s\|-\)*[Ss]cript' 'Vimscript' || return 1
-    fix_suspected_lines '[Vv][Ii][Mm]\(\s\|-\)*[Ll]' 'VimL' || return 1
+    fix_suspected_lines '[Vv][Ii][Mm](\s|-)*[Ss]cript' 'Vimscript' || return 1
+    fix_suspected_lines '[Vv][Ii][Mm](\s|-)*[Ll]' 'VimL' || return 1
     return 0
 }
 
 # Check for bad Vue/VueJS capitalizations
 check_vue() {
     fix_suspected_lines '[Vv][Uu][Ee]' 'Vue' || return 1
-    fix_suspected_lines '[Vv][Uu][Ee]\(\s\|[\-\.]\)*[Jj][Ss]' 'VueJS' || return 1
+    fix_suspected_lines '[Vv][Uu][Ee](\s|[\-\.])*[Jj][Ss]' 'VueJS' || return 1
     return 0
 }
 
@@ -487,9 +520,9 @@ if [[ $# -gt 0 ]]; then
 fi
 
 check_bash         || die 1 "Error while analyzing (Bash/Zsh/C shell)"
-check_c            || die 1 "Error while analyzing (C/C++)"
+check_c            || die 1 "Error while analyzing (C/C++/GCC)"
 check_coffeescript || die 1 "Error while analyzing (CoffeeScript/CSON)"
-check_cs           || die 1 "Error while analyzing (C#)"
+check_cs           || die 1 "Error while analyzing (C#/.NET)"
 check_csv          || die 1 "Error while analyzing (CSV)"
 check_distros      || die 1 "Error while analyzing (Arch Linux/Void Linux/Ubuntu/Debian/Fedora/Gentoo/NixOS/Nix)"
 check_fortran      || die 1 "Error while analyzing (Fortran)"
@@ -511,7 +544,8 @@ check_neovim       || die 1 "Error while analyzing (Neovim)"
 check_opencl       || die 1 "Error while analyzing (OpenCL)"
 check_opengl       || die 1 "Error while analyzing (OpenGL)"
 check_perl         || die 1 "Error while analyzing (Perl)"
-check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI)"
+check_php          || die 1 "Error while analyzing (PHP)"
+check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI/Jupyter)"
 check_r            || die 1 "Error while analyzing (R)"
 check_rst          || die 1 "Error while analyzing (RST/ReStructuredText)"
 check_ruby         || die 1 "Error while analyzing (Ruby/Rails)"
