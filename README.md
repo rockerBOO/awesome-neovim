@@ -1247,6 +1247,7 @@ then it is not supported:
 - [Enigama/remarks.nvim](https://github.com/Enigama/remarks.nvim) - Personal developer notes attached to Git commits.
 - [Salanoid/gitlogdiff.nvim](https://github.com/Salanoid/gitlogdiff.nvim) - Diff between multiple Git commits, similar to JetBrains's Git log.
 - [Sengoku11/commitpad.nvim](https://github.com/Sengoku11/commitpad.nvim) - Write informative commits with persistent worktree-isolated drafts, visual 50/72 guides, and a Markdown buffer.
+- [BibekBhusal0/nvim-git-utils](github.com/BibekBhusal0/nvim-git-utils) - Simple commands to make life easier while working with git.
 
 ### GitHub
 
