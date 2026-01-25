@@ -246,7 +246,7 @@ check_sql() {
     return 0
 }
 
-# Check for bad TOML acronyms
+# Check for bad TODO/TODOs acronyms
 check_todo() {
     fix_suspected_lines '[Tt][Oo][Dd][Oo]' 'TODO' || return 1
     fix_suspected_lines '[Tt][Oo][Dd][Oo][Ss]' 'TODOs' || return 1
