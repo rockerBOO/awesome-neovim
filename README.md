@@ -1061,6 +1061,7 @@ then it is not supported:
 - [Axot017/multiterm.nvim](https://github.com/Axot017/multiterm.nvim) - A lightweight manager of multiple terminal instances with key bindings.
 - [da-moon/telescope-toggleterm.nvim](https://github.com/da-moon/telescope-toggleterm.nvim) - Telescope picker for terminal buffers.
 - [benoror/gpg.nvim](https://github.com/benoror/gpg.nvim) - Edit GPG encrypted files symmetrically.
+- [gh-liu/nvim-winterm](https://github.com/gh-liu/nvim-winterm) - Multi-terminal window manager.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
