@@ -102,7 +102,7 @@ fix_suspected_lines() {
     fi
 
     local LEADING=('\s' ',\s' ':\s' '\.\s')
-    local TRAILING=(' ' '!' ',' '.' ':' ')')
+    local TRAILING=(' ' '!' ',' '.' ':' ')' "'")
     local TRAIL=""
     local LEAD_CHARS=""
     local MSG=""
@@ -112,7 +112,6 @@ fix_suspected_lines() {
 
     local MAGENTA=""
     local RED=""
-    local CYAN=""
     local GREEN=""
     local BOLD=""
     local RESET=""
@@ -120,7 +119,6 @@ fix_suspected_lines() {
         MAGENTA="$(tput setaf 5)"
         RED="$(tput setaf 1)"
         GREEN="$(tput setaf 2)"
-        CYAN="$(tput setaf 6)"
         BOLD="$(tput bold)"
         RESET="$(tput sgr0)"
     fi
@@ -192,6 +190,33 @@ check_yaml() {
     return 0
 }
 
+# Check for bad ChatGPT/AI/OpenAI/LLM/Ollama/Azure/LLaMA/Gemini/Copilot/Claude/Deepseek capitalization and acronyms
+check_ai() {
+    fix_suspected_lines '[Aa][Ii]' 'AI' || return 1
+    fix_suspected_lines '[Ll][Ll][Mm]' 'LLM' || return 1
+    fix_suspected_lines '[Aa][Zz][Uu][Rr][Ee]' 'Azure' || return 1
+    fix_suspected_lines '[Ll][Ll][Aa][Mm]+[Aa]' 'LLaMA' || return 1
+    fix_suspected_lines '[Oo][Ll][Ll][Aa][Mm]+[Aa]' 'Ollama' || return 1
+    fix_suspected_lines '[Gg][Ee][Mm][Ii][Nn][Ii]' 'Gemini' || return 1
+    fix_suspected_lines '[Cc][Ll][Aa][Uu][Dd][Ee]' 'Claude' || return 1
+    fix_suspected_lines '[Cc][Oo][Pp][Ii][Ll][Oo][Tt]' 'Copilot' || return 1
+    fix_suspected_lines '[Dd][Ee][Ee][Pp]-?[Ss][Ee][Ee][Kk]' 'Deepseek' || return 1
+    fix_suspected_lines '[Cc][Hh][Aa][Tt](\s|[\-_])*[Gg][Pp][Tt]' 'ChatGPT' || return 1
+    return 0
+}
+
+# Check for bad API acronyms
+check_api() {
+    fix_suspected_lines '[Aa][Pp][Ii]' 'API' || return 1
+    return 0
+}
+
+# Check for bad & punctuation
+check_punctuation() {
+    fix_suspected_lines '\&' 'and' || return 1
+    return 0
+}
+
 # Check for bad Lua/StyLua acronyms
 check_lua() {
     fix_suspected_lines '[Ll][Uu][Aa]' 'Lua' || return 1
@@ -199,12 +224,13 @@ check_lua() {
     return 0
 }
 
-# Check for bad Python/Python 2/Python 3/PyPI capitalizations
+# Check for bad Python/Python 2/Python 3/PyPI/Pipenv/Jupyter capitalizations
 check_python() {
     fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn]' 'Python' || return 1
     fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn](\s|[-_])*2' 'Python 2' || return 1
     fix_suspected_lines '[Pp][Yy][Tt][Hh][Oo][Nn](\s|[-_])*3' 'Python 3' || return 1
     fix_suspected_lines '[Pp][Yy][Pp][Ii]' 'PyPI' || return 1
+    fix_suspected_lines '[Pp][Ii][Pp][Ee][Nn][Vv]' 'Pipenv' || return 1
     fix_suspected_lines '[Jj][Uu][Pp][Yy][Tt][Ee][Rr]' 'Jupyter' || return 1
     return 0
 }
@@ -461,6 +487,12 @@ check_tree_sitter() {
     return 0
 }
 
+# Check for bad Typst capitalizations
+check_typst() {
+    fix_suspected_lines '[Tt][Yy][Pp][Ss][Tt]' 'Typst' || return 1
+    return 0
+}
+
 # Check for bad TypeScript/TS capitalizations
 check_ts() {
     fix_suspected_lines '[Tt][Ss]' 'TS' || return 1
@@ -519,6 +551,8 @@ if [[ $# -gt 0 ]]; then
     done
 fi
 
+check_ai           || die 1 "Error while analyzing (ChatGPT/AI/OpenAI/LLM/Ollama/Azure/LLaMA/Gemini/Copilot/Claude/Deepseek)"
+check_api          || die 1 "Error while analyzing (API)"
 check_bash         || die 1 "Error while analyzing (Bash/Zsh/C shell)"
 check_c            || die 1 "Error while analyzing (C/C++/GCC)"
 check_coffeescript || die 1 "Error while analyzing (CoffeeScript/CSON)"
@@ -545,7 +579,8 @@ check_opencl       || die 1 "Error while analyzing (OpenCL)"
 check_opengl       || die 1 "Error while analyzing (OpenGL)"
 check_perl         || die 1 "Error while analyzing (Perl)"
 check_php          || die 1 "Error while analyzing (PHP)"
-check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI/Jupyter)"
+check_punctuation  || die 1 "Error while analyzing punctuation"
+check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI/Jupyter/Pipenv)"
 check_r            || die 1 "Error while analyzing (R)"
 check_rst          || die 1 "Error while analyzing (RST/ReStructuredText)"
 check_ruby         || die 1 "Error while analyzing (Ruby/Rails)"
@@ -556,6 +591,7 @@ check_todo         || die 1 "Error while analyzing (TODO)"
 check_toml         || die 1 "Error while analyzing (TOML)"
 check_tree_sitter  || die 1 "Error while analyzing (Tree-sitter)"
 check_ts           || die 1 "Error while analyzing (TypeScript/TS)"
+check_typst        || die 1 "Error while analyzing (Typst)"
 check_unity        || die 1 "Error while analyzing (UNITY)"
 check_unix         || die 1 "Error while analyzing (UNIX/Linux/macOS/BSD/FreeBSD/OpenBSD/NetBSD)"
 check_vim          || die 1 "Error while analyzing (Vim/Vimscript/VimL)"
