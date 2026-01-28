@@ -10,12 +10,19 @@ LIST_SUPPORTED=0
 SUPPORTED=()
 BACKUPS=()
 
+# Print each argument as a line to stderr
 error() {
     local TXT=("$@")
     printf "%s\n" "${TXT[@]}" >&2
     return 0
 }
 
+# Check if one or more commands exist.
+#
+# Returns 0 (success) if all arguments are valid commands, otherwise 1 (error).
+# Returns 127 (error) if no arguments are passed.
+#
+# Usage: _cmd_exists <PROG> [<PROG> [...]]
 _cmd_exists() {
     [[ $# -eq 0 ]] && return 127
     while [[ $# -gt 0 ]]; do
@@ -25,6 +32,7 @@ _cmd_exists() {
     return 0
 }
 
+# Print all args, then sort the printed output
 print_sort() {
     local TXT=("$@")
     printf "%s\n" "${TXT[@]}" | sort
@@ -39,10 +47,16 @@ verbose_print() {
     return 0
 }
 
+# Delete all temporary files, then kill the program execution with an optional exit code.
+#
+# This function can also print a set of messages to either stdout or stderr
+# depending on the exit code.
+#
+# Usage: die [[<EXIT_CODE>] <MESSAGE> [<MESSAGE> [...]]]
 die() {
     rm -f "${BACKUPS[@]}"
 
-    local EC=1
+    local EC=0
     if [[ $# -ge 1 ]] && [[ $1 =~ ^(0|-?[1-9][0-9]*)$ ]]; then
         EC="$1"
         shift
@@ -56,6 +70,14 @@ die() {
         fi
     fi
     exit "$EC"
+}
+
+# Called if SIGINT (Ctrl-C) is detected. This is to ensure temporary files are cleaned correctly
+#
+# The line below is to disable a "unused-function" warning type in shellcheck
+# shellcheck disable=SC2329
+die_sigint() {
+    die 1
 }
 
 # Print help message
@@ -91,9 +113,18 @@ usage() {
     die "$EC" "${TXT[@]}"
 }
 
-# Function to correct all lines that match the given regexp
+# Function to correct all lines that match the given regexp.
+#
+# Keep in mind this function requires EXTENDED regexp.
+#
+# Usage:
+#   fix_suspected_lines '<EXTENDED_REGEX>' '<REPLACEMENT>'
 fix_suspected_lines() {
-    [[ $# -le 1 ]] && return 1
+    if [[ $# -lt 2 ]]; then
+        error "Not enough arguments for \`fix_suspected_lines\`!"
+        return 1
+    fi
+
     local REGEX="$1"
     local REPLACE="$2"
     if [[ $LIST_SUPPORTED -eq 1 ]]; then
@@ -101,21 +132,24 @@ fix_suspected_lines() {
         return 0
     fi
 
+    local EC=0
+
     local LEADING=('\s' ',\s' ':\s' '\.\s')
     local TRAILING=(' ' '!' ',' '.' ':' ')' "'")
     local TRAIL=""
     local LEAD_CHARS=""
     local MSG=""
-    local EC=0
     local CHANGED=0
     local FOUND=0
 
+    # Output colors
     local MAGENTA=""
     local RED=""
     local GREEN=""
     local BOLD=""
     local RESET=""
-    if [[ $USE_COLORS -eq 1 ]]; then
+
+    if [[ $USE_COLORS -eq 1 ]] && _cmd_exists 'tput'; then
         MAGENTA="$(tput setaf 5)"
         RED="$(tput setaf 1)"
         GREEN="$(tput setaf 2)"
@@ -125,7 +159,7 @@ fix_suspected_lines() {
 
     MSG="Fixing ${MAGENTA}${REPLACE}${RESET}${BOLD}  ==>  "
     for TRAIL_CHAR in "${TRAILING[@]}"; do
-        # HACK: Convert non-regex to regex where needed
+        # HACK: Convert from non-regex to (extended) regex where needed
         case "$TRAIL_CHAR" in
             '.') TRAIL='\.' ;;
             ' ') TRAIL='\s' ;;
@@ -133,8 +167,10 @@ fix_suspected_lines() {
             *) TRAIL="$TRAIL_CHAR" ;;
         esac
         for LEAD in "${LEADING[@]}"; do
-            local BACKUP=""
-            case "$LEAD" in # HACK: Convert regex to non-regex for replacement
+            local BACKUP="" # The current loop's backup file
+
+            # HACK: Convert from extended regex to non-regex for replacements
+            case "$LEAD" in
                 '\s') LEAD_CHARS=' ' ;;
                 '\.\s') LEAD_CHARS='. ' ;;
                 ',\s') LEAD_CHARS=', ' ;;
@@ -142,7 +178,9 @@ fix_suspected_lines() {
                 '!\s') LEAD_CHARS='! ' ;;
                 *) LEAD_CHARS="$LEAD" ;;
             esac
-            if [[ $VERBOSE -eq 1 ]] && grep -E "${LEAD}${REGEX}${TRAIL}" ./README.md &> /dev/null; then
+            if grep -E "${LEAD}${REGEX}${TRAIL}" ./README.md &> /dev/null; then
+                # If regex is found then backup README to temporary file and indicate that
+                # changes will be made
                 FOUND=1
                 BACKUP="$(mktemp -p .)"
                 BACKUPS+=("${BACKUP}")
@@ -154,17 +192,19 @@ fix_suspected_lines() {
                 break
             fi
 
+            # If backup has been made then compare README with backup.
             if [[ -n "${BACKUP}" ]]; then
+                # If changes have been made then set CHANGED to 1
                 ! diff -q ./README.md "${BACKUP}" &> /dev/null && CHANGED=1
             fi
         done
-        [[ $EC -eq 1 ]] && break
+        [[ $EC -eq 1 ]] && break # If there's been an error, break
     done
 
     if [[ $EC -eq 0 ]]; then
         if [[ $FOUND -eq 1 ]] && [[ $CHANGED -eq 1 ]]; then
             MSG+="${GREEN}CHANGED"
-        else
+        else # `$CHANGED` shouldn't be 1 either way
             MSG+="UNCHANGED"
         fi
     fi
@@ -526,6 +566,9 @@ check_vue() {
     fix_suspected_lines '[Vv][Uu][Ee](\s|[\-\.])*[Jj][Ss]' 'VueJS' || return 1
     return 0
 }
+
+# HACK: Execute `die_sigint` on Ctrl-C
+trap 'die_sigint' SIGINT
 
 if ! _cmd_exists 'sed'; then
     die 130 "\`sed\` not available in your PATH!"
