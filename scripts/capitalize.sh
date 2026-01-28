@@ -113,6 +113,26 @@ usage() {
     die "$EC" "${TXT[@]}"
 }
 
+# A wrapper for `grep -E <REGEX> ./README.md`
+#
+# Usage: search_regex <EXTENDED_REGEX>
+search_regex() {
+    [[ $# -eq 0 ]] && return 127
+
+    grep -E "$1" ./README.md &> /dev/null
+    return $?
+}
+
+# A wrapper for `! diff -q ./README.md </path/to/file>`
+#
+# Usage: has_diff </path/to/file>
+has_diff() {
+    [[ $# -eq 0 ]] && return 127
+
+    ! diff -q ./README.md "$1" &> /dev/null && return 0
+    return 1
+}
+
 # Function to correct all lines that match the given regexp.
 #
 # Keep in mind this function requires EXTENDED regexp.
@@ -178,7 +198,7 @@ fix_suspected_lines() {
                 '!\s') LEAD_CHARS='! ' ;;
                 *) LEAD_CHARS="$LEAD" ;;
             esac
-            if grep -E "${LEAD}${REGEX}${TRAIL}" ./README.md &> /dev/null; then
+            if search_regex "${LEAD}${REGEX}${TRAIL}"; then
                 # If regex is found then backup README to temporary file and indicate that
                 # changes will be made
                 FOUND=1
@@ -195,7 +215,7 @@ fix_suspected_lines() {
             # If backup has been made then compare README with backup.
             if [[ -n "${BACKUP}" ]]; then
                 # If changes have been made then set CHANGED to 1
-                ! diff -q ./README.md "${BACKUP}" &> /dev/null && CHANGED=1
+                has_diff "${BACKUP}" && CHANGED=1
             fi
         done
         [[ $EC -eq 1 ]] && break # If there's been an error, break
