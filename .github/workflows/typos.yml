@@ -5,19 +5,25 @@ permissions:
   pull-requests: read
 on:
   push:
+    paths:
+      - README.md
     branches:
       - main
   pull_request:
     types:
       - opened
       - synchronize
+    paths:
+      - README.md
 jobs:
   typos-check:
     name: Check for typos
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: crate-ci/typos@b1a1ef3893ff35ade0cfa71523852a49bfd05d19
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Check Typos
+        uses: crate-ci/typos@b1a1ef3893ff35ade0cfa71523852a49bfd05d19
         with:
           files: ./README.md
           config: ./.github/typos.toml
@@ -26,9 +32,11 @@ jobs:
     name: Check for terminology consistency
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout
+        uses: actions/checkout@v6
       - name: Run terminology check script
-        run: ./.github/scripts/check-terms.sh README.md
+        run: |
+          ./.github/scripts/check-terms.sh README.md
 
   capitalizations-check:
     name: Ensure correct capitalizations
@@ -37,7 +45,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Run capitalize.sh
-        run:
+        run: |
           ./scripts/capitalize.sh -vc
       - name: Check if diff has changed
         id: check_diff
