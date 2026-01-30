@@ -642,6 +642,7 @@ then it is not supported:
 - **_`[Fnl]`_** - Is written in Fennel.
 <!--lint enable awesome-list-item-->
 
+- [silentium-theme/silentium.nvim](https://github.com/silentium-theme/silentium.nvim) - **_`[TS][Luа]`_** Pragmatic and monochrome theme with the goal to increase reading speed and reduce eye strain by highlighting only what is needed.
 - [serhez/teide.nvim](https://github.com/serhez/teide.nvim) - **_`[TS][LSP][L/D][Lua]`_** A fork of folke's `tokyonight.nvim` with a different color palette.
 - [kuri-sun/yoda.nvim](https://github.com/kuri-sun/yoda.nvim) - **_`[TS][LSP][L/D][Lua]`_** Muted green palette for focused, balanced editing.
 - [wurli/cobalt.nvim](https://github.com/wurli/cobalt.nvim) - **_`[TS][LSP][Lua]`_** A (mostly) faithful port of the classic blue theme from TextMate.
