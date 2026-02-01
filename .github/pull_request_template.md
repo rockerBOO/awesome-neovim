@@ -1,6 +1,6 @@
 <!--
-DO NOT OVERWRITE THIS PR TEMPLATE!
-Use this format only.
+If this is a PR for a new plugin,
+DO NOT OVERWRITE THIS PR TEMPLATE! Use this format only.
 
 PLEASE make sure to read the CONTRIBUTING.md file!
 https://github.com/rockerBOO/awesome-neovim/blob/main/CONTRIBUTING.md
