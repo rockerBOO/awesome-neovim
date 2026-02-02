@@ -273,6 +273,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [3ZsForInsomnia/vs-code-companion](https://github.com/3ZsForInsomnia/vs-code-companion) - Tool for importing VSCode's Markdown prompts into CodeCompanion.
 - [3ZsForInsomnia/token-count.nvim](https://github.com/3ZsForInsomnia/token-count.nvim) - Shows the token count for the current buffer, with integrations for Lualine and NeoTree.
 - [nishu-murmu/cursor-inline](https://github.com/nishu-murmu/cursor-inline) - Cursor-style inline AI editing. Select code, describe the change, and get an inline, highlighted edit you can accept or reject—similar to Cursor inline workflow.
+- [SylphAI-Inc/adal-cli](https://sylph.ai/) - Self-evolving AI coding agent that lets models collaborate (Claude, GPT, Gemini). Terminal-based, runs locally, learns codebase patterns. Compatible with Claude Code skills/plugins. Built on [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow).
 - [codex.nvim](https://github.com/ishiooon/codex.nvim) - Codex IDE integration inside Neovim (no API key required).
 
 <!--lint disable double-link -->
