@@ -1208,6 +1208,9 @@ then it is not supported:
 
 ## Dependency Management
 
+<!--lint disable double-link -->
+- [DrKJeff16/pipenv.nvim](https://github.com/DrKJeff16/pipenv.nvim) - Manage your [Pipenv](https://pypi.org/project/pipenv/) virtual environment while editing.
+<!--lint enable double-link -->
 - [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim) - Display latest package version as virtual text in package.json.
 - [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) - Rust dependency management for `Cargo.toml`.
 - [piersolenski/import.nvim](https://github.com/piersolenski/import.nvim) - Import modules faster based on what you've already imported in your project.
