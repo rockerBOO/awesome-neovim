@@ -185,7 +185,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [yarospace/dev-tools.nvim](https://github.com/yarospace/dev-tools.nvim) - In-process LSP server for custom code actions, enhanced actions picker, community actions library and a convenient interface to create your own actions.
 - [SunnyTamang/neodoc.nvim](https://github.com/SunnyTamang/neodoc.nvim) - DocString generator that helps writing function/classes docstrings in formats like `google`, `numpy`, `sphinx` with live preview.
 - [barreiroleo/ltex_extra.nvim](https://github.com/barreiroleo/ltex_extra.nvim) - LTeX LSP extension providing external file handling (rules and dictionaries).
-- [chojs23/ts-bridge](https://github.com/chojs23/ts-bridge) - A TypeScript language-server shim that bridges Neovim's LSP client with tsserver.
+- [chojs23/ts-bridge](https://github.com/chojs23/ts-bridge) - TypeScript language server shim that bridges the built-in LSP client with `tsserver`.
 
 ### LSP Installer
 
