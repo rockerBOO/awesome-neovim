@@ -29,12 +29,13 @@ When submitting a Pull Request make sure to cover all of the following points:
 
 - If adding/updating/removing a plugin, _**respect the Pull Request template format**_.
   - You can find the template in [`pull_request_template.md`][pr_template] to comply.
-  - Your PR description will be edited by a maintainer.
+  - Otherwise your PR description will be edited by a maintainer.
 - Ensure your changes follow the [awesome list guidelines][guidelines].
   Otherwise your PR will not be merged until corrected.
 - Ensure the plugin you're requesting meets our [acceptance criteria][criteria].
   Otherwise your PR will not be merged until corrected.
-- Ensure your Pull Request title follows the [regexp rule][regexp_rule] (``` Add|Update|Remove `username/repo` ```).
+- Ensure your Pull Request title follows the [regexp rule][regexp_rule]
+  (``` Add|Update|Remove `username/repo` ```).
   Otherwise your PR title will be manually edited by a maintainer.
 - Ensure all acronyms ("YAML", "TOML", "INI", "JSON", etc.) are correctly written.
   Try running `./scripts/capitalize.sh` to detect and correct any existing capitalizations missed.
