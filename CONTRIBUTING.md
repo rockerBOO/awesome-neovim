@@ -27,14 +27,22 @@ Please make sure the following requirements are met:
 
 When submitting a Pull Request make sure to cover all of the following points:
 
+- If adding/updating/removing a plugin, _**respect the Pull Request template format**_.
+  - You can find the template in [`pull_request_template.md`][pr_template] to comply.
+  - Your PR description will be edited by a maintainer.
 - Ensure your changes follow the [awesome list guidelines][guidelines].
+  Otherwise your PR will not be merged until corrected.
 - Ensure the plugin you're requesting meets our [acceptance criteria][criteria].
+  Otherwise your PR will not be merged until corrected.
 - Ensure your Pull Request title follows the [regexp rule][regexp_rule] (``` Add|Update|Remove `username/repo` ```).
+  Otherwise your PR title will be manually edited by a maintainer.
 - Ensure all acronyms ("YAML", "TOML", "INI", "JSON", etc.) are correctly written.
-- Avoid using emojis in your description.
+  Try running `./scripts/capitalize.sh` to detect and correct any existing capitalizations missed.
+- Avoid using emojis in your description. Your PR will not be merged until you remove existing ones.
 - Avoid any mentions of the word "plugin" and "Neovim" unless absolutely necessary.
   - If needed, please make sure you write "Neovim" correctly in your description.
     These will be rejected: "nvim", "Nvim", "NeoVim", "(Neo)Vim", etc.
+    Try running `./scripts/capitalize.sh` in case any of these examples exist.
 
 ### Regarding Colorschemes
 
@@ -54,6 +62,7 @@ With the tags being:
 
 You may find examples in the [Colorscheme Section](https://github.com/rockerBOO/awesome-neovim#colorscheme).
 
+[pr_template]: https://github.com/rockerBOO/awesome-neovim/blob/main/.github/pull_request_template.md
 [issues]: https://github.com/rockerBOO/awesome-neovim/issues
 [criteria]: https://github.com/rockerBOO/awesome-neovim/blob/main/MAINTAINERS.md#acceptance-criteria
 [guidelines]: https://github.com/sindresorhus/awesome/blob/master/pull_request_template.md#requirements-for-your-awesome-list
