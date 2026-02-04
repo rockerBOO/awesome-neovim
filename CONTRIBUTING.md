@@ -28,7 +28,7 @@ Please make sure the following requirements are met:
 When submitting a Pull Request make sure to cover all of the following points:
 
 - If adding/updating/removing a plugin, _**respect the Pull Request template format**_.
-  - You can find the template in [`pull_request_template.md`][pr_template] to comply.
+  - You can find the compliant template in [`pull_request_template.md`][pr_template].
   - Otherwise your PR description will be edited by a maintainer.
 - Ensure your changes follow the [awesome list guidelines][guidelines].
   Otherwise your PR will not be merged until corrected.
