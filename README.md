@@ -1637,7 +1637,7 @@ then it is not supported:
 
 - [p00f/cphelper.nvim](https://github.com/p00f/cphelper.nvim) - Helper for competitive programming written in Lua.
 - [xeluxee/competitest.nvim](https://github.com/xeluxee/competitest.nvim) - A plugin to automate testcases management and checking for Competitive Programming contests.
-- [barrettruth/cp.nvim](https://github.com/barrettruth/cp.nvim) - Competitive programming workflow for AtCoder, Codeforces, and CSES with test scraping, I/O view, and diff panel.
+- [barrettruth/cp.nvim](https://github.com/barrettruth/cp.nvim) - Competitive programming workflow for popular contest platforms (CodeForces, CSES, etc.) Includes automatic test scraping, I/O view, and diff panel.
 - [kawre/leetcode.nvim](https://github.com/kawre/leetcode.nvim) - Solve Leetcode problems.
 - [2KAbhishek/exercism.nvim](https://github.com/2KAbhishek/exercism.nvim) - Browse and solve Exercism problems.
 <!--lint disable double-link -->
