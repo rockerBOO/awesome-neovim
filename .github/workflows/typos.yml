@@ -38,15 +38,15 @@ jobs:
         run: |
           ./.github/scripts/check-terms.sh README.md
 
-  capitalizations-check:
-    name: Ensure correct capitalizations
+  formatting-check:
+    name: Ensure correct formatting
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Run capitalize.sh
+      - name: Run readme-check.sh
         run: |
-          ./scripts/capitalize.sh -vc
+          ./scripts/readme-check.sh -vc
       - name: Check if diff has changed
         id: check_diff
         run: |

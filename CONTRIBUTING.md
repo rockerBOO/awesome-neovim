@@ -38,12 +38,12 @@ When submitting a Pull Request make sure to cover all of the following points:
   (``` Add|Update|Remove `username/repo` ```).
   Otherwise your PR title will be manually edited by a maintainer.
 - Ensure all acronyms ("YAML", "TOML", "INI", "JSON", etc.) are correctly written.
-  Try running `./scripts/capitalize.sh` to detect and correct any existing capitalizations missed.
+  Try running `./scripts/readme-check.sh` to detect and correct any existing capitalizations missed.
 - Avoid using emojis in your description. Your PR will not be merged until you remove existing ones.
 - Avoid any mentions of the word "plugin" and "Neovim" unless absolutely necessary.
   - If needed, please make sure you write "Neovim" correctly in your description.
     These will be rejected: "nvim", "Nvim", "NeoVim", "(Neo)Vim", etc.
-    Try running `./scripts/capitalize.sh` in case any of these examples exist.
+    Try running `./scripts/readme-check.sh` in case any of these examples exist.
 
 ### Regarding Colorschemes
 

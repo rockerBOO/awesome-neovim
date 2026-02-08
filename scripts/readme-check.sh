@@ -2,13 +2,25 @@
 
 set -o pipefail
 
-OPTIONS=":hvcL"
+OPTIONS=":hvcCtpL"
 VERBOSE=0
 USE_COLORS=1
 LIST_SUPPORTED=0
+CAPITALIZATION=0
+TRAIL_SPACES=0
+PUNCTUATION=0
 
 SUPPORTED=()
 BACKUPS=()
+BACKUP=""
+
+# Output colors
+MAGENTA=""
+RED=""
+GREEN=""
+BOLD=""
+RESET=""
+
 
 # Print each argument as a line to stderr
 error() {
@@ -101,13 +113,17 @@ usage() {
         TXT+=("")
     fi
     TXT+=(
-        "  usage: ./scripts/capitalize.sh [-h] [-v] [-c] [-L]"
+        "  usage: readme-check.sh [-h] [-v] [-t] [-p] [-c] [-C] [-L]"
         ""
         "     -h        Prints this help message"
-        "     -v        Enable verbose output"
         ""
+        "     -v        Enable verbose output"
+        "     -C        Disable color in output (requires -v)"
         "     -L        Lists all the supported corrections"
-        "     -c        Disable color in output (requires -v)"
+        ""
+        "     -p        Only check for punctuation"
+        "     -c        Only check for capitalizations"
+        "     -t        Only check for trailing spaces"
         ""
     )
     die "$EC" "${TXT[@]}"
@@ -162,21 +178,6 @@ fix_suspected_lines() {
     local CHANGED=0
     local FOUND=0
 
-    # Output colors
-    local MAGENTA=""
-    local RED=""
-    local GREEN=""
-    local BOLD=""
-    local RESET=""
-
-    if [[ $USE_COLORS -eq 1 ]] && _cmd_exists 'tput'; then
-        MAGENTA="$(tput setaf 5)"
-        RED="$(tput setaf 1)"
-        GREEN="$(tput setaf 2)"
-        BOLD="$(tput bold)"
-        RESET="$(tput sgr0)"
-    fi
-
     MSG="Fixing ${MAGENTA}${REPLACE}${RESET}${BOLD}  ==>  "
     for TRAIL_CHAR in "${TRAILING[@]}"; do
         # HACK: Convert from non-regex to (extended) regex where needed
@@ -187,7 +188,7 @@ fix_suspected_lines() {
             *) TRAIL="$TRAIL_CHAR" ;;
         esac
         for LEAD in "${LEADING[@]}"; do
-            local BACKUP="" # The current loop's backup file
+            BACKUP="" # The current loop's backup file
 
             # HACK: Convert from extended regex to non-regex for replacements
             case "$LEAD" in
@@ -273,7 +274,12 @@ check_api() {
 
 # Check for bad & punctuation
 check_punctuation() {
-    fix_suspected_lines '\&' 'and' || return 1
+    trap 'die_sigint' SIGINT
+    if [[ $LIST_SUPPORTED -eq 1 ]] || [[ $PUNCTUATION -eq 0 ]]; then
+        return 0
+    fi
+
+    fix_suspected_lines '\&' 'and' || die 1 "Error while analyzing punctuations"
     return 0
 }
 
@@ -587,25 +593,119 @@ check_vue() {
     return 0
 }
 
-# HACK: Execute `die_sigint` on Ctrl-C
-trap 'die_sigint' SIGINT
+# Remove any trailing spaces
+check_trail_spaces() {
+    trap 'die_sigint' SIGINT
+    if [[ $LIST_SUPPORTED -eq 1 ]] || [[ $TRAIL_SPACES -eq 0 ]]; then
+        return 0
+    fi
 
-if ! _cmd_exists 'sed'; then
-    die 130 "\`sed\` not available in your PATH!"
-fi
-if ! [[ -f ./README.md ]]; then
-    die 1 "\`README.md\` not found!" "Make sure to run this from the root of the repository."
-fi
-if ! [[ -w ./README.md ]]; then
-    die 1 "\`README.md\` cannot be modified!"
-fi
+    local MSG="Fixing ${MAGENTA}Trailing Spaces${RESET}${BOLD}  ==>  "
+    local FOUND=0
+    BACKUP=""
+    if search_regex '\s+$'; then
+        # If regex is found then backup README to temporary file and indicate that
+        # changes will be made
+        FOUND=1
+        BACKUP="$(mktemp -p .)"
+        BACKUPS+=("${BACKUP}")
+        cp ./README.md "${BACKUP}"
+    fi
+    if ! sed -i 's/\s\+$//g' ./README.md; then
+        MSG+="${RED}ERROR"
+        EC=1
+    fi
+
+    # If backup has been made then compare README with backup.
+    if [[ -n "${BACKUP}" ]]; then
+        # If changes have been made then set CHANGED to 1
+        has_diff "${BACKUP}" && CHANGED=1
+    fi
+
+    if [[ $EC -eq 0 ]]; then
+        if [[ $FOUND -eq 1 ]] && [[ $CHANGED -eq 1 ]]; then
+            MSG+="${GREEN}CHANGED"
+        else # `$CHANGED` shouldn't be 1 either way
+            MSG+="UNCHANGED"
+        fi
+    fi
+
+    verbose_print "${BOLD}${MSG}${RESET}"
+    return 0
+}
+
+check_capitalizations() {
+    trap 'die_sigint' SIGINT
+    if [[ $LIST_SUPPORTED -eq 0 ]] && [[ $CAPITALIZATION -eq 0 ]]; then
+        return 0
+    fi
+
+    check_ai           || die 1 "Error while analyzing (ChatGPT/AI/OpenAI/LLM/Ollama/Azure/LLaMA/Gemini/Copilot/Claude/Deepseek)"
+    check_api          || die 1 "Error while analyzing (API)"
+    check_bash         || die 1 "Error while analyzing (Bash/Zsh/C shell)"
+    check_c            || die 1 "Error while analyzing (C/C++/GCC)"
+    check_coffeescript || die 1 "Error while analyzing (CoffeeScript/CSON)"
+    check_cs           || die 1 "Error while analyzing (C#/.NET)"
+    check_csv          || die 1 "Error while analyzing (CSV)"
+    check_distros      || die 1 "Error while analyzing (Arch Linux/Void Linux/Ubuntu/Debian/Fedora/Gentoo/NixOS/Nix)"
+    check_fortran      || die 1 "Error while analyzing (Fortran)"
+    check_git          || die 1 "Error while analyzing (Git)"
+    check_golang       || die 1 "Error while analyzing (Golang)"
+    check_haskell      || die 1 "Error while analyzing (Haskell)"
+    check_html         || die 1 "Error while analyzing (HTML/HTML5/XHTML/CSS/SCSS/Tailwind CSS)"
+    check_ini          || die 1 "Error while analyzing (INI)"
+    check_java         || die 1 "Error while analyzing (Java)"
+    check_js           || die 1 "Error while analyzing (JavaScript/JS)"
+    check_json         || die 1 "Error while analyzing (JSON)"
+    check_julia        || die 1 "Error while analyzing (Julia)"
+    check_lisp         || die 1 "Error while analyzing (Common Lisp/Fennel)"
+    check_llvm         || die 1 "Error while analyzing (LLVM/Clang)"
+    check_lsp          || die 1 "Error while analyzing (LSP/Language Server Protocol)"
+    check_lua          || die 1 "Error while analyzing (Lua/StyLua)"
+    check_markdown     || die 1 "Error while analyzing (Markdown)"
+    check_neovim       || die 1 "Error while analyzing (Neovim)"
+    check_opencl       || die 1 "Error while analyzing (OpenCL)"
+    check_opengl       || die 1 "Error while analyzing (OpenGL)"
+    check_perl         || die 1 "Error while analyzing (Perl)"
+    check_php          || die 1 "Error while analyzing (PHP)"
+    check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI/Jupyter/Pipenv)"
+    check_r            || die 1 "Error while analyzing (R)"
+    check_rst          || die 1 "Error while analyzing (RST/ReStructuredText)"
+    check_ruby         || die 1 "Error while analyzing (Ruby/Rails)"
+    check_rust         || die 1 "Error while analyzing (Rust)"
+    check_sql          || die 1 "Error while analyzing (SQL/MySQL/PostgresSQL/SQLite/MariaDB)"
+    check_tex          || die 1 "Error while analyzing (TeX/LaTeX)"
+    check_todo         || die 1 "Error while analyzing (TODO)"
+    check_toml         || die 1 "Error while analyzing (TOML)"
+    check_tree_sitter  || die 1 "Error while analyzing (Tree-sitter)"
+    check_ts           || die 1 "Error while analyzing (TypeScript/TS)"
+    check_typst        || die 1 "Error while analyzing (Typst)"
+    check_unity        || die 1 "Error while analyzing (UNITY)"
+    check_unix         || die 1 "Error while analyzing (UNIX/Linux/macOS/BSD/FreeBSD/OpenBSD/NetBSD)"
+    check_vim          || die 1 "Error while analyzing (Vim/Vimscript/VimL)"
+    check_vue          || die 1 "Error while analyzing (Vue/VueJS)"
+    check_wsl          || die 1 "Error while analyzing (WSL)"
+    check_xml          || die 1 "Error while analyzing (XML)"
+    check_yaml         || die 1 "Error while analyzing (YAML)"
+
+    return 0
+}
+
+# HACK: Execute `die_sigint` on Ctrl-C
+
+! _cmd_exists 'sed' && die 130 "\`sed\` not available in your PATH!"
+! [[ -f ./README.md ]] && die 1 "\`README.md\` not found!" "Make sure to run this from the root of the repository."
+! [[ -w ./README.md ]] && die 1 "\`README.md\` cannot be modified!"
 
 if [[ $# -gt 0 ]]; then
     while getopts "$OPTIONS" OPTION; do
         case "$OPTION" in
             h) usage 0 ;;
             v) VERBOSE=1 ;;
-            c) USE_COLORS=0 ;;
+            p) PUNCTUATION=1 ;;
+            t) TRAIL_SPACES=1 ;;
+            c) CAPITALIZATION=1 ;;
+            C) USE_COLORS=0 ;;
             L) LIST_SUPPORTED=1 ;;
             :) usage 1 "Missing argument for option!" ;;
             ?) usage 1 "Unsupported option!" ;;
@@ -614,58 +714,26 @@ if [[ $# -gt 0 ]]; then
     done
 fi
 
-check_ai           || die 1 "Error while analyzing (ChatGPT/AI/OpenAI/LLM/Ollama/Azure/LLaMA/Gemini/Copilot/Claude/Deepseek)"
-check_api          || die 1 "Error while analyzing (API)"
-check_bash         || die 1 "Error while analyzing (Bash/Zsh/C shell)"
-check_c            || die 1 "Error while analyzing (C/C++/GCC)"
-check_coffeescript || die 1 "Error while analyzing (CoffeeScript/CSON)"
-check_cs           || die 1 "Error while analyzing (C#/.NET)"
-check_csv          || die 1 "Error while analyzing (CSV)"
-check_distros      || die 1 "Error while analyzing (Arch Linux/Void Linux/Ubuntu/Debian/Fedora/Gentoo/NixOS/Nix)"
-check_fortran      || die 1 "Error while analyzing (Fortran)"
-check_git          || die 1 "Error while analyzing (Git)"
-check_golang       || die 1 "Error while analyzing (Golang)"
-check_haskell      || die 1 "Error while analyzing (Haskell)"
-check_html         || die 1 "Error while analyzing (HTML/HTML5/XHTML/CSS/SCSS/Tailwind CSS)"
-check_ini          || die 1 "Error while analyzing (INI)"
-check_java         || die 1 "Error while analyzing (Java)"
-check_js           || die 1 "Error while analyzing (JavaScript/JS)"
-check_json         || die 1 "Error while analyzing (JSON)"
-check_julia        || die 1 "Error while analyzing (Julia)"
-check_lisp         || die 1 "Error while analyzing (Common Lisp/Fennel)"
-check_llvm         || die 1 "Error while analyzing (LLVM/Clang)"
-check_lsp          || die 1 "Error while analyzing (LSP/Language Server Protocol)"
-check_lua          || die 1 "Error while analyzing (Lua/StyLua)"
-check_markdown     || die 1 "Error while analyzing (Markdown)"
-check_neovim       || die 1 "Error while analyzing (Neovim)"
-check_opencl       || die 1 "Error while analyzing (OpenCL)"
-check_opengl       || die 1 "Error while analyzing (OpenGL)"
-check_perl         || die 1 "Error while analyzing (Perl)"
-check_php          || die 1 "Error while analyzing (PHP)"
-check_punctuation  || die 1 "Error while analyzing punctuation"
-check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI/Jupyter/Pipenv)"
-check_r            || die 1 "Error while analyzing (R)"
-check_rst          || die 1 "Error while analyzing (RST/ReStructuredText)"
-check_ruby         || die 1 "Error while analyzing (Ruby/Rails)"
-check_rust         || die 1 "Error while analyzing (Rust)"
-check_sql          || die 1 "Error while analyzing (SQL/MySQL/PostgresSQL/SQLite/MariaDB)"
-check_tex          || die 1 "Error while analyzing (TeX/LaTeX)"
-check_todo         || die 1 "Error while analyzing (TODO)"
-check_toml         || die 1 "Error while analyzing (TOML)"
-check_tree_sitter  || die 1 "Error while analyzing (Tree-sitter)"
-check_ts           || die 1 "Error while analyzing (TypeScript/TS)"
-check_typst        || die 1 "Error while analyzing (Typst)"
-check_unity        || die 1 "Error while analyzing (UNITY)"
-check_unix         || die 1 "Error while analyzing (UNIX/Linux/macOS/BSD/FreeBSD/OpenBSD/NetBSD)"
-check_vim          || die 1 "Error while analyzing (Vim/Vimscript/VimL)"
-check_vue          || die 1 "Error while analyzing (Vue/VueJS)"
-check_wsl          || die 1 "Error while analyzing (WSL)"
-check_xml          || die 1 "Error while analyzing (XML)"
-check_yaml         || die 1 "Error while analyzing (YAML)"
 
-if [[ $LIST_SUPPORTED -eq 1 ]]; then
-    print_sort "${SUPPORTED[@]}"
+if [[ $USE_COLORS -eq 1 ]] && _cmd_exists 'tput'; then
+    MAGENTA="$(tput setaf 5)"
+    RED="$(tput setaf 1)"
+    GREEN="$(tput setaf 2)"
+    BOLD="$(tput bold)"
+    RESET="$(tput sgr0)"
 fi
+
+if [[ "${PUNCTUATION}${CAPITALIZATION}${TRAIL_SPACES}" == "000" ]]; then
+    PUNCTUATION=1
+    TRAIL_SPACES=1
+    CAPITALIZATION=1
+fi
+
+check_capitalizations || die 1
+check_punctuation     || die 1
+check_trail_spaces    || die 1
+
+[[ $LIST_SUPPORTED -eq 1 ]] && print_sort "${SUPPORTED[@]}"
 
 die 0
 
