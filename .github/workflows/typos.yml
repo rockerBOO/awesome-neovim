@@ -44,9 +44,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Run format.sh
+      - name: Run readme-check.sh
         run: |
-          ./scripts/format.sh -vc
+          ./scripts/readme-check.sh -vc
       - name: Check if diff has changed
         id: check_diff
         run: |
