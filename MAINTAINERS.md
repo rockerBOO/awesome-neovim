@@ -389,7 +389,7 @@ To force re-analysis:
 To correct most of the improper capitalizations/acronyms:
 
 ```bash
-./scripts/capitalize.sh
+./scripts/format.sh
 ```
 
 ### Status Indicators
@@ -425,5 +425,5 @@ chmod 755 scripts/*.sh
 Then run them as needed:
 
 ```bash
-./scripts/capitalize.sh # Example
+./scripts/format.sh # Example
 ```

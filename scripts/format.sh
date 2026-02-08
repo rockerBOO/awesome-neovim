@@ -101,7 +101,7 @@ usage() {
         TXT+=("")
     fi
     TXT+=(
-        "  usage: ./scripts/capitalize.sh [-h] [-v] [-c] [-L]"
+        "  usage: format.sh [-h] [-v] [-c] [-L]"
         ""
         "     -h        Prints this help message"
         "     -v        Enable verbose output"
@@ -587,6 +587,12 @@ check_vue() {
     return 0
 }
 
+# Remove any trailing spaces
+check_trail_spaces() {
+    sed -i 's/\s\+$//g' ./README.md || return 1
+    return 0
+}
+
 # HACK: Execute `die_sigint` on Ctrl-C
 trap 'die_sigint' SIGINT
 
@@ -662,6 +668,8 @@ check_vue          || die 1 "Error while analyzing (Vue/VueJS)"
 check_wsl          || die 1 "Error while analyzing (WSL)"
 check_xml          || die 1 "Error while analyzing (XML)"
 check_yaml         || die 1 "Error while analyzing (YAML)"
+
+check_trail_spaces || die 1 "Error while trimming trailing spaces"
 
 if [[ $LIST_SUPPORTED -eq 1 ]]; then
     print_sort "${SUPPORTED[@]}"
