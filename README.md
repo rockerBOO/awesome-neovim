@@ -922,7 +922,6 @@ then it is not supported:
 - [neo451/feed.nvim](https://github.com/neo451/feed.nvim) - Web feed reader written in Lua (RSS, Atom, JSON feed).
 - [vyfor/cord.nvim](https://github.com/vyfor/cord.nvim) - Highly extensible Rich Presence for Discord.
 - [iamt4nk/smm.nvim](https://github.com/iamt4nk/smm.nvim) - Small TUI that allows for controlling Spotify playback.
-- [glyccogen/imprint.nvim](https://github.com/glyccogen/imprint.nvim) - WYSIWYG code screenshots from Neovim (TOhtml -> PNG).
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -963,6 +962,7 @@ then it is not supported:
 - [stikypiston/studytools.nvim](https://github.com/stikypiston/studytools.nvim) - Various utilities to enhance the studying and note-taking experience.
 - [iwe-org/iwe.nvim](https://github.com/iwe-org/iwe.nvim) - Integration with `IWE`, an LSP designed for Markdown-based knowledge management and note-taking workflows.
 - [carloscalla/notepad.nvim](https://github.com/carloscalla/notepad.nvim) - Quick note-taking in Markdown with both repo-specific and global notepad support.
+
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1018,6 +1018,7 @@ then it is not supported:
 - [leo-alvarenga/quoth.nvim](https://github.com/leo-alvarenga/quoth.nvim) - A lightweight, configurable random quote provider with lazy loading, custom tables, and filters.
 - [stikypiston/cheaty.nvim](https://github.com/stikypiston/cheaty.nvim) - A simple, configurable cheatsheet.
 - [stikypiston/unobtrusive-relnums.nvim](https://github.com/stikypiston/unobtrusive-relnums) - Unobtrusive relative line numbers in the sign column.
+- [glyccogen/imprint.nvim](https://github.com/glyccogen/imprint.nvim) - WYSIWYG code screenshots from Neovim (TOhtml -> PNG).
 
 ### CSV Files
 
