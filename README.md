@@ -1683,6 +1683,7 @@ then it is not supported:
 - [zongben/dbout.nvim](https://github.com/zongben/dbout.nvim) - Manage database connections and run SQL queries directly with JSON results.
 - [kndndrj/nvim-dbee](https://github.com/kndndrj/nvim-dbee) - Interactive database client.
 - [tashikomaaa/neomongo.nvim](https://github.com/tashikomaaa/neomongo.nvim) - Explore, query, and edit MongoDB collections directly through a Telescope-powered dashboard.
+- [zerochae/dbab.nvim](https://github.com/zerochae/dbab.nvim) - Lightweight database client with a modern UI and async execution.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
