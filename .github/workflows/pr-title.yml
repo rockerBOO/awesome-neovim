@@ -19,7 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check PR Title
-        uses: Slashgear/action-check-pr-title@860e8dc639f8e60335a6f5e8936ba67ed2536890
+        uses: deepakputhraya/action-pr-title@master
         with:
-          regexp: "^(Add|Update|Remove) `.+\\/.+`$"
-          helpMessage: "Example: 'Add `folke/lazy.nvim`'"
+          regex: '(Add|Update|Remove)\s`.+\/.+`'
+          verbal_description: |
+            Add|Update|Remove `username/repo`
+          github_token: ${{ github.token }}
