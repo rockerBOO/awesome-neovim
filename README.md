@@ -376,6 +376,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [Myzel394/easytables.nvim](https://github.com/Myzel394/easytables.nvim) - Easily insert and edit Markdown tables with a live preview and useful helpers.
 - [tttol/md-outline.nvim](https://github.com/tttol/md-outline.nvim) - Automatically displays an outline for Markdown files.
 - [rogue-87/inlyne.nvim](https://github.com/rogue-87/inlyne.nvim) - Wrapper for [inlyne](https://github.com/Inlyne-Project/inlyne) Markdown viewer.
+- [Prgebish/sigil.nvim](https://github.com/Prgebish/sigil.nvim) - Implementation of Emacs' `prettify-symbols-mode` to visually replace text patterns with Unicode symbols while editing LaTeX and Typst files.
 
 ### PHP
 
