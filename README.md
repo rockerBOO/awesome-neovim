@@ -1227,6 +1227,7 @@ then it is not supported:
 
 ## Git
 
+- [YouSame2/inlinediff-nvim](https://github.com/YouSame2/inlinediff-nvim) - Provides a better inline Git diff view, meant to be used alongside your favorite Git plugin (e.g. `gitsigns`).
 - [mrloop/telescope-git-branch.nvim](https://github.com/mrloop/telescope-git-branch.nvim) - A telescope picker to find which files and preview what changes have been made to your Git branch across multiple commits.
 - [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) - Show Git blame info.
 - [trevorhauter/gitportal.nvim](https://github.com/trevorhauter/gitportal.nvim) - Generate Git permalinks, open them in your browser, load files locally from permalinks, and more.
