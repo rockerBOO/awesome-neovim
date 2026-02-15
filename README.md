@@ -1196,7 +1196,7 @@ then it is not supported:
 - [niuiic/omega.nvim](https://github.com/niuiic/omega.nvim) - Missing functions for Lua plugin development.
 - [2KAbhishek/utils.nvim](https://github.com/2KAbhishek/utils.nvim) - Powerful utilities to speed up plugin development.
 - [YaroSpace/lua-console.nvim](https://github.com/YaroSpace/lua-console.nvim) - A handy scratch pad / REPL / debug console for Neovim Lua development.
-- [DrKJeff16/wezterm-types](https://github.com/DrKJeff16/wezterm-types) - WezTerm config type annotations for Lua Language Server.
+- [DrKJeff16/wezterm-types](https://github.com/DrKJeff16/wezterm-types) - WezTerm config type annotations for Lua Language Server, including support for community plugins.
 - [chrisgve/databox.nvim](https://github.com/chrisgve/databox.nvim) - Encrypted storage for Lua tables using [age](https://github.com/FiloSottile/age) or compatible encryption tools for cryptographic safety.
 - [BirdeeHub/lze](https://github.com/BirdeeHub/lze) - A lazy-loading library for Neovim plugins.
 - [lumen-oss/lz.n](https://github.com/lumen-oss/lz.n) - A simple lazy loading library for Neovim plugins.
