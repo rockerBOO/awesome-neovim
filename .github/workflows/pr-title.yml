@@ -21,7 +21,7 @@ jobs:
       - name: Check PR Title
         uses: deepakputhraya/action-pr-title@077bddd7bdabd0d2b1b25ed0754c7e62e184d7ee
         with:
-          regex: '(Add|Update|Remove)\s`.+\/.+`'
+          regex: '^(Add|Update|Remove)\s`.+\/.+`$'
           verbal_description: |
             Add|Update|Remove `username/repo`
           github_token: ${{ github.token }}
