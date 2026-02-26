@@ -1681,6 +1681,7 @@ then it is not supported:
 - [ptdewey/pendulum-nvim](https://github.com/ptdewey/pendulum-nvim) - Track time spent coding and glean insights through on-demand time reports.
 - [ravsii/timers.nvim](https://github.com/ravsii/timers.nvim) - Timer manager, a clean Lua API, supporting multiple timers, persistence, UI, and plugin integrations.
 - [Rtarun3606k/takatime](https://github.com/Rtarun3606k/takatime) - Privacy-first WakaTime alternative using Go and MongoDB.
+- [taigrr/blast.nvim](https://github.com/taigrr/blast.nvim) - Activity tracking client for NvimBlast with per-project configuration, monorepo support, and privacy controls.
 
 ### Automation
 
