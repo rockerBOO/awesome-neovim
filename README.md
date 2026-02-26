@@ -788,6 +788,7 @@ then it is not supported:
 - [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) - **_`[TS][Lua]`_** A port of jellybeans colorscheme.
 - [lalitmee/cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) - **_`[Lua]`_** A port of cobalt2 colorscheme using colorbuddy.
 - [dybdeskarphet/gruvbox-minimal.nvim](https://github.com/dybdeskarphet/gruvbox-minimal.nvim) - **_`[TS][L/D][Lua]`_** A Gruvbox Material theme conceptually inspired by Alabaster.
+- [taigrr/cyberpunk.nvim](https://github.com/taigrr/cyberpunk.nvim) - **_`[TS][LSP][Lua]`_** Dark neon colorscheme with green, cyan, yellow, and red highlights on a black background.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
