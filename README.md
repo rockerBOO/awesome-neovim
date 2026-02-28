@@ -897,6 +897,7 @@ then it is not supported:
 - [TobinPalmer/Tip.nvim](https://github.com/TobinPalmer/Tip.nvim) - Get a simple tip on startup.
 - [CWood-sdf/spaceport.nvim](https://github.com/CWood-sdf/spaceport.nvim) - The start screen that gets you to your projects blazingly fast.
 - [mong8se/actually.nvim](https://github.com/mong8se/actually.nvim) - Load the file you actually meant to load.
+- [hadishahpuri/nvimlaunch](https://github.com/hadishahpuri/nvimlaunch) - Lightweight Neovim tool to define, run, and manage project-specific commands.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1153,6 +1154,7 @@ then it is not supported:
 - [desdic/greyjoy.nvim](https://github.com/desdic/greyjoy.nvim) - A modular task runner for Makefiles, VSCode tasks, kitchen etc.
 - [Shatur/neovim-tasks](https://github.com/Shatur/neovim-tasks) - A stateful task manager focused on integration with build systems.
 - [krady21/compiler-explorer.nvim](https://github.com/krady21/compiler-explorer.nvim) - Asynchronous compilation using the [compiler-explorer](https://godbolt.org/) REST API.
+- [hadishahpuri/nvimlaunch](https://github.com/hadishahpuri/nvimlaunch) - Lightweight Neovim plugin to define, run, and manage project-specific commands.
 - [milanglacier/yarepl.nvim](https://github.com/milanglacier/yarepl.nvim) - Yet Another REPL, flexible, supporting multiple paradigms to interact with REPLs, and native dot repeat without other dependencies.
 - [Vigemus/iron.nvim](https://github.com/Vigemus/iron.nvim) - Interactive REPLs of over 30 languages embedded.
 - [Civitasv/cmake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim) - CMake integration.
