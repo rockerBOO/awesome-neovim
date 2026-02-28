@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Run readme-check.sh
         run: |
-          ./scripts/readme-check.sh -vc
+          ./scripts/readme-check.sh -v
       - name: Check if diff has changed
         id: check_diff
         run: |
