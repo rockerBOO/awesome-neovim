@@ -593,6 +593,12 @@ check_vue() {
     return 0
 }
 
+# Check for bad YouTube capitalizations
+check_yt() {
+    fix_suspected_lines '[Yy][Oo][Uu][Tt][Uu][Bb][Ee]' 'YouTube' || return 1
+    return 0
+}
+
 # Remove any trailing spaces
 check_trail_spaces() {
     trap 'die_sigint' SIGINT
@@ -687,6 +693,7 @@ check_capitalizations() {
     check_wsl          || die 1 "Error while analyzing (WSL)"
     check_xml          || die 1 "Error while analyzing (XML)"
     check_yaml         || die 1 "Error while analyzing (YAML)"
+    check_yt           || die 1 "Error while analyzing (YouTube)"
 
     return 0
 }
