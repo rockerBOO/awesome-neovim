@@ -84,12 +84,13 @@ die() {
     exit "$EC"
 }
 
-# Called if SIGINT (Ctrl-C) is detected. This is to ensure temporary files are cleaned correctly
+# Called if SIGINT (Ctrl-C) is detected.
+# This is to ensure temporary files are cleaned correctly
 #
 # The line below is to disable a "unused-function" warning type in shellcheck
 # shellcheck disable=SC2329
 die_sigint() {
-    die 1
+    die 130 "" "Aborted!"
 }
 
 # Print help message
@@ -274,7 +275,7 @@ check_api() {
 
 # Check for bad & punctuation
 check_punctuation() {
-    trap 'die_sigint' SIGINT
+    trap 'die_sigint' SIGINT # Will result in pressing Ctrl-C aborting safely
     if [[ $LIST_SUPPORTED -eq 1 ]] || [[ $PUNCTUATION -eq 0 ]]; then
         return 0
     fi
@@ -601,7 +602,7 @@ check_yt() {
 
 # Remove any trailing spaces
 check_trail_spaces() {
-    trap 'die_sigint' SIGINT
+    trap 'die_sigint' SIGINT # Will result in pressing Ctrl-C aborting safely
     if [[ $LIST_SUPPORTED -eq 1 ]] || [[ $TRAIL_SPACES -eq 0 ]]; then
         return 0
     fi
@@ -641,7 +642,7 @@ check_trail_spaces() {
 }
 
 check_capitalizations() {
-    trap 'die_sigint' SIGINT
+    trap 'die_sigint' SIGINT # Will result in pressing Ctrl-C aborting safely
     if [[ $LIST_SUPPORTED -eq 0 ]] && [[ $CAPITALIZATION -eq 0 ]]; then
         return 0
     fi
@@ -730,6 +731,7 @@ if [[ $USE_COLORS -eq 1 ]] && _cmd_exists 'tput'; then
     RESET="$(tput sgr0)"
 fi
 
+# This will be the case when neither `-p`, `-c` nor `-t` have been passed
 if [[ "${PUNCTUATION}${CAPITALIZATION}${TRAIL_SPACES}" == "000" ]]; then
     PUNCTUATION=1
     TRAIL_SPACES=1
@@ -740,6 +742,7 @@ check_capitalizations || die 1
 check_punctuation     || die 1
 check_trail_spaces    || die 1
 
+# Will run if `-L` is passed
 [[ $LIST_SUPPORTED -eq 1 ]] && print_sort "${SUPPORTED[@]}"
 
 die 0
