@@ -14,3 +14,12 @@ venv
 .venv
 requirements.txt
 uv.lock
+
+# Useless Files
+*.bak
+*.dll
+*.in
+*.lock
+*.log
+*.new
+*.out
