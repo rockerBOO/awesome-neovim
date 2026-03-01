@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -o pipefail
+set -o pipefail # If a piping operation fails then fail the whole command
 
 BACKUPS=()
 
