@@ -284,11 +284,18 @@ check_punctuation() {
     return 0
 }
 
+# Check for bad GNU acronyms
+check_gnu() {
+    fix_suspected_lines '[Gg][Nn][Uu]' 'GNU' || return 1
+    return 0
+}
+
 # Check for bad Lua/StyLua/LuaCov/LuaRocks/LuaLS acronyms
 check_lua() {
     fix_suspected_lines '[Ll][Uu][Aa]' 'Lua' || return 1
     fix_suspected_lines '[Ss][Tt][Yy][Ll][Uu][Aa]' 'StyLua' || return 1
     fix_suspected_lines '[Ll][Uu][Aa]-*[Cc][Oo][Vv]' 'LuaCov' || return 1
+    fix_suspected_lines '[Ll][Uu][Aa](\s|[\-_])*[Jj][Ii][Tt]' 'LuaJIT' || return 1
     fix_suspected_lines '[Ll][Uu][Aa][\-_]*[Rr][Oo][Cc][Kk][Ss]' 'LuaRocks' || return 1
     fix_suspected_lines \
         '[Ll][Uu][Aa][_\-]*([Ll][Ss]|[Ll][Aa][Nn][Gg][Uu][Aa][Gg][Ee][_\-]*[Ss][Ee][Rr][Vv][Ee][Rr])' \
@@ -602,7 +609,7 @@ check_vue() {
     return 0
 }
 
-# Check for bad Facebook/Twitter/LinkedIn/Patreon/Mastodon/YouTube capitalizations
+# Check for bad Facebook/Twitter/LinkedIn/Patreon/Mastodon/YouTube/Spotify capitalizations
 check_socials() {
     fix_suspected_lines '[Ff][Aa][Cc][Ee][Bb][Oo][Oo][Kk]' 'Facebook' || return 1
     fix_suspected_lines '[Tt][Ww][Ii][Tt][Tt][Ee][Rr]' 'Twitter' || return 1
@@ -610,6 +617,7 @@ check_socials() {
     fix_suspected_lines '[Pp][Aa][Tt][Rr][Ee][Oo][Nn]' 'Patreon' || return 1
     fix_suspected_lines '[Mm][Aa][Ss][Tt][Oo][Dd][Oo][Nn]' 'Mastodon' || return 1
     fix_suspected_lines '[Yy][Oo][Uu][Tt][Uu][Bb][Ee]' 'YouTube' || return 1
+    fix_suspected_lines '[Ss][Pp][Oo][Tt][Ii][Ff][Yy]' 'Spotify' || return 1
     return 0
 }
 
@@ -671,6 +679,7 @@ check_capitalizations() {
     check_distros      || die 1 "Error while analyzing (Arch Linux/Void Linux/Ubuntu/Debian/Fedora/Gentoo/NixOS/Nix)"
     check_fortran      || die 1 "Error while analyzing (Fortran)"
     check_git          || die 1 "Error while analyzing (Git)"
+    check_gnu          || die 1 "Error while analyzing (GNU)"
     check_golang       || die 1 "Error while analyzing (Golang)"
     check_haskell      || die 1 "Error while analyzing (Haskell)"
     check_html         || die 1 "Error while analyzing (HTML/HTML5/XHTML/CSS/SCSS/Tailwind CSS)"
@@ -682,7 +691,7 @@ check_capitalizations() {
     check_lisp         || die 1 "Error while analyzing (Common Lisp/Fennel)"
     check_llvm         || die 1 "Error while analyzing (LLVM/Clang)"
     check_lsp          || die 1 "Error while analyzing (LSP/Language Server Protocol)"
-    check_lua          || die 1 "Error while analyzing (Lua/StyLua/LuaCov/LuaRocks/LuaLS)"
+    check_lua          || die 1 "Error while analyzing (Lua/StyLua/LuaCov/LuaJIT/LuaRocks/LuaLS)"
     check_markdown     || die 1 "Error while analyzing (Markdown)"
     check_neovim       || die 1 "Error while analyzing (Neovim)"
     check_opencl       || die 1 "Error while analyzing (OpenCL)"
@@ -694,7 +703,7 @@ check_capitalizations() {
     check_rst          || die 1 "Error while analyzing (RST/ReStructuredText)"
     check_ruby         || die 1 "Error while analyzing (Ruby/Rails/Bundler)"
     check_rust         || die 1 "Error while analyzing (Rust)"
-    check_socials      || die 1 "Error while analyzing (Facebook/Twitter/LinkedIn/Patreon/Mastodon/YouTube)"
+    check_socials      || die 1 "Error while analyzing (Facebook/Twitter/LinkedIn/Patreon/Mastodon/YouTube/Spotify)"
     check_sql          || die 1 "Error while analyzing (SQL/MySQL/PostgresSQL/SQLite/MariaDB)"
     check_tex          || die 1 "Error while analyzing (TeX/LaTeX)"
     check_todo         || die 1 "Error while analyzing (TODO)"
