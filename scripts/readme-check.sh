@@ -298,7 +298,7 @@ check_lua() {
     fix_suspected_lines '[Ll][Uu][Aa](\s|[\-_])*[Jj][Ii][Tt]' 'LuaJIT' || return 1
     fix_suspected_lines '[Ll][Uu][Aa][\-_]*[Rr][Oo][Cc][Kk][Ss]' 'LuaRocks' || return 1
     fix_suspected_lines \
-        '[Ll][Uu][Aa][_\-]*([Ll][Ss]|[Ll][Aa][Nn][Gg][Uu][Aa][Gg][Ee][_\-]*[Ss][Ee][Rr][Vv][Ee][Rr])' \
+        '[Ll][Uu][Aa](\s|[_\-])*([Ll][Ss]|[Ll][Aa][Nn][Gg][Uu][Aa][Gg][Ee](\s|[_\-])*[Ss][Ee][Rr][Vv][Ee][Rr])' \
         'LuaLS' \
         || return 1
 
