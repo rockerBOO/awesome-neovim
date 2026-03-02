@@ -14,6 +14,10 @@ First of all, thank you for taking the time to contribute to this project!
 
 ## Submitting Issues
 
+> [!IMPORTANT]
+> Avoid opening an issue requesting for a plugin to be added.
+> You can add it yourself through a PR.
+
 Please make sure the following requirements are met:
 
 - Ensure the issue has not already been reported by searching on GitHub under [Issues][issues].
@@ -25,25 +29,23 @@ Please make sure the following requirements are met:
 
 ## Submitting Pull Requests
 
-When submitting a Pull Request make sure to cover all of the following points:
+Your contributions are greatly appreciated!
 
-- If adding/updating/removing a plugin, _**respect the Pull Request template format**_.
-  - You can find the compliant template in [`pull_request_template.md`][pr_template].
-  - Otherwise your PR description will be edited by a maintainer.
-- Ensure your changes follow the [awesome list guidelines][guidelines].
-  Otherwise your PR will not be merged until corrected.
-- Ensure the plugin you're requesting meets our [acceptance criteria][criteria].
-  Otherwise your PR will not be merged until corrected.
-- Ensure your Pull Request title follows the [regexp rule][regexp_rule]
-  (``` Add|Update|Remove `username/repo` ```).
-  Otherwise your PR title will be manually edited by a maintainer.
+When submitting a Pull Request you must respect the following rules:
+
+- Your Pull Request title must follow the [regexp rule][regexp_rule] (``` Add|Update|Remove `username/repo` ```).
+- When adding or updating a plugin:
+  - We will not accept a Pull Request adding/updating more than one plugin.
+  - Don't use emojis in your plugin description.
+  - Respect the Pull Request template format (the template can be found [here][pr_template]).
+  - Avoid any mentions of the word "plugin" and "Neovim" unless absolutely necessary.
+    - If these words are necessary for your plugin description then please make sure you write
+    "Neovim" correctly in your description ("nvim", "Nvim", "NeoVim", "(Neo)Vim", etc. will be
+    rejected).
+  - Your changes must follow the [awesome list guidelines][guidelines].
+  - The plugin you're requesting must meet our [acceptance criteria][criteria].
 - Ensure all acronyms ("YAML", "TOML", "INI", "JSON", etc.) are correctly written.
-  Try running `./scripts/readme-check.sh` to detect and correct any existing capitalizations missed.
-- Avoid using emojis in your description. Your PR will not be merged until you remove existing ones.
-- Avoid any mentions of the word "plugin" and "Neovim" unless absolutely necessary.
-  - If needed, please make sure you write "Neovim" correctly in your description.
-    These will be rejected: "nvim", "Nvim", "NeoVim", "(Neo)Vim", etc.
-    Try running `./scripts/readme-check.sh` in case any of these examples exist.
+- You should run `./scripts/readme-check.sh` in your shell to detect and correct any errors.
 
 ### Regarding Colorschemes
 
