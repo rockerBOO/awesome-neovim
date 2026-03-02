@@ -35,7 +35,7 @@ When submitting a Pull Request you must respect the following rules:
 
 - Your Pull Request title must follow the [regexp rule][regexp_rule] (``` Add|Update|Remove `username/repo` ```).
 - When adding or updating a plugin:
-  - We will not accept a Pull Request adding/updating more than one plugin.
+  - We will not accept a Pull Request adding more than one plugin.
   - Don't use emojis in your plugin description.
   - Respect the Pull Request template format (the template can be found [here][pr_template]).
   - Avoid any mentions of the word "plugin" and "Neovim" unless absolutely necessary.
