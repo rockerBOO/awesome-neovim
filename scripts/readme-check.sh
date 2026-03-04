@@ -621,6 +621,19 @@ check_socials() {
     return 0
 }
 
+# Alacritty/WezTerm/kitty/Konsole/GNOME Terminal
+check_terminals() {
+    fix_suspected_lines '[Ww][Ee][Zz][Tt][Ee][Rr][Mm]' 'WezTerm' || return 1
+    fix_suspected_lines '[Kk][Ii][Tt][Tt][Yy]' 'kitty' || return 1
+    fix_suspected_lines '[Kk][Oo][Nn][Ss][Oo][Ll][Ee]' 'Konsole' || return 1
+    fix_suspected_lines \
+        '[Gg][Nn][Oo][Mm][Ee](\s|[\-_\.])*[Tt][Ee][Rr][Mm][Ii][Nn][Aa][Ll]' \
+        'GNOME Terminal' \
+        || return 1
+
+    return 0
+}
+
 # Remove any trailing spaces
 check_trail_spaces() {
     trap 'die_sigint' SIGINT # Will result in pressing Ctrl-C aborting safely
@@ -705,6 +718,7 @@ check_capitalizations() {
     check_rust         || die 1 "Error while analyzing (Rust)"
     check_socials      || die 1 "Error while analyzing (Facebook/Twitter/LinkedIn/Patreon/Mastodon/YouTube/Spotify)"
     check_sql          || die 1 "Error while analyzing (SQL/MySQL/PostgresSQL/SQLite/MariaDB)"
+    check_terminals    || die 1 "Error while analyzing (Alacritty/WezTerm/kitty/Konsole/GNOME Terminal)"
     check_tex          || die 1 "Error while analyzing (TeX/LaTeX)"
     check_todo         || die 1 "Error while analyzing (TODO)"
     check_toml         || die 1 "Error while analyzing (TOML)"
