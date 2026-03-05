@@ -111,9 +111,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [piersolenski/plugin-addict.nvim](https://github.com/piersolenski/plugin-addict.nvim) - A stupidly simple way to quickly install plugins.
 - [OriginCoderPulse/synapse.nvim](https://github.com/OriginCoderPulse/synapse.nvim) - A modern, lightweight plugin manager with beautiful UI, intelligent dependency management, tag/branch support, and post-install command execution.
 - [zuqini/zpack.nvim](https://github.com/zuqini/zpack.nvim) - A thin layer on top of `vim.pack` to support lazy-loading and `lazy.nvim`'s declarative spec.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## LSP
 
@@ -202,9 +202,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [chrisgrieser/nvim-rulebook](https://github.com/chrisgrieser/nvim-rulebook) - Add inline-comments to ignore rules, or lookup rule documentation online.
 - [artemave/workspace-diagnostics.nvim](https://github.com/artemave/workspace-diagnostics.nvim) - Populate diagnostics for all projects files, not just the opened ones.
 - [Kurama622/clean-diagnostic](https://github.com/Kurama622/clean-diagnostic) - Display diagnostic count using virtual text, and show diagnostic details in a floating window.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Completion
 
@@ -236,9 +236,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [xieyonn/blink-cmp-dat-word](https://github.com/xieyonn/blink-cmp-dat-word) - `blink.cmp` source for dictionary.
 - [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) - Fully featured Lua replacement for [GitHub/copilot.vim](https://github.com/github/copilot.vim).
 - [brianaung/compl.nvim](https://github.com/brianaung/compl.nvim) - A minimal and dependency-free auto-completion built on top of Vim's ins-completion mechanism.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## AI
 
@@ -281,9 +281,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [ishiooon/codex.nvim](https://github.com/ishiooon/codex.nvim) - Codex IDE integration, no API key required.
 - [nickjvandyke/opencode.nvim](https://github.com/nickjvandyke/opencode.nvim) - OpenCode AI assistant integration.
 - [taigrr/neocrush.nvim](https://github.com/taigrr/neocrush.nvim) - Integration with Crush AI coding assistant, with edit highlighting, auto-focus, Telescope support, terminal and version management.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Programming Languages Support
 
@@ -395,9 +395,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 ### Assembly
 
 - [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient using snippets.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Language
 
@@ -411,9 +411,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [walkersumida/deepl.nvim](https://github.com/walkersumida/deepl.nvim) - Translates text using the DeepL API with multiple output modes (float, replace, append).
 - [acidsugarx/babel.nvim](https://github.com/acidsugarx/babel.nvim) - Translate text using Google Translate with async support, float display, and multi-picker integration.
 - [noir4y/comment-translate.nvim](https://github.com/noir4y/comment-translate.nvim) - Translate code comments and strings using online as well as local LLMs or external translators.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Syntax
 
@@ -431,9 +431,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [fei6409/log-highlight.nvim](https://github.com/fei6409/log-highlight.nvim) - Generic log syntax highlighting and log filetype management support.
 - [MeanderingProgrammer/treesitter-modules.nvim](https://github.com/MeanderingProgrammer/treesitter-modules.nvim) - Original modules from nvim-treesitter master branch.
 - [BibekBhusal0/tree-hierarchy.nvim](https://github.com/BibekBhusal0/tree-hierarchy.nvim) - Edit text and nevigate based on Tree-sitter.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Snippet
 
@@ -448,9 +448,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [cvigilv/esqueleto.nvim](https://github.com/cvigilv/esqueleto.nvim) - Simple templates to use when creating new files.
 - [chrisgrieser/nvim-scissors](https://github.com/chrisgrieser/nvim-scissors) - Automagical editing and creation of snippets.
 - [guilherme-puida/tesoura.nvim](https://github.com/guilherme-puida/tesoura.nvim) - A flexible snippet system using the native snippet API.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Register
 
@@ -461,9 +461,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [tenxsoydev/karen-yank.nvim](https://github.com/tenxsoydev/karen-yank.nvim) - More intentional register handling with delete, cut and yank mappings.
 - [desdic/macrothis.nvim](https://github.com/desdic/macrothis.nvim) - Save and load macros/registers.
 - [kr40/nvim-macros](https://github.com/kr40/nvim-macros) - Easy way to save and load Macros, with backup and formatting options.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Marks
 
@@ -489,9 +489,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [walkersumida/fusen.nvim](https://github.com/walkersumida/fusen.nvim) - Sticky note bookmarks, per Git branch with hover annotations and Telescope integration.
 - [markgandolfo/dartboard.nvim](https://github.com/markgandolfo/dartboard.nvim) - Mark files and quickly access them, inspired by Harpoon and Lasso.
 - [dimtion/guttermarks.nvim](https://github.com/dimtion/guttermarks.nvim) - Display marks in the buffer gutter.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Search
 
@@ -517,7 +517,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [bravoecho/brook.nvim](https://github.com/bravoecho/brook.nvim) - Responsive, shell-safe ripgrep search for the quickfix list, with native n/N navigation.
 
 <!--lint disable double-link -->
+
 [**⬆ back to top**](#contents)
+
 <!--lint enable double-link -->
 
 ## Fuzzy Finder
@@ -541,9 +543,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [wsdjeg/picker.nvim](https://github.com/wsdjeg/picker.nvim) - Simple fuzzy finder, including files, ctags outline, and more.
 - [juniorsundar/refer.nvim](https://github.com/juniorsundar/refer.nvim) - A minimalist picker that doesn't get in your way.
 - [dtormoen/neural-open.nvim](https://github.com/dtormoen/neural-open.nvim) - Intelligent `snacks.nvim` picker that teaches a neural network to rank files by what you're most likely to open next.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## File Explorer
 
@@ -569,9 +571,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [Enigama/miss.nvim](https://github.com/Enigama/miss.nvim) - Simple popup with changed `unsaved` files, allowing you to save and open them. Helps to avoid forgetting to add something to GitHub or similar.
 - [vodchella/hodur.nvim](https://github.com/vodchella/hodur.nvim) - Allows you to quickly open a file or copy URL located under cursor.
 - [A7Lavinraj/fyler.nvim](https://github.com/A7Lavinraj/fyler.nvim) - File manager which can edit file system like a buffer with tree view.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Project
 
@@ -594,9 +596,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [cosmicbuffalo/root_swapper.nvim](https://github.com/cosmicbuffalo/root_swapper.nvim) - Lightweight root swapper that uses `lcd` to swap to the appropriate root directory based on the current buffer.
 - [mrjones2014/codesettings.nvim](https://github.com/mrjones2014/codesettings.nvim) - Easily load project-local settings (like `.vscode/settings.json`) into Neovim 0.11+ native LSP settings.
 - [josephschmitt/pj.nvim](https://github.com/josephschmitt/pj.nvim) - Automatic project discovery with configurable depth with multiple pickers supported (Snacks, Telescope, fzf-lua).
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Buffers
 
@@ -617,9 +619,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) - Delete buffers without losing your window layout.
 - [wsdjeg/bufdel.nvim](https://github.com/wsdjeg/bufdel.nvim) - Delete buffers without changing windows layout.
 - [m-demare/attempt.nvim](https://github.com/m-demare/attempt.nvim) - Manage and run temporary buffers.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Color
 
@@ -640,9 +642,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [nvzone/minty](https://github.com/nvzone/minty) - Beautifully crafted color tools.
 - [3ZsForInsomnia/pacer.nvim](https://github.com/3ZsForInsomnia/pacer.nvim) - Creates a reading pacer by highlighting one word at a time and dimming all text outside the current paragraph-and-some to help you read faster.
 - [wsdjeg/cpicker.nvim](https://github.com/wsdjeg/cpicker.nvim) - A lightweight color palette plugin that supports a wide range of color models.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Colorscheme
 
@@ -650,6 +652,7 @@ Each colorscheme will have one or more of the tags listed below. If a tag is mis
 then it is not supported:
 
 <!--lint disable awesome-list-item-->
+
 - **_`[TS]`_** - Has Tree-sitter highlighting.
 - **_`[LSP]`_** - Has LSP Semantic Tokens support.
 - **_`[L/D]`_** - Has both "light" and "dark" variants.
@@ -671,7 +674,7 @@ then it is not supported:
 - [rafamadriz/neon](https://github.com/rafamadriz/neon) - **_`[TS][LSP][L/D][Lua]`_** Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with Tree-sitter.
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) - **_`[TS]`_** A dark color scheme heavily inspired by the look of the Dark+ scheme of VSCode.
 - [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) - **_`[TS][L/D][Lua]`_** A Lua port of vim-code-dark colorscheme with VSCode light and dark theme.
-- [askfiy/visual_studio_code](https://github.com/askfiy/visual_studio_code) - **_`[TS][LSP][L/D][Lua]`_**  A theme that highly restores VSCode.
+- [askfiy/visual_studio_code](https://github.com/askfiy/visual_studio_code) - **_`[TS][LSP][L/D][Lua]`_** A theme that highly restores VSCode.
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - **_`[TS][LSP][L/D][Lua]`_** Material.nvim is a highly configurable colorscheme written in Lua and based on the material palette.
 - [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) - **_`[TS][LSP][Lua]`_** A dark midnight colorscheme with Tree-sitter support.
 - [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - **_`[TS][LSP][Lua]`_** A dark charcoal colorscheme with Tree-sitter support.
@@ -793,9 +796,9 @@ then it is not supported:
 - [lalitmee/cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) - **_`[Lua]`_** A port of cobalt2 colorscheme using colorbuddy.
 - [dybdeskarphet/gruvbox-minimal.nvim](https://github.com/dybdeskarphet/gruvbox-minimal.nvim) - **_`[TS][L/D][Lua]`_** A Gruvbox Material theme conceptually inspired by Alabaster.
 - [taigrr/cyberpunk.nvim](https://github.com/taigrr/cyberpunk.nvim) - **_`[TS][LSP][Lua]`_** Dark neon colorscheme with green, cyan, yellow, and red highlights on a black background.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ### Colorscheme Creation
 
@@ -810,9 +813,9 @@ then it is not supported:
 - [loganswartz/polychrome.nvim](https://github.com/loganswartz/polychrome.nvim) - A colorscheme micro-framework, with support for specifying colors directly in many different formats (sRGB, HSL, Oklab, XYZ and more, with intelligent chroma clipping), live editing preview, and a simple DSL.
 - [svermeulen/text-to-colorscheme](https://github.com/svermeulen/text-to-colorscheme) - Allows the user to generate colorschemes with a text prompt using OpenAI's GPT API.
 - [RRethy/base16-nvim](https://github.com/RRethy/base16-nvim) - A base16 colorscheme builder. Includes support for Tree-sitter and LSP highlight groups.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ### Colorscheme Switchers
 
@@ -828,9 +831,9 @@ then it is not supported:
 - [LmanTW/themify.nvim](https://github.com/LmanTW/themify.nvim/tree/main) - A lightweight colorscheme manager and switcher inspired by Themery.nvim and Lazy.nvim.
 - [nishu-murmu/ThemeSwitch.nvim](https://github.com/nishu-murmu/ThemeSwitch.nvim) - Light weight color scheme switcher.
 - [Erl-koenig/theme-hub.nvim](https://github.com/Erl-koenig/theme-hub.nvim) - Manage and install colorschemes via telescope-pickers.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Bars and Lines
 
@@ -887,9 +890,9 @@ then it is not supported:
 - [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) - Highlight the word under the cursor with built-in LSP support.
 - [nvim-mini/mini.nvim#mini.cursorword](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-cursorword.md) - Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay).
 - [mawkler/modicator.nvim](https://github.com/mawkler/modicator.nvim) - Cursor line number mode indicator. Changes the `CursorLineNr` highlight based on Vim mode.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Startup
 
@@ -903,9 +906,9 @@ then it is not supported:
 - [mong8se/actually.nvim](https://github.com/mong8se/actually.nvim) - Load the file you actually meant to load.
 - [Kurama622/profile.nvim](https://github.com/Kurama622/profile.nvim) - A dashboard, similar to GitHub homepage.
 - [leo-alvarenga/homecoming.nvim](https://github.com/leo-alvarenga/homecoming.nvim) - A dead-simple, customizable and cozy dashboard with sane defaults and zero config required.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Icon
 
@@ -913,9 +916,9 @@ then it is not supported:
 - [nvim-mini/mini.nvim#mini.icons](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-icons.md) - Module of `mini.nvim` meant as a general icon provider. Uses fixed set of highlight groups. Supports various categories, icon and style customizations, caching for performance. Integrates with built-in filetype matching.
 - [2KAbhishek/nerdy.nvim](https://github.com/2KAbhishek/nerdy.nvim/) - Find and insert the latest nerd font glyphs.
 - [stephansama/fzf-nerdfont.nvim](https://github.com/stephansama/fzf-nerdfont.nvim) - A picker for selecting Nerd Font icons using `fzf-lua`.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Media
 
@@ -937,9 +940,9 @@ then it is not supported:
 - [vyfor/cord.nvim](https://github.com/vyfor/cord.nvim) - Highly extensible Rich Presence for Discord.
 - [iamt4nk/smm.nvim](https://github.com/iamt4nk/smm.nvim) - Small TUI that allows for controlling Spotify playback.
 - [sanjay-np/nvim-yt-player](https://github.com/sanjay-np/nvim-yt-player) - Play YouTube audio using `mpv` and `yt-dlp` via IPC socket.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Note Taking
 
@@ -957,7 +960,7 @@ then it is not supported:
 - [nfrid/due.nvim](https://github.com/nfrid/due.nvim) - Displays due for a date string as a virtual text.
 - [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) - Draw ASCII diagrams.
 - [nvim-telekasten/telekasten.nvim](https://github.com/nvim-telekasten/telekasten.nvim) - Work with a text-based, Markdown zettelkasten / wiki and mix it with a journal, based on telescope.nvim.
-- [zk-org/zk-nvim](https://github.com/zk-org/zk-nvim) -  Provides integration with `zk`, a plain text note-taking assistant.
+- [zk-org/zk-nvim](https://github.com/zk-org/zk-nvim) - Provides integration with `zk`, a plain text note-taking assistant.
 - [chrsm/impulse.nvim](https://github.com/chrsm/impulse.nvim) - Read Notion.so notes.
 - [obsidian-nvim/obsidian.nvim](https://github.com/obsidian-nvim/obsidian.nvim) - Plugin for Obsidian, written in Lua.
 - [IlyasYOY/obs.nvim](https://github.com/IlyasYOY/obs.nvim) - Your Obsidian notes at the speed of thought.
@@ -977,9 +980,9 @@ then it is not supported:
 - [stikypiston/studytools.nvim](https://github.com/stikypiston/studytools.nvim) - Various utilities to enhance the studying and note-taking experience.
 - [iwe-org/iwe.nvim](https://github.com/iwe-org/iwe.nvim) - Integration with `IWE`, an LSP designed for Markdown-based knowledge management and note-taking workflows.
 - [carloscalla/notepad.nvim](https://github.com/carloscalla/notepad.nvim) - Quick note-taking in Markdown with both repo-specific and global notepad support.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Utility
 
@@ -1041,9 +1044,9 @@ then it is not supported:
 - [theKnightsOfRohan/csvlens.nvim](https://github.com/theKnightsOfRohan/csvlens.nvim) - A port of [YS-L/csvlens](https://github.com/YS-L/csvlens), for easy previewing of tabular data.
 - [emmanueltouzery/decisive.nvim](https://github.com/emmanueltouzery/decisive.nvim) - View and edit CSV files with ease and speed.
 - [hat0uma/csvview.nvim](https://github.com/hat0uma/csvview.nvim) - An asynchronous CSV/TSV table viewer with real-time updates, configurable comments and delimiters, and multiple display modes.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Animation
 
@@ -1054,9 +1057,9 @@ then it is not supported:
 - [y3owk1n/undo-glow.nvim](https://github.com/y3owk1n/undo-glow.nvim/) - Animated glow/highlight effects for editing operations (undo, redo, yank, paste, etc.) with fully customizable animations and appearance.
 - [gen740/SmoothCursor.nvim](https://github.com/gen740/SmoothCursor.nvim) - Add fancy sub-cursor to signcolumn to show your scroll or jump direction.
 - [stikypiston/smudge.nvim](https://github.com/stikypiston/smudge.nvim) - Performant cursor animations.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Terminal Integration
 
@@ -1091,9 +1094,9 @@ then it is not supported:
 - [da-moon/telescope-toggleterm.nvim](https://github.com/da-moon/telescope-toggleterm.nvim) - Telescope picker for terminal buffers.
 - [benoror/gpg.nvim](https://github.com/benoror/gpg.nvim) - Edit GPG encrypted files symmetrically.
 - [gh-liu/nvim-winterm](https://github.com/gh-liu/nvim-winterm) - Multi-terminal window manager.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Debugging
 
@@ -1113,6 +1116,7 @@ then it is not supported:
 - [Carcuis/dap-breakpoints.nvim](https://github.com/Carcuis/dap-breakpoints.nvim) - Manage and create advanced breakpoints with virtual text and popup reveal for nvim-dap.
 - [ravsii/nvim-dap-envfile](https://github.com/ravsii/nvim-dap-envfile) - Automatic `envFile` support for nvim-dap.
 - [fschaal/azfunc.nvim](https://github.com/fschaal/azfunc.nvim) - Seamlessly debug Azure Functions with automatic DAP integration.
+- [evanmcpheron/rocketlog.nvim](https://github.com/evanmcpheron/rocketlog.nvim) - Seamlessly add logging to js/ts files with included metadata and log searches.
 
 ### Quickfix
 
@@ -1121,17 +1125,17 @@ then it is not supported:
 - [ashfinal/qfview.nvim](https://github.com/ashfinal/qfview.nvim) - Pretty quickfix/location view with consistent path-shorten and folding.
 - [niuiic/quickfix.nvim](https://github.com/niuiic/quickfix.nvim) - Extended functionality for quickfix, including store, restore, make, remove, etc.
 - [stevearc/quicker.nvim](https://github.com/stevearc/quicker.nvim) - Improved quickfix UI and editable quickfix buffer.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Deployment
 
 - [OscarCreator/rsync.nvim](https://github.com/OscarCreator/rsync.nvim) - Automatically sync up/down project to a remote with rsync.
 - [sachinsenal0x64/hot.nvim](https://github.com/sachinsenal0x64/hot.nvim) - A hot reloader that works with any programming language.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Test
 
@@ -1144,9 +1148,9 @@ then it is not supported:
 - [nvim-neotest/neotest-jest](https://github.com/nvim-neotest/neotest-jest) - Neotest adapter for running Jest tests.
 - [MisanthropicBit/neotest-busted](https://github.com/MisanthropicBit/neotest-busted) - Neotest adapter for running busted tests using Neovim as a Lua interpreter.
 - [mr-u0b0dy/crazy-coverage.nvim](https://github.com/mr-u0b0dy/crazy-coverage.nvim) - Display code coverage.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Code Runner
 
@@ -1180,9 +1184,9 @@ then it is not supported:
 - [pewpewnor/pilot.nvim](https://github.com/pewpewnor/pilot.nvim) - Run your projects and files quickly with keybindings, and configure how to run them on the fly.
 - [ok97465/ipybridge.nvim](https://github.com/ok97465/ipybridge.nvim) - Run Python code, execute Jupyter cells, debug, and explore variables.
 - [wsdjeg/code-runner.nvim](https://github.com/wsdjeg/code-runner.nvim) - Async code runner with range support.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Neovim Lua Development
 
@@ -1213,9 +1217,9 @@ then it is not supported:
 - [BirdeeHub/lze](https://github.com/BirdeeHub/lze) - A lazy-loading library for Neovim plugins.
 - [lumen-oss/lz.n](https://github.com/lumen-oss/lz.n) - A simple lazy loading library for Neovim plugins.
 - [jrop/morph.nvim](https://github.com/jrop/morph.nvim) - A React-like renderer for building interactive buffers/TUIs.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Fennel
 
@@ -1226,9 +1230,9 @@ then it is not supported:
 - [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) - Seamless, transparent Fennel inside Neovim.
 - [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - Tangerine provides a painless way to add Fennel to your config.
 - [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - Highly opinionated macros to elegantly write your config.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Dependency Management
 
@@ -1240,9 +1244,9 @@ then it is not supported:
 - [JesperLundberg/projektgunnar.nvim](https://github.com/JesperLundberg/projektgunnar.nvim) - C# dependency manager with support for handling references between projects and solution files.
 - [cosmicbuffalo/gem_install.nvim](https://github.com/cosmicbuffalo/gem_install.nvim) - Install Ruby gems, trigger `bundle install` and `gem install` with progress and caching to prevent retries when installs fail.
 - [taigrr/glaze.nvim](https://github.com/taigrr/glaze.nvim) - Centralized manager for Go binaries, with parallel installs, auto-update checking, and a Mason-style UI.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Git
 
@@ -1303,9 +1307,9 @@ then it is not supported:
 ### GitLab
 
 - [harrisoncramer/GitLab.nvim](https://github.com/harrisoncramer/GitLab.nvim) - Review pull requests and manage other GitLab resources.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Motion
 
@@ -1345,9 +1349,9 @@ then it is not supported:
 - [atusy/treemonkey.nvim](https://github.com/atusy/treemonkey.nvim) - Region selection with Tree-sitter nodes.
 - [kiyoon/treesitter-indent-object.nvim](https://github.com/kiyoon/treesitter-indent-object.nvim) - Context-aware indent textobject powered by Tree-sitter.
 - [subev/sibling-jump.nvim](https://github.com/subev/sibling-jump.nvim) - Context-aware navigation between sibling Tree-sitter nodes.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Keybinding
 
@@ -1370,16 +1374,16 @@ then it is not supported:
 - [tris203/hawtkeys.nvim](https://github.com/tris203/hawtkeys.nvim) - Suggest new easy-to-hit keymaps and find issues with your current keymap configurations.
 - [mawkler/demicolon.nvim](https://github.com/mawkler/demicolon.nvim) - Use `;` and `,` keys to also repeat jumps to diagnostics (e.g. `]d`) and to [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects?tab=readme-ov-file#text-objects-move) (e.g. `]f`), in addition to repeating `t`/`T`/`f`/`F`.
 - [nvim-mini/mini.nvim#mini.keymap](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-keymap.md) - Module of `mini.nvim` with utilities to make special key mappings: multi-step actions (with built-in steps for "smart" `<Tab>`, `<S-Tab>`, `<CR>`, `<BS>`), combos (more general version of "better escape" like behavior).
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Mouse
 
 - [notomo/gesture.nvim](https://github.com/notomo/gesture.nvim) - Mouse gesture plugin.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Scrolling
 
@@ -1398,9 +1402,9 @@ then it is not supported:
 - [gorbit99/codewindow.nvim](https://github.com/gorbit99/codewindow.nvim) - Minimap plugin, that is closely integrated with Tree-sitter and the built-in LSP to display more information to the user.
 - [lewis6991/satellite.nvim](https://github.com/lewis6991/satellite.nvim) - Decorate scrollbar.
 - [wsdjeg/scrollbar.nvim](https://github.com/wsdjeg/scrollbar.nvim) - Floating scrollbar.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Editing Support
 
@@ -1515,9 +1519,9 @@ then it is not supported:
 - [malbertzard/inline-fold.nvim](https://github.com/malbertzard/inline-fold.nvim) - Hide certain elements inline like long CSS classes or `href` content.
 - [netmute/foldchanged.nvim](https://github.com/netmute/foldchanged.nvim) - Adds a `FoldChanged` User event.
 - [netmute/foldsigns.nvim](https://github.com/netmute/foldsigns.nvim) - Adds fold markers to sign column to make folds more visible while editing.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Formatting
 
@@ -1552,9 +1556,9 @@ then it is not supported:
 - [VidocqH/auto-indent.nvim](https://github.com/VidocqH/auto-indent.nvim) - Auto indent cursor when cursor at the first column and press `<TAB>` key like VSCode.
 - [Mr-LLLLL/cool-chunk.nvim](https://github.com/Mr-LLLLL/cool-chunk.nvim) - Simpler and faster chunking with animations.
 - [gh-liu/fold_line.nvim](https://github.com/gh-liu/fold_line.nvim) - Lines for indicating code folding, which could achieve an effect similar to indentline by `:set fdm=indent`.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Command Line
 
@@ -1562,9 +1566,9 @@ then it is not supported:
 - [gelguy/wilder.nvim](https://github.com/gelguy/wilder.nvim) - A plugin for fuzzy command line autocompletion.
 - [vzze/cmdline.nvim](https://github.com/vzze/cmdline.nvim) - Helix-like command line with fuzzy autocompletion.
 - [nvim-mini/mini.nvim#mini.cmdline](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-cmdline.md) - Module of `mini.nvim` for command line tweaks. Adds autocompletion with customizable delay, autocorrection for words with fixed candidates, and autopeek command range in a floating window.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Session
 
@@ -1579,9 +1583,9 @@ then it is not supported:
 - [coffebar/neovim-project](https://github.com/coffebar/neovim-project) - Declarative project management, automatic saving of sessions, uses Telescope.
 - [njayman/season.nvim](https://github.com/njayman/season.nvim) - A lightweight plugin to manage session based on current working directory.
 - [Akmadan23/local-session.nvim](https://github.com/Akmadan23/local-session.nvim) - A fast, minimal and implicit current-working-directory-based session manager with easy to configure session files in Lua.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Remote Development
 
@@ -1594,9 +1598,9 @@ then it is not supported:
 - [uhs-robert/sshfs.nvim](https://github.com/uhs-robert/sshfs.nvim) - Mount remote systems via SSHFS with smart picker auto-detect (Telescope/Oil/Snacks/Neo-tree/fzf-lua/Yazi/Ranger etc.).
 - [nosduco/remote-sshfs.nvim](https://github.com/nosduco/remote-sshfs.nvim) - Explore, edit, and develop on a remote machine via SSHFS.
 - [azratul/live-share.nvim](https://github.com/azratul/live-share.nvim) - Provides remote collaboration capabilities from anywhere, making it ideal for pair-programming scenarios.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Live Preview
 
@@ -1608,7 +1612,9 @@ then it is not supported:
 - [gruvw/strudel.nvim](https://github.com/gruvw/strudel.nvim) - Live coding controller for [strudel](https://strudel.cc).
 
 <!--lint disable double-link -->
+
 [**⬆ back to top**](#contents)
+
 <!--lint enable double-link -->
 
 ## Split and Window
@@ -1644,9 +1650,9 @@ then it is not supported:
 - [kiyoon/tmux-send.nvim](https://github.com/kiyoon/tmux-send.nvim) - Copy and paste buffer content or file path in either `nvim-tree`, `neo-tree` or `oil.nvim` to another tmux pane.
 - [jkeresman01/tmux-switch.nvim](https://github.com/jkeresman01/tmux-switch.nvim) - Provides fuzzy session switching for Tmux.
 - [salorak/libtmux.nvim](https://github.com/salorak/libtmux.nvim) - Thin wrapper for using the `tmux` API.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Game
 
@@ -1668,9 +1674,9 @@ then it is not supported:
 - [barrettruth/cp.nvim](https://github.com/barrettruth/cp.nvim) - Competitive programming workflow for popular contest platforms (CodeForces, CSES, etc.) Includes automatic test scraping, I/O view, and diff panel.
 - [kawre/leetcode.nvim](https://github.com/kawre/leetcode.nvim) - Solve Leetcode problems.
 - [2KAbhishek/exercism.nvim](https://github.com/2KAbhishek/exercism.nvim) - Browse and solve Exercism problems.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Workflow
 
@@ -1698,7 +1704,9 @@ then it is not supported:
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) - Automatically create missing directories when saving files.
 
 <!--lint disable double-link -->
+
 [**⬆ back to top**](#contents)
+
 <!--lint enable double-link -->
 
 ## Database
@@ -1707,9 +1715,9 @@ then it is not supported:
 - [kndndrj/nvim-dbee](https://github.com/kndndrj/nvim-dbee) - Interactive database client.
 - [tashikomaaa/neomongo.nvim](https://github.com/tashikomaaa/neomongo.nvim) - Explore, query, and edit MongoDB collections directly through a Telescope-powered dashboard.
 - [zerochae/dbab.nvim](https://github.com/zerochae/dbab.nvim) - Lightweight database client with a modern UI and async execution.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Preconfigured Configuration
 
@@ -1749,9 +1757,9 @@ then it is not supported:
 - [adoyle-h/one.nvim](https://github.com/adoyle-h/one.nvim) - All-in-one config framework in Lua.
 - [nvim-mini/MiniMax](https://github.com/nvim-mini/MiniMax) - A collection of self-contained and extensively commented configurations which mostly use MINI tools.
 - [TheItcor/MoaiVim](https://github.com/TheItcor/MoaiVim) - A minimalist config that emulates a lightweight IDE.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## External
 
@@ -1779,15 +1787,18 @@ These tools are used externally to Neovim to enhance the experience.
 - [iamironz/android-nvim-plugin](https://github.com/iamironz/android-nvim-plugin) - Android build, deploy, and logcat commands with Gradle integration.
 - [massix/termux.nvim](https://github.com/massix/termux.nvim) - Interact with Termux APIs, useful to gather various information about your Android phone to display in the statusline (e.g. battery level).
 - [m15a/flake-awesome-neovim-plugins](https://github.com/m15a/flake-awesome-neovim-plugins) - Nix flake that provides a collection of `awesome-neovim` plugins as Nix packages.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Wishlist
 
 Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://github.com/nvim-lua/wishlist).
+
 <!--lint disable double-link -->
+
 [**⬆ back to top**](#contents)
+
 <!--lint enable double-link -->
 
 ## UI
@@ -1812,24 +1823,26 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [xieyonn/spinner.nvim](https://github.com/xieyonn/spinner.nvim) - Extensible spinner framework for animated spinners in statusline, tabline, winbar, buffer, cmdline, or next to the cursor.
 
 <!--lint disable double-link -->
+
 [**⬆ back to top**](#contents)
+
 <!--lint enable double-link -->
 
 ## Starter Templates
 
 - [tokiory/neovim-boilerplate](https://github.com/tokiory/neovim-boilerplate) - Starter boilerplate for making new configurations.
 - [frans-johansson/lazy-nvim-starter](https://github.com/frans-johansson/lazy-nvim-starter) - Starter boilerplate with lazy plugin manager.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Vim
 
 - [Vimawesome](https://vimawesome.com/) - Showcases various plugins for Vim and has a [Neovim tag](https://vimawesome.com/?q=tag:neovim) for other Neovim-related plugins.
 - [akrawchyk/awesome-vim#tools](https://github.com/akrawchyk/awesome-vim#tools) - A short list of Vim plugins and helpful guides.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
 
 ## Resource
 
@@ -1838,6 +1851,6 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [NeoLand](https://neoland.dev) - A beautifully crafted website for Neovim resources.
 - [Weyaaron/nvim-training](https://github.com/Weyaaron/nvim-training) - A beginner-friendly tool for training your 'muscle memory' using small, repeatable tasks.
 - [Nvim.app](https://nvim.app) - A modern search interface for Neovim plugins with fuzzy search, filtering, and self-service updates for plugin authors.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
+  <!--lint disable double-link -->
+  [**⬆ back to top**](#contents)
+  <!--lint enable double-link -->
