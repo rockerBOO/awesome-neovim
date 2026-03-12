@@ -946,6 +946,7 @@ then it is not supported:
 - [niuiic/todo.nvim](https://github.com/niuiic/todo.nvim) - Simple but powerful TODO manager based on text.
 - [flashcodes-themayankjha/Fknotes.nvim](https://github.com/flashcodes-themayankjha/Fknotes.nvim) - Take notes, TODOs from anywhere inside your project, search all TODOs, get reminders and more.
 - [apdot/doodle](https://github.com/apdot/doodle) - A developer-centric knowledge base with project/branch scoped notes, bi-directional linking, note-tagging, graph-view, telescope integration, and Git synchronization.
+- [gmcusaro/ma.nvim](https://github.com/gmcusaro/ma.nvim) - Minimal Markdown knowledge management with relational note navigation and safe file operations.
 - [jameswolensky/marker-groups.nvim](https://github.com/jameswolensky/marker-groups.nvim) - Take persistent code notes without modifying code.
 - [bngarren/checkmate.nvim](https://github.com/bngarren/checkmate.nvim) - A full-featured Markdown-based TODO plugin.
 - [lfilho/note2cal.nvim](https://github.com/lfilho/note2cal.nvim) - Create calendar events from Markdown notes (macOS only).
