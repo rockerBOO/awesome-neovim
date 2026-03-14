@@ -1036,6 +1036,7 @@ then it is not supported:
 - [indium114/cheaty.nvim](https://github.com/indium114/cheaty.nvim) - A simple, configurable cheatsheet.
 - [indium114/unobtrusive-relnums.nvim](https://github.com/indium114/unobtrusive-relnums) - Unobtrusive relative line numbers in the sign column.
 - [glyccogen/imprint.nvim](https://github.com/glyccogen/imprint.nvim) - Take WYSIWYG screenshots of your code via Playwright and headless Chromium, preserving your colorscheme and highlights.
+- [emrearmagan/dockyard.nvim](https://github.com/emrearmagan/dockyard.nvim) - Docker dashboard for managing containers, images, networks, and logs.
 
 ### CSV Files
 
