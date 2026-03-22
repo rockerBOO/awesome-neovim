@@ -310,6 +310,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [atomicptr/defold.nvim](https://github.com/atomicptr/defold.nvim) - Batteries-included development environment for the Defold game engine.
 - [onlyati/quadlet-lsp.nvim](https://github.com/onlyati/quadlet-lsp.nvim) - Provides completion, hover and other language server features for Podman Quadlet files.
 - [leblocks/hopcsharp.nvim](https://github.com/leblocks/hopcsharp.nvim) - Provides LSP-less navigation and type-hierarchy information in C# repositories.
+- [AnsonH/copy-python-path.nvim](https://github.com/AnsonH/copy-python-path.nvim) - Copy the reference or import path of a Python symbol.
 
 ### Golang
 
