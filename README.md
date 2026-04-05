@@ -403,7 +403,8 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 
 - [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient using snippets.
 
-### C++ (Cplusplus)
+<a id="cplusplus"></a>
+### C++
 
 - [martuscellifaria/ahoicpp.nvim](https://github.com/martuscellifaria/ahoicpp.nvim) - Assist programmers setting upC++ projects on a modular (yet a bit opinionated) fashion. Features include generating a compilable project, compiling, adding classes, and managing CMake files on the background.
 
