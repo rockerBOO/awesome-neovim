@@ -24,7 +24,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [PHP](#php)
   - [Powershell](#powershell)
   - [Assembly](#assembly)
-  - [Cpp](#cpp)
+  - [C++](#c)
 - [Language](#language)
 - [Syntax](#syntax)
 - [Snippet](#snippet)
@@ -403,9 +403,9 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 
 - [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient using snippets.
 
-### Cpp
+### C++
 
-- [martuscellifaria/ahoicpp.nvim](https://github.com/martuscellifaria/ahoicpp.nvim) - Assist programmers setting up Cpp projects on a modular (yet a bit opinionated) fashion. Features include generating a compilable project, compiling, adding classes, and managing CMake files on the background.
+- [martuscellifaria/ahoicpp.nvim](https://github.com/martuscellifaria/ahoicpp.nvim) - Assist programmers setting up C++ projects on a modular (yet a bit opinionated) fashion. Features include generating a compilable project, compiling, adding classes, and managing CMake files on the background.
 
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
