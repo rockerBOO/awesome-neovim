@@ -405,7 +405,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 
 ### Cpp
 
-- [martuscellifaria/ahoicpp.nvim](https://github.com/martuscellifaria/ahoicpp.nvim) - Assist programmers setting upC++ projects on a modular (yet a bit opinionated) fashion. Features include generating a compilable project, compiling, adding classes, and managing CMake files on the background.
+- [martuscellifaria/ahoicpp.nvim](https://github.com/martuscellifaria/ahoicpp.nvim) - Assist programmers setting up Cpp projects on a modular (yet a bit opinionated) fashion. Features include generating a compilable project, compiling, adding classes, and managing CMake files on the background.
 
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
