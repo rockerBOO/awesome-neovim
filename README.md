@@ -24,7 +24,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [PHP](#php)
   - [Powershell](#powershell)
   - [Assembly](#assembly)
-  - [C++](#c++)
+  - [C++](#c%2B%2B)
 - [Language](#language)
 - [Syntax](#syntax)
 - [Snippet](#snippet)
