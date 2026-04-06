@@ -666,6 +666,7 @@ then it is not supported:
 <!--lint enable awesome-list-item-->
 
 - [oskarnurm/koda.nvim](https://github.com/oskarnurm/koda.nvim) - **_`[TS][LSP][L/D][Lua]`_** Code's quiet companion. A minimalist colorscheme, written in Lua.
+- [devbydaniel/houston.nvim](https://github.com/devbydaniel/houston.nvim) - **_`[TS][LSP][Lua]`_** A faithful port of Astro's Houston VSCode theme with a bundled `lualine` theme and integrations for 25+ popular tools.
 - [yonatan-perel/lake-dweller.nvim](https://github.com/yonatan-perel/lake-dweller.nvim) - **_`[TS][LSP][Lua]`_** Dark and opinionated with selective highlighting aiming to be readable at a glance.
 - [silentium-theme/silentium.nvim](https://github.com/silentium-theme/silentium.nvim) - **_`[TS][Luа]`_** Pragmatic and monochrome theme with the goal to increase reading speed and reduce eye strain by highlighting only what is needed.
 - [serhez/teide.nvim](https://github.com/serhez/teide.nvim) - **_`[TS][LSP][L/D][Lua]`_** A fork of folke's `tokyonight.nvim` with a different color palette.
