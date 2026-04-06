@@ -8,6 +8,7 @@
 [Neovim](https://neovim.io/) is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions.
 It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) as well as a rich API for many more to be developed.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Neovim-integrated multi-agent orchestration, automated coding assistance, and development workflow management. MIT licensed.
 ## Contents
 
 - [Plugin Manager](#plugin-manager)
