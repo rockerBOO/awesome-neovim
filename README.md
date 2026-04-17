@@ -314,6 +314,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [onlyati/quadlet-lsp.nvim](https://github.com/onlyati/quadlet-lsp.nvim) - Provides completion, hover and other language server features for Podman Quadlet files.
 - [leblocks/hopcsharp.nvim](https://github.com/leblocks/hopcsharp.nvim) - Provides LSP-less navigation and type-hierarchy information in C# repositories.
 - [AnsonH/copy-python-path.nvim](https://github.com/AnsonH/copy-python-path.nvim) - Copy the reference or import path of a Python symbol.
+- [J-Cowsert/classlayout.nvim](https://github.com/J-Cowsert/classlayout.nvim) - Visualize C/C++ struct and class memory layouts (field offsets, padding, alignment) in a floating window.
 
 ### Golang
 
