@@ -13,6 +13,7 @@ PUNCTUATION=0
 SUPPORTED=()
 BACKUPS=()
 BACKUP=""
+MISSING_LOG="./scripts/missing.log"
 
 # Output colors
 MAGENTA=""
@@ -20,7 +21,6 @@ RED=""
 GREEN=""
 BOLD=""
 RESET=""
-
 
 # Print each argument as a line to stderr
 error() {
@@ -66,8 +66,6 @@ verbose_print() {
 #
 # Usage: die [[<EXIT_CODE>] <MESSAGE> [<MESSAGE> [...]]]
 die() {
-    rm -f "${BACKUPS[@]}"
-
     local EC=0
     if [[ $# -ge 1 ]] && [[ $1 =~ ^(0|-?[1-9][0-9]*)$ ]]; then
         EC="$1"
@@ -81,6 +79,8 @@ die() {
             error "${TXT[@]}"
         fi
     fi
+
+    rm -f "${BACKUPS[@]}" "${MISSING_LOG}"
     exit "$EC"
 }
 
@@ -273,6 +273,58 @@ check_api() {
     return 0
 }
 
+# Check that every list element has a dot `.` at the end
+check_list_punctuation() {
+    trap 'die_sigint' SIGINT # Will result in pressing Ctrl-C aborting safely
+
+    local MSG="Fixing punctuation at the end of list items  ==>  "
+    local EC=0
+    local FOUND=0
+    if ! grep -nE '^-\s\[.*\]\(.*\)\s-\s.*[^\.]$' ./README.md 2> /dev/null | tee "${MISSING_LOG}" > /dev/null; then
+        MSG+="UNCHANGED"
+    else
+        FOUND=1
+        BACKUP="$(mktemp -p .)"
+        BACKUPS+=("${BACKUP}")
+        cp ./README.md "${BACKUP}"
+
+        local IFS
+        local LNUMS=()
+        IFS=$'\n' LNUMS=($(cat "${MISSING_LOG}"))
+
+        for I in $(seq 1 ${#LNUMS[@]}); do
+            I=$((I - 1))
+            local END=""
+            END="$(echo "${LNUMS[I]}" | rev)"
+            local LEN=${#END[@]}
+            ((LEN++))
+
+            END="${END:${LEN}:1}"
+
+            if [[ "${END}" =~ ^[a-zA-Z0-9\)].*$ ]]; then
+                sed -E -i "$(echo "${LNUMS[I]}" | cut -d ':' -f1)s/[^\.]$/${END}./g" ./README.md || EC=1
+            else
+                sed -E -i "$(echo "${LNUMS[I]}" | cut -d ':' -f1)s/[^\.]$/./g" ./README.md || EC=1
+            fi
+            if [[ $EC -eq 1 ]]; then
+                FOUND=0
+                MSG+="${RED}ERROR"
+                break
+            fi
+        done
+
+        if [[ $FOUND -eq 1 ]] && has_diff "${BACKUP}"; then
+            MSG+="${GREEN}CHANGED"
+        else
+            MSG+="UNCHANGED"
+        fi
+    fi
+
+    sleep .5s
+    verbose_print "" "${RESET}${BOLD}${MSG}${RESET}"
+    return $EC
+}
+
 # Check for bad & punctuation
 check_punctuation() {
     trap 'die_sigint' SIGINT # Will result in pressing Ctrl-C aborting safely
@@ -281,6 +333,7 @@ check_punctuation() {
     fi
 
     fix_suspected_lines '\&' 'and' || die 1 "Error while analyzing punctuations"
+    check_list_punctuation || die 1 "Error while analyzing punctuations"
     return 0
 }
 
@@ -641,8 +694,9 @@ check_trail_spaces() {
         return 0
     fi
 
-    local MSG="Fixing ${MAGENTA}Trailing Spaces${RESET}${BOLD}  ==>  "
+    local MSG="Fixing Trailing Spaces  ==>  "
     local FOUND=0
+    local EC=0
     BACKUP=""
     if search_regex '\s+$'; then
         # If regex is found then backup README to temporary file and indicate that
@@ -670,7 +724,8 @@ check_trail_spaces() {
             MSG+="UNCHANGED"
         fi
 
-        verbose_print "${BOLD}${MSG}${RESET}"
+        sleep .5s
+        verbose_print "" "${BOLD}${MSG}${RESET}"
     fi
 
     return $EC
@@ -759,7 +814,6 @@ if [[ $# -gt 0 ]]; then
     done
 fi
 
-
 if [[ $USE_COLORS -eq 1 ]] && _cmd_exists 'tput'; then
     MAGENTA="$(tput setaf 5)"
     RED="$(tput setaf 1)"
@@ -775,9 +829,9 @@ if [[ "${PUNCTUATION}${CAPITALIZATION}${TRAIL_SPACES}" == "000" ]]; then
     CAPITALIZATION=1
 fi
 
-check_capitalizations || die 1
-check_punctuation     || die 1
-check_trail_spaces    || die 1
+check_capitalizations  || die 1
+check_trail_spaces     || die 1
+check_punctuation      || die 1
 
 # Will run if `-L` is passed
 [[ $LIST_SUPPORTED -eq 1 ]] && print_sort "${SUPPORTED[@]}"
