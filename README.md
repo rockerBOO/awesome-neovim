@@ -1806,7 +1806,7 @@ These tools are used externally to Neovim to enhance the experience.
 
 ### Remote Control
 
-- [paulburgess1357/nvim-mcp](https://github.com/paulburgess1357/nvim-mcp) - MCP server that gives AI agents access to buffers, commands, and LSP diagnostics through Neovim's msgpack-RPC socket. Be sure to work safely when giving LLMs access to Neovim.
+- [paulburgess1357/nvim-mcp](https://github.com/paulburgess1357/nvim-mcp) - MCP server giving AI agents access to buffers, commands, and LSP diagnostics through Neovim's msgpack-RPC socket.
 
 ### OS-specific
 
