@@ -1119,7 +1119,7 @@ then it is not supported:
 - [da-moon/telescope-toggleterm.nvim](https://github.com/da-moon/telescope-toggleterm.nvim) - Telescope picker for terminal buffers.
 - [benoror/gpg.nvim](https://github.com/benoror/gpg.nvim) - Edit GPG encrypted files symmetrically.
 - [gh-liu/nvim-winterm](https://github.com/gh-liu/nvim-winterm) - Multi-terminal window manager.
-- [hawknewton/termyank.nvim](https://github.com/hawknewton/termyank.nvim) - Avoid yanking newlines in a terminal buffer.  yaW, yi(, etc also work across lines.
+- [hawknewton/termyank.nvim](https://github.com/hawknewton/termyank.nvim) - Avoid yanking newlines in a terminal buffer.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
