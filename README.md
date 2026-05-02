@@ -532,7 +532,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [mahyarmirrashed/search-and-replace.nvim](https://github.com/mahyarmirrashed/search-and-replace.nvim) - Simple, effective, search and replace functionality for the pragmatic engineer.
 - [bravoecho/brook.nvim](https://github.com/bravoecho/brook.nvim) - Responsive, shell-safe ripgrep search for the quickfix list, with native n/N navigation.
 - [KieranCanter/candela.nvim](https://github.com/KieranCanter/candela.nvim) - Analyze logs by defining regex patterns to highlight and/or isolate matching lines.
-- [ankushbhagats/match.nvim](https://github.com/ankushbhagats/match.nvim) - Minimal floating search & replace with live match tracking, navigation, and quick replacements.
+- [ankushbhagats/match.nvim](https://github.com/ankushbhagats/match.nvim) - Minimal floating search-and-replace with live match tracking, navigation, and quick replacements.
 
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
