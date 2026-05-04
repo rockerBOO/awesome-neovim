@@ -892,7 +892,7 @@ then it is not supported:
 - [Mr-LLLLL/lualine-ext.nvim](https://github.com/Mr-LLLLL/lualine-ext.nvim) - Show more information on lualine.
 - [mikesmithgh/git-prompt-string-lualine.nvim](https://github.com/mikesmithgh/git-prompt-string-lualine.nvim) - Add git-prompt-string to your statusline.
 - [sschleemilch/slimline.nvim](https://github.com/sschleemilch/slimline.nvim) - A slim, minimal and opinionated Lua statusline.
-- [tajirhas9/muslim.nvim](https://github.com/tajirhas9/muslim.nvim) - A plugin to get prayer times and useful islamic essentials inside neovim's statusline.
+- [tajirhas9/muslim.nvim](https://github.com/tajirhas9/muslim.nvim) - Get prayer times and useful islamic essentials inside Neovim's statusline.
 
 ### Tabline
 
