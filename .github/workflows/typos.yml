@@ -1,3 +1,4 @@
+---
 name: Typos and Terminology Check
 permissions:
   contents: read
@@ -26,6 +27,7 @@ jobs:
         with:
           files: ./README.md
           config: ./.github/typos.toml
+
   terminology-check:
     name: Check for terminology consistency
     runs-on: ubuntu-latest
@@ -35,6 +37,7 @@ jobs:
       - name: Run terminology check script
         run: |
           ./.github/scripts/check-terms.sh README.md
+
   formatting-check:
     name: Ensure correct formatting
     runs-on: ubuntu-latest
