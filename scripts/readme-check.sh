@@ -2,16 +2,18 @@
 
 set -o pipefail
 
-OPTIONS=":hvcCtpL"
+OPTIONS=":hvcCtpPL"
 VERBOSE=0
 USE_COLORS=1
 LIST_SUPPORTED=0
 CAPITALIZATION=0
 TRAIL_SPACES=0
 PUNCTUATION=0
+CHECK_ONLY=0
 
 SUPPORTED=()
 BACKUPS=()
+TARGET="./README.md"
 BACKUP=""
 MISSING_LOG="./scripts/missing.log"
 
@@ -59,6 +61,16 @@ verbose_print() {
     return 0
 }
 
+# A wrapper for `! diff -q ./README.md </path/to/file>`
+#
+# Usage: has_diff </path/to/file>
+has_diff() {
+    [[ $# -eq 0 ]] && return 127
+
+    ! diff -q "${TARGET}" "$1" &> /dev/null && return 0
+    return 1
+}
+
 # Delete all temporary files, then kill the program execution with an optional exit code.
 #
 # This function can also print a set of messages to either stdout or stderr
@@ -81,6 +93,14 @@ die() {
     fi
 
     rm -f "${BACKUPS[@]}" "${MISSING_LOG}"
+    if [[ $CHECK_ONLY -eq 1 ]]; then
+        if [[ $EC -eq 0 ]]; then
+            ! has_diff ./README.md
+            EC=$?
+        fi
+        rm -f "${TARGET}"
+    fi
+
     exit "$EC"
 }
 
@@ -114,16 +134,16 @@ usage() {
         TXT+=("")
     fi
     TXT+=(
-        "  usage: readme-check.sh [-h] [-v] [-t] [-p] [-c] [-C] [-L]"
+        "  usage: readme-check.sh [-h] [-v [-C]] [-t] [-p] [-P] [-c] [-L]"
         ""
         "     -h        Prints this help message"
-        ""
         "     -v        Enable verbose output"
-        "     -C        Disable color in output (requires -v)"
+        "     -C        Disable color in output (requires \`-v\`)"
         "     -L        Lists all the supported corrections"
+        "     -c        Exit with error if any correction is made (sort of \"dry-run\")"
         ""
         "     -p        Only check for punctuation"
-        "     -c        Only check for capitalizations"
+        "     -P        Only check for capitalizations"
         "     -t        Only check for trailing spaces"
         ""
     )
@@ -136,18 +156,8 @@ usage() {
 search_regex() {
     [[ $# -eq 0 ]] && return 127
 
-    grep -E "$1" ./README.md &> /dev/null
+    grep -E "$1" "${TARGET}" &> /dev/null
     return $?
-}
-
-# A wrapper for `! diff -q ./README.md </path/to/file>`
-#
-# Usage: has_diff </path/to/file>
-has_diff() {
-    [[ $# -eq 0 ]] && return 127
-
-    ! diff -q ./README.md "$1" &> /dev/null && return 0
-    return 1
 }
 
 # Function to correct all lines that match the given regexp.
@@ -206,9 +216,9 @@ fix_suspected_lines() {
                 FOUND=1
                 BACKUP="$(mktemp -p .)"
                 BACKUPS+=("${BACKUP}")
-                cp ./README.md "${BACKUP}"
+                cp "${TARGET}" "${BACKUP}"
             fi
-            if ! sed -E -i "s/${LEAD}${REGEX}${TRAIL}/${LEAD_CHARS}${REPLACE}${TRAIL_CHAR}/g" ./README.md; then
+            if ! sed -E -i "s/${LEAD}${REGEX}${TRAIL}/${LEAD_CHARS}${REPLACE}${TRAIL_CHAR}/g" "${TARGET}"; then
                 MSG+="${RED}ERROR"
                 EC=1
                 break
@@ -280,13 +290,13 @@ check_list_punctuation() {
     local MSG="Fixing punctuation at the end of list items  ==>  "
     local EC=0
     local FOUND=0
-    if ! grep -nE '^-\s\[.*\]\(.*\)\s-\s.*[^\.]$' ./README.md 2> /dev/null | tee "${MISSING_LOG}" > /dev/null; then
+    if ! grep -nE '^-\s\[.*\]\(.*\)\s-\s.*[^\.]$' "${TARGET}" 2> /dev/null | tee "${MISSING_LOG}" > /dev/null; then
         MSG+="UNCHANGED"
     else
         FOUND=1
         BACKUP="$(mktemp -p .)"
         BACKUPS+=("${BACKUP}")
-        cp ./README.md "${BACKUP}"
+        cp "${TARGET}" "${BACKUP}"
 
         local IFS
         local LNUMS=()
@@ -302,9 +312,9 @@ check_list_punctuation() {
             END="${END:${LEN}:1}"
 
             if [[ "${END}" =~ ^[a-zA-Z0-9\)].*$ ]]; then
-                sed -E -i "$(echo "${LNUMS[I]}" | cut -d ':' -f1)s/[^\.]$/${END}./g" ./README.md || EC=1
+                sed -E -i "$(echo "${LNUMS[I]}" | cut -d ':' -f1)s/[^\.]$/${END}./g" "${TARGET}" || EC=1
             else
-                sed -E -i "$(echo "${LNUMS[I]}" | cut -d ':' -f1)s/[^\.]$/./g" ./README.md || EC=1
+                sed -E -i "$(echo "${LNUMS[I]}" | cut -d ':' -f1)s/[^\.]$/./g" "${TARGET}" || EC=1
             fi
             if [[ $EC -eq 1 ]]; then
                 FOUND=0
@@ -704,9 +714,9 @@ check_trail_spaces() {
         FOUND=1
         BACKUP="$(mktemp -p .)"
         BACKUPS+=("${BACKUP}")
-        cp ./README.md "${BACKUP}"
+        cp "${TARGET}" "${BACKUP}"
     fi
-    if ! sed -i 's/\s\+$//g' ./README.md; then
+    if ! sed -i 's/\s\+$//g' "${TARGET}"; then
         MSG+="${RED}ERROR"
         EC=1
     fi
@@ -794,8 +804,8 @@ check_capitalizations() {
 # HACK: Execute `die_sigint` on Ctrl-C
 
 ! _cmd_exists 'sed' && die 130 "\`sed\` not available in your PATH!"
-! [[ -f ./README.md ]] && die 1 "\`README.md\` not found!" "Make sure to run this from the root of the repository."
-! [[ -w ./README.md ]] && die 1 "\`README.md\` cannot be modified!"
+! [[ -f "${TARGET}" ]] && die 1 "\`README.md\` not found!" "Make sure to run this from the root of the repository."
+! [[ -w "${TARGET}" ]] && die 1 "\`README.md\` cannot be modified!"
 
 if [[ $# -gt 0 ]]; then
     while getopts "$OPTIONS" OPTION; do
@@ -804,7 +814,13 @@ if [[ $# -gt 0 ]]; then
             v) VERBOSE=1 ;;
             p) PUNCTUATION=1 ;;
             t) TRAIL_SPACES=1 ;;
-            c) CAPITALIZATION=1 ;;
+            P) CAPITALIZATION=1 ;;
+            c)
+                CHECK_ONLY=1
+                TARGET="$(mktemp -p .)"
+                cp ./README.md "${TARGET}"
+                echo "${TARGET}"
+                ;;
             C) USE_COLORS=0 ;;
             L) LIST_SUPPORTED=1 ;;
             :) usage 1 "Missing argument for option!" ;;
