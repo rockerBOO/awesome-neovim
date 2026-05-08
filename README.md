@@ -89,8 +89,8 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [OS-specific](#os-specific)
 - [Wishlist](#wishlist)
 - [UI](#ui)
-  - [ColorColumn and StatusColumn](#column)
-  - [WinBars, TabLines, StatusLines, etc...](#bars)
+  - [ColorColumn and StatusColumn](#colorcolun-and-statuscolumn)
+  - [WinBars, TabLines, StatusLines, etc...](#winbars-tablines-statuslines-etc)
   - [Lines](#lines)
   - [Cursor](#cursor)
 - [Starter Templates](#starter-templates)
@@ -1811,7 +1811,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [xieyonn/spinner.nvim](https://github.com/xieyonn/spinner.nvim) - Extensible spinner framework for animated spinners in statusline, tabline, winbar, buffer, cmdline, or next to the cursor.
 - [quickui.nvim](https://github.com/mjmjm0101/quickui.nvim) - Structured, keyboard-driven menus and context menus with nested navigation.
 
-### ColorColumn and StatusColumn {#column}
+### ColorColumn and StatusColumn
 
 - [Bekaboo/deadcolumn.nvim](https://github.com/Bekaboo/deadcolumn.nvim) - Shows your colorcolumn dynamically.
 - [ecthelionvi/NeoColumn.nvim](https://github.com/ecthelionvi/NeoColumn.nvim) - Toggleable colorcolumn highlighting specific characters.
@@ -1824,7 +1824,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [mluders/comfy-line-numbers.nvim](https://github.com/mluders/comfy-line-numbers.nvim) - Limits relative numbers to only show left-hand digits on the keyboard.
 - [indium114/unobtrusive-relnums.nvim](https://github.com/indium114/unobtrusive-relnums.nvim) - Unobtrusive relative line numbers in the sign column.
 
-### WinBars, TabLines, StatusLines, etc... {#bars}
+### WinBars, TabLines, StatusLines, etc...
 
 - [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim) - A VSCode like winbar.
 - [Bekaboo/dropbar.nvim](https://github.com/Bekaboo/dropbar.nvim) - IDE-like breadcrumbs, out of the box.
