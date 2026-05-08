@@ -90,7 +90,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [Wishlist](#wishlist)
 - [UI](#ui)
   - [ColorColumn and StatusColumn](#colorcolun-and-statuscolumn)
-  - [WinBars, TabLines, StatusLines, etc...](#winbars-tablines-statuslines-etc)
+  - [WinBars, TabLines and StatusLines(#winbars-tablines-and-statuslines)
   - [Lines](#lines)
   - [Cursor](#cursor)
 - [Starter Templates](#starter-templates)
@@ -1824,7 +1824,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [mluders/comfy-line-numbers.nvim](https://github.com/mluders/comfy-line-numbers.nvim) - Limits relative numbers to only show left-hand digits on the keyboard.
 - [indium114/unobtrusive-relnums.nvim](https://github.com/indium114/unobtrusive-relnums.nvim) - Unobtrusive relative line numbers in the sign column.
 
-### WinBars, TabLines, StatusLines, etc...
+### WinBars, TabLines and StatusLines
 
 - [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim) - A VSCode like winbar.
 - [Bekaboo/dropbar.nvim](https://github.com/Bekaboo/dropbar.nvim) - IDE-like breadcrumbs, out of the box.
