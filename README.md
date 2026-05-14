@@ -11,6 +11,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 ## Contents
 
 - [Plugin Manager](#plugin-manager)
+- [lazy.nvim](https://github.com/folke/lazy.nvim) - A modern plugin manager for Neovim.
 - [LSP](#lsp)
   - [LSP Installer](#lsp-installer)
   - [Diagnostics](#diagnostics)
