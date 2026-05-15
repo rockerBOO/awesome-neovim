@@ -4,42 +4,60 @@
 check_repo_details() {
     local repo_url="$1"
     local pr_number="$2"
+    local temp_dir
+    local repo_name
 
     # Temporary directory for cloning
-    local temp_dir=$(mktemp -d)
+    temp_dir=$(mktemp -d)
 
     # Validate repository exists using GitHub CLI
-    local repo_name=$(echo "$repo_url" | sed -E 's|https://github\.com/||; s/\.git$//')
-    if ! gh repo view "$repo_name" &>/dev/null; then
+    repo_name=$(echo "$repo_url" | sed -E 's|https://github\.com/||; s/\.git$//')
+    if ! gh repo view "$repo_name" &> /dev/null; then
         echo "❌ PR $pr_number: Repository does not exist"
         return 1
     fi
 
     # Clone repository with multiple attempts
-    if ! git clone --depth 1 "$repo_url" "$temp_dir" 2>/dev/null; then
+    if ! git clone --depth 1 "$repo_url" "$temp_dir" 2> /dev/null; then
         echo "❌ PR $pr_number: Unable to clone repository"
         return 1
     fi
 
     # Check for README
-    if [ ! -f "$temp_dir/README.md" ]; then
-        echo "❌ PR $pr_number: No README.md found"
+    if ! [[ -f "$temp_dir/README.md" ]] \
+        || ! [[ -f "$temp_dir/readme.md" ]] \
+        || ! [[ -f "$temp_dir/README.markdown" ]] \
+        || ! [[ -f "$temp_dir/readme.markdown" ]] \
+        || ! [[ -f "$temp_dir/README.org" ]] \
+        || ! [[ -f "$temp_dir/readme.org" ]] \
+        || ! [[ -f "$temp_dir/README.rst" ]] \
+        || ! [[ -f "$temp_dir/readme.rst" ]] \
+        || ! [[ -f "$temp_dir/README.txt" ]] \
+        || ! [[ -f "$temp_dir/readme.txt" ]] \
+        || ! [[ -f "$temp_dir/README" ]] \
+        || ! [[ -f "$temp_dir/readme" ]]; then
+        echo "❌ PR $pr_number: No README found"
         rm -rf "$temp_dir"
         return 1
     fi
 
     # Clean up
     rm -rf "$temp_dir"
-
     return 0
 }
 
 # Function to check if PR has reviews and commits after reviews
 check_review_status() {
     local pr_number="$1"
+    local review_count
+    local pr_data
+    local latest_review_date
+    local commits_after_review
+    local review_states
+    local review_authors
 
     # Get PR reviews and commits data
-    local pr_data=$(gh pr view "$pr_number" --json reviews,commits --jq '{
+    pr_data=$(gh pr view "$pr_number" --json reviews,commits --jq '{
         reviews: [.reviews[] | select(.state != "PENDING") | {
             state: .state,
             submittedAt: .submittedAt,
@@ -52,31 +70,31 @@ check_review_status() {
     }')
 
     # Check if there are any non-pending reviews
-    local review_count=$(echo "$pr_data" | jq '.reviews | length')
+    review_count=$(echo "$pr_data" | jq '.reviews | length')
 
-    if [ "$review_count" -eq 0 ]; then
+    if [[ "$review_count" -eq 0 ]]; then
         echo "ℹ️ PR $pr_number: No reviews yet"
         return 0
     fi
 
     # Get the latest review date
-    local latest_review_date=$(echo "$pr_data" | jq -r '.reviews | map(.submittedAt) | max')
+    latest_review_date=$(echo "$pr_data" | jq -r '.reviews | map(.submittedAt) | max')
 
-    if [ "$latest_review_date" == "null" ]; then
+    if [[ "$latest_review_date" == "null" ]]; then
         echo "ℹ️ PR $pr_number: Reviews exist but no submission date available"
         return 0
     fi
 
     # Check if there are commits after the latest review
-    local commits_after_review=$(echo "$pr_data" | jq --arg review_date "$latest_review_date" '
+    commits_after_review=$(echo "$pr_data" | jq --arg review_date "$latest_review_date" '
         [.commits[] | select(.authoredDate > $review_date)] | length
     ')
 
     # Get review states
-    local review_states=$(echo "$pr_data" | jq -r '.reviews | map(.state) | unique | join(", ")')
-    local review_authors=$(echo "$pr_data" | jq -r '.reviews | map(.author) | unique | join(", ")')
+    review_states=$(echo "$pr_data" | jq -r '.reviews | map(.state) | unique | join(", ")')
+    review_authors=$(echo "$pr_data" | jq -r '.reviews | map(.author) | unique | join(", ")')
 
-    if [ "$commits_after_review" -gt 0 ]; then
+    if [[ "$commits_after_review" -gt 0 ]]; then
         echo "🔄 PR $pr_number: $commits_after_review commit(s) after latest review (Reviews: $review_states by $review_authors)"
         return 2  # Indicates commits after review
     else
@@ -92,13 +110,14 @@ main() {
     local reviewed_prs=()
     local needs_review_prs=()
     local updated_after_review_prs=()
+    local pr_title pr_diff
 
     for pr in "$@"; do
         echo -e "\n--- Processing PR $pr ---"
 
         # Check review status first
         check_review_status "$pr"
-        review_status=$?
+        local review_status=$?
 
         case $review_status in
             0) needs_review_prs+=("$pr") ;;
@@ -119,15 +138,15 @@ main() {
 
         # Extract repository URL from PR diff or title
         repo_url=$(echo "$pr_diff" | grep -oP 'https://github\.com/[^/\s)]+/[^/\s)]+' | head -n 1)
-        if [ -z "$repo_url" ]; then
+        if [[ -z "$repo_url" ]]; then
             repo_url=$(echo "$pr_title" | grep -oP '`\K[^/]+/[^`]+')
-            if [ -n "$repo_url" ]; then
+            if [[ -n "$repo_url" ]]; then
                 repo_url="https://github.com/${repo_url}"
             fi
         fi
 
         # Skip if no repository URL found
-        if [ -z "$repo_url" ]; then
+        if [[ -z "$repo_url" ]]; then
             echo "❌ PR $pr: No repository URL found"
             non_compliant_prs+=("$pr")
             continue
