@@ -1333,6 +1333,7 @@ then it is not supported:
 - [spacedentist/resolve.nvim](https://github.com/spacedentist/resolve.nvim) - Resolve merge conflicts with ease.
 - [jceb/jiejie.nvim](https://github.com/jceb/jiejie.nvim) - Frontend for Jujutsu in the style of `fugitive`.
 - [chojs23/ec](https://github.com/chojs23/ec) - A TUI native Git mergetool with 3 panes.
+- [~lorenzwegener/nvim-dirdiff](https://git.sr.ht/~lorenzwegener/nvim-dirdiff) - Recursively diff two directories using the built-in diff mode. Lua port of `vim-dirdiff`.
 
 ### GitHub
 
