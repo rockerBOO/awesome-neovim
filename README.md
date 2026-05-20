@@ -1336,6 +1336,7 @@ then it is not supported:
 - [spacedentist/resolve.nvim](https://github.com/spacedentist/resolve.nvim) - Resolve merge conflicts with ease.
 - [jceb/jiejie.nvim](https://github.com/jceb/jiejie.nvim) - Frontend for Jujutsu in the style of `fugitive`.
 - [chojs23/ec](https://github.com/chojs23/ec) - A TUI native Git mergetool with 3 panes.
+- [dshan12/graphite.nvim](https://github.com/dshan12/graphite.nvim) - A Neovim plugin for the Graphite CLI with an interactive 4-pane dashboard and 40+ user commands for managing stacked Git workflows.
 
 ### GitHub
 
