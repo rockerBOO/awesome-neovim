@@ -1659,6 +1659,7 @@ then it is not supported:
 - [SUSTech-data/neopyter](https://github.com/SUSTech-data/neopyter) - Edit in Neovim and preview/run in Jupyter Lab.
 - [kiyoon/jupynium.nvim](https://github.com/kiyoon/jupynium.nvim) - Selenium-automated Jupyter Notebook that is synchronised with Neovim in real-time.
 - [gruvw/strudel.nvim](https://github.com/gruvw/strudel.nvim) - Live coding controller for [strudel](https://strudel.cc).
+- [ritschalex/jupyter_ascending.nvim](https://github.com/RitschAlex/jupyter_ascending.nvim) - A seamless way to work with Jupyter Notebooks using Jupyter Ascending.
 
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
