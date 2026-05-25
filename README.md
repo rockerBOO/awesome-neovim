@@ -683,6 +683,7 @@ then it is not supported:
 - **_`[Lua]`_** - Is written in Lua.
 - **_`[Fnl]`_** - Is written in Fennel.
 <!--lint enable awesome-list-item-->
+- [VyomJain6904/charcoal.nvim](https://github.com/VyomJain6904/charcoal.nvim) - **_`[TS][LSP][Lua]`_** Deep-black grayscale colorscheme with no hues — background `#0d0d0d`, all syntax in shades of gray.
 
 - [ThorstenRhau/token](https://github.com/ThorstenRhau/token) - **_`[TS][LSP][L/D][Lua]`_** Token has warm tones and careful contrast, with full Tree-sitter and LSP integration.
 - [oskarnurm/koda.nvim](https://github.com/oskarnurm/koda.nvim) - **_`[TS][LSP][L/D][Lua]`_** Code's quiet companion. A minimalist colorscheme, written in Lua.
