@@ -1257,6 +1257,9 @@ then it is not supported:
 - [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) - Seamless, transparent Fennel inside Neovim.
 - [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - Tangerine provides a painless way to add Fennel to your config.
 - [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - Highly opinionated macros to elegantly write your config.
+<!--lint disable double-link -->
+[**⬆ back to top**](#contents)
+<!--lint enable double-link -->
 
 ## Library
 
@@ -1279,6 +1282,9 @@ then it is not supported:
 - [BirdeeHub/lze](https://github.com/BirdeeHub/lze) - A lazy-loading library for Neovim plugins.
 - [lumen-oss/lz.n](https://github.com/lumen-oss/lz.n) - A simple lazy loading library for Neovim plugins.
 - [jrop/morph.nvim](https://github.com/jrop/morph.nvim) - A React-like renderer for building interactive buffers/TUIs.
+<!--lint disable double-link -->
+[**⬆ back to top**](#contents)
+<!--lint enable double-link -->
 
 ## Neovim Lua Development
 
