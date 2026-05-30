@@ -59,8 +59,6 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [Integration](#integration)
   - [Fennel](#fennel)
 - [Library](#library)
-- [Neovim Lua Development](#neovim-lua-development)
-- [Fennel](#fennel)
 - [Dependency Management](#dependency-management)
 - [Git](#git)
   - [GitHub](#github)
