@@ -1390,6 +1390,7 @@ then it is not supported:
 - [timseriakov/spamguard.nvim](https://github.com/timseriakov/spamguard.nvim) - Detects excessive key spamming (jjjj/kkkk) and suggests more efficient alternatives.
 - [millerjason/neovimacs.nvim](https://github.com/millerjason/neovimacs.nvim) - Provides Emacs movement and buffer keybindings while in insert mode.
 - [kiyoon/repeatable-move.nvim](https://github.com/kiyoon/repeatable-move.nvim) - Make any motion repeatable with `;` and `,` keys.
+- [kkew3/jieba.vim](https://github.com/kkew3/jieba.vim) - Word motions and word text objects for Chinese.
 
 ### Tree-sitter Based
 
