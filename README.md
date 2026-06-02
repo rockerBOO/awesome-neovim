@@ -91,6 +91,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [Plugin Template](#plugin-template)
   - [Remote Control](#remote-control)
   - [OS-specific](#os-specific)
+- [Telegram](#telegram)
 - [Wishlist](#wishlist)
 - [UI](#ui)
 - [Starter Templates](#starter-templates)
@@ -1859,6 +1860,10 @@ These tools are used externally to Neovim to enhance the experience.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
+
+## Telegram
+
+- [ChuYanLon/telegram.nvim](https://github.com/ChuYanLon/telegram.nvim) - A Telegram chat client inside Neovim, powered by TDLib + TypeScript backend + Lua frontend. Real-time messaging, group management, media preview, and more.
 
 ## Wishlist
 
