@@ -19,9 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check PR Title
-        uses: deepakputhraya/action-pr-title@077bddd7bdabd0d2b1b25ed0754c7e62e184d7ee
-        with:
-          regex: '^(Add|Update|Remove)\s`.+\/.+`$'
-          verbal_description: |
-            Add|Update|Remove `username/repo`
-          github_token: ${{ github.token }}
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          if ! echo "$PR_TITLE" | grep -qE '^(Add|Update|Remove) `.+/.+`$'; then
+            echo "PR title \"$PR_TITLE\" must match: Add|Update|Remove \`username/repo\`"
+            exit 1
+          fi
