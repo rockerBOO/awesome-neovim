@@ -979,6 +979,7 @@ then it is not supported:
 - [vyfor/cord.nvim](https://github.com/vyfor/cord.nvim) - Highly extensible Rich Presence for Discord.
 - [iamt4nk/smm.nvim](https://github.com/iamt4nk/smm.nvim) - Small TUI that allows for controlling Spotify playback.
 - [sanjay-np/nvim-yt-player](https://github.com/sanjay-np/nvim-yt-player) - Play YouTube audio using `mpv` and `yt-dlp` via IPC socket.
+- [T-b-t-nchos/FMP7.nvim](https://github.com/T-b-t-nchos/FMP7.nvim) - Control FMP7 and play FM/SSG/PCM driver music files (Only for Windows).
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
