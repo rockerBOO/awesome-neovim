@@ -1252,6 +1252,7 @@ then it is not supported:
 - [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) - UI Component Library.
 - [nvim-mini/mini.nvim#mini.doc](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-doc.md) - Module of `mini.nvim` for generation of help files from EmmyLua-like annotations. Allows flexible customization of output via hook functions.
 - [milisims/nvim-luaref](https://github.com/milisims/nvim-luaref) - A reference for built-in Lua functions.
+- [DrKJeff16/nvim-luaref](https://github.com/DrKJeff16/nvim-luaref) - Forked from `milisims/nvim-luaref`, adds built-in Lua 5.1 help docs.
 - [nvim-mini/mini.nvim#mini.test](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-test.md) - Module of `mini.nvim` with framework for writing extensive Neovim plugin tests with support for hierarchical tests, hooks, parametrization, filtering, screen tests, "busted-style" emulation, customizable reporters, and more.
 - [ray-x/guihua.lua](https://github.com/ray-x/guihua.lua) - A Lua UI library. Includes a fzy search bar, list view and tree view modules.
 - [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) - Create animations.
