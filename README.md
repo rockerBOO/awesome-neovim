@@ -1278,9 +1278,6 @@ then it is not supported:
 - [lumen-oss/lz.n](https://github.com/lumen-oss/lz.n) - A simple lazy loading library for Neovim plugins.
 - [jrop/morph.nvim](https://github.com/jrop/morph.nvim) - A React-like renderer for building interactive buffers/TUIs.
 - [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - Highly opinionated macros to elegantly write your config.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
 
 ### Fennel
 
