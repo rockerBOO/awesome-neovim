@@ -1249,7 +1249,6 @@ then it is not supported:
 
 ## Extending Neovim
 
-- [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - Tangerine provides a painless way to add Fennel to your config.
 - [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) - A GitHub action that publishes your Neovim plugins to LuaRocks.
 - [bfredl/nvim-luadev](https://github.com/bfredl/nvim-luadev) - REPL/debug console Lua plugins. The `:Luadev` command will open an scratch window which will show output from executing Lua code.
 - [nvim-mini/mini.nvim#mini.doc](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-doc.md) - Module of `mini.nvim` for generation of help files from EmmyLua-like annotations. Allows flexible customization of output via hook functions.
@@ -1285,6 +1284,7 @@ then it is not supported:
 - [Olical/nfnl](https://github.com/Olical/nfnl) - Streamlined successor to Aniseed, compiling Fennel to Lua on file write.
 - [Olical/conjure](https://github.com/Olical/conjure) - Interactive evaluation (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile).
 - [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) - Seamless, transparent Fennel inside Neovim.
+- [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) - Tangerine provides a painless way to add Fennel to your config.
 - [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) - Highly opinionated macros to elegantly write your config.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
