@@ -477,6 +477,12 @@ check_perl() {
     return 0
 }
 
+# Check for bad PowerShell capitalizations
+check_pwsh() {
+    fix_suspected_lines '[Pp][Oo][Ww][Ee][Rr](\s|-)?[Ss][Hh][Ee][Ll][Ll]' 'PowerShell' || return 1
+    return 0
+}
+
 # Check for bad Julia capitalizations
 check_julia() {
     fix_suspected_lines '[Jj][Uu][Ll][Ii][Aa]' 'Julia' || return 1
@@ -776,6 +782,7 @@ check_capitalizations() {
     check_opengl       || die 1 "Error while analyzing (OpenGL)"
     check_perl         || die 1 "Error while analyzing (Perl)"
     check_php          || die 1 "Error while analyzing (PHP)"
+    check_pwsh         || die 1 "Error while analyzing (PowerShell)"
     check_python       || die 1 "Error while analyzing (Python/Python 2/Python 3/PyPI/Jupyter/Pipenv)"
     check_r            || die 1 "Error while analyzing (R)"
     check_rst          || die 1 "Error while analyzing (RST/ReStructuredText)"
