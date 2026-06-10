@@ -83,7 +83,6 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [OS-specific](#os-specific)
 - [Wishlist](#wishlist)
 - [UI](#ui)
-- [Starter Templates](#starter-templates)
 - [Resource](#resource)
 
 ## Plugin Manager
@@ -1745,6 +1744,8 @@ then it is not supported:
 
 ## Pre-made Configuration
 
+- [tokiory/neovim-boilerplate](https://github.com/tokiory/neovim-boilerplate) - Starter boilerplate for making new configurations.
+- [frans-johansson/lazy-nvim-starter](https://github.com/frans-johansson/lazy-nvim-starter) - Starter boilerplate with lazy plugin manager.
 - [abdellatif-temsamani/adev.nvim](https://github.com/abdellatif-temsamani/adev.nvim) - The over-engineered Neovim distribution for developers who want everything.
 - [pgosar/CyberNvim](https://github.com/pgosar/CyberNvim) - The world's simplest and most extensible Neovim distribution.
 - [sontungexpt/stinvim](https://github.com/sontungexpt/stinvim) - Configuration for Full-Stack developers.
@@ -1846,14 +1847,6 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [quickui.nvim](https://github.com/mjmjm0101/quickui.nvim) - Structured, keyboard-driven menus and context menus with nested navigation.
 - [ln.nvim](https://github.com/markosnarinian/ln.nvim) - Relative numbers on the active window, absolute everywhere else.
 - [nvim-mini/mini.nvim#mini.input](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-input.md) - Module of `mini.nvim` for getting user input with fully customizable key and view handling. Can show as floating window, statusline/tabline/winbar, virtual line/text. Provides `vim.ui.input()` implementation.
-<!--lint disable double-link -->
-[**⬆ back to top**](#contents)
-<!--lint enable double-link -->
-
-## Starter Templates
-
-- [tokiory/neovim-boilerplate](https://github.com/tokiory/neovim-boilerplate) - Starter boilerplate for making new configurations.
-- [frans-johansson/lazy-nvim-starter](https://github.com/frans-johansson/lazy-nvim-starter) - Starter boilerplate with lazy plugin manager.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
