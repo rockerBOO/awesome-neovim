@@ -22,7 +22,7 @@ jobs:
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-          if ! echo "$PR_TITLE" | grep -qE '^(Add|Update|Remove) `.+/.+`$'; then
-            echo "PR title \"$PR_TITLE\" must match: Add|Update|Remove \`username/repo\`"
+          if ! echo "$PR_TITLE" | grep -qE '^(Add|Update|Remove) `[^`/]+/[^`/]+`$'; then
+            echo "PR title \"$PR_TITLE\" must match: \`\`\`Add|Update|Remove \`username/repo\` \`\`\`"
             exit 1
           fi
