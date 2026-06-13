@@ -25,17 +25,17 @@ check_repo_details() {
 
     # Check for README
     if ! [[ -f "$temp_dir/README.md" ]] \
-        || ! [[ -f "$temp_dir/readme.md" ]] \
-        || ! [[ -f "$temp_dir/README.markdown" ]] \
-        || ! [[ -f "$temp_dir/readme.markdown" ]] \
-        || ! [[ -f "$temp_dir/README.org" ]] \
-        || ! [[ -f "$temp_dir/readme.org" ]] \
-        || ! [[ -f "$temp_dir/README.rst" ]] \
-        || ! [[ -f "$temp_dir/readme.rst" ]] \
-        || ! [[ -f "$temp_dir/README.txt" ]] \
-        || ! [[ -f "$temp_dir/readme.txt" ]] \
-        || ! [[ -f "$temp_dir/README" ]] \
-        || ! [[ -f "$temp_dir/readme" ]]; then
+        && ! [[ -f "$temp_dir/readme.md" ]] \
+        && ! [[ -f "$temp_dir/README.markdown" ]] \
+        && ! [[ -f "$temp_dir/readme.markdown" ]] \
+        && ! [[ -f "$temp_dir/README.org" ]] \
+        && ! [[ -f "$temp_dir/readme.org" ]] \
+        && ! [[ -f "$temp_dir/README.rst" ]] \
+        && ! [[ -f "$temp_dir/readme.rst" ]] \
+        && ! [[ -f "$temp_dir/README.txt" ]] \
+        && ! [[ -f "$temp_dir/readme.txt" ]] \
+        && ! [[ -f "$temp_dir/README" ]] \
+        && ! [[ -f "$temp_dir/readme" ]]; then
         echo "❌ PR $pr_number: No README found"
         rm -rf "$temp_dir"
         return 1
