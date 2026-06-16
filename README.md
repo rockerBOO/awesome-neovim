@@ -1045,6 +1045,7 @@ then it is not supported:
 - [Owen-Dechow/videre.nvim](https://github.com/Owen-Dechow/videre.nvim) - Explore JSON, YAML, and TOML files as nested unit/node-based graphical representations.
 - [mahyarmirrashed/famous-quotes.nvim](https://github.com/mahyarmirrashed/famous-quotes.nvim) - Get famous quotes from history to display on startup.
 - [iquzart/toggleword.nvim](https://github.com/iquzart/toggleword.nvim) - Toggle between common code keywords under the cursor such as true ⇄ false, on ⇄ off, enabled ⇄ disabled, and dev ⇄ prod.
+- [leblocks/toggle.nvim](https://github.com/leblocks/toggle.nvim) - Toggle between common words under the cursor such as _public_ ⇄ _private_ ⇄ _protected_. Easy to add and overwrite built-in toggles.
 - [piersolenski/brewfile.nvim](https://github.com/piersolenski/brewfile.nvim) - Manage your [Homebrew](https://brew.sh/) [Brewfile](https://docs.brew.sh/Brew-Bundle-and-Brewfile).
 - [gpanders/nvim-moonwalk](https://github.com/gpanders/nvim-moonwalk) - Use any language that compiles to Lua anywhere in your Neovim configuration.
 - [johannww/tts.nvim](https://github.com/johannww/tts.nvim) - Text to speech tool based on the Microsoft Edge online services.
