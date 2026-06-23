@@ -130,7 +130,7 @@ main() {
         pr_diff=$(gh pr diff "$pr")
 
         # Skip if title doesn't match expected format
-        if [[ ! "$pr_title" =~ ^(Add|Update|Remove)\s\`[^\`/]+/[^\`/]+\`$ ]]; then
+        if ! echo "$pr_title" | grep -qE '^(Add|Update|Remove)\s`[^`/]+/[^`/]+`$'; then
             echo "❌ PR $pr: Incorrect title format"
             non_compliant_prs+=("$pr")
             continue
