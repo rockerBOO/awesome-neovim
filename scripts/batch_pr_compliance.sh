@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -o pipefail
+
 # Function to check repository details
 check_repo_details() {
     local repo_url="$1"
