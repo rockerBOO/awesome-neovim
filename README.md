@@ -1331,6 +1331,7 @@ then it is not supported:
 - [cd-4/git-needy.nvim](https://github.com/cd-4/git-needy.nvim) - Keeps a tally of workflows that need to be reviewed in your statusbar.
 - [claydugo/browsher.nvim](https://github.com/claydugo/browsher.nvim) - Create commit pinned links to GitHub hosted files/lines.
 - [gh-tui-tools/gh-review.nvim](https://github.com/gh-tui-tools/gh-review.nvim) - Review GitHub PRs.
+- [justinmk/guh.nvim](https://github.com/justinmk/guh.nvim) - View any GitHub object, including CI logs. Review PRs. Minimal (10x smaller than Octo.nvim). One command (`:Guh`). No config.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
