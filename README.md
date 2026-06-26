@@ -1513,7 +1513,7 @@ then it is not supported:
 - [tigion/swap.nvim](https://github.com/tigion/swap.nvim) - Quickly switch a word under the cursor or a pattern in the current line.
 - [XXiaoA/atone.nvim](https://github.com/XXiaoA/atone.nvim) - Undo tree for visualizing and managing undo history.
 - [nemanjamalesija/smart-paste.nvim](https://github.com/nemanjamalesija/smart-paste.nvim) - Automatic indentation of pasted code using a three-tier indent strategy (indentexpr / Tree-sitter / heuristic).
-- [neur1n/hyphen.nvim](https://github.com/neur1n/hyphen.nvim) - Showing TeX-style hyphenation breakpoints in text.
+- [neur1n/hyphen.nvim](https://github.com/neur1n/hyphen.nvim) - Show TeX-style hyphenation breakpoints in text.
 
 ### Comment
 
