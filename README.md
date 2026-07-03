@@ -238,6 +238,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 ## AI
 
 - [cursortab/cursortab.nvim](https://github.com/cursortab/cursortab.nvim) - Edit completions and cursor predictions with multiple AI providers.
+- [ctchen222/openspec.nvim](https://github.com/ctchen222/openspec.nvim) - OpenSpec workflow context, model/provider selection, and coding-agent implementation handoffs.
 - [carlos-algms/agentic.nvim](https://github.com/carlos-algms/agentic.nvim) - Chat interface for AI ACP providers such as Claude, Gemini, Codex, OpenCode and Cursor.
 - [BRONZowl/codux.nvim](https://github.com/BRONZowl/codux.nvim) - Run OpenAI Codex in a persistent floating terminal and send files, selections, diagnostics, or file explorer targets.
 - [0xble/dotagent.nvim](https://github.com/0xble/dotagent.nvim) - Command and skill completion for Claude Code and Codex-style prompt editors, configurable from local agent command and skill directories.
