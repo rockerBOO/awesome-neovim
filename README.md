@@ -194,7 +194,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [chrisgrieser/nvim-rulebook](https://github.com/chrisgrieser/nvim-rulebook) - Add inline-comments to ignore rules, or lookup rule documentation online.
 - [artemave/workspace-diagnostics.nvim](https://github.com/artemave/workspace-diagnostics.nvim) - Populate diagnostics for all projects files, not just the opened ones.
 - [Kurama622/clean-diagnostic](https://github.com/Kurama622/clean-diagnostic) - Display diagnostic count using virtual text, and show diagnostic details in a floating window.
-- [tumillanino/semgrep.nvim](https://github.com/tumillanino/semgrep.nvim) - Lightweight Semgrep static analysis integration for Neovim to catch bugs and vulnerabilities.
+- [tumillanino/semgrep.nvim](https://github.com/tumillanino/semgrep.nvim) - Lightweight Semgrep static analysis integration to catch bugs and vulnerabilities.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
