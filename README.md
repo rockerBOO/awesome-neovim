@@ -90,9 +90,6 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [alyxshang/nuwa.nvim](https://source.alyxshang.boo/alyxshang/nuwa.nvim) - A light package manager.
 - [lewis6991/pckr.nvim](https://github.com/lewis6991/pckr.nvim) - Spiritual successor of `wbthomason/packer.nvim`.
 - [savq/paq-nvim](https://github.com/savq/paq-nvim) - Package manager written in Lua.
-<!--lint disable double-link -->
-- [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) - A configuration switcher written in Lua. Inspired by [chemacs](https://github.com/plexus/chemacs).
-<!--lint enable double-link -->
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - A modern plugin manager, featuring a graphical interface, async execution, a lockfile and more.
   - [cosmicbuffalo/super_lazy.nvim](https://github.com/cosmicbuffalo/super_lazy.nvim) - An extension to `folke`'s `lazy.nvim`, enables use of multiple lockfiles for large teams that want to combine your shared/personal configurations.
 - [alex-popov-tech/store.nvim](https://github.com/alex-popov-tech/store.nvim) - Plugins discovery tool with hourly updated database, and one-key installation for `lazy.nvim` and `vim.pack`.
@@ -323,6 +320,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [Who5673/who5673-nasm](https://github.com/Who5673/who5673-nasm) - Helps people program Netwide Assembler language faster and more convenient using snippets.
 - [sachinsenal0x64/hot.nvim](https://github.com/sachinsenal0x64/hot.nvim) - A hot reloader that works with any programming language.
 - [simonwinther/cppman.nvim](https://github.com/simonwinther/cppman.nvim) - Search C++ docs from cppman and view results in a floating window, backed by a local SQLite index for fast lookups.
+- [redpierrot/ballerina.nvim](https://github.com/redpierrot/ballerina.nvim) - Syntax highlighting, LSP, debugging, package-aware format-on-save, auto-indent, and `bal` run/test/build commands for the Ballerina language.
 
 ### Golang
 
@@ -359,6 +357,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [cjodo/convert.nvim](https://github.com/cjodo/convert.nvim) - Helps with CSS unit conversions.
 - [tednguyendev/recent_rails.nvim](https://github.com/tednguyendev/recent_rails.nvim) - Telescope picker for recent Rails actions, views, and errors.
 - [ankushbhagats/liveserver.nvim](https://github.com/ankushbhagats/liveserver.nvim) - Live-server integration with smart commands and a clickable lualine toggle.
+- [harukikuri/viteenv.nvim](https://github.com/harukikuri/viteenv.nvim) - Shows the effective value of `import.meta.env` variables inline per mode, resolved by your project's own `Vite`.
 
 ### Markdown and LaTeX
 
@@ -577,6 +576,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [vodchella/hodur.nvim](https://github.com/vodchella/hodur.nvim) - Allows you to quickly open a file or copy URL located under cursor.
 - [A7Lavinraj/fyler.nvim](https://github.com/A7Lavinraj/fyler.nvim) - File manager which can edit file system like a buffer with tree view.
 - [adriancmiranda/glimpse.nvim](https://github.com/adriancmiranda/glimpse.nvim) - Fast multi-format file previewer with inline kitty graphics support, external pane previews, and integrations for file explorers and pickers.
+- [ingur/fzf-oil.nvim](https://github.com/ingur/fzf-oil.nvim) - A tiny file browser with seamless toggling between fzf-lua and oil.nvim.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -655,6 +655,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [3ZsForInsomnia/pacer.nvim](https://github.com/3ZsForInsomnia/pacer.nvim) - Creates a reading pacer by highlighting one word at a time and dimming all text outside the current paragraph-and-some to help you read faster.
 - [wsdjeg/cpicker.nvim](https://github.com/wsdjeg/cpicker.nvim) - A lightweight color palette plugin that supports a wide range of color models.
 - [leolaurindo/tunnelvision.nvim](https://github.com/leolaurindo/tunnelvision.nvim) - Focus on one symbol at a time by dimming unrelated lines.
+- [cxwx/shadowMyName.nvim](https://github.com/cxwx/shadowMyName.nvim) - Redact sensitive words such as your username, tokens, phone numbers and more when recording your screen.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -816,6 +817,7 @@ then it is not supported:
 - [T-b-t-nchos/Aquavium.nvim](https://github.com/T-b-t-nchos/Aquavium.nvim) - **_`[TS][Lua]`_** Aquarium-themed color scheme, designed for use with a transparent terminal background.
 - [54L1M/Oshen.nvim](https://github.com/54L1M/Oshen.nvim) - **_`[TS][LSP][L/D][Lua]`_** Inspired by deep ocean water at night, derived entirely from five source colors.
 - [marekh19/meowsoot.nvim](https://github.com/marekh19/meowsoot.nvim) - **_`[TS][LSP][L/D][Lua]`_** A dark pink–cyan–lavender colorscheme where strings are yellow and green never reaches code.
+- [ntk148v/lauds](https://github.com/ntk148v/lauds) - **_`[TS][Lua]`_** Paper-light color theme for prose and code — warm off-white paper, terracotta orange, deep mint.
 - [alsi-lawr/neotheme.nvim](https://github.com/alsi-lawr/neotheme.nvim) - **_`[TS][LSP][L/D][Lua]`_** A semantic, palette-driven theme engine, with live theme switching and multiple built-in families.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
@@ -834,6 +836,7 @@ then it is not supported:
 - [loganswartz/polychrome.nvim](https://github.com/loganswartz/polychrome.nvim) - A colorscheme micro-framework, with support for specifying colors directly in many different formats (sRGB, HSL, Oklab, XYZ and more, with intelligent chroma clipping), live editing preview, and a simple DSL.
 - [svermeulen/text-to-colorscheme](https://github.com/svermeulen/text-to-colorscheme) - Allows the user to generate colorschemes with a text prompt using OpenAI's GPT API.
 - [RRethy/base16-nvim](https://github.com/RRethy/base16-nvim) - A base16 colorscheme builder. Includes support for Tree-sitter and LSP highlight groups.
+- [Senal-D-A-Gunaratna/matugen.nvim](https://github.com/Senal-D-A-Gunaratna/matugen.nvim) - Material You colorscheme generator using an external template system. Supports Tree-sitter, LSP, and Lua.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1216,6 +1219,7 @@ then it is not supported:
 - [mikeboiko/nvim-flow](https://github.com/mikeboiko/nvim-flow) - File-scoped command runner with YAML configuration, command preview, debug integration, and traceback quickfix.
 - [negativo/nx-nvim](https://github.com/negativo/nx-nvim) - Telescope picker for NX monorepo projects and targets, running the selected one in a split terminal.
 - [lewistg/pesto.nvim](https://github.com/lewistg/pesto.nvim) - - Bazel integration through its _Build Event Protocol_ to find, fetch, and parse error logs for failed build actions, including logs stored remotely.
+- [wsdjeg/tasks.nvim](https://github.com/wsdjeg/tasks.nvim) - A tasks manager that integrates with external tools, inspired by VSCode's tasks-manager.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1522,6 +1526,7 @@ then it is not supported:
 - [XXiaoA/atone.nvim](https://github.com/XXiaoA/atone.nvim) - Undo tree for visualizing and managing undo history.
 - [nemanjamalesija/smart-paste.nvim](https://github.com/nemanjamalesija/smart-paste.nvim) - Automatic indentation of pasted code using a three-tier indent strategy (indentexpr / Tree-sitter / heuristic).
 - [neur1n/hyphen.nvim](https://github.com/neur1n/hyphen.nvim) - Show TeX-style hyphenation breakpoints in text.
+- [ntk148v/yankdown.nvim](https://github.com/ntk148v/yankdown.nvim) - Paste rich clipboard content as clean Markdown.
 
 ### Comment
 
@@ -1542,6 +1547,7 @@ then it is not supported:
 - [LucasTavaresA/SingleComment.nvim](https://github.com/LucasTavaresA/SingleComment.nvim) - Always single line, comment sensitive, indentation preserving commenting.
 - [Zeioth/dooku.nvim](https://github.com/Zeioth/dooku.nvim) - Generate and open your HTML code documentation.
 - [georgeharker/comment-tasks.nvim](https://github.com/georgeharker/comment-tasks.nvim) - Keep your task manager up to date from TODO and FIXME comments in code.
+- [celeste3z/celeste_comment.nvim](https://github.com/celeste3z/celeste_comment.nvim) - VSCode-style commenting plugin with support for line and block comments, and textobjects.
 
 ### Folding
 
@@ -1738,6 +1744,7 @@ then it is not supported:
 - [aikhe/wrapped.nvim](https://github.com/aikhe/wrapped.nvim) - Visualize and review your configuration activity with stats, insights, history, heatmaps and more.
 - [gisketch/triforce.nvim](https://github.com/gisketch/triforce.nvim) - Gamified stat tracker with XP, levels, achievements, and activity heatmaps for your coding sessions with lualine integration.
 - [QuentinGruber/pomodoro.nvim](https://github.com/QuentinGruber/pomodoro.nvim) - Use the Pomodoro Technique with built-in session tracking and break reminders.
+- [yal212/pomodoro.nvim](https://github.com/yal212/pomodoro.nvim) - Focus-first Pomodoro timer with automatic work, break cycles, session statistics, and a distraction-free focus mode.
 - [gaborvecsei/usage-tracker.nvim](https://github.com/gaborvecsei/usage-tracker.nvim) - Track your usage and visualize statistics easily.
 - [SunnyTamang/pendulum.nvim](https://github.com/SunnyTamang/pendulum.nvim) - Simple timer for creating time based productive sessions for coders, competitive programmers, developers etc.
 - [ptdewey/pendulum-nvim](https://github.com/ptdewey/pendulum-nvim) - Track time spent coding and glean insights through on-demand time reports.
