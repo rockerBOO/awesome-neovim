@@ -83,7 +83,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [OS-specific](#os-specific)
 - [Wishlist](#wishlist)
 - [UI](#ui)
-- [Resource](#resource)
+- [External Resource](#external-resource)
 
 ## Plugin Manager
 
@@ -1886,7 +1886,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
 
-## Resource
+## External Resource
 
 - [Vimawesome](https://vimawesome.com/) - Showcases various plugins for Vim and has a [Neovim tag](https://vimawesome.com/?q=tag:neovim) for other Neovim-related plugins.
 - [akrawchyk/awesome-vim#tools](https://github.com/akrawchyk/awesome-vim#tools) - A short list of Vim plugins and helpful guides.
