@@ -800,7 +800,6 @@ then it is not supported:
 - [bartekjaszczak/luma-nvim](https://gitlab.com/bartekjaszczak/luma-nvim) - **_`[TS][LSP][L/D][Lua]`_** A colorful theme with dark/light modes and adjustable contrast. Supports Tree-sitter and semantic highlighting.
 - [bartekjaszczak/finale-nvim](https://gitlab.com/bartekjaszczak/finale-nvim) - **_`[TS][LSP][Lua]`_** A balanced dark theme, blending vivid and pastel colors for a comfortable, high-contrast experience. Supports Tree-sitter and semantic highlighting.
 - [m15a/nvim-srcerite](https://codeberg.org/m15a/nvim-srcerite) - **_`[TS][Lua]`_** A colorscheme inspired by [Srcery](https://srcery.sh/), based on `nvim-highlite`.
-- [neko-night/nvim](https://github.com/neko-night/nvim) - **_`[TS][LSP][L/D][Lua]`_** A buffet of colorschemes for every taste and mood.
 - [ptdewey/monalisa-nvim](https://github.com/ptdewey/monalisa-nvim) - **_`[TS][LSP][Lua]`_** A dark and colorful Mona Lisa inspired colorscheme.
 - [ntk148v/slack.nvim](https://github.com/ntk148v/slack.nvim) - **_`[TS][L/D][Lua]`_** A ported Slack colorscheme.
 - [y3owk1n/base16-pro-max.nvim](https://github.com/y3owk1n/base16-pro-max.nvim) - **_`[TS][LSP][Lua]`_** Base16 with 16 colors + syntax, transparency, dimmed inactive panes, semantic aliases, live blends, overrides, and first-class plugin integrations.
