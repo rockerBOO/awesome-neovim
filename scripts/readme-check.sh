@@ -241,7 +241,11 @@ fix_suspected_lines() {
         fi
     fi
 
-    verbose_print "${BOLD}${MSG}${RESET}"
+    if [[ $VERBOSE -eq 1 ]] && [[ "$MSG" != *"UNCHANGED"* ]] && [[ "$MSG" == *"CHANGED"* ]]; then
+        verbose_print "${BOLD}${MSG}${RESET}"
+    elif [[ $VERBOSE -ge 2 ]]; then
+        verbose_print "${BOLD}${MSG}${RESET}"
+    fi
     return "$EC"
 }
 
@@ -331,7 +335,11 @@ check_list_punctuation() {
     fi
 
     sleep .5s
-    verbose_print "" "${RESET}${BOLD}${MSG}${RESET}"
+    if [[ $VERBOSE -eq 1 ]] && [[ "$MSG" != *"UNCHANGED"* ]] && [[ "$MSG" == *"CHANGED"* ]]; then
+        verbose_print "" "${RESET}${BOLD}${MSG}${RESET}"
+    elif [[ $VERBOSE -ge 2 ]]; then
+        verbose_print "" "${RESET}${BOLD}${MSG}${RESET}"
+    fi
     return $EC
 }
 
@@ -741,7 +749,11 @@ check_trail_spaces() {
         fi
 
         sleep .5s
-        verbose_print "" "${BOLD}${MSG}${RESET}"
+        if [[ $VERBOSE -eq 1 ]] && [[ "$MSG" != *"UNCHANGED"* ]] && [[ "$MSG" == *"CHANGED"* ]]; then
+            verbose_print "" "${BOLD}${MSG}${RESET}"
+        elif [[ $VERBOSE -ge 2 ]]; then
+            verbose_print "" "${BOLD}${MSG}${RESET}"
+        fi
     fi
 
     return $EC
@@ -818,7 +830,7 @@ if [[ $# -gt 0 ]]; then
     while getopts "$OPTIONS" OPTION; do
         case "$OPTION" in
             h) usage 0 ;;
-            v) VERBOSE=1 ;;
+            v) VERBOSE=$((VERBOSE + 1)) ;;
             p) PUNCTUATION=1 ;;
             t) TRAIL_SPACES=1 ;;
             P) CAPITALIZATION=1 ;;
