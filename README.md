@@ -825,6 +825,7 @@ then it is not supported:
 - [ntk148v/lauds](https://github.com/ntk148v/lauds) - **_`[TS][Lua]`_** Paper-light color theme for prose and code — warm off-white paper, terracotta orange, deep mint.
 - [alsi-lawr/neotheme.nvim](https://github.com/alsi-lawr/neotheme.nvim) - **_`[TS][LSP][L/D][Lua]`_** A semantic, palette-driven theme engine, with live theme switching and multiple built-in families.
 - [brargenzilian/darcula-solid.nvim](https://codeberg.org/brargenzilian/darcula-solid.nvim) - **_`[TS][Lua]`_** A color-scheme that was heavily inspired by the JetBrains IntelliJ IDEA default theme, but was carefully refined to bring a more pleasant, aesthetic, and contrasting experience.
+- [tan-wei/zimablue.nvim](https://github.com/tan-wei/zimablue.nvim) - **_`[TS][LSP][Lua]`_** A dark Neovim colorscheme inspired by the iconic color from the _Love, Death and Robots_ episode _Zima Blue_.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
