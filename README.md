@@ -1123,6 +1123,7 @@ then it is not supported:
 - [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) - A simple and easy to use multi-terminal plugin.
 - [logicmagix/tide42](https://github.com/logicmagix/tide42) - A fully integrated terminal IDE built on Lua, tmux, and scriptable workflows.
 - [samjwill/nvim-unception](https://github.com/samjwill/nvim-unception) - Automatic unnesting of editor sessions started from terminal buffers.
+- [Senal-D-A-Gunaratna/hyprfade.nvim](https://github.com/Senal-D-A-Gunaratna/hyprfade.nvim) - Fade the terminal window hosting Neovim on Hyprland via `hyprctl` window opacity.
 - [kassio/neoterm](https://github.com/kassio/neoterm) - Wrapper of some `:terminal` functions.
 - [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) - Attach a terminal for each **buffer**, now with stable toggle and astonishing cursor restoring.
 - [idanarye/nvim-channelot](https://github.com/idanarye/nvim-channelot) - Operate editor jobs from Lua coroutines.
@@ -1853,7 +1854,6 @@ These tools are used externally to Neovim to enhance the experience.
 - [iamironz/android-nvim-plugin](https://github.com/iamironz/android-nvim-plugin) - Android build, deploy, and logcat commands with Gradle integration.
 - [massix/termux.nvim](https://github.com/massix/termux.nvim) - Interact with Termux APIs, useful to gather various information about your Android phone to display in the statusline (e.g. battery level).
 - [m15a/flake-awesome-neovim-plugins](https://github.com/m15a/flake-awesome-neovim-plugins) - Nix flake that provides a collection of `awesome-neovim` plugins as Nix packages.
-- [Senal-D-A-Gunaratna/hyprfade.nvim](https://github.com/Senal-D-A-Gunaratna/hyprfade.nvim) - Fade the terminal window hosting Neovim on Hyprland via `hyprctl` window opacity.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
