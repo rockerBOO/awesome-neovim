@@ -113,7 +113,6 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 <!--lint disable awesome-spell-check-->
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Quickstart configurations for the LSP client.
 <!--lint enable awesome-spell-check-->
-- [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) - This is a plugin/library for generating statusline components from the built-in LSP client.
 - [nvimdev/lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) - A light-weight LSP plugin based on the built-in LSP with a highly performant UI.
 - [kosayoda/nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb) - The plugin shows a lightbulb in the sign column whenever a `textDocument/codeAction` is available at the current cursor position.
 - [onsails/lspkind.nvim](https://github.com/onsails/lspkind.nvim) - The plugin adds VSCode-like icons to LSP completions.
