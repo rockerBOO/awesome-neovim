@@ -12,7 +12,7 @@ jobs:
       - name: Stale
         uses: actions/stale@v11
         with:
-          any-of-pr-labels: disputed
+          any-of-pr-labels: changes-required
           close-pr-label: closed
           close-pr-message: |
             This Pull Request has been closed after requesting changes 7 days ago.
