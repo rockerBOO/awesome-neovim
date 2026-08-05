@@ -400,7 +400,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [Prgebish/sigil.nvim](https://github.com/Prgebish/sigil.nvim) - Implementation of Emacs' `prettify-symbols-mode` to visually replace text patterns with Unicode symbols while editing LaTeX and Typst files.
 - [satozawa/graft.nvim](https://github.com/satozawa/graft.nvim) - Tree-structured editing for Markdown bullet lists with subtree text objects, Alt+hjkl navigation, and structural operations.
 - [kibi2/tirenvi.nvim](https://github.com/kibi2/tirenvi.nvim) - Edit Markdown and CSV tables with lossless round-trip.
-- [itsfernn/vimtex-follow](https://github.com/itsfernn/vimtex-follow) - Toggleable "follow PDF" for VimTeX: while active, the PDF viewer follows the line your cursor is on.
+- [itsfernn/vimtex-follow](https://github.com/itsfernn/vimtex-follow) - Adds a toggleable "follow mode", synchronizing your PDF viewer with your editor's cursor position.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
