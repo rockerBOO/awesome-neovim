@@ -236,6 +236,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 
 ## AI
 
+- [saya-ashen/agent-workbench.nvim](https://github.com/saya-ashen/agent-workbench.nvim) - Workspace frontend for pi.dev with sessions, diff review, and persistent shell worksheets.
 - [nwiizo/signalbox.nvim](https://github.com/nwiizo/signalbox.nvim) - Attention-first control surface for monitoring and routing persistent Herdr coding agents.
 - [cursortab/cursortab.nvim](https://github.com/cursortab/cursortab.nvim) - Edit completions and cursor predictions with multiple AI providers.
 - [teocns/neocursor.nvim](https://github.com/teocns/neocursor.nvim) - Next-edit predictions, cursor jumps, and ghost text, all driven by an existing Cursor session instead of an API key.
@@ -583,6 +584,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [A7Lavinraj/fyler.nvim](https://github.com/A7Lavinraj/fyler.nvim) - File manager which can edit file system like a buffer with tree view.
 - [adriancmiranda/glimpse.nvim](https://github.com/adriancmiranda/glimpse.nvim) - Fast multi-format file previewer with inline kitty graphics support, external pane previews, and integrations for file explorers and pickers.
 - [ingur/fzf-oil.nvim](https://github.com/ingur/fzf-oil.nvim) - A tiny file browser with seamless toggling between fzf-lua and oil.nvim.
+- [Dev-Addict/FloatingFile.nvim](https://github.com/Dev-Addict/FloatingFile.nvim) - Quickly preview any readable file in a centered floating window without replacing the current buffer.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -637,6 +639,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) - Delete buffers without losing your window layout.
 - [wsdjeg/bufdel.nvim](https://github.com/wsdjeg/bufdel.nvim) - Delete buffers without changing windows layout.
 - [m-demare/attempt.nvim](https://github.com/m-demare/attempt.nvim) - Manage and run temporary buffers.
+- [iago-lito/bufmarks.nvim](https://codeberg.org/iago-lito/bufmarks.nvim) - Navigation method inspired from Harpoon, but indexing buffers with "mark"-like keys instead of an ordered list.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1553,6 +1556,7 @@ then it is not supported:
 - [ntk148v/yankdown.nvim](https://github.com/ntk148v/yankdown.nvim) - Paste rich clipboard content as clean Markdown.
 - [Chiarandini/smart-enter.nvim](https://github.com/Chiarandini/smart-enter.nvim) - Context-aware newline that continues LaTeX environments, Markdown lists, and more.
 - [yaocccc/visual-multi.nvim](https://github.com/yaocccc/visual-multi.nvim) - A fast, core-focused multi-cursor plugin written in Lua with Normal, Insert, and Extend modes.
+- [iago-lito/lastput.nvim](https://codeberg.org/iago-lito/lastput.nvim) - One mapping to (re)select the last piece of text you've pasted.
 
 ### Comment
 
