@@ -2,6 +2,7 @@
 name: Links
 permissions:
   contents: read
+  issues: write
   pull-requests: read
 
 on:
@@ -32,11 +33,12 @@ jobs:
         with:
           # Excluding sourcehut because they block automated requests due to AI scrapers
           args: "--exclude '^https://git.sr.ht' --cache --max-cache-age 7d -a 429 ."
+          fail: false
 
       - name: Create issue from file
-        if: env.lychee_exit_code != 0
+        if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd
         with:
-          title: "Link check report"
+          title: Link Checker Report
           content-filepath: ./lychee/out.md
           labels: report, automated issue
