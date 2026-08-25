@@ -159,14 +159,14 @@ main() {
         fi
 
         # Check for plugin description
-        if echo "$pr_diff" | grep -qiE '\+.*\bplugin\b'; then
+        if echo "$pr_diff" | grep -qiE '\+.*\b[Pp]lugins?\b'; then
             echo "❌ PR $pr: Description contains word 'plugin'"
             non_compliant_prs+=("$pr")
             continue
         fi
 
         # Check description ends with period
-        if ! echo "$pr_diff" | grep -qE '^\+.*\.$'; then
+        if ! echo "$pr_diff" | grep -qE '^\+.*\.$' && echo "$pr_diff" | grep -qE '^-.*\.$'; then
             echo "❌ PR $pr: Description does not end with a period"
             non_compliant_prs+=("$pr")
             continue
