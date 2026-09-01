@@ -1789,6 +1789,7 @@ then it is not supported:
 
 - [zongben/dbout.nvim](https://github.com/zongben/dbout.nvim) - Manage database connections and run SQL queries directly with JSON results.
 - [kndndrj/nvim-dbee](https://github.com/kndndrj/nvim-dbee) - Interactive database client.
+- [caskstrength/nvim-dbeer](https://codeberg.org/caskstrength/nvim-dbeer) - Minimal Multi database (SQL, NoSQL, Graph) client for Neovim (Native & ODBC).
 - [tashikomaaa/neomongo.nvim](https://github.com/tashikomaaa/neomongo.nvim) - Explore, query, and edit MongoDB collections directly through a Telescope-powered dashboard.
 - [joryeugene/dadbod-grip.nvim](https://github.com/joryeugene/dadbod-grip.nvim) - Database editor with inline cell editing, staged mutations with live SQL preview, schema browser, DDL, AI SQL generation, FK navigation, and DuckDB/Parquet support.
 - [clang-engineer/dadbod-vertica.nvim](https://github.com/clang-engineer/dadbod-vertica.nvim) - Vertica adapter for [vim-dadbod](https://github.com/tpope/vim-dadbod) via the official `vsql` client, with schema-tree integration for `vim-dadbod-ui`.
