@@ -1353,6 +1353,7 @@ then it is not supported:
 - [jceb/jiejie.nvim](https://github.com/jceb/jiejie.nvim) - Frontend for Jujutsu in the style of `fugitive`.
 - [chojs23/ec](https://github.com/chojs23/ec) - A TUI native Git mergetool with 3 panes.
 - [harrisoncramer/GitLab.nvim](https://github.com/harrisoncramer/GitLab.nvim) - Review pull requests and manage other GitLab resources.
+- [mm4cN/nvim-gitlab](https://github.com/mm4cN/nvim-gitlab) - GitLab CI/CD integration for browsing and running pipelines, inspecting jobs and logs, retrying jobs, and downloading artifacts.
 
 ### GitHub
 
