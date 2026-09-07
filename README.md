@@ -235,6 +235,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 
 ## AI
 
+- [hebercosfer/floating-claude.nvim](https://github.com/hebercosfer/floating-claude.nvim) - Floating terminal provider for [claudecode.nvim](https://github.com/coder/claudecode.nvim) that collapses into a corner notification while Claude edits and returns once idle.
 - [raymondware/herdr.nvim](https://github.com/raymondware/herdr.nvim) - Floating terminal and agent-state visibility for the herdr agent multiplexer: status float, statusline counts, and background polling.
 - [saya-ashen/agent-workbench.nvim](https://github.com/saya-ashen/agent-workbench.nvim) - Workspace frontend for pi.dev with sessions, diff review, and persistent shell worksheets.
 - [nwiizo/signalbox.nvim](https://github.com/nwiizo/signalbox.nvim) - Attention-first control surface for monitoring and routing persistent Herdr coding agents.
