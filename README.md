@@ -887,6 +887,7 @@ then it is not supported:
 - [neur1n/noline.nvim](https://github.com/neur1n/noline.nvim) - Fully customizable bars and lines components with no presets nor constraints.
 - [OXY2DEV/bars.nvim](https://github.com/OXY2DEV/bars.nvim) - A starting point/guide for creating custom statusline, statuscolumn, tabline and winbar.
 - [zaakiy/line-justice.nvim](https://github.com/zaakiy/line-justice.nvim) - Shows both absolute and relative line numbers simultaneously.
+- [nvim-mini/mini.nvim#mini.statuscolumn](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-statuscolumn.md) - Module of `mini.nvim` for statuscolumn. Fast and improved defaults, fully customizable content, automatic dimming inside inactive windows.
 - [olivgr/winbarbuf.nvim](https://github.com/olivgr/winbarbuf.nvim) - Clickable buffer list in the winbar.
 
 ### Statusline
@@ -1304,6 +1305,7 @@ then it is not supported:
 - [cosmicbuffalo/gem_install.nvim](https://github.com/cosmicbuffalo/gem_install.nvim) - Install Ruby gems, trigger `bundle install` and `gem install` with progress and caching to prevent retries when installs fail.
 - [taigrr/glaze.nvim](https://github.com/taigrr/glaze.nvim) - Centralized manager for Go binaries, with parallel installs, auto-update checking, and a Mason-style UI.
 - [jpease/hex-outdated.nvim](https://github.com/jpease/hex-outdated.nvim) - Display latest Hex package version and status as virtual text in `mix.exs`.
+- [mm4cN/nvim-conan](https://github.com/mm4cN/nvim-conan) - Conan 2 integration for managing profiles, packages, remotes, dependencies, and common C/C++ package workflows.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1790,6 +1792,7 @@ then it is not supported:
 
 - [zongben/dbout.nvim](https://github.com/zongben/dbout.nvim) - Manage database connections and run SQL queries directly with JSON results.
 - [kndndrj/nvim-dbee](https://github.com/kndndrj/nvim-dbee) - Interactive database client.
+- [caskstrength/nvim-dbeer](https://codeberg.org/caskstrength/nvim-dbeer) - Minimal multi database client for Native and ODBC, with support for SQL, NoSQL, and Graph.
 - [tashikomaaa/neomongo.nvim](https://github.com/tashikomaaa/neomongo.nvim) - Explore, query, and edit MongoDB collections directly through a Telescope-powered dashboard.
 - [joryeugene/dadbod-grip.nvim](https://github.com/joryeugene/dadbod-grip.nvim) - Database editor with inline cell editing, staged mutations with live SQL preview, schema browser, DDL, AI SQL generation, FK navigation, and DuckDB/Parquet support.
 - [clang-engineer/dadbod-vertica.nvim](https://github.com/clang-engineer/dadbod-vertica.nvim) - Vertica adapter for [vim-dadbod](https://github.com/tpope/vim-dadbod) via the official `vsql` client, with schema-tree integration for `vim-dadbod-ui`.
