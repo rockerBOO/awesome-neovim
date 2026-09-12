@@ -1118,6 +1118,7 @@ then it is not supported:
 - [y3owk1n/undo-glow.nvim](https://github.com/y3owk1n/undo-glow.nvim/) - Animated glow/highlight effects for editing operations (undo, redo, yank, paste, etc.) with fully customizable animations and appearance.
 - [gen740/SmoothCursor.nvim](https://github.com/gen740/SmoothCursor.nvim) - Add fancy sub-cursor to signcolumn to show your scroll or jump direction.
 - [indium114/smudge.nvim](https://github.com/indium114/smudge.nvim) - Performant cursor animations.
+- [RedEye-Developers/starfall.nvim](https://github.com/RedEye-Developers/starfall.nvim) - Star Twinkling, Falling and Shooting Star Crossing Animation in Background.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
