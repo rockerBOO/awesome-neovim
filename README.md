@@ -1654,6 +1654,7 @@ then it is not supported:
 - [gelguy/wilder.nvim](https://github.com/gelguy/wilder.nvim) - A plugin for fuzzy command line autocompletion.
 - [vzze/cmdline.nvim](https://github.com/vzze/cmdline.nvim) - Helix-like command line with fuzzy autocompletion.
 - [nvim-mini/mini.nvim#mini.cmdline](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-cmdline.md) - Module of `mini.nvim` for command line tweaks. Adds autocompletion with customizable delay, autocorrection for words with fixed candidates, and autopeek command range in a floating window.
+- [juniorsundar/cling.nvim](https://github.com/juniorsundar/cling.nvim) - Provides Emacs' `M-x compile`, and the ability to wrap CLIs and TUIs as regular commands for your command line, with auto-generated tab-completions.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
