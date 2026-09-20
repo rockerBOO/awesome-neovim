@@ -314,6 +314,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) - Everything you need for a painless Java experience.
 - [clang-engineer/jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim) - Auto-detects installed JDKs by major version, with separate environment variables for jdtls and Gradle.
 - [artur-shaik/jc.nvim](https://github.com/artur-shaik/jc.nvim) - Java productivity layer on top of an externally managed `jdtls`, including class creation, code generation, annotation by search, refactoring, a neotest test runner, and a task runner for `gradle` and `maven`.
+- [ag-libs/lathe.nvim](https://github.com/ag-libs/lathe.nvim) - Java language server for Maven projects: code intelligence, diagnostics, and run/test/debug, driven by your build with no project import or classpath setup.
 - [kiyoon/python-import.nvim](https://github.com/kiyoon/python-import.nvim) - Add Python import statements with Tree-sitter, LSP, and more.
 - [kiyoon/haskell-scope-highlighting.nvim](https://github.com/kiyoon/haskell-scope-highlighting.nvim) - Haskell syntax highlighting which considers variable scopes. Inspired from "Context Coloring" by prof. Douglas Crockford.
 - [apyra/nvim-unity.nvim](https://github.com/apyra/nvim-unity) - Editor support for Unity with full LSP support via OmniSharp.
