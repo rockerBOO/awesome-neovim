@@ -1192,6 +1192,7 @@ then it is not supported:
 - [fschaal/azfunc.nvim](https://github.com/fschaal/azfunc.nvim) - Seamlessly debug Azure Functions with automatic DAP integration.
 - [evanmcpheron/rocketlog.nvim](https://github.com/evanmcpheron/rocketlog.nvim) - Seamlessly add logging for JavaScript and TypeScript files, with log and metadata searching.
 - [NickTsaizer/splitasm.nvim](https://github.com/NickTsaizer/splitasm.nvim) - View compiled assembly output side by side with source code, with synchronized cursor movement.
+- [JarnDev/autodap.nvim](https://github.com/JarnDev/autodap.nvim) - Zero-config nvim-dap that configures the debugger from your project, generating adapters and launch configs for Node, Python and C/C++, with test-under-cursor for Jest, Vitest and pytest.
 
 ### Quickfix
 
