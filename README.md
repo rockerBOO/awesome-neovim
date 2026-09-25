@@ -1106,6 +1106,7 @@ then it is not supported:
 - [dpezto/chezmoi-template.nvim](https://github.com/dpezto/chezmoi-template.nvim) - Edit chezmoi source files natively: target-language Tree-sitter injection, template-aware formatting, live preview, diagnostics and completion.
 - [7KiLL/copybara.nvim](https://github.com/7KiLL/copybara.nvim) - Copy absolute or relative file paths, line and column references, or an LLM-friendly path and selection snippet to your clipboard.
 - [rifen/timescope](https://github.com/rifen/timescope) - Inspect numeric durations in code and view human-readable equivalents as inline virtual text.
+- [ChrisGVE/docshelf.nvim](https://github.com/ChrisGVE/docshelf.nvim) - Offline API documentation from `devdocs.io`, `Hackage`, `docs.rs`, `pkg.go.dev`, `Sphinx` / `DocC` sites and `Dash` docsets, converted to text for reading and grepping in a buffer, with per-language filtering and automatic updates.
 
 ### CSV Files
 
