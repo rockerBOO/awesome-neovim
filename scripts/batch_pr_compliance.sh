@@ -1,11 +1,22 @@
 #!/bin/bash
 
+# shellcheck disable=SC2016
+
+find_readme_files() {
+    [[ $# -le 1 ]] && return 1
+
+    local dir="$1"; shift # First argument is the directory to search
+    while [[ $# -gt 0 ]]; do
+        [[ -f "$dir/$1" ]] && return 0 # Readme file is found
+        shift
+    done
+    return 1
+}
+
 # Function to check repository details
 check_repo_details() {
-    local repo_url="$1"
-    local pr_number="$2"
-    local temp_dir
-    local repo_name
+    local repo_url="$1" pr_number="$2"
+    local temp_dir repo_name
 
     # Temporary directory for cloning
     temp_dir=$(mktemp -d)
@@ -24,18 +35,18 @@ check_repo_details() {
     fi
 
     # Check for README
-    if ! [[ -f "$temp_dir/README.md" ]] \
-        && ! [[ -f "$temp_dir/readme.md" ]] \
-        && ! [[ -f "$temp_dir/README.markdown" ]] \
-        && ! [[ -f "$temp_dir/readme.markdown" ]] \
-        && ! [[ -f "$temp_dir/README.org" ]] \
-        && ! [[ -f "$temp_dir/readme.org" ]] \
-        && ! [[ -f "$temp_dir/README.rst" ]] \
-        && ! [[ -f "$temp_dir/readme.rst" ]] \
-        && ! [[ -f "$temp_dir/README.txt" ]] \
-        && ! [[ -f "$temp_dir/readme.txt" ]] \
-        && ! [[ -f "$temp_dir/README" ]] \
-        && ! [[ -f "$temp_dir/readme" ]]; then
+    if ! find_readme_files "$temp_dir" \
+        README.md \
+        readme.md \
+        README.markdown \
+        readme.markdown \
+        README.org \
+        readme.org \
+        README.rst \
+        readme.rst \
+        README.txt \
+        readme.txt \
+        README readme; then
         echo "❌ PR $pr_number: No README found"
         rm -rf "$temp_dir"
         return 1
@@ -129,47 +140,61 @@ main() {
         pr_title=$(gh pr view "$pr" --json title --jq .title)
         pr_diff=$(gh pr diff "$pr")
 
-        # Skip if title doesn't match expected format
-        if ! echo "$pr_title" | grep -qE '^(Add|Update|Remove)\s`[^`/]+/[^`/]+`$'; then
-            echo "❌ PR $pr: Incorrect title format"
-            non_compliant_prs+=("$pr")
-            continue
-        fi
+        # Check all the files modified by this PR.
+        # If `README.md` does not appear then `is_readme` will be `0` which skips the repo checks
+        local is_readme=0 i=0
+        while true; do
+            local query
+            query="$(gh pr view "$pr" --json files --jq .files[$i].path)"
+            case "$query" in
+                "README.md") is_readme=1; break ;; # If `README.md` is found, set `is_readme` to 1 and break
+                "") break ;; # If query is empty, break the loop to avoid infinite looping
+                *) i=$(( i + 1 )); continue ;; # If query is not empty then increase the JSON index
+            esac
+        done
 
-        # Extract repository URL from PR diff or title
-        repo_url=$(echo "$pr_diff" | grep -oP 'https://github\.com/[^/\s)]+/[^/\s)]+' | head -n 1)
-        if [[ -z "$repo_url" ]]; then
-            repo_url=$(echo "$pr_title" | grep -oP '`\K[^/]+/[^`]+')
-            if [[ -n "$repo_url" ]]; then
-                repo_url="https://github.com/${repo_url}"
+        # Skip if PR does not affect the README
+        if [[ $is_readme -eq 1 ]]; then
+            # Skip if title doesn't match expected format
+            if ! echo "$pr_title" | grep -qE '^(Add|Update|Remove)\s`[^` /]+/[^` /]+`$'; then
+                echo "❌ PR $pr: Incorrect title format"
+                non_compliant_prs+=("$pr")
+                continue
             fi
-        fi
 
-        # Skip if no repository URL found
-        if [[ -z "$repo_url" ]]; then
-            echo "❌ PR $pr: No repository URL found"
-            non_compliant_prs+=("$pr")
-            continue
-        fi
+            # Extract repository URL from PR diff or title
+            repo_url=$(echo "$pr_diff" | grep -oP 'https://github\.com/[^/\s)]+/[^/\s)]+' | head -n 1)
+            if [[ -z "$repo_url" ]]; then
+                repo_url=$(echo "$pr_title" | grep -oP '`\K[^/]+/[^`]+')
+                [[ -n "$repo_url" ]] && repo_url="https://github.com/${repo_url}"
+            fi
 
-        # Validate repository
-        if ! check_repo_details "${repo_url}.git" "$pr"; then
-            non_compliant_prs+=("$pr")
-            continue
-        fi
+            # Skip if no repository URL found
+            if [[ -z "$repo_url" ]]; then
+                echo "❌ PR $pr: No repository URL found"
+                non_compliant_prs+=("$pr")
+                continue
+            fi
 
-        # Check for plugin description
-        if echo "$pr_diff" | grep -qiE '\+.*\b[Pp]lugins?\b'; then
-            echo "❌ PR $pr: Description contains word 'plugin'"
-            non_compliant_prs+=("$pr")
-            continue
-        fi
+            # Validate repository
+            if ! check_repo_details "${repo_url}.git" "$pr"; then
+                non_compliant_prs+=("$pr")
+                continue
+            fi
 
-        # Check description ends with period
-        if ! echo "$pr_diff" | grep -qE '^\+.*\.$' && echo "$pr_diff" | grep -qE '^-.*\.$'; then
-            echo "❌ PR $pr: Description does not end with a period"
-            non_compliant_prs+=("$pr")
-            continue
+            # Check for plugin description
+            if echo "$pr_diff" | grep -qE '\+\s*-\s.*\s[Pp]lugins?(\s|\.)'; then
+                echo "❌ PR $pr: Description contains word 'plugin'"
+                non_compliant_prs+=("$pr")
+                continue
+            fi
+
+            # Check description ends with period
+            if ! echo "$pr_diff" | grep -qE '^\+\s*-\s.*\.$' && echo "$pr_diff" | grep -qE '^-\s*-\s.*\.$'; then
+                echo "❌ PR $pr: Description does not end with a period"
+                non_compliant_prs+=("$pr")
+                continue
+            fi
         fi
 
         # If we've made it this far, the PR is compliant
