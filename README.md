@@ -98,6 +98,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [wsdjeg/nvim-plug](https://github.com/wsdjeg/nvim-plug) - Asynchronous plugin manager written in Lua.
 - [piersolenski/plugin-addict.nvim](https://github.com/piersolenski/plugin-addict.nvim) - A stupidly simple way to quickly install plugins.
 - [zuqini/zpack.nvim](https://github.com/zuqini/zpack.nvim) - A thin layer on top of `vim.pack` to support lazy-loading and `lazy.nvim`'s declarative spec.
+- [okram78/vahti.nvim](https://github.com/okram78/vahti.nvim) - Checks remote Git revisions for `vim.pack`-managed packages and reports available updates without installing them.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -106,7 +107,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 
 **(requires Neovim 0.5)**
 
-- [nvim-pio](https://github.com/batoaqaa/nvim-pio) - Asynchronous, zero-hardcoding bridge between PlatformIO and the `clangd` LSP.
+- [batoaqaa/nvim-pio](https://github.com/batoaqaa/nvim-pio) - Asynchronous, zero-hardcoding bridge between PlatformIO and the `clangd` LSP.
 - [romus204/referencer.nvim](https://github.com/romus204/referencer.nvim) - Lightweight, asynchronous that uses the LSP to show references to functions, methods, types and other.
 - [Dan7h3x/signup.nvim](https://github.com/Dan7h3x/signup.nvim) - a little smart `lsp_signature` helper with awesome features.
 <!--lint disable awesome-spell-check-->
@@ -180,6 +181,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) - Easily install and manage LSP servers, DAP servers, linters, and formatters.
 - [Senal-D-A-Gunaratna/swapson.nvim](https://github.com/Senal-D-A-Gunaratna/swapson.nvim) - Monkeypatches `mason.nvim` to route `npm` and `pip` installs through `bun` and `uv`, speeding up LSP and tool installation.
 - [Crysthamus/nvim-file-operations](https://github.com/Crysthamus/nvim-file-operations) - Add support for workspace file operations using built-in LSPs.
+- [antosha417/nvim-lsp-file-operations](https://github.com/antosha417/nvim-lsp-file-operations) - File operations using built-in LSP support.
 - [carldaws/miser.nvim](https://github.com/carldaws/miser.nvim) - Start LSP servers, run formatters on save, and launch tasks straight from the tools declared in a project's `mise.toml`.
 
 ### Diagnostics
@@ -1105,7 +1107,9 @@ then it is not supported:
 - [paulburgess1357/nvim-mcp](https://github.com/paulburgess1357/nvim-mcp) - MCP server giving AI agents access to buffers, commands, and LSP diagnostics through the built-in msgpack-RPC socket.
 - [dpezto/chezmoi-template.nvim](https://github.com/dpezto/chezmoi-template.nvim) - Edit chezmoi source files natively: target-language Tree-sitter injection, template-aware formatting, live preview, diagnostics and completion.
 - [7KiLL/copybara.nvim](https://github.com/7KiLL/copybara.nvim) - Copy absolute or relative file paths, line and column references, or an LLM-friendly path and selection snippet to your clipboard.
+- [justinhj/battery.nvim](https://github.com/justinhj/battery.nvim) - Cross-platform battery status detection with a Lua API for statusline integration.
 - [rifen/timescope](https://github.com/rifen/timescope) - Inspect numeric durations in code and view human-readable equivalents as inline virtual text.
+- [ChrisGVE/docshelf.nvim](https://github.com/ChrisGVE/docshelf.nvim) - Offline API documentation from `devdocs.io`, `Hackage`, `docs.rs`, `pkg.go.dev`, `Sphinx` / `DocC` sites and `Dash` docsets, converted to text for reading and grepping in a buffer, with per-language filtering and automatic updates.
 
 ### CSV Files
 
@@ -1260,6 +1264,7 @@ then it is not supported:
 - [wsdjeg/tasks.nvim](https://github.com/wsdjeg/tasks.nvim) - A tasks manager that integrates with external tools, inspired by VSCode's tasks-manager.
 - [JulOuellet/bzl.nvim](https://github.com/JulOuellet/bzl.nvim) - Bazel integration: target picker and tree, run/test/build with streaming output, and LSP support for Bazel-managed dependencies.
 - [caskstrength/nvim-soil](https://codeberg.org/caskstrength/nvim-soil) - Run PlantUML script and generate UML design.
+- [pewpewnor/dove.nvim](https://github.com/pewpewnor/dove.nvim) - Define and execute arbitrary shell commands or Lua code on the fly for file, project, or global contexts.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1927,6 +1932,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [quickui.nvim](https://github.com/mjmjm0101/quickui.nvim) - Structured, keyboard-driven menus and context menus with nested navigation.
 - [ln.nvim](https://github.com/markosnarinian/ln.nvim) - Relative numbers on the active window, absolute everywhere else.
 - [nvim-mini/mini.nvim#mini.input](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-input.md) - Module of `mini.nvim` for getting user input with fully customizable key and view handling. Can show as floating window, statusline/tabline/winbar, virtual line/text. Provides `vim.ui.input()` implementation.
+- [simifalaye/minibuffer.nvim](https://github.com/simifalaye/minibuffer.nvim) - Emacs-inspired lightweight, extensible interface for displaying prompts, messages and interactive input on a dedicated area.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
