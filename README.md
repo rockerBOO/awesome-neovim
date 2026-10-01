@@ -1672,6 +1672,7 @@ then it is not supported:
 
 ## Session
 
+- [wurli/servery.nvim](https://github.com/wurli/servery.nvim) - Jump between Neovim sessions using your favourite fuzzy finder. 
 - [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - A small automated session manager.
 - [nvim-mini/mini.nvim#mini.sessions](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-sessions.md) - Module of `mini.nvim` for session management (read, write, delete).
 - [gennaro-tedesco/nvim-possession](https://github.com/gennaro-tedesco/nvim-possession) - The no-nonsense session manager.
