@@ -1226,6 +1226,7 @@ then it is not supported:
 <!--lint enable double-link -->
 
 ## Code Runner
+
 - [nghiant03/jove.nvim](https://github.com/nghiant03/jove.nvim) - Edit Jupyter notebooks as native buffers with LSP integration, rich inline outputs and interactive component rendering.
 - [wurli/jet.nvim](https://github.com/wurli/jet.nvim) - A LSP-enabled, extensible Jupyter client that just works.
 - [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) - Interactive scratchpad for running Lua code.
