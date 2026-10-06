@@ -190,7 +190,7 @@ main() {
             fi
 
             # Check description ends with period
-            if ! echo "$pr_diff" | grep -qE '^\+\s*-\s.*\.$' && echo "$pr_diff" | grep -qE '^-\s*-\s.*\.$'; then
+            if ! echo "$pr_diff" | grep -qE '^(\+|-)\s*-\s.*\.$'; then
                 echo "❌ PR $pr: Description does not end with a period"
                 non_compliant_prs+=("$pr")
                 continue
