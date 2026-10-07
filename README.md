@@ -797,6 +797,7 @@ then it is not supported:
 - [judaew/ronny.nvim](https://github.com/judaew/ronny.nvim) - **_`[TS][LSP][Lua]`_** A dark colorscheme, which mostly was inspired by the Monokai originally created by Wimem Hazenberg.
 - [ribru17/bamboo.nvim](https://github.com/ribru17/bamboo.nvim) - **_`[TS][LSP][Lua]`_** A warm green theme.
 - [cryptomilk/nightcity.nvim](https://github.com/cryptomilk/nightcity.nvim) - **_`[TS][LSP][Lua]`_** A dark colorscheme inspired by Inkpot, Jellybeans, Gruvbox and Tokyonight with LSP support.
+- [daaanny90/iterm2-dark-background.nvim](https://github.com/daaanny90/iterm2-dark-background.nvim) - **_`[TS][LSP][Lua]`_** Muted dark colorscheme inspired by iTerm2's Dark Background preset.
 - [polirritmico/monokai-nightasty.nvim](https://github.com/polirritmico/monokai-nightasty.nvim) - **_`[TS][LSP][L/D][Lua]`_** A dark/light theme based on the Monokai color palette written in Lua, support for LSP, Tree-sitter and lots of plugins.
 - [oxfist/night-owl.nvim](https://github.com/oxfist/night-owl.nvim) - **_`[TS][LSP][Lua]`_** A [Night Owl colorscheme port from VSCode](https://github.com/sdras/night-owl-vscode-theme) with support for Tree-sitter and semantic tokens.
 - [miikanissi/modus-themes.nvim](https://github.com/miikanissi/modus-themes.nvim) - **_`[TS][LSP][L/D][Lua]`_** Accessible theme, conforming with the highest standard for color contrast (WCAG AAA).
