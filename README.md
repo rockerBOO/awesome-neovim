@@ -703,6 +703,7 @@ then it is not supported:
 - [kuri-sun/yoda.nvim](https://github.com/kuri-sun/yoda.nvim) - **_`[TS][L/D][Lua]`_** Muted green palette for focused, balanced editing.
 - [wurli/cobalt.nvim](https://github.com/wurli/cobalt.nvim) - **_`[TS][LSP][Lua]`_** A (mostly) faithful port of the classic blue theme from TextMate.
 - [datsfilipe/min-theme.nvim](https://github.com/datsfilipe/min-theme.nvim) - **_`[TS][LSP][Lua]`_** It's a port of Min, a minimal theme for VSCode, written in Lua.
+- [daaanny90/claude-desktop.nvim](https://github.com/daaanny90/claude-desktop.nvim) - **_`[TS][LSP][Lua]`_** Warm dark colorscheme matching the Claude Desktop app, with tmux and iTerm2 extras.
 - [github-main-user/lytmode.nvim](https://github.com/github-main-user/lytmode.nvim) - **_`[TS][LSP][Lua]`_** A unique in-between theme inspired by LYT-Mode for Obsidian. Not quite dark, not quite light — just right.
 - [datsfilipe/vesper.nvim](https://github.com/datsfilipe/vesper.nvim) - **_`[TS][LSP][Lua]`_** It's a port of the popular VS Code theme Vesper, written in Lua.
 - [sontungexpt/witch](https://github.com/sontungexpt/witch) - **_`[TS][LSP][L/D][Lua]`_** The primary stinvim distro colorscheme includes the default feature of dimming inactive windows, along with various other customization options for users.
