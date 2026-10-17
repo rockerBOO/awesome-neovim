@@ -99,6 +99,8 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [piersolenski/plugin-addict.nvim](https://github.com/piersolenski/plugin-addict.nvim) - A stupidly simple way to quickly install plugins.
 - [zuqini/zpack.nvim](https://github.com/zuqini/zpack.nvim) - A thin layer on top of `vim.pack` to support lazy-loading and `lazy.nvim`'s declarative spec.
 - [okram78/vahti.nvim](https://github.com/okram78/vahti.nvim) - Checks remote Git revisions for `vim.pack`-managed packages and reports available updates without installing them.
+- [Imngzx/resonance.nvim](https://github.com/Imngzx/resonance.nvim) - An actual optimized `vim.pack` wrapper that loves `vim.pack`
+
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
