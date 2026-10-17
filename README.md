@@ -431,6 +431,8 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [walkersumida/deepl.nvim](https://github.com/walkersumida/deepl.nvim) - Translates text using the DeepL API with multiple output modes (float, replace, append).
 - [acidsugarx/babel.nvim](https://github.com/acidsugarx/babel.nvim) - Translate text using Google Translate with async support, float display, and multi-picker integration.
 - [noir4y/comment-translate.nvim](https://github.com/noir4y/comment-translate.nvim) - Translate code comments and strings using online as well as local LLMs or external translators.
+- [Imngzx/jisho.nvim](https://github.com/Imngzx/jisho.nvim) - Japanese dictionary that powered by `jisho.org`.
+
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -712,7 +714,7 @@ then it is not supported:
 - [rafamadriz/neon](https://github.com/rafamadriz/neon) - **_`[TS][LSP][L/D][Lua]`_** Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with Tree-sitter.
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) - **_`[TS]`_** A dark color scheme heavily inspired by the look of the Dark+ scheme of VSCode.
 - [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) - **_`[TS][L/D][Lua]`_** A Lua port of vim-code-dark colorscheme with VSCode light and dark theme.
-- [askfiy/visual_studio_code](https://github.com/askfiy/visual_studio_code) - **_`[TS][LSP][L/D][Lua]`_**  A theme that highly restores VSCode.
+- [askfiy/visual_studio_code](https://github.com/askfiy/visual_studio_code) - **_`[TS][LSP][L/D][Lua]`_** A theme that highly restores VSCode.
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) - **_`[TS][LSP][L/D][Lua]`_** Material.nvim is a highly configurable colorscheme written in Lua and based on the material palette.
 - [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) - **_`[TS][LSP][Lua]`_** A dark midnight colorscheme with Tree-sitter support.
 - [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) - **_`[TS][LSP][Lua]`_** A dark charcoal colorscheme with Tree-sitter support.
@@ -1026,7 +1028,7 @@ then it is not supported:
 - [nfrid/due.nvim](https://github.com/nfrid/due.nvim) - Displays due for a date string as a virtual text.
 - [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) - Draw ASCII diagrams.
 - [nvim-telekasten/telekasten.nvim](https://github.com/nvim-telekasten/telekasten.nvim) - Work with a text-based, Markdown zettelkasten / wiki and mix it with a journal, based on telescope.nvim.
-- [zk-org/zk-nvim](https://github.com/zk-org/zk-nvim) -  Provides integration with `zk`, a plain text note-taking assistant.
+- [zk-org/zk-nvim](https://github.com/zk-org/zk-nvim) - Provides integration with `zk`, a plain text note-taking assistant.
 - [chrsm/impulse.nvim](https://github.com/chrsm/impulse.nvim) - Read Notion.so notes.
 - [obsidian-nvim/obsidian.nvim](https://github.com/obsidian-nvim/obsidian.nvim) - Plugin for Obsidian, written in Lua.
 - [jjuchara/obsidian-tasks.nvim](https://github.com/jjuchara/obsidian-tasks.nvim) - Keyboard-first Obsidian task management across multiple vaults with ordered tag trees.
