@@ -1273,6 +1273,7 @@ then it is not supported:
 - [JulOuellet/bzl.nvim](https://github.com/JulOuellet/bzl.nvim) - Bazel integration: target picker and tree, run/test/build with streaming output, and LSP support for Bazel-managed dependencies.
 - [caskstrength/nvim-soil](https://codeberg.org/caskstrength/nvim-soil) - Run PlantUML script and generate UML design.
 - [pewpewnor/dove.nvim](https://github.com/pewpewnor/dove.nvim) - Define and execute arbitrary shell commands or Lua code on the fly for file, project, or global contexts.
+- [trimclain/builder.nvim](https://github.com/trimclain/builder.nvim) - Build and run files with configurable commands and output in split or floating windows, inspired by Sublime Text's build system.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
