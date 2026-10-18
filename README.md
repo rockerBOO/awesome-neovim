@@ -99,6 +99,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [piersolenski/plugin-addict.nvim](https://github.com/piersolenski/plugin-addict.nvim) - A stupidly simple way to quickly install plugins.
 - [zuqini/zpack.nvim](https://github.com/zuqini/zpack.nvim) - A thin layer on top of `vim.pack` to support lazy-loading and `lazy.nvim`'s declarative spec.
 - [okram78/vahti.nvim](https://github.com/okram78/vahti.nvim) - Checks remote Git revisions for `vim.pack`-managed packages and reports available updates without installing them.
+- [Imngzx/resonance.nvim](https://github.com/Imngzx/resonance.nvim) - An optimized `vim.pack` wrapper with lazy-loading, automatic build hooks, and an elegant UI.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -693,6 +694,7 @@ then it is not supported:
 - **_`[Fnl]`_** - Is written in Fennel.
 <!--lint enable awesome-list-item-->
 
+- [zacesshq/zacess.nvim](https://github.com/zacesshq/zacess.nvim) - **_`[TS][LSP][L/D][Lua]`_** High contrast, yellow on black and cream color schemes with every text and syntax colour at 7:1 contrast or more.
 - [daaanny90/interlinked.nvim](https://github.com/daaanny90/interlinked.nvim) - **_`[TS][LSP][Lua]`_** Melancholic Blade Runner 2049 colorscheme with ambient neon-flicker effects and a baseline-test session report.
 - [rezniqov/soviet.nvim](https://github.com/rezniqov/soviet.nvim) - **_`[TS][LSP][L/D][Lua]`_** Warm colorschemes inspired by soviet visual culture.
 - [ThorstenRhau/token](https://github.com/ThorstenRhau/token) - **_`[TS][LSP][L/D][Lua]`_** Token has warm tones and careful contrast, with full Tree-sitter and LSP integration.
@@ -1272,6 +1274,7 @@ then it is not supported:
 - [JulOuellet/bzl.nvim](https://github.com/JulOuellet/bzl.nvim) - Bazel integration: target picker and tree, run/test/build with streaming output, and LSP support for Bazel-managed dependencies.
 - [caskstrength/nvim-soil](https://codeberg.org/caskstrength/nvim-soil) - Run PlantUML script and generate UML design.
 - [pewpewnor/dove.nvim](https://github.com/pewpewnor/dove.nvim) - Define and execute arbitrary shell commands or Lua code on the fly for file, project, or global contexts.
+- [trimclain/builder.nvim](https://github.com/trimclain/builder.nvim) - Build and run files with configurable commands and output in split or floating windows, inspired by Sublime Text's build system.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
