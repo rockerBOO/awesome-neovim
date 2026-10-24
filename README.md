@@ -696,6 +696,7 @@ then it is not supported:
 - **_`[Fnl]`_** - Is written in Fennel.
 <!--lint enable awesome-list-item-->
 
+- [heritage-themes/heritage-themes.nvim](https://github.com/heritage-themes/heritage-themes.nvim) - **_`[TS][LSP][L/D][Lua]`_** 65 dark and light colorschemes drawn from the colour traditions of different cultures, with themes for lualine and colours for gitsigns.
 - [zacesshq/zacess.nvim](https://github.com/zacesshq/zacess.nvim) - **_`[TS][LSP][L/D][Lua]`_** High contrast, yellow on black and cream color schemes with every text and syntax colour at 7:1 contrast or more.
 - [daaanny90/interlinked.nvim](https://github.com/daaanny90/interlinked.nvim) - **_`[TS][LSP][Lua]`_** Melancholic Blade Runner 2049 colorscheme with ambient neon-flicker effects and a baseline-test session report.
 - [rezniqov/soviet.nvim](https://github.com/rezniqov/soviet.nvim) - **_`[TS][LSP][L/D][Lua]`_** Warm colorschemes inspired by soviet visual culture.
