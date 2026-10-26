@@ -295,6 +295,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [taigrr/neocrush.nvim](https://github.com/taigrr/neocrush.nvim) - Integration with Crush AI coding assistant, with edit highlighting, auto-focus, Telescope support, terminal and version management.
 - [zgs225/pi2.nvim](https://github.com/zgs225/pi2.nvim) - Frontend for the [pi](https://pi.dev) coding agent with in-editor chat, reviewed diffs, session-tree navigation, and extension prompts.
 - [jaitd/fieldguide.nvim](https://github.com/jaitd/fieldguide.nvim) - Sidebar agent for your own config; will inform you if config still boots when changing it and provides answers from your installed plugins' docs, the versions on disk, and the live session.
+- [mrwatts88/ghost.nvim](https://github.com/mrwatts88/ghost.nvim) - Write a question using a comment starting with `?` to get a response from your favourite LLM via virtual text.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
