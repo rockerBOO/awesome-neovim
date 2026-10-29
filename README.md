@@ -379,7 +379,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 ### Markdown and LaTeX
 
 - [the-mayankjha/fk_markdown.nvim](https://github.com/the-mayankjha/fk_markdown.nvim) - Markdown renderer with live browser preview, synchronized scrolling, and support for math, diagrams, LaTeX, and local images.
-- [sammaji/markdown-preview.nvim](https://github.com/sammaji/markdown-preview.nvim) - Preview Markdown in the browser with synchronised scrolling, math, diagrams and flexible configuration (fork of [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)).
+- [sammaji/markdown-preview.nvim](https://github.com/sammaji/markdown-preview.nvim) - Preview Markdown files in your browser with synchronised scrolling, math, diagrams.
 - [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) - Markdown preview in the browser using pandoc and live-server through the job-control API.
 - [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) - Easy pandoc conversion leveraging YAML blocks.
 - [jghauser/follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim) - Press enter to follow internal Markdown links.
