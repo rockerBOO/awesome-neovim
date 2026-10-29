@@ -308,12 +308,7 @@ check_list_punctuation() {
 
         for I in $(seq 1 ${#LNUMS[@]}); do
             I=$((I - 1))
-            local END=""
-            END="$(echo "${LNUMS[I]}" | rev)"
-            local LEN=${#END[@]}
-            ((LEN++))
-
-            END="${END:${LEN}:1}"
+            local END="${LNUMS[I]: -1}"
 
             if [[ "${END}" =~ ^[a-zA-Z0-9\)].*$ ]]; then
                 sed -E -i "$(echo "${LNUMS[I]}" | cut -d ':' -f1)s/[^\.]$/${END}./g" "${TARGET}" || EC=1
