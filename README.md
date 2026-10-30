@@ -295,6 +295,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [taigrr/neocrush.nvim](https://github.com/taigrr/neocrush.nvim) - Integration with Crush AI coding assistant, with edit highlighting, auto-focus, Telescope support, terminal and version management.
 - [zgs225/pi2.nvim](https://github.com/zgs225/pi2.nvim) - Frontend for the [pi](https://pi.dev) coding agent with in-editor chat, reviewed diffs, session-tree navigation, and extension prompts.
 - [jaitd/fieldguide.nvim](https://github.com/jaitd/fieldguide.nvim) - Sidebar agent for your own config; will inform you if config still boots when changing it and provides answers from your installed plugins' docs, the versions on disk, and the live session.
+- [mrwatts88/ghost.nvim](https://github.com/mrwatts88/ghost.nvim) - Write a question using a comment starting with `?` to get a response from your favourite LLM via virtual text.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -340,6 +341,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [redpierrot/ballerina.nvim](https://github.com/redpierrot/ballerina.nvim) - Syntax highlighting, LSP, debugging, package-aware format-on-save, auto-indent, and `bal` run/test/build commands for the Ballerina language.
 - [jgonmor16/hdlsnip.nvim](https://github.com/jgonmor16/hdlsnip.nvim) - Parameterised VHDL templates covering entities, FSMs, CDC, AXI4-Lite and testbenches, following the project's reset style and target vendor.
 - [upyesp/epher.nvim](https://github.com/upyesp/epher.nvim) - Calculator language with answers inline, LSP server glue, and syntax for `.epher` scripts.
+- [dobsontom/dbt-ft.nvim](https://github.com/dobsontom/dbt-ft.nvim) - Jinja-aware filetype for `dbt` models, with Tree-sitter support for highlighting, folding, and indentation.
 
 ### Golang
 
@@ -857,6 +859,7 @@ then it is not supported:
 - [jonestristand/dune.nvim](https://github.com/jonestristand/dune.nvim) - **_`[TS][LSP][Lua]`_** Four (plus one) variants inspired by Frank Herbert's Dune.
 - [2giosangmitom/nightfall.nvim](https://github.com/2giosangmitom/nightfall.nvim) - **_`[TS][LSP][L/D][Lua]`_** Dracula-inspired colorscheme with four flavors including a light variant.
 - [oxidescheme/nvim](https://github.com/oxidescheme/nvim) - **_`[TS][LSP][Lua]`_** Minimalist dark colorscheme built on an OKLCH palette with a monochrome-first UI.
+- [RazikSF/lumina-themes](https://github.com/RazikSF/lumina-themes) - **_`[TS][LSP][L/D][Lua]`_** Fourteen colorschemes drawn from scenes, each in light and dark, plus a high-contrast pair.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -974,6 +977,7 @@ then it is not supported:
 - [leo-alvarenga/homecoming.nvim](https://github.com/leo-alvarenga/homecoming.nvim) - A dead-simple, customizable and cozy dashboard with sane defaults and zero config required.
 - [Amansingh-afk/milli.nvim](https://github.com/Amansingh-afk/milli.nvim) - Animated ASCII splash screens with bundled animations and custom image or GIF support.
 - [zdcthomas/sprout.nvim](https://github.com/zdcthomas/sprout.nvim) - An ASCII art bonsai for your start screen that grows as the day goes forward.
+- [hawknewton/matrix-splash.nvim](https://github.com/hawknewton/matrix-splash.nvim) - Customizable Matrix-inspired splash screen.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1765,6 +1769,7 @@ then it is not supported:
 - [kiyoon/tmux-send.nvim](https://github.com/kiyoon/tmux-send.nvim) - Copy and paste buffer content or file path in either `nvim-tree`, `neo-tree` or `oil.nvim` to another tmux pane.
 - [jkeresman01/tmux-switch.nvim](https://github.com/jkeresman01/tmux-switch.nvim) - Provides fuzzy session switching for Tmux.
 - [salorak/libtmux.nvim](https://github.com/salorak/libtmux.nvim) - Thin wrapper for using the `tmux` API.
+- [minhyeoky/tmux-oil.nvim](https://github.com/minhyeoky/tmux-oil.nvim) - Edit tmux sessions and windows as lines in a buffer, like `oil.nvim`.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1883,6 +1888,7 @@ then it is not supported:
 - [TheItcor/MoaiVim](https://github.com/TheItcor/MoaiVim) - A minimalist config that emulates a lightweight IDE.
 - [plutowang/nvim.pack](https://github.com/plutowang/nvim.pack) - Declarative, event-driven lazy-loading configuration built purely on native Vim.pack for extreme startup performance.
 - [JimmyPla6z/FireVim](https://gitlab.com/JimmyPla6z/Firevim) - A lightweight, opinionated Neovim distribution with a single `init.lua`, built on Neovim 0.12+.
+- [gamjagoon/earlgrey.nvim](https://github.com/gamjagoon/earlgrey.nvim) - A focused configuration with terminal agent notifications, per-language LSP controls, and cross-platform installers.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
