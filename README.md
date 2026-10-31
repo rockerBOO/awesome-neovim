@@ -860,6 +860,7 @@ then it is not supported:
 - [2giosangmitom/nightfall.nvim](https://github.com/2giosangmitom/nightfall.nvim) - **_`[TS][LSP][L/D][Lua]`_** Dracula-inspired colorscheme with four flavors including a light variant.
 - [oxidescheme/nvim](https://github.com/oxidescheme/nvim) - **_`[TS][LSP][Lua]`_** Minimalist dark colorscheme built on an OKLCH palette with a monochrome-first UI.
 - [RazikSF/lumina-themes](https://github.com/RazikSF/lumina-themes) - **_`[TS][LSP][L/D][Lua]`_** Fourteen colorschemes drawn from scenes, each in light and dark, plus a high-contrast pair.
+- [kryptamine/gruber-darker-renaissance](https://github.com/kryptamine/gruber-darker-renaissance) - **_`[TS][LSP][Lua]`_** A dark, minimal colorscheme based on Gruber Darker.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
