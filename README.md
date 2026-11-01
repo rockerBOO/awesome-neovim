@@ -1497,6 +1497,7 @@ then it is not supported:
 - [declancm/cinnamon.nvim](https://github.com/declancm/cinnamon.nvim) - Smooth scrolling for any movement command.
 - [niuiic/scroll.nvim](https://github.com/niuiic/scroll.nvim) - Smooth scrolling, custom smooth strategy.
 - [rlychrisg/keepcursor.nvim](https://github.com/rlychrisg/keepcursor.nvim) - A collection of functions to control how the screen is positioned around the cursor.
+- [LFSCamargo/macscroll.nvim](https://github.com/LFSCamargo/macscroll.nvim) - macOS trackpad and mouse-wheel scrolling delivered by a Darwin handler so terminals cannot drop sideways motion.
 
 ### Scrollbar
 
