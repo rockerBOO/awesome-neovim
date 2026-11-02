@@ -1788,6 +1788,7 @@ then it is not supported:
 - [seandewar/actually-doom.nvim](https://github.com/seandewar/actually-doom.nvim) - Editing text is boring; play DOOM instead!.
 - [piersolenski/skifree.nvim](https://github.com/piersolenski/skifree.nvim) - Play the Windows 3.1 SkiFree game.
 - [xiangnongWu2233/rubiks-cube.nvim](https://github.com/xiangnongWu2233/rubiks-cube.nvim) - A playable Rubik's cube with auto-solver.
+- [navasvarela/vimdojo](https://github.com/navasvarela/vimdojo) - Puzzle game for learning Vim motions and workflows, scored on keystrokes against par.
 
 ### Competitive Programming
 
