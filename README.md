@@ -342,7 +342,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [jgonmor16/hdlsnip.nvim](https://github.com/jgonmor16/hdlsnip.nvim) - Parameterised VHDL templates covering entities, FSMs, CDC, AXI4-Lite and testbenches, following the project's reset style and target vendor.
 - [upyesp/epher.nvim](https://github.com/upyesp/epher.nvim) - Calculator language with answers inline, LSP server glue, and syntax for `.epher` scripts.
 - [dobsontom/dbt-ft.nvim](https://github.com/dobsontom/dbt-ft.nvim) - Jinja-aware filetype for `dbt` models, with Tree-sitter support for highlighting, folding, and indentation.
-- [alessandropietrobelli/nuget.nvim](https://github.com/alessandropietrobelli/nuget.nvim) - NuGet package manager for .NET solutions: browse, install, update and consolidate packages, with vulnerability and deprecation checks, in a tabbed floating window.
+- [alessandropietrobelli/nuget.nvim](https://github.com/alessandropietrobelli/nuget.nvim) - NuGet package manager for .NET solutions.
 
 ### Golang
 
