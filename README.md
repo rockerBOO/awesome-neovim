@@ -865,6 +865,7 @@ then it is not supported:
 - [oxidescheme/nvim](https://github.com/oxidescheme/nvim) - **_`[TS][LSP][Lua]`_** Minimalist dark colorscheme built on an OKLCH palette with a monochrome-first UI.
 - [RazikSF/lumina-themes](https://github.com/RazikSF/lumina-themes) - **_`[TS][LSP][L/D][Lua]`_** Fourteen colorschemes drawn from scenes, each in light and dark, plus a high-contrast pair.
 - [kryptamine/gruber-darker-renaissance](https://github.com/kryptamine/gruber-darker-renaissance) - **_`[TS][LSP][Lua]`_** A dark, minimal colorscheme based on Gruber Darker.
+- [tiagovla/tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim) - **_`[TS][LSP][Lua]`_** A clean, customizable dark colorscheme for Neovim, written in Lua.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
