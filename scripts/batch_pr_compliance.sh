@@ -163,11 +163,11 @@ main() {
             fi
 
             # Remove PRs add no new repository to validate
-            if [[ $pr_title != Remove* ]]; then
+            if ! [[ $pr_title =~ ^Remove.*$ ]]; then
                 # Extract repository URL from the added lines of the PR diff or title
-                repo_url=$(echo "$pr_diff" | grep -oP '^\+(?!\+\+).*?\Khttps://github\.com/[^/\s)]+/[^/\s)]+' | head -n 1)
+                repo_url="$(echo "$pr_diff" | grep -oP '^\+(?!\+\+).*?\Khttps://github\.com/[^/\s)]+/[^/\s)]+' | head -n 1)"
                 if [[ -z "$repo_url" ]]; then
-                    repo_url=$(echo "$pr_title" | grep -oP '`\K[^/]+/[^`]+')
+                    repo_url="$(echo "$pr_title" | grep -oP '`\K[^/]+/[^`]+')"
                     [[ -n "$repo_url" ]] && repo_url="https://github.com/${repo_url}"
                 fi
 
