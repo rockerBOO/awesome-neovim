@@ -1976,6 +1976,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [Neovimcraft](https://neovimcraft.com) - A site dedicated to searching specific plugins and guides for building plugins in Lua.
 - [Dotfyle](https://dotfyle.com) - A site for sharing and discovering configurations and plugins.
 - [NeoLand](https://neoland.dev) - A beautifully crafted website for Neovim resources.
+- [Awesome Neovim](https://awesome-neovim.pages.dev) - A live, searchable browser for the Awesome Neovim plugin list, with a built-in guide to adding your own.
 - [Weyaaron/nvim-training](https://github.com/Weyaaron/nvim-training) - A beginner-friendly tool for training your 'muscle memory' using small, repeatable tasks.
 - [Nvim.app](https://nvim.app) - A modern search interface for plugins with fuzzy search, filtering, and self-service updates for plugin authors.
 - [ChuYanLon/chad46](https://github.com/ChuYanLon/chad46) - 94 themes with 44 highlight integrations, daily synced from NvChad/base46.
