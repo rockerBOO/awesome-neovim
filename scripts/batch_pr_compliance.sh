@@ -162,24 +162,27 @@ main() {
                 continue
             fi
 
-            # Extract repository URL from PR diff or title
-            repo_url=$(echo "$pr_diff" | grep -oP 'https://github\.com/[^/\s)]+/[^/\s)]+' | head -n 1)
-            if [[ -z "$repo_url" ]]; then
-                repo_url=$(echo "$pr_title" | grep -oP '`\K[^/]+/[^`]+')
-                [[ -n "$repo_url" ]] && repo_url="https://github.com/${repo_url}"
-            fi
+            # Remove PRs add no new repository to validate
+            if [[ $pr_title != Remove* ]]; then
+                # Extract repository URL from the added lines of the PR diff or title
+                repo_url=$(echo "$pr_diff" | grep -oP '^\+(?!\+\+).*?\Khttps://github\.com/[^/\s)]+/[^/\s)]+' | head -n 1)
+                if [[ -z "$repo_url" ]]; then
+                    repo_url=$(echo "$pr_title" | grep -oP '`\K[^/]+/[^`]+')
+                    [[ -n "$repo_url" ]] && repo_url="https://github.com/${repo_url}"
+                fi
 
-            # Skip if no repository URL found
-            if [[ -z "$repo_url" ]]; then
-                echo "❌ PR $pr: No repository URL found"
-                non_compliant_prs+=("$pr")
-                continue
-            fi
+                # Skip if no repository URL found
+                if [[ -z "$repo_url" ]]; then
+                    echo "❌ PR $pr: No repository URL found"
+                    non_compliant_prs+=("$pr")
+                    continue
+                fi
 
-            # Validate repository
-            if ! check_repo_details "${repo_url}.git" "$pr"; then
-                non_compliant_prs+=("$pr")
-                continue
+                # Validate repository
+                if ! check_repo_details "${repo_url}.git" "$pr"; then
+                    non_compliant_prs+=("$pr")
+                    continue
+                fi
             fi
 
             # Check for plugin description
