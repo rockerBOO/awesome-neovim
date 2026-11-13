@@ -1137,7 +1137,7 @@ then it is not supported:
 - [rifen/timescope](https://github.com/rifen/timescope) - Inspect numeric durations in code and view human-readable equivalents as inline virtual text.
 - [ChrisGVE/docshelf.nvim](https://github.com/ChrisGVE/docshelf.nvim) - Offline API documentation from `devdocs.io`, `Hackage`, `docs.rs`, `pkg.go.dev`, `Sphinx` / `DocC` sites and `Dash` docsets, converted to text for reading and grepping in a buffer, with per-language filtering and automatic updates.
 - [alexcloudstar/cheatsheet.nvim](https://github.com/alexcloudstar/cheatsheet.nvim) - Telescope cheatsheet for your keybindings; look up a key by task or keyword and add your own keys.
-- [leblocks/treetags.nvim](https://github.com/leblocks/treetags.nvim) - Fast code tags and symbol navigation for Neovim powered by Tree-sitter.
+- [leblocks/treetags.nvim](https://github.com/leblocks/treetags.nvim) - Fast code tags and symbol navigation powered by Tree-sitter.
 
 ### CSV Files
 
