@@ -227,6 +227,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
   - [bydlw98/blink-cmp-sshconfig](https://github.com/bydlw98/blink-cmp-sshconfig) - `blink.cmp` source for `sshconfig` files.
   - [mgalliou/blink-cmp-tmux](https://github.com/mgalliou/blink-cmp-tmux) - `blink.cmp` source for [tmux](https://github.com/tmux/tmux).
   - [moyiz/blink-emoji.nvim](https://github.com/moyiz/blink-emoji.nvim) - `blink.cmp` source for GitHub Markdown emojis.
+  - [fork-svg/blink-cmp-pinyin-emoji.nvim](https://github.com/fork-svg/blink-cmp-pinyin-emoji.nvim) - `blink.cmp` source for Emoji and Nerd Font icons via Chinese Pinyin input.
   - [erooke/blink-cmp-latex](https://github.com/erooke/blink-cmp-latex) - `blink.cmp` source for LaTeX.
   - [xieyonn/blink-cmp-dat-word](https://github.com/xieyonn/blink-cmp-dat-word) - `blink.cmp` source for dictionary.
   - [yaocccc/blink-cmp-cmdlinehistory](https://github.com/yaocccc/blink-cmp-cmdlinehistory) - `blink.cmp` source for cmdline and search history.
