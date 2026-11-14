@@ -1295,6 +1295,7 @@ then it is not supported:
 - [caskstrength/nvim-soil](https://codeberg.org/caskstrength/nvim-soil) - Run PlantUML script and generate UML design.
 - [pewpewnor/dove.nvim](https://github.com/pewpewnor/dove.nvim) - Define and execute arbitrary shell commands or Lua code on the fly for file, project, or global contexts.
 - [trimclain/builder.nvim](https://github.com/trimclain/builder.nvim) - Build and run files with configurable commands and output in split or floating windows, inspired by Sublime Text's build system.
+- [cxwx/rslime.nvim](https://github.com/cxwx/rslime.nvim) - Slime-style REPL for the CERN ROOT (Cling) C++ interpreter: send `// %%` cells to `root -l`, with kernel restart, `.undo`, and THttpServer inspection.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
