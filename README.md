@@ -100,6 +100,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [zuqini/zpack.nvim](https://github.com/zuqini/zpack.nvim) - A thin layer on top of `vim.pack` to support lazy-loading and `lazy.nvim`'s declarative spec.
 - [okram78/vahti.nvim](https://github.com/okram78/vahti.nvim) - Checks remote Git revisions for `vim.pack`-managed packages and reports available updates without installing them.
 - [Imngzx/resonance.nvim](https://github.com/Imngzx/resonance.nvim) - An optimized `vim.pack` wrapper with lazy-loading, automatic build hooks, and an elegant UI.
+- [jtprogru/pack-ui.nvim](https://github.com/jtprogru/pack-ui.nvim) - A simple UI on top of `vim.pack` for managing plugins.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -296,6 +297,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [zgs225/pi2.nvim](https://github.com/zgs225/pi2.nvim) - Frontend for the [pi](https://pi.dev) coding agent with in-editor chat, reviewed diffs, session-tree navigation, and extension prompts.
 - [jaitd/fieldguide.nvim](https://github.com/jaitd/fieldguide.nvim) - Sidebar agent for your own config; will inform you if config still boots when changing it and provides answers from your installed plugins' docs, the versions on disk, and the live session.
 - [mrwatts88/ghost.nvim](https://github.com/mrwatts88/ghost.nvim) - Write a question using a comment starting with `?` to get a response from your favourite LLM via virtual text.
+- [kova1max/float-claude.nvim](https://github.com/kova1max/float-claude.nvim) - Ask Claude Code about the current file or selection from a popup, using the `claude` CLI subscription instead of an API key.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -344,6 +346,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [dobsontom/dbt-ft.nvim](https://github.com/dobsontom/dbt-ft.nvim) - Jinja-aware filetype for `dbt` models, with Tree-sitter support for highlighting, folding, and indentation.
 - [alessandropietrobelli/dotnet-tree.nvim](https://github.com/alessandropietrobelli/dotnet-tree.nvim) - A `.NET` solution explorer as a neo-tree source, showing solution folders, projects, project references and package versions, with support for many `dotnet` actions.
 - [alessandropietrobelli/dotnet-counters.nvim](https://github.com/alessandropietrobelli/dotnet-counters.nvim) - Live .NET runtime metrics (CPU, memory, GC, exceptions, HTTP latency) drawn as graphs in a side panel that opens with `nvim-dap` debug sessions.
+- [anirbanchakraborty-dev/swara](https://github.com/anirbanchakraborty-dev/swara) - LilyPond support with its own Tree-sitter grammar and LSP server.
 
 
 ### Golang
@@ -787,7 +790,7 @@ then it is not supported:
 - [luisiacc/gruvbox-baby](https://github.com/luisiacc/gruvbox-baby) - **_`[TS][LSP][Lua]`_** A modern gruvbox theme with full Tree-sitter support.
 - [titanzero/zephyrium](https://github.com/titanzero/zephyrium) - **_`[TS][Lua]`_** A zephyr-esque theme, written in Lua, with Tree-sitter support.
 - [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) - **_`[TS][LSP][L/D][Lua]`_** A dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai.
-- [thesimonho/kanagawa-paper.nvim](https://github.com/thesimonho/kanagawa-paper.nvim) - **_`[TS][LSP][L/D][Lua]`_** Remixed light and dark Kanagawa colourschemes with muted colors.
+- [thesimonho/kanagawa-paper](https://github.com/thesimonho/kanagawa-paper) - **_`[TS][LSP][L/D][Lua]`_** Remixed light and dark Kanagawa colourschemes with muted colors.
 - [kevinm6/kurayami.nvim](https://github.com/kevinm6/kurayami.nvim) - **_`[TS][LSP][Lua]`_** Dark only theme with Tree-sitter support.
 - [cpea2506/one_monokai.nvim](https://github.com/cpea2506/one_monokai.nvim) - **_`[TS][LSP][Lua]`_** One Monokai theme written in Lua.
 - [phha/zenburn.nvim](https://github.com/phha/zenburn.nvim) - **_`[TS][Lua]`_** A low-contrast dark colorscheme with support for various plugins.
@@ -1136,6 +1139,7 @@ then it is not supported:
 - [rifen/timescope](https://github.com/rifen/timescope) - Inspect numeric durations in code and view human-readable equivalents as inline virtual text.
 - [ChrisGVE/docshelf.nvim](https://github.com/ChrisGVE/docshelf.nvim) - Offline API documentation from `devdocs.io`, `Hackage`, `docs.rs`, `pkg.go.dev`, `Sphinx` / `DocC` sites and `Dash` docsets, converted to text for reading and grepping in a buffer, with per-language filtering and automatic updates.
 - [alexcloudstar/cheatsheet.nvim](https://github.com/alexcloudstar/cheatsheet.nvim) - Telescope cheatsheet for your keybindings; look up a key by task or keyword and add your own keys.
+- [leblocks/treetags.nvim](https://github.com/leblocks/treetags.nvim) - Fast, Tree-sitter-based code tags and symbol navigation.
 
 ### CSV Files
 
@@ -1838,7 +1842,7 @@ then it is not supported:
 ### Stats Tracking
 
 - [aikhe/wrapped.nvim](https://github.com/aikhe/wrapped.nvim) - Visualize and review your configuration activity with stats, insights, history, heatmaps and more.
-- [DrKJeff16/triforce.nvim](https://github.com/DrKJeff16/triforce.nvim) - Gamified stat tracker with XP, levels, achievements, and activity heatmaps for your coding sessions with lualine integration.
+- [gisketch/triforce.nvim](https://github.com/gisketch/triforce.nvim) - Gamified stat tracker with XP, levels, achievements, and activity heatmaps for your coding sessions with lualine integration.
 - [QuentinGruber/pomodoro.nvim](https://github.com/QuentinGruber/pomodoro.nvim) - Use the Pomodoro Technique with built-in session tracking and break reminders.
 - [yal212/pomodoro.nvim](https://github.com/yal212/pomodoro.nvim) - Focus-first Pomodoro timer with automatic work, break cycles, session statistics, and a distraction-free focus mode.
 - [raymondware/focusmode.nvim](https://github.com/raymondware/focusmode.nvim) - Pomodoro and deep-work timer with configurable intervals, distraction blocking, session statistics, and a dashboard.
