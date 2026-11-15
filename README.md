@@ -1069,6 +1069,7 @@ then it is not supported:
 - [iwe-org/iwe.nvim](https://github.com/iwe-org/iwe.nvim) - Integration with `IWE`, an LSP designed for Markdown-based knowledge management and note-taking workflows.
 - [carloscalla/notepad.nvim](https://github.com/carloscalla/notepad.nvim) - Quick note-taking in Markdown with both repo-specific and global notepad support.
 - [MattHandzel/taskwarrior.nvim](https://github.com/MattHandzel/taskwarrior.nvim) - Edit Taskwarrior tasks in a buffer, render tasks as Markdown checkboxes, bulk-edit with Vim motions, diff-and-apply on save. Inspired by oil.nvim.
+- [xheisenbugx/org.nvim](https://github.com/xheisenbugx/org.nvim) - Fully-featured reimplementation of Emacs' `org-mode`.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1138,6 +1139,7 @@ then it is not supported:
 - [rifen/timescope](https://github.com/rifen/timescope) - Inspect numeric durations in code and view human-readable equivalents as inline virtual text.
 - [ChrisGVE/docshelf.nvim](https://github.com/ChrisGVE/docshelf.nvim) - Offline API documentation from `devdocs.io`, `Hackage`, `docs.rs`, `pkg.go.dev`, `Sphinx` / `DocC` sites and `Dash` docsets, converted to text for reading and grepping in a buffer, with per-language filtering and automatic updates.
 - [alexcloudstar/cheatsheet.nvim](https://github.com/alexcloudstar/cheatsheet.nvim) - Telescope cheatsheet for your keybindings; look up a key by task or keyword and add your own keys.
+- [leblocks/treetags.nvim](https://github.com/leblocks/treetags.nvim) - Fast, Tree-sitter-based code tags and symbol navigation.
 
 ### CSV Files
 
