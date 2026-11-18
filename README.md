@@ -609,6 +609,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [adriancmiranda/glimpse.nvim](https://github.com/adriancmiranda/glimpse.nvim) - Fast multi-format file previewer with inline kitty graphics support, external pane previews, and integrations for file explorers and pickers.
 - [ingur/fzf-oil.nvim](https://github.com/ingur/fzf-oil.nvim) - A tiny file browser with seamless toggling between fzf-lua and oil.nvim.
 - [Dev-Addict/FloatingFile.nvim](https://github.com/Dev-Addict/FloatingFile.nvim) - Quickly preview any readable file in a centered floating window without replacing the current buffer.
+- [VerySpecificAccount/gliter.nvim#gliter.netrw](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.netrw.md) - Module of `gliter.nvim` enhancing the built-in netrw with dired-style marks shared across every netrw buffer, one-key commands on them, regexp and bulk marking with a live highlight, nine numbered bookmarks, and wdired-style in-place editing of the listing.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1141,6 +1142,11 @@ then it is not supported:
 - [ChrisGVE/docshelf.nvim](https://github.com/ChrisGVE/docshelf.nvim) - Offline API documentation from `devdocs.io`, `Hackage`, `docs.rs`, `pkg.go.dev`, `Sphinx` / `DocC` sites and `Dash` docsets, converted to text for reading and grepping in a buffer, with per-language filtering and automatic updates.
 - [alexcloudstar/cheatsheet.nvim](https://github.com/alexcloudstar/cheatsheet.nvim) - Telescope cheatsheet for your keybindings; look up a key by task or keyword and add your own keys.
 - [leblocks/treetags.nvim](https://github.com/leblocks/treetags.nvim) - Fast, Tree-sitter-based code tags and symbol navigation.
+- [VerySpecificAccount/gliter.nvim#gliter.ctags](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.ctags.md) - Module of `gliter.nvim` wrapping the built-in ctags support with better defaults: a tags file per project, generated and auto-updated for you, and the tags of the word under the cursor in a vertical picker or the quickfix list.
+- [VerySpecificAccount/gliter.nvim#gliter.readme](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.readme.md) - Module of `gliter.nvim` opening (or creating) the project's readme with `<Leader>rr`, and listing every readme you ever touched, most recent first, with `<Leader>rl` — `recentf`, applied to readmes.
+- [VerySpecificAccount/gliter.nvim#gliter.tohtml](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.tohtml.md) - Module of `gliter.nvim` exporting the buffer or the selection as HTML with its own syntax colors, as a fenced Markdown code block, or as PDF typeset by groff.
+- [VerySpecificAccount/gliter.nvim#gliter.w3](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.w3.md) - Module of `gliter.nvim` reading the web in a buffer: `:GliterW3 <url>` fetches with curl and renders with pandoc (or lynx/w3m), links followable from the keyboard while a spinner covers the load, `H` back, `R` reload, and keywords search DuckDuckGo.
+- [VerySpecificAccount/gliter.nvim#gliter.screenkey](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.screenkey.md) - Module of `gliter.nvim` showing the keys you press as you press them, in a small float above the cmdline with the newest key highlighted — for screencasts, demos and pair sessions.
 
 ### CSV Files
 
@@ -1298,6 +1304,8 @@ then it is not supported:
 - [caskstrength/nvim-soil](https://codeberg.org/caskstrength/nvim-soil) - Run PlantUML script and generate UML design.
 - [pewpewnor/dove.nvim](https://github.com/pewpewnor/dove.nvim) - Define and execute arbitrary shell commands or Lua code on the fly for file, project, or global contexts.
 - [trimclain/builder.nvim](https://github.com/trimclain/builder.nvim) - Build and run files with configurable commands and output in split or floating windows, inspired by Sublime Text's build system.
+- [VerySpecificAccount/gliter.nvim#gliter.make](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.make.md) - Module of `gliter.nvim` bringing the `*compilation*` buffer to `:make`: per-filetype `'makeprg'`, output streaming into a bottom window with terminal colors, errors wired to the quickfix, and a runner for the file, the selection, a grep or shells.
+- [VerySpecificAccount/gliter.nvim#gliter.repl](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.repl.md) - Module of `gliter.nvim` with a REPL per filetype and Spacemacs-style send keys: send the selection, the line or the buffer to a live interpreter without leaving it, or evaluate the current expression headless.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1465,6 +1473,7 @@ then it is not supported:
 - [millerjason/neovimacs.nvim](https://github.com/millerjason/neovimacs.nvim) - Provides Emacs movement and buffer keybindings while in insert mode.
 - [kiyoon/repeatable-move.nvim](https://github.com/kiyoon/repeatable-move.nvim) - Make any motion repeatable with `;` and `,` keys.
 - [kkew3/jieba.vim](https://github.com/kkew3/jieba.vim) - Word motions and word text objects for Chinese.
+- [VerySpecificAccount/gliter.nvim#gliter.matchit](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.matchit.md) - Module of `gliter.nvim` extending `%` to keywords: `M` (the key you gave `%`) jumps between the words that bracket a block — `if`/`end`, `function`/`endfunction`, `<div>`/`</div>` — with the nesting counted, `gM` walks the other way, plain `%` everywhere else.
 
 ### Tree-sitter Based
 
@@ -1474,6 +1483,7 @@ then it is not supported:
 - [kiyoon/treesitter-indent-object.nvim](https://github.com/kiyoon/treesitter-indent-object.nvim) - Context-aware indent textobject powered by Tree-sitter.
 - [subev/sibling-jump.nvim](https://github.com/subev/sibling-jump.nvim) - Context-aware navigation between sibling Tree-sitter nodes.
 - [iago-lito/tree-spider.nvim](https://codeberg.org/iago-lito/tree-spider.nvim) - Tree-sitter aware local motions and distant node selection.
+- [VerySpecificAccount/gliter.nvim#gliter.treesitterRE](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.treesitterRE.md) - Module of `gliter.nvim` with expand-region selection: one key grows the selection up a semantic ladder (word, key/value pair, brackets, statement) through Tree-sitter, with a parser-free fallback ladder, lateral edge motions, and sibling/scope jumps.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1501,6 +1511,7 @@ then it is not supported:
 - [mawkler/demicolon.nvim](https://github.com/mawkler/demicolon.nvim) - Use `;` and `,` keys to also repeat jumps to diagnostics (e.g. `]d`) and to [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects?tab=readme-ov-file#text-objects-move) (e.g. `]f`), in addition to repeating `t`/`T`/`f`/`F`.
 - [nvim-mini/mini.nvim#mini.keymap](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-keymap.md) - Module of `mini.nvim` with utilities to make special key mappings: multi-step actions (with built-in steps for "smart" `<Tab>`, `<S-Tab>`, `<CR>`, `<BS>`), combos (more general version of "better escape" like behavior).
 - [notomo/gesture.nvim](https://github.com/notomo/gesture.nvim) - Mouse gesture plugin.
+- [VerySpecificAccount/gliter.nvim#gliter.which](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.which.md) - Module of `gliter.nvim` with a light which-key: pause after a prefix (`<Leader>`, `g` or `z`) and a popup lists the mappings that continue it, straight out of `:map`.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1622,6 +1633,10 @@ then it is not supported:
 - [yaocccc/visual-multi.nvim](https://github.com/yaocccc/visual-multi.nvim) - A fast, core-focused multi-cursor plugin written in Lua with Normal, Insert, and Extend modes.
 - [iago-lito/lastput.nvim](https://codeberg.org/iago-lito/lastput.nvim) - One mapping to (re)select the last piece of text you've pasted.
 - [LongYinStudio/suda.nvim](https://github.com/LongYinStudio/suda.nvim) - Transparent, "sudo-like" privilege elevation without virtual URI hacks.
+- [VerySpecificAccount/gliter.nvim#gliter.undotree](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.undotree.md) - Module of `gliter.nvim` for the built-in `:Undotree` viewer: a `<Leader>u` toggle, colors for every part of the tree, and a full-width bottom window showing the diff of each undo step.
+- [VerySpecificAccount/gliter.nvim#gliter.multicursor](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.multicursor.md) - Module of `gliter.nvim` with keys for the built-in multicursors: `<M-i>` puts a cursor on every line of the selection, `<M-a>` on every occurrence, `<Leader>cj`/`<Leader>ck` place one and step, `<C-n>`/`<C-p>` walk them, `<C-s>`/`<C-m>` skip, `<C-b>`/`<C-f>` remove one.
+- [VerySpecificAccount/gliter.nvim#gliter.textobj](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.textobj.md) - Module of `gliter.nvim` porting targets.vim's quote and separator textobjects: `vi"` behaves exactly like the built-in one where it works and seeks the next, previous or nearest pair where it gives up; `in"`/`il"` force a direction, `i,` selects between the commas.
+- [VerySpecificAccount/gliter.nvim#gliter.justify](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.justify.md) - Module of `gliter.nvim` reflowing and justifying paragraphs with `g=` and `:GliterJustify`: words re-wrapped to the width, leftover spaces distributed between them, both margins flush, the last line ragged.
 
 ### Comment
 
@@ -1704,6 +1719,7 @@ then it is not supported:
 - [vzze/cmdline.nvim](https://github.com/vzze/cmdline.nvim) - Helix-like command line with fuzzy autocompletion.
 - [nvim-mini/mini.nvim#mini.cmdline](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-cmdline.md) - Module of `mini.nvim` for command line tweaks. Adds autocompletion with customizable delay, autocorrection for words with fixed candidates, and autopeek command range in a floating window.
 - [juniorsundar/cling.nvim](https://github.com/juniorsundar/cling.nvim) - Provides Emacs' `M-x compile`, and the ability to wrap CLIs and TUIs as regular commands for your command line, with auto-generated tab-completions.
+- [VerySpecificAccount/gliter.nvim#gliter.cmd](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.cmd.md) - Module of `gliter.nvim` adding readline's keys to the built-in command line and fish's ghost — the history's matching continuation dimmed after the line — while Tab completion and the wildmenu keep their own keys.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1723,6 +1739,7 @@ then it is not supported:
 - [coffebar/neovim-project](https://github.com/coffebar/neovim-project) - Declarative project management, automatic saving of sessions, uses Telescope.
 - [njayman/season.nvim](https://github.com/njayman/season.nvim) - A lightweight plugin to manage session based on current working directory.
 - [Akmadan23/local-session.nvim](https://github.com/Akmadan23/local-session.nvim) - A fast, minimal and implicit current-working-directory-based session manager with easy to configure session files in Lua.
+- [VerySpecificAccount/gliter.nvim#gliter.sessions](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.sessions.md) - Module of `gliter.nvim` giving `:mksession` a memory: `<Leader>ss` saves the session into its project's root as plain `Session.vim`, `<Leader>sl` lists every known session in a float to activate or delete, and saving again updates it.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
