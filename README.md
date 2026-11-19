@@ -1299,6 +1299,7 @@ then it is not supported:
 - [caskstrength/nvim-soil](https://codeberg.org/caskstrength/nvim-soil) - Run PlantUML script and generate UML design.
 - [pewpewnor/dove.nvim](https://github.com/pewpewnor/dove.nvim) - Define and execute arbitrary shell commands or Lua code on the fly for file, project, or global contexts.
 - [trimclain/builder.nvim](https://github.com/trimclain/builder.nvim) - Build and run files with configurable commands and output in split or floating windows, inspired by Sublime Text's build system.
+- [cxwx/rslime.nvim](https://github.com/cxwx/rslime.nvim) - Slime-style REPL for the CERN ROOT C++ interpreter (Cling); send `// %%` cells to `root -l`, with kernel restart, `.undo`, and `THttpServer` inspection.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1739,6 +1740,7 @@ then it is not supported:
 - [uhs-robert/sshfs.nvim](https://github.com/uhs-robert/sshfs.nvim) - Mount remote systems via SSHFS with smart picker auto-detect (Telescope/Oil/Snacks/Neo-tree/fzf-lua/Yazi/Ranger etc.).
 - [nosduco/remote-sshfs.nvim](https://github.com/nosduco/remote-sshfs.nvim) - Explore, edit, and develop on a remote machine via SSHFS.
 - [azratul/live-share.nvim](https://github.com/azratul/live-share.nvim) - Provides remote collaboration capabilities from anywhere, making it ideal for pair-programming scenarios.
+- [bradley101/nvim-remote-ssh](https://github.com/bradley101/nvim-remote-ssh) - Work on a remote machine, similar to VSCode's "Remote-SSH" plugin.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
@@ -1993,6 +1995,7 @@ Have a problem a plugin can solve? Add it to the [nvim-lua wishlist](https://git
 - [ChuYanLon/chad46](https://github.com/ChuYanLon/chad46) - 94 themes with 44 highlight integrations, daily synced from NvChad/base46.
 - [Neovim Cheatsheet](https://neovimcheatsheet.com) - Searchable, interactive cheatsheet with per-keypress search, remappable keybindings, and JSON import/export.
 - [nvim-edu](https://s3onghyun.github.io/nvim-edu/) - Interactive browser trainer for Vim motions and tmux keys with goal-state levels, drills and a daily challenge, verified against headless Neovim.
+- [editortheme/editorthemes.com](https://editorthemes.com/editors/neovim) - Directory for various colorschemes, with live previews and install snippets.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
