@@ -444,6 +444,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [acidsugarx/babel.nvim](https://github.com/acidsugarx/babel.nvim) - Translate text using Google Translate with async support, float display, and multi-picker integration.
 - [noir4y/comment-translate.nvim](https://github.com/noir4y/comment-translate.nvim) - Translate code comments and strings using online as well as local LLMs or external translators.
 - [Imngzx/jisho.nvim](https://github.com/Imngzx/jisho.nvim) - Japanese dictionary, powered by `jisho.org`.
+- [refine-sh/refine.nvim](https://github.com/refine-sh/refine.nvim) - Grammar and fluency checks for your writing with a local model, using the Refine app on macOS.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
