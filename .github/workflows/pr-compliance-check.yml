@@ -76,7 +76,7 @@ jobs:
           # Add helpful guidance
           if grep -q "❌" compliance_output.txt 2>/dev/null; then
             echo -e "### Quick Fix Guide:\n" >> compliance_report.md
-            echo "- **Title Format**: Use \`\`\` <Add|Update|Remove> \`username/repo\` \`\`\`." >> compliance_report.md
+            echo "- **Title Format**: Use \`\`\`<Add|Update|Remove> \`username/repo\` \`\`\`." >> compliance_report.md
             echo "- **Description**: Remove 'plugin' word, end with period." >> compliance_report.md
             echo -e "- **Repository**: Ensure public repo with README and license.\n" >> compliance_report.md
             echo "_After fixing issues, push new commits to update this check._" >> compliance_report.md

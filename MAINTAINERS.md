@@ -20,6 +20,8 @@ a welcoming contributor experience.
 - [New Maintainers](#new-maintainers)
   - [Quick Start](#quick-start)
   - [Example PRs](#example-prs)
+- [Time Limit For Disputed PRs](#time-limit-for-disputed-prs)
+- [Adding or Removing Sections](#adding-or-removing-sections)
 - [Daily Workflow](#daily-workflow)
   - [Check Automated Reports](#check-automated-reports)
   - [Review Priority Order](#review-priority-order)
@@ -57,8 +59,7 @@ sudo apt install jq git # For Ubuntu-based distros
 sudo pacman -S --needed jq git # For Arch-based distros
 ```
 
-[Install the GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md), then make sure to log in
-on your terminal:
+[Install the GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md), then make sure to log in on your terminal:
 
 ```bash
 gh auth login
@@ -70,6 +71,31 @@ These PRs just show some of the flow on how should all the tests pass.
 Review with specifics to change.
 
 - [#1579](https://github.com/rockerBOO/awesome-neovim/pull/1579)
+
+---
+
+## Time Limit For Disputed PRs
+
+When changes are requested for a Pull Request, the author has 1 week to respond to the review.
+If after a week no response is given, the Pull Request can be closed with the following message
+(or with similar wording):
+
+```markdown
+A week has passed after the PR was reviewed with request for changes, and no response was given.
+Therefore, I'm closing this PR.
+
+You can open a new Pull Request later. Sorry for the inconvenience!
+```
+
+---
+
+## Adding or Removing Sections
+
+Every section must include at least THREE plugins listed. If someone wishes to create a new section,
+with valid reasons, it must have the aforementioned minimum amount of plugins or it will be rejected.
+
+When a section, due to either maintenance or removal of plugins has less than two plugins then
+it must be removed, and the plugins listed in it must be moved to another fitting section.
 
 ---
 
