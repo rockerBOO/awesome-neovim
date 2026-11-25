@@ -430,6 +430,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [kibi2/tirenvi.nvim](https://github.com/kibi2/tirenvi.nvim) - Edit Markdown and CSV tables with lossless round-trip.
 - [itsfernn/vimtex-follow](https://github.com/itsfernn/vimtex-follow) - Adds a toggleable "follow mode", synchronizing your PDF viewer with your cursor position.
 - [ywsrock/nvim-md-preview](https://github.com/ywsrock/nvim-md-preview) - Markdown preview in your browser with two-way cursor sync, Mermaid and KaTeX support, and PDF/DOCX/HTML/EPUB export.
+- [Kepler2024/iterm-preview.nvim](https://github.com/Kepler2024/iterm-preview.nvim) - Route `markdown-preview.nvim` live previews into an iTerm2 browser split pane instead of an external browser window, with scroll sync.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
