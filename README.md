@@ -1155,6 +1155,7 @@ then it is not supported:
 - [theKnightsOfRohan/csvlens.nvim](https://github.com/theKnightsOfRohan/csvlens.nvim) - A port of [YS-L/csvlens](https://github.com/YS-L/csvlens), for easy previewing of tabular data.
 - [emmanueltouzery/decisive.nvim](https://github.com/emmanueltouzery/decisive.nvim) - View and edit CSV files with ease and speed.
 - [hat0uma/csvview.nvim](https://github.com/hat0uma/csvview.nvim) - An asynchronous CSV/TSV table viewer with real-time updates, configurable comments and delimiters, and multiple display modes.
+- [ga2631/csvsql.nvim](https://github.com/ga2631/csvsql.nvim) - Read-only, live-updating CSV/TSV table viewer with full SQL querying powered by DuckDB.
 <!--lint disable double-link -->
 [**⬆ back to top**](#contents)
 <!--lint enable double-link -->
