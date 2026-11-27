@@ -181,6 +181,7 @@ It has some [builtin plugins](https://neovim.io/doc/user/plugins.html#plugins) a
 - [akioweh/lsp-document-highlight.nvim](https://github.com/akioweh/lsp-document-highlight.nvim) - Instantaneous LSP symbol reference highlighting under the cursor.
 - [nemanjamalesija/ts-expand-hover.nvim](https://github.com/nemanjamalesija/ts-expand-hover.nvim) - Progressively expand and collapse TypeScript type aliases inside the hover float.
 - [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) - Easily install and manage LSP servers, DAP servers, linters, and formatters.
+- [sontungexpt/mason-scout](https://github.com/sontungexpt/mason-scout) - Discovers and recommends Mason packages based on your development workflow. Automatically detects missing LSP servers, formatters, and linters, helping you find the right tools for your project without manually maintaining package mappings.
 - [Senal-D-A-Gunaratna/swapson.nvim](https://github.com/Senal-D-A-Gunaratna/swapson.nvim) - Monkeypatches `mason.nvim` to route `npm` and `pip` installs through `bun` and `uv`, speeding up LSP and tool installation.
 - [Crysthamus/nvim-file-operations](https://github.com/Crysthamus/nvim-file-operations) - Add support for workspace file operations using built-in LSPs.
 - [antosha417/nvim-lsp-file-operations](https://github.com/antosha417/nvim-lsp-file-operations) - File operations using built-in LSP support.
