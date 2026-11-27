@@ -1644,6 +1644,7 @@ then it is not supported:
 - [alexmozaidze/tree-comment.nvim](https://github.com/alexmozaidze/tree-comment.nvim) - Highlight and configure TODO comments for [tree-sitter-comment](https://github.com/stsewd/tree-sitter-comment).
 - [terrortylor/nvim-comment](https://github.com/terrortylor/nvim-comment) - Toggle comments using the built-in commentstring option.
 - [winston0410/commented.nvim](https://github.com/winston0410/commented.nvim) - A commenting plugin which supports counts and multiple comment patterns and much more.
+- [VerySpecificAccount/gliter.nvim#gliter.undotree](https://github.com/VerySpecificAccount/gliter.nvim/blob/main/doc/gliter.undotree.md) - Module of `gliter.nvim` for the built-in `:Undotree` viewer: a `<Leader>u` toggle, colors for every part of the tree, and a full-width bottom window showing the diff of each undo step.
 - [s1n7ax/nvim-comment-frame](https://github.com/s1n7ax/nvim-comment-frame) - Adds a comment frame based on the source file.
 - [danymat/neogen](https://github.com/danymat/neogen) - A better annotation generator which supports multiple languages and annotation conventions.
 - [nvim-mini/mini.nvim#mini.comment](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-comment.md) - Module of `mini.nvim` for per-line commenting. Fully supports dot-repeat.
