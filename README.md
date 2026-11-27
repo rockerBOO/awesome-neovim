@@ -1820,6 +1820,8 @@ then it is not supported:
 - [xiangnongWu2233/rubiks-cube.nvim](https://github.com/xiangnongWu2233/rubiks-cube.nvim) - A playable Rubik's cube with auto-solver.
 - [navasvarela/vimdojo](https://github.com/navasvarela/vimdojo) - Puzzle game for learning Vim motions and workflows, scored on keystrokes against par.
 
+- [tnm-yes-anyidea/keyrics.nvim](https://github.com/tnm-yes-anyidea/keyrics.nvim) - Song lyrics typing test powered by LRCLIB and Telescope.
+
 ### Competitive Programming
 
 - [~chinmay/cphelper.nvim](https://git.sr.ht/~chinmay/cphelper.nvim) - Helper for competitive programming written in Lua.
